@@ -16,7 +16,7 @@ Build-Depends: cmake,
                libtiff4-dev,
                libx11-dev,
 	       libchm-dev,
-               pkg-kde-tools,
+               pkg-kde-tools
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/okular
