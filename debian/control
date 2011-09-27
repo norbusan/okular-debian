@@ -34,13 +34,7 @@ Package: okular
 Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: ghostscript,
-          jovie,
-          okular-extra-backends (= ${binary:Version}),
-          okular-odp-backend,
-          poppler-data,
-          texlive-binaries,
-          unrar
+Suggests: okular-extra-backends (= ${binary:Version}), texlive-binaries, unrar, poppler-data, ghostscript, jovie
 Provides: pdf-viewer, postscript-viewer
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
@@ -78,6 +72,7 @@ Recommends: okular
 Provides: djvu-viewer
 Description: additional document format support for Okular
  These plugins allow Okular to view additional document formats:
+  * Microsoft Compiled HTML Help (CHM)
   * Tagged Image File Format (TIFF)
   * DjVu scanned page format
   * EPub eBooks
@@ -91,6 +86,6 @@ Priority: extra
 Depends: ${misc:Depends}, okular (= ${binary:Version})
 Replaces: kdegraphics-dbg (<= 4.6.90)
 Breaks: kdegraphics-dbg (<= 4.6.90)
-Description: debugging symbols for the KDE okular module
+Description: debugging symbols for okular
  This package contains debugging files used to investigate problems with
- binaries included in the KDE okular module
+ binaries included in the KDE okular document viewer
