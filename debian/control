@@ -85,7 +85,9 @@ Description: additional document format support for Okular
  This package is part of the KDE graphics module.
 
 Package: okular-dbg
+Section: debug
 Architecture: any
+Priority: extra
 Depends: ${misc:Depends}, okular (= ${binary:Version})
 Replaces: kdegraphics-dbg (<= 4.6.90)
 Breaks: kdegraphics-dbg (<= 4.6.90)
