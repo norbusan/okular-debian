@@ -1,18 +1,12 @@
 Source: okular
 Section: kde
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>,
-           Fathi Boudra <fabo@debian.org>,
-           Armin Berres <armin+debian@space-based.de>,
-           Modestas Vainius <modax@debian.org>,
-           George Kiagiadakis <kiagiadakis.george@gmail.com>,
-           José Manuel Santamaría Lema <panfaust@gmail.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: cmake,
                debhelper (>= 8.0~),
                kde-sc-dev-latest (>= 4:4.7.1),
-               kdelibs5-dev (>= 4:4.6),
+               kdelibs5-dev (>= 4:4.7),
                libdjvulibre-dev,
                libepub-dev,
                libpoppler-qt4-dev,
@@ -22,7 +16,6 @@ Build-Depends: cmake,
                libtiff4-dev,
                libx11-dev,
                pkg-kde-tools,
-               quilt
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/okular
