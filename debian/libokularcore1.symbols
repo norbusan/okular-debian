@@ -1,5 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.7.0 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libokularcore.so.1 libokularcore1 #MINVER#
+ (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
+ (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
+ (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZN6Okular10Annotation11setContentsERK7QString@Base 4:4.4.5
  _ZN6Okular10Annotation11setNativeIdERK8QVariant@Base 4:4.4.5
  _ZN6Okular10Annotation13setUniqueNameERK7QString@Base 4:4.4.5
@@ -396,9 +400,9 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular19HighlightAnnotationD2Ev@Base 4:4.4.5
  _ZN6Okular19SourceRefObjectRectC1ERKNS_15NormalizedPointEPv@Base 4:4.4.5
  _ZN6Okular19SourceRefObjectRectC2ERKNS_15NormalizedPointEPv@Base 4:4.4.5
- _ZN6Okular19SourceRefObjectRectD0Ev@Base 4:4.7.0
- _ZN6Okular19SourceRefObjectRectD1Ev@Base 4:4.7.0
- _ZN6Okular19SourceRefObjectRectD2Ev@Base 4:4.7.0
+ (optional=gccinternal|arch=!armel !hurd-i386 !ia64)_ZN6Okular19SourceRefObjectRectD0Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!armel !hurd-i386 !ia64)_ZN6Okular19SourceRefObjectRectD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!armel !hurd-i386 !ia64)_ZN6Okular19SourceRefObjectRectD2Ev@Base 4:4.6.5
  _ZN6Okular20AnnotationObjectRect9transformERK7QMatrix@Base 4:4.4.5
  _ZN6Okular20AnnotationObjectRectC1EPNS_10AnnotationE@Base 4:4.4.5
  _ZN6Okular20AnnotationObjectRectC2EPNS_10AnnotationE@Base 4:4.4.5
@@ -765,12 +769,13 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular9GeneratorD0Ev@Base 4:4.4.5
  _ZN6Okular9GeneratorD1Ev@Base 4:4.4.5
  _ZN6Okular9GeneratorD2Ev@Base 4:4.4.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmark4ListD1Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmark4ListD2Ev@Base 4:4.6.5
  _ZNK6Okular10Annotation10canBeMovedEv@Base 4:4.4.5
  _ZNK6Okular10Annotation10uniqueNameEv@Base 4:4.4.5
  _ZNK6Okular10Annotation12creationDateEv@Base 4:4.4.5
  _ZNK6Okular10Annotation16modificationDateEv@Base 4:4.4.5
  _ZNK6Okular10Annotation17boundingRectangleEv@Base 4:4.4.5
- _ZNK6Okular10Annotation23openDialogAfterCreationEv@Base 4:4.6.90
  _ZNK6Okular10Annotation28transformedBoundingRectangleEv@Base 4:4.4.5
  _ZNK6Okular10Annotation5Style10lineEffectEv@Base 4:4.4.5
  _ZNK6Okular10Annotation5Style15effectIntensityEv@Base 4:4.4.5
@@ -1087,7 +1092,6 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZNK6Okular9Generator9isAllowedENS_10PermissionE@Base 4:4.4.5
  _ZNK6Okular9Generator9pageSizesEv@Base 4:4.4.5
  _ZNK6Okular9Generator9userMutexEv@Base 4:4.4.5
- (optional=templinst|arch=kfreebsd-amd64)_ZNSt8auto_ptrI14KTemporaryFileE5resetEPS0_@Base 4:4.6.2
  _ZTIN6Okular10AnnotationE@Base 4:4.4.5
  _ZTIN6Okular10GotoActionE@Base 4:4.4.5
  _ZTIN6Okular10ObjectRectE@Base 4:4.4.5
