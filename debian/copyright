@@ -11,40 +11,40 @@ contributed to KDE at http://www.kde.org/people/credits/
 Copyright:
 
     Unless something else is mentioned, copyright is
-    (C) 1996-2009, The K Desktop Environment project http://www.kde.org
+    © 1996-2009, The K Desktop Environment project http://www.kde.org
 
     Other copyright holders:
-    Copyright (C) 2006-2007, 2009-2010 by Pino Toscano <pino@kde.org>
-    Copyright (C) 2004-2005 by Enrico Ros <eros.kde@email.it>
-    Copyright (C) 2007 by Tobias Koenig <tokoe@kde.org>
-    Copyright (C) 2006 by Chu Xiaodong <xiaodongchu@gmail.com>
-    Copyright (C) 2004-2006 by Albert Astals Cid <tsdgeos@terra.es>
-    Copyright (C) 2005 by Piotr Szymanski <niedakh@gmail.com>
-    Copyright (C) 2006 by Luigi Toscano <luigi.toscano@tiscali.it>
-    Copyright (C) 2007 Alex Merry <huntedhacker@tiscali.co.uk>
-    Copyright (C) 2007,2010 John Layt <john@layt.net>
-    Copyright (C) 2004 by Antti Markus <antti.markus@starman.ee>
-    Copyright (C) 2004 by Waldo Bastian <bastian@kde.org>
-    Copyright (C) 2004 by Dominique Devriese <devriese@kde.org>
-    Copyright (C) 2003 by Dirk Mueller <mueller@kde.org>
-    Copyright (C) 2004 by Henrique Pinto <stampede@coltec.ufmg.br>
-    Copyright (C) 2004 by Christoph Cullmann <crossfire@babylon2k.de>
-    Copyright (C) 2003 by Laurent Montel <montel@kde.org>
-    Copyright (C) 2003 by Andy Goossens <andygoossens@telenet.be>
-    Copyright (C) 2003-2004 by Christophe Devriese
-    Copyright (C) 2003 by Daniel Molkentin <molkentin@kde.org>
-    Copyright (C) 2002 by Malcolm Hunter <malcolm.hunter@gmx.co.uk>
-    Copyright (C) 2002 by Wilco Greven <greven@kde.org>
-    Copyright (C) 2002 by Chris Cheney <ccheney@cheney.cx
-    Copyright (C) 2003 by Benjamin Meyer <benjamin@csh.rit.edu>
-    Copyright (C) 2003 by Luboš Luňák <l.lunak@kde.org>
-    Copyright (C) 2004 by James Ots <kde@jamesots.com>
-    Copyright (C) 2005 Rafal Rzepecki <divide@users.sourceforge.net>
-    Copyright (C) 2006 Hamish Rodda <rodda@kde.org>
-    Copyright (C) 2003 Scott Wheeler <wheeler@kde.org>
-    Copyright (C) 2003 by Kurt Pfeifle
-    Copyright (C) 2007 Alex Merry <huntedhacker@tiscali.co.uk
-    Copyright (C) 2009 by Eike Hein <hein@kde.org>
+    Copyright © 2006-2007, 2009-2010 by Pino Toscano <pino@kde.org>
+    Copyright © 2004-2005 by Enrico Ros <eros.kde@email.it>
+    Copyright © 2007 by Tobias Koenig <tokoe@kde.org>
+    Copyright © 2006 by Chu Xiaodong <xiaodongchu@gmail.com>
+    Copyright © 2004-2006 by Albert Astals Cid <tsdgeos@terra.es>
+    Copyright © 2005 by Piotr Szymanski <niedakh@gmail.com>
+    Copyright © 2006 by Luigi Toscano <luigi.toscano@tiscali.it>
+    Copyright © 2007 Alex Merry <huntedhacker@tiscali.co.uk>
+    Copyright © 2007,2010 John Layt <john@layt.net>
+    Copyright © 2004 by Antti Markus <antti.markus@starman.ee>
+    Copyright © 2004 by Waldo Bastian <bastian@kde.org>
+    Copyright © 2004 by Dominique Devriese <devriese@kde.org>
+    Copyright © 2003 by Dirk Mueller <mueller@kde.org>
+    Copyright © 2004 by Henrique Pinto <stampede@coltec.ufmg.br>
+    Copyright © 2004 by Christoph Cullmann <crossfire@babylon2k.de>
+    Copyright © 2003 by Laurent Montel <montel@kde.org>
+    Copyright © 2003 by Andy Goossens <andygoossens@telenet.be>
+    Copyright © 2003-2004 by Christophe Devriese
+    Copyright © 2003 by Daniel Molkentin <molkentin@kde.org>
+    Copyright © 2002 by Malcolm Hunter <malcolm.hunter@gmx.co.uk>
+    Copyright © 2002 by Wilco Greven <greven@kde.org>
+    Copyright © 2002 by Chris Cheney <ccheney@cheney.cx
+    Copyright © 2003 by Benjamin Meyer <benjamin@csh.rit.edu>
+    Copyright © 2003 by Luboš Luňák <l.lunak@kde.org>
+    Copyright © 2004 by James Ots <kde@jamesots.com>
+    Copyright © 2005 Rafal Rzepecki <divide@users.sourceforge.net>
+    Copyright © 2006 Hamish Rodda <rodda@kde.org>
+    Copyright © 2003 Scott Wheeler <wheeler@kde.org>
+    Copyright © 2003 by Kurt Pfeifle
+    Copyright © 2007 Alex Merry <huntedhacker@tiscali.co.uk
+    Copyright © 2009 by Eike Hein <hein@kde.org>
 
 License:
 
@@ -171,6 +171,6 @@ Files under src/
         okular/generators/dvi/bigEndianByteReader.h
         okular/generators/chm/kio-msits/msits.cpp
 
-The Debian packaging is (C) 2007-2011, Debian Qt/KDE Maintainers
+The Debian packaging is ©  2007-2011, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL,
 see `/usr/share/common-licenses/GPL'.
