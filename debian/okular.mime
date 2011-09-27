@@ -1,0 +1,15 @@
+application/pdf;            okular '%s';        nametemplate=%s.pdf;      test=test "$DISPLAY" != "";     priority=6
+application/x-pdf;          okular '%s';        nametemplate=%s.pdf;      test=test "$DISPLAY" != "";     priority=6
+application/x-gzpdf;        okular '%s';        nametemplate=%s.pdf.gz;   test=test "$DISPLAY" != "";     priority=6
+application/x-bzpdf;        okular '%s';        nametemplate=%s.pdf.bz2;  test=test "$DISPLAY" != "";     priority=6
+application/postscript;     okular '%s';        nametemplate=%s.ps;       test=test "$DISPLAY" != "";     priority=5
+application/z-gzpostscript; okular '%s';        nametemplate=%s.ps.gz;    test=test "$DISPLAY" != "";     priority=5
+application/x-bzpostscript; okular '%s';        nametemplate=%s.ps.bz2;   test=test "$DISPLAY" != "";     priority=5
+image/x-eps;                okular '%s';        nametemplate=%s.eps;      test=test "$DISPLAY" != "";     priority=5
+image/x-bzeps;              okular '%s';        nametemplate=%s.eps.bz2;  test=test "$DISPLAY" != "";     priority=5
+image/x-gzeps;              okular '%s';        nametemplate=%s.eps.gz;   test=test "$DISPLAY" != "";     priority=5
+application/x-dvi;          okular '%s';        nametemplate=%s.dvi;      test=test "$DISPLAY" != "";     priority=4
+application/x-gzdvi;        okular '%s';        nametemplate=%s.dvi.gz;   test=test "$DISPLAY" != "";     priority=4
+application/x-bzdvi;        okular '%s';        nametemplate=%s.dvi.bz2;  test=test "$DISPLAY" != "";     priority=4
+application/x-cbr;          okular '%s';        nametemplate=%s.cbr;      test=test "$DISPLAY" != "";     priority=4
+application/x-cbz;          okular '%s';        nametemplate=%s.cbz;      test=test "$DISPLAY" != "";     priority=4

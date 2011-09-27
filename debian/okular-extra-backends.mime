@@ -1,0 +1,2 @@
+image/vnd.djvu;             okular '%s';        nametemplate=%s.djvu;     test=test "$DISPLAY" != "";     priority=5
+image/tiff;                 okular '%s';        nametemplate=%s.tiff;     test=test "$DISPLAY" != "";     priority=5

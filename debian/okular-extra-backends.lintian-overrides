@@ -1,0 +1,4 @@
+okular-extra-backends: desktop-command-not-in-package usr/share/applications/kde4/okularApplication_chm.desktop okular
+okular-extra-backends: desktop-command-not-in-package usr/share/applications/kde4/okularApplication_djvu.desktop okular
+okular-extra-backends: desktop-command-not-in-package usr/share/applications/kde4/okularApplication_epub.desktop okular
+okular-extra-backends: desktop-command-not-in-package usr/share/applications/kde4/okularApplication_tiff.desktop okular

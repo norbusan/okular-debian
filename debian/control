@@ -1,0 +1,101 @@
+Source: okular
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Armin Berres <armin+debian@space-based.de>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           José Manuel Santamaría Lema <panfaust@gmail.com>
+Build-Depends: cmake,
+               debhelper (>= 8.0~),
+               kde-sc-dev-latest (>= 4:4.7.1),
+               kdelibs5-dev (>= 4:4.6),
+               libdjvulibre-dev,
+               libepub-dev,
+               libpoppler-qt4-dev,
+               libqca2-dev,
+               libqimageblitz-dev,
+               libspectre-dev,
+               libtiff4-dev,
+               libx11-dev,
+               pkg-kde-tools,
+               quilt
+Standards-Version: 3.9.2
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/okular
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/okular
+
+Package: libokularcore1
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: libraries for the Okular document viewer
+ This package contains libraries used by the Okular document viewer.
+ .
+ This package is part of the KDE graphics module.
+
+Package: okular
+Section: graphics
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: ghostscript,
+          jovie,
+          okular-extra-backends (= ${binary:Version}),
+          okular-odp-backend,
+          poppler-data,
+          texlive-binaries,
+          unrar
+Provides: pdf-viewer, postscript-viewer
+Description: universal document viewer
+ Okular is a universal document viewer with support for advanced document
+ features, such as annotations, forms, and embedded files.
+ .
+ This package provides the document viewer application, plus plugins for a wide
+ variety of document formats such as:
+  * PostScript (PS)
+  * Portable Document Format (PDF)
+  * OpenDocument Text (ODT)
+  * TeX Device independent file format (DVI)
+  * XML Paper Specification (XPS)
+  * G3 fax
+  * various electronic book formats: ComicBook, FictionBook, MobiPocket, and
+    Plucker
+ .
+ This package is part of the KDE graphics module.
+
+Package: okular-dev
+Section: libdevel
+Architecture: any
+Depends: libokularcore1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libokularcore1}
+Description: development files for the Okular libraries
+ This package contains development files for building Okular document format
+ backends.
+ .
+ This package is part of the KDE graphics module.
+
+Package: okular-extra-backends
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: okular
+Provides: djvu-viewer
+Description: additional document format support for Okular
+ These plugins allow Okular to view additional document formats:
+  * Tagged Image File Format (TIFF)
+  * DjVu scanned page format
+  * EPub eBooks
+ .
+ This package is part of the KDE graphics module.
+
+Package: okular-dbg
+Architecture: any
+Depends: ${misc:Depends}, okular (= ${binary:Version})
+Replaces: kdegraphics-dbg (<= 4.6.90)
+Breaks: kdegraphics-dbg (<= 4.6.90)
+Description: debugging symbols for the KDE okular module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE okular module

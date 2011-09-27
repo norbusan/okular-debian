@@ -1,0 +1,176 @@
+This package was debianized by Ana Beatriz Guerrero Lopez <ana@debian.org> on
+Tue, 22 May 2007 11:45:58 +0200.
+
+It was downloaded from ftp://ftp.kde.org
+
+Upstream Author: The KDE development team <kde-core-devel@kde.org>
+Numerous people, too many to count, have contributed to kdelibs as a
+whole. The KDE project tries to make an extensive list of people who
+contributed to KDE at http://www.kde.org/people/credits/
+
+Copyright:
+
+    Unless something else is mentioned, copyright is
+    (C) 1996-2009, The K Desktop Environment project http://www.kde.org
+
+    Other copyright holders:
+    Copyright (C) 2006-2007, 2009-2010 by Pino Toscano <pino@kde.org>
+    Copyright (C) 2004-2005 by Enrico Ros <eros.kde@email.it>
+    Copyright (C) 2007 by Tobias Koenig <tokoe@kde.org>
+    Copyright (C) 2006 by Chu Xiaodong <xiaodongchu@gmail.com>
+    Copyright (C) 2004-2006 by Albert Astals Cid <tsdgeos@terra.es>
+    Copyright (C) 2005 by Piotr Szymanski <niedakh@gmail.com>
+    Copyright (C) 2006 by Luigi Toscano <luigi.toscano@tiscali.it>
+    Copyright (C) 2007 Alex Merry <huntedhacker@tiscali.co.uk>
+    Copyright (C) 2007,2010 John Layt <john@layt.net>
+    Copyright (C) 2004 by Antti Markus <antti.markus@starman.ee>
+    Copyright (C) 2004 by Waldo Bastian <bastian@kde.org>
+    Copyright (C) 2004 by Dominique Devriese <devriese@kde.org>
+    Copyright (C) 2003 by Dirk Mueller <mueller@kde.org>
+    Copyright (C) 2004 by Henrique Pinto <stampede@coltec.ufmg.br>
+    Copyright (C) 2004 by Christoph Cullmann <crossfire@babylon2k.de>
+    Copyright (C) 2003 by Laurent Montel <montel@kde.org>
+    Copyright (C) 2003 by Andy Goossens <andygoossens@telenet.be>
+    Copyright (C) 2003-2004 by Christophe Devriese
+    Copyright (C) 2003 by Daniel Molkentin <molkentin@kde.org>
+    Copyright (C) 2002 by Malcolm Hunter <malcolm.hunter@gmx.co.uk>
+    Copyright (C) 2002 by Wilco Greven <greven@kde.org>
+    Copyright (C) 2002 by Chris Cheney <ccheney@cheney.cx
+    Copyright (C) 2003 by Benjamin Meyer <benjamin@csh.rit.edu>
+    Copyright (C) 2003 by Luboš Luňák <l.lunak@kde.org>
+    Copyright (C) 2004 by James Ots <kde@jamesots.com>
+    Copyright (C) 2005 Rafal Rzepecki <divide@users.sourceforge.net>
+    Copyright (C) 2006 Hamish Rodda <rodda@kde.org>
+    Copyright (C) 2003 Scott Wheeler <wheeler@kde.org>
+    Copyright (C) 2003 by Kurt Pfeifle
+    Copyright (C) 2007 Alex Merry <huntedhacker@tiscali.co.uk
+    Copyright (C) 2009 by Eike Hein <hein@kde.org>
+
+License:
+
+When "under GPL" is mentioned, it means GPL like this:
+
+    | This program is free software; you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation version 2.
+    |
+    | This package is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    |
+    | You should have received a copy of the GNU General Public License
+    | along with this program; if not, write to the Free Software Foundation,
+    | Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+    (Some files have the additional freedom of being GPLv2 or later, but
+    many files are just GPLv2)
+
+    You can find the complete text of the license GPL v2 at
+    /usr/share/common-licenses/GPL-2
+
+
+Files under cmake/
+
+These files are under this license:
+
+    | Redistribution and use in source and binary forms, with or without
+    | modification, are permitted provided that the following conditions
+    | are met:
+    |
+    | 1. Redistributions of source code must retain the copyright
+    |    notice, this list of conditions and the following disclaimer.
+    | 2. Redistributions in binary form must reproduce the copyright
+    |    notice, this list of conditions and the following disclaimer in the
+    |    documentation and/or other materials provided with the distribution.
+    | 3. The name of the author may not be used to endorse or promote products
+    |    derived from this software without specific prior written permission.
+    |
+    | THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+    | IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+    | OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+    | IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+    | INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+    | NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    | DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    | THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    | (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+    | THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Files under doc/
+
+These files are under the GNU Free Documentation License v1.2
+
+    | Permission is granted to copy, distribute and/or modify this
+    | document under the terms of the GNU Free Documentation License,
+    | Version 1.1 or any later version published by the Free Software
+    | Foundation; with no Invariant Sections, with no Front-Cover Texts,
+    | and with no Back-Cover Texts.
+
+    The full text of the GNU Free Documentation License is available on
+    Debian systems in /usr/share/common-licenses/GFDL-1.2
+
+    As well, all the Manpages.dox included are under this license, unless
+    specified otherwise.
+
+Files under src/
+    Upstream authors are:
+
+        Pino Toscano <pino@kde.org>
+        Albert Astals Cid <aacid@kde.org>
+        Tobias Koenig <tokoe@kde.org>
+        Piotr Szymanski <djurban@pld-dc.org>
+        Enrico Ros <eros.kde@email.it>
+
+    License:
+    Most of the files are under the GPL v2 or later, with few exceptions listed below.
+
+    These files are released with a BSD-like license
+        okular/generators/dvi/TeXFont_PK.cpp
+        okular/generators/dvi/dviFile.cpp
+        okular/generators/dvi/dviRenderer_draw.cpp
+        okular/generators/dvi/util.cpp
+        okular/generators/dvi/vf.cpp
+
+        * Redistribution and use in source and binary forms, with or without
+        * modification, are permitted provided that the following conditions
+        * are met:
+        * 1. Redistributions of source code must retain the above copyright
+        *    notice, this list of conditions and the following disclaimer.
+        * 2. Redistributions in binary form must reproduce the above copyright
+        *    notice, this list of conditions and the following disclaimer in the
+        *    documentation and/or other materials provided with the distribution.
+        *
+        * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+        * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+        * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+        * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+        * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+        * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+        * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+        * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+        * SUCH DAMAGE.
+
+
+    Files released as GPL v2 or GPL v3:
+
+        okular/generators/comicbook/qnatsort.cpp
+        okular/generators/comicbook/qnatsort.h
+
+    Files released as LGPL v2:
+
+        okular/ui/ktreeviewsearchline.cpp
+        okular/ui/ktreeviewsearchline.h
+
+    Files released as LGPL v2 or later:
+
+        okular/generators/dvi/bigEndianByteReader.h
+        okular/generators/dvi/bigEndianByteReader.h
+        okular/generators/chm/kio-msits/msits.cpp
+
+The Debian packaging is (C) 2007-2010, Debian Qt/KDE Maintainers
+<debian-qt-kde@lists.debian.org> and is licensed under the GPL,
+see `/usr/share/common-licenses/GPL'.

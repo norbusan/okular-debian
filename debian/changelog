@@ -1,0 +1,47 @@
+okular (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:17:13 +0200
+
+okular (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 02 Sep 2011 21:34:01 +0530
+
+okular (4:4.7.0-0ubuntu3) oneiric; urgency=low
+
+  * Remove chm related files from okular-extra-backends.install because they
+    are no longer built
+  * Remove debian/docs since README is no longer provided
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 27 Jul 2011 22:07:54 -0400
+
+okular (4:4.7.0-0ubuntu2) oneiric; urgency=low
+
+  * Drop libchm-dev from build-depends (in Universe)
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 27 Jul 2011 20:48:49 -0400
+
+okular (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+    - update libokularcore1.symbols and .install
+
+ -- Romain Perier <romain.perier@gmail.com>  Fri, 22 Jul 2011 21:48:18 +0200
+
+okular (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
+
+  [ Michał Zając ]
+  * New upstream release
+  * New packaging after KDE 4.7 split
+  * Now uses debhelper 8
+  * Added libqca2-dev to Depends
+  * Updated symbols
+
+  [ Philip Muškovac ]
+  * Repack upstream source to include COPYING.DOC and COPYING.LIB
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 00:38:53 +0200
