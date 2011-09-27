@@ -2,7 +2,8 @@ Source: okular
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat.de>
+Uploaders: Eshat Cakar <info@eshat.de>,
+ José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 8.0~),
                kde-sc-dev-latest (>= 4:4.7.1),
