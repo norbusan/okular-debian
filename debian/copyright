@@ -171,6 +171,6 @@ Files under src/
         okular/generators/dvi/bigEndianByteReader.h
         okular/generators/chm/kio-msits/msits.cpp
 
-The Debian packaging is (C) 2007-2010, Debian Qt/KDE Maintainers
+The Debian packaging is (C) 2007-2011, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL,
 see `/usr/share/common-licenses/GPL'.
