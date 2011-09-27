@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
- José Manuel Santamaría Lema <panfaust@gmail.com>
+ 	   José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 8.0~),
                kde-sc-dev-latest (>= 4:4.7.1),
@@ -20,8 +20,8 @@ Build-Depends: cmake,
                pkg-kde-tools
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/okular
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/okular
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/okular.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/okular.git
 
 Package: libokularcore1
 Section: libs
