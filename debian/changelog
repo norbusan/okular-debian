@@ -1,5 +1,5 @@
-okular (4:4.7.1-0rc2) UNRELEASED; urgency=low
+okular (4:4.7.2-0r0) UNRELEASED; urgency=low
 
   * Initial release. Start from the Kubuntu packaging, thanks!
 
- -- Eshat Cakar <eshat@master>  Wed, 28 Sep 2011 00:11:26 +0200
+ -- Eshat Cakar <info@eshat.de>  Tue, 04 Oct 2011 14:18:38 +0200
