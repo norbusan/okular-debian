@@ -53,8 +53,7 @@ Description: universal document viewer
   * TeX Device independent file format (DVI)
   * XML Paper Specification (XPS)
   * G3 fax
-  * various electronic book formats: ComicBook, FictionBook, MobiPocket, and
-    Plucker
+  * various electronic book formats: ComicBook, FictionBook, and Plucker
  .
  This package is part of the KDE graphics module.
 
