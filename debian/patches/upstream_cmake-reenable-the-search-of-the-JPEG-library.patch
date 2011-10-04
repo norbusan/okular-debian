@@ -1,0 +1,30 @@
+From 41c572463c33e711ebbb094b9989868a9564e467 Mon Sep 17 00:00:00 2001
+From: Pino Toscano <pino@kde.org>
+Date: Tue, 4 Oct 2011 15:27:36 +0200
+Subject: [PATCH] cmake: reenable the search of the JPEG library
+
+there is no more a top-level CMakeLists.txt searching it;
+this makes the plucker backend compilable again
+---
+ generators/CMakeLists.txt |    5 ++---
+ 1 files changed, 2 insertions(+), 3 deletions(-)
+
+diff --git a/generators/CMakeLists.txt b/generators/CMakeLists.txt
+index 9978bbf..0f6fc5c 100644
+--- a/generators/CMakeLists.txt
++++ b/generators/CMakeLists.txt
+@@ -20,9 +20,8 @@ macro_log_feature(TIFF_FOUND "libTIFF" "A library for reading and writing TIFF f
+ macro_optional_find_package(Freetype)
+ macro_log_feature(FREETYPE_FOUND "FreeType" "A font rendering engine" "http://www.freetype.org" FALSE "" "Provides freetype font support in the okular DVI generator.")
+ 
+-#we look for JPEG in kdegraphics/CMakeLists.txt
+-#macro_optional_find_package(JPEG)
+-#macro_log_feature(JPEG_FOUND "JPEG" "A library for reading and writing JPEG image files." "http://www.ijg.org" FALSE "" "Support fof PalmDB documents in okular.")
++macro_optional_find_package(JPEG)
++macro_log_feature(JPEG_FOUND "JPEG" "A library for reading and writing JPEG image files." "http://www.ijg.org" FALSE "" "Support fof PalmDB documents in okular.")
+ macro_optional_find_package(ZLIB)
+ macro_log_feature(ZLIB_FOUND "ZLib" "The Zlib compression library" "http://www.zlib.net" FALSE "" "Support for Plucker files in Okular.")
+ 
+-- 
+1.7.6.3
+
