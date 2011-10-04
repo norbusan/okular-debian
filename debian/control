@@ -18,9 +18,9 @@ Build-Depends: cmake,
                libtiff4-dev,
                libx11-dev,
                libchm-dev,
-	       libjpeg-dev, 
-	       libfreetype6-dev, 
-	       zlib1g-dev
+               libjpeg-dev,
+               libfreetype6-dev,
+               zlib1g-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/okular.git
