@@ -3,24 +3,24 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
- 	   José Manuel Santamaría Lema <panfaust@gmail.com>
+	   José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: cmake,
-               debhelper (>= 8.0~),
-               kde-sc-dev-latest (>= 4:4.7.1),
-               kdelibs5-dev (>= 4:4.7),
-               pkg-kde-tools,
-               libdjvulibre-dev,
-               libepub-dev,
-               libpoppler-qt4-dev,
-               libqca2-dev,
-               libqimageblitz-dev,
-               libspectre-dev,
-               libtiff4-dev,
-               libx11-dev,
-               libchm-dev,
-               libjpeg-dev,
-               libfreetype6-dev,
-               zlib1g-dev
+	       debhelper (>= 8.0~),
+	       kde-sc-dev-latest (>= 4:4.7.1),
+	       kdelibs5-dev (>= 4:4.7),
+	       pkg-kde-tools,
+	       libdjvulibre-dev,
+	       libepub-dev,
+	       libpoppler-qt4-dev,
+	       libqca2-dev,
+	       libqimageblitz-dev,
+	       libspectre-dev,
+	       libtiff4-dev,
+	       libx11-dev,
+	       libchm-dev,
+	       libjpeg-dev,
+	       libfreetype6-dev,
+	       zlib1g-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/okular.git
