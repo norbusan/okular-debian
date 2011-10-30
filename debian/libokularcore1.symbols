@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64
 libokularcore.so.1 libokularcore1 #MINVER#
  (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
  (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
@@ -776,7 +776,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZNK6Okular10Annotation12creationDateEv@Base 4:4.4.5
  _ZNK6Okular10Annotation16modificationDateEv@Base 4:4.4.5
  _ZNK6Okular10Annotation17boundingRectangleEv@Base 4:4.4.5
- _ZNK6Okular10Annotation23openDialogAfterCreationEv@Base 4:4.7.1
+ _ZNK6Okular10Annotation23openDialogAfterCreationEv@Base 4:4.7.2
  _ZNK6Okular10Annotation28transformedBoundingRectangleEv@Base 4:4.4.5
  _ZNK6Okular10Annotation5Style10lineEffectEv@Base 4:4.4.5
  _ZNK6Okular10Annotation5Style15effectIntensityEv@Base 4:4.4.5
