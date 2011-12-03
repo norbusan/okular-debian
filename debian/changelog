@@ -1,6 +1,7 @@
-okular (4:4.7.2-0r1) UNRELEASED; urgency=low
+okular (4:4.7.2-0r1) experimental; urgency=low
 
+  [ Eshat Cakar ]
   * Initial release. Start from the Kubuntu packaging, thanks!
     - Okular can find strings with ligatures (Closes: #632979)
 
- -- Eshat Cakar <info@eshat.de>  Sun, 30 Oct 2011 19:13:29 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:42:37 -0300
