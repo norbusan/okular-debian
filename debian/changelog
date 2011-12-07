@@ -1,3 +1,12 @@
+okular (4:4.7.4-0r0) UNRELEASED; urgency=low
+
+  * New upstream release
+  
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4.7.4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Dec 2011 00:06:51 +0100
+
 okular (4:4.7.2-1) experimental; urgency=low
 
   [ Eshat Cakar ]
