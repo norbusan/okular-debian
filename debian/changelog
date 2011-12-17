@@ -1,4 +1,4 @@
-okular (4:4.7.4-0r1) UNRELEASED; urgency=low
+okular (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release
   
@@ -8,7 +8,7 @@ okular (4:4.7.4-0r1) UNRELEASED; urgency=low
     upstream.
   * Confirm symbols files on more architectures with 4.7.2 build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Dec 2011 00:06:51 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 00:57:39 +0100
 
 okular (4:4.7.2-1) experimental; urgency=low
 
