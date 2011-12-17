@@ -6,6 +6,7 @@ okular (4:4.7.4-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4.7.4.
   * Remove upstream_cmake-reenable-the-search-of-the-JPEG-library.patch, merged
     upstream.
+  * Confirm symbols files on more architectures with 4.7.2 build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Dec 2011 00:06:51 +0100
 

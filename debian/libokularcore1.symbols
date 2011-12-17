@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libokularcore.so.1 libokularcore1 #MINVER#
  (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
  (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
@@ -400,9 +400,9 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular19HighlightAnnotationD2Ev@Base 4:4.4.5
  _ZN6Okular19SourceRefObjectRectC1ERKNS_15NormalizedPointEPv@Base 4:4.4.5
  _ZN6Okular19SourceRefObjectRectC2ERKNS_15NormalizedPointEPv@Base 4:4.4.5
- (optional=gccinternal|arch=!armel !hurd-i386 !ia64)_ZN6Okular19SourceRefObjectRectD0Ev@Base 4:4.6.5
- (optional=gccinternal|arch=!armel !hurd-i386 !ia64)_ZN6Okular19SourceRefObjectRectD1Ev@Base 4:4.6.5
- (optional=gccinternal|arch=!armel !hurd-i386 !ia64)_ZN6Okular19SourceRefObjectRectD2Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!armel !hurd-i386)_ZN6Okular19SourceRefObjectRectD0Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!armel !hurd-i386)_ZN6Okular19SourceRefObjectRectD1Ev@Base 4:4.6.5
+ (optional=gccinternal|arch=!armel !hurd-i386)_ZN6Okular19SourceRefObjectRectD2Ev@Base 4:4.6.5
  _ZN6Okular20AnnotationObjectRect9transformERK7QMatrix@Base 4:4.4.5
  _ZN6Okular20AnnotationObjectRectC1EPNS_10AnnotationE@Base 4:4.4.5
  _ZN6Okular20AnnotationObjectRectC2EPNS_10AnnotationE@Base 4:4.4.5
