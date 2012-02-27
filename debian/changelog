@@ -3,6 +3,10 @@ okular (4:4.7.4-2) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Confirm symbols files on all architectures.
 
+  [ Pino Toscano ]
+  * Explicitly build depend on pkg-config, to not rely being implicitly
+    installed by other packages.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jan 2012 17:35:20 +0100
 
 okular (4:4.7.4-1) experimental; urgency=low
