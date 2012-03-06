@@ -1,4 +1,6 @@
-okular (4:4.7.4-2) UNRELEASED; urgency=low
+okular (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload.
 
   [ José Manuel Santamaría Lema ]
   * Confirm symbols files on all architectures.
@@ -7,12 +9,12 @@ okular (4:4.7.4-2) UNRELEASED; urgency=low
   * Explicitly build depend on pkg-config, to not rely being implicitly
     installed by other packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jan 2012 17:35:20 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 15:30:57 +0100
 
 okular (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release
-  
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4.7.4.
   * Remove upstream_cmake-reenable-the-search-of-the-JPEG-library.patch, merged
