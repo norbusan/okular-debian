@@ -20,6 +20,7 @@ usr/include/okular/core/version.h
 usr/include/okular/interfaces/configinterface.h
 usr/include/okular/interfaces/guiinterface.h
 usr/include/okular/interfaces/printinterface.h
+usr/include/okular/interfaces/viewerinterface.h
 usr/lib/cmake/Okular/OkularConfig.cmake
 usr/lib/cmake/Okular/OkularConfigVersion.cmake
 usr/lib/libokularcore.so

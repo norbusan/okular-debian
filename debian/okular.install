@@ -41,6 +41,7 @@ usr/share/icons/hicolor/scalable/apps/okular.svgz
 usr/share/kde4/apps/okular/icons/hicolor/16x16/apps/okular-gv.png
 usr/share/kde4/apps/okular/icons/hicolor/32x32/apps/okular-gv.png
 usr/share/kde4/apps/okular/part.rc
+usr/share/kde4/apps/okular/part-viewermode.rc
 usr/share/kde4/apps/okular/pics/checkmark.png
 usr/share/kde4/apps/okular/pics/circle.png
 usr/share/kde4/apps/okular/pics/comment.png

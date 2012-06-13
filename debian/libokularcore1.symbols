@@ -1,7 +1,7 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64
 libokularcore.so.1 libokularcore1 #MINVER#
- (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
- (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
+ (optional=external|arch=amd64 kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
+ (optional=external|arch=amd64 kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
  (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
  _ZN6Okular10Annotation11setContentsERK7QString@Base 4:4.4.5
@@ -101,13 +101,16 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular11FilePrinter10printErrorEi@Base 4:4.6.1
  _ZN6Okular11FilePrinter10printFilesER8QPrinterRK11QStringListNS0_16FileDeletePolicyE@Base 4:4.4.5
  _ZN6Okular11FilePrinter11cupsOptionsER8QPrinter@Base 4:4.4.5
+ _ZN6Okular11FilePrinter11cupsOptionsER8QPrinterNS1_11OrientationE@Base 4:4.8.4
  _ZN6Okular11FilePrinter11destinationER8QPrinterRK7QString@Base 4:4.4.5
  _ZN6Okular11FilePrinter11optionMediaER8QPrinter@Base 4:4.4.5
  _ZN6Okular11FilePrinter11psPaperSizeER8QPrinter@Base 4:4.4.5
  _ZN6Okular11FilePrinter12doPrintFilesER8QPrinter11QStringListNS0_16FileDeletePolicyENS0_16PageSelectPolicyERK7QString@Base 4:4.4.5
+ _ZN6Okular11FilePrinter12doPrintFilesER8QPrinter11QStringListNS0_16FileDeletePolicyENS0_16PageSelectPolicyERK7QStringNS1_11OrientationE@Base 4:4.8.4
  _ZN6Okular11FilePrinter13cupsAvailableEv@Base 4:4.4.5
  _ZN6Okular11FilePrinter13mediaPageSizeER8QPrinter@Base 4:4.4.5
  _ZN6Okular11FilePrinter14printArgumentsER8QPrinterNS0_16FileDeletePolicyENS0_16PageSelectPolicyEbRK7QStringS7_@Base 4:4.4.5
+ _ZN6Okular11FilePrinter14printArgumentsER8QPrinterNS0_16FileDeletePolicyENS0_16PageSelectPolicyEbRK7QStringS7_NS1_11OrientationE@Base 4:4.8.4
  _ZN6Okular11FilePrinter15optionPageOrderER8QPrinter@Base 4:4.4.5
  _ZN6Okular11FilePrinter15pdf2psAvailableEv@Base 4:4.4.5
  _ZN6Okular11FilePrinter15ps2pdfAvailableEv@Base 4:4.4.5
@@ -115,6 +118,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular11FilePrinter16mediaPaperSourceER8QPrinter@Base 4:4.4.5
  _ZN6Okular11FilePrinter17detectCupsServiceEv@Base 4:4.4.5
  _ZN6Okular11FilePrinter17optionOrientationER8QPrinter@Base 4:4.4.5
+ _ZN6Okular11FilePrinter17optionOrientationER8QPrinterNS1_11OrientationE@Base 4:4.8.4
  _ZN6Okular11FilePrinter17optionPageMarginsER8QPrinter@Base 4:4.4.5
  _ZN6Okular11FilePrinter19optionCollateCopiesER8QPrinter@Base 4:4.4.5
  _ZN6Okular11FilePrinter19pageListToPageRangeERK5QListIiE@Base 4:4.4.5
@@ -127,6 +131,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular11FilePrinter8pageListER8QPrinteriiRK5QListIiE@Base 4:4.6.1
  _ZN6Okular11FilePrinter9pageRangeER8QPrinteriRK5QListIiE@Base 4:4.4.5
  _ZN6Okular11FilePrinter9printFileER8QPrinter7QStringNS0_16FileDeletePolicyENS0_16PageSelectPolicyERKS3_@Base 4:4.4.5
+ _ZN6Okular11FilePrinter9printFileER8QPrinter7QStringNS1_11OrientationENS0_16FileDeletePolicyENS0_16PageSelectPolicyERKS3_@Base 4:4.8.4
  _ZN6Okular11SoundActionC1EdbbbPNS_5SoundE@Base 4:4.4.5
  _ZN6Okular11SoundActionC2EdbbbPNS_5SoundE@Base 4:4.4.5
  _ZN6Okular11SoundActionD0Ev@Base 4:4.4.5
@@ -276,6 +281,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular15BookmarkManager11qt_metacastEPKc@Base 4:4.4.5
  _ZN6Okular15BookmarkManager14removeBookmarkERK4KUrlRK9KBookmark@Base 4:4.4.5
  _ZN6Okular15BookmarkManager14removeBookmarkEi@Base 4:4.4.5
+ _ZN6Okular15BookmarkManager14renameBookmarkEP9KBookmarkRK7QString@Base 4:4.8.4
  _ZN6Okular15BookmarkManager15removeBookmarksERK4KUrlRKN9KBookmark4ListE@Base 4:4.6.1
  _ZN6Okular15BookmarkManager15setPageBookmarkEi@Base 4:4.4.5
  _ZN6Okular15BookmarkManager16bookmarksChangedERK4KUrl@Base 4:4.4.5
@@ -554,6 +560,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular8Document22dynamicSourceReferenceEidd@Base 4:4.4.5
  _ZN6Okular8Document22processSourceReferenceEPKNS_15SourceReferenceE@Base 4:4.4.5
  _ZN6Okular8Document23setNextDocumentViewportERKNS_16DocumentViewportE@Base 4:4.4.5
+ _ZN6Okular8Document24sourceReferenceActivatedERK7QStringiiPb@Base 4:4.8.4
  _ZN6Okular8Document26setNextDocumentDestinationERK7QString@Base 4:4.4.5
  _ZN6Okular8Document4quitEv@Base 4:4.4.5
  _ZN6Okular8Document5closeEv@Base 4:4.4.5
@@ -614,6 +621,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular8Settings12slidesCursorEv@Base 4:4.4.5
  _ZN6Okular8Settings12slidesScreenEv@Base 4:4.4.5
  _ZN6Okular8Settings13groupByAuthorEv@Base 4:4.4.5
+ _ZN6Okular8Settings13scrollOverlapEv@Base 4:4.8.4
  _ZN6Okular8Settings13setBWContrastEj@Base 4:4.4.5
  _ZN6Okular8Settings13setPaperColorERK6QColor@Base 4:4.4.5
  _ZN6Okular8Settings13setRenderModeEi@Base 4:4.4.5
@@ -647,6 +655,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular8Settings15sidebarShowTextEv@Base 4:4.4.5
  _ZN6Okular8Settings16chooseGeneratorsEv@Base 4:4.4.5
  _ZN6Okular8Settings16setGroupByAuthorEb@Base 4:4.4.5
+ _ZN6Okular8Settings16setScrollOverlapEj@Base 4:4.8.4
  _ZN6Okular8Settings16setShowBottomBarEb@Base 4:4.6.1
  _ZN6Okular8Settings16setShowLeftPanelEb@Base 4:4.4.5
  _ZN6Okular8Settings16setSlidesAdvanceEb@Base 4:4.4.5
@@ -708,18 +717,21 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular8Settings29setReviewsSearchCaseSensitiveEb@Base 4:4.4.5
  _ZN6Okular8Settings30reviewsSearchRegularExpressionEv@Base 4:4.4.5
  _ZN6Okular8Settings30setContentsSearchCaseSensitiveEb@Base 4:4.4.5
+ _ZN6Okular8Settings30showSourceLocationsGraphicallyEv@Base 4:4.8.4
  _ZN6Okular8Settings31contentsSearchRegularExpressionEv@Base 4:4.4.5
  _ZN6Okular8Settings33setReviewsSearchRegularExpressionEb@Base 4:4.4.5
+ _ZN6Okular8Settings33setShowSourceLocationsGraphicallyEb@Base 4:4.8.4
  _ZN6Okular8Settings34setContentsSearchRegularExpressionEb@Base 4:4.4.5
  _ZN6Okular8Settings4selfEv@Base 4:4.4.5
  _ZN6Okular8Settings7obeyDRMEv@Base 4:4.4.5
  _ZN6Okular8Settings7showOSDEv@Base 4:4.4.5
+ _ZN6Okular8Settings8instanceERK7QString@Base 4:4.8.4
  _ZN6Okular8Settings8useKTTSDEv@Base 4:4.4.5
  _ZN6Okular8Settings8viewModeEv@Base 4:4.4.5
  _ZN6Okular8Settings8zoomModeEv@Base 4:4.4.5
  _ZN6Okular8Settings9watchFileEv@Base 4:4.4.5
- _ZN6Okular8SettingsC1Ev@Base 4:4.4.5
- _ZN6Okular8SettingsC2Ev@Base 4:4.4.5
+ _ZN6Okular8SettingsC1ERK7QString@Base 4:4.8.4
+ _ZN6Okular8SettingsC2ERK7QString@Base 4:4.8.4
  _ZN6Okular8SettingsD0Ev@Base 4:4.4.5
  _ZN6Okular8SettingsD1Ev@Base 4:4.4.5
  _ZN6Okular8SettingsD2Ev@Base 4:4.4.5
@@ -891,6 +903,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZNK6Okular14NormalizedRect10intersectsEPKS0_@Base 4:4.4.5
  _ZNK6Okular14NormalizedRect10intersectsERKS0_@Base 4:4.4.5
  _ZNK6Okular14NormalizedRect10intersectsEdddd@Base 4:4.4.5
+ _ZNK6Okular14NormalizedRect15roundedGeometryEii@Base 4:4.8.4
  _ZNK6Okular14NormalizedRect6centerEv@Base 4:4.4.5
  _ZNK6Okular14NormalizedRect6isNullEv@Base 4:4.4.5
  _ZNK6Okular14NormalizedRect8containsEdd@Base 4:4.4.5
@@ -923,7 +936,9 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZNK6Okular15BookmarkManager7Private10currentUrlEv@Base 4:4.4.5
  _ZNK6Okular15BookmarkManager7Private12currentTitleEv@Base 4:4.4.5
  _ZNK6Okular15BookmarkManager7Private12enableOptionEN14KBookmarkOwner14BookmarkOptionE@Base 4:4.4.5
+ _ZNK6Okular15BookmarkManager8bookmarkEi@Base 4:4.8.4
  _ZNK6Okular15BookmarkManager9bookmarksERK4KUrl@Base 4:4.4.5
+ _ZNK6Okular15BookmarkManager9bookmarksEv@Base 4:4.8.4
  _ZNK6Okular15CaretAnnotation11caretSymbolEv@Base 4:4.4.5
  _ZNK6Okular15CaretAnnotation5storeER8QDomNodeR12QDomDocument@Base 4:4.4.5
  _ZNK6Okular15CaretAnnotation7subTypeEv@Base 4:4.4.5
@@ -993,6 +1008,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZNK6Okular4Page5labelEv@Base 4:4.4.5
  _ZNK6Okular4Page5ratioEv@Base 4:4.4.5
  _ZNK6Okular4Page5widthEv@Base 4:4.4.5
+ _ZNK6Okular4Page5wordsEPKNS_15RegularAreaRectENS_8TextPage26TextAreaInclusionBehaviourE@Base 4:4.8.4
  _ZNK6Okular4Page6heightEv@Base 4:4.4.5
  _ZNK6Okular4Page6numberEv@Base 4:4.4.5
  _ZNK6Okular4Page8durationEv@Base 4:4.4.5
@@ -1021,6 +1037,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZNK6Okular8Document10metaObjectEv@Base 4:4.4.5
  _ZNK6Okular8Document10printErrorEv@Base 4:4.6.1
  _ZNK6Okular8Document11currentPageEv@Base 4:4.4.5
+ _ZNK6Okular8Document11orientationEv@Base 4:4.8.4
  _ZNK6Okular8Document12allPagesSizeEv@Base 4:4.4.5
  _ZNK6Okular8Document12documentInfoEv@Base 4:4.4.5
  _ZNK6Okular8Document12exportToTextERK7QString@Base 4:4.4.5
@@ -1074,6 +1091,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZNK6Okular8PageSizeneERKS0_@Base 4:4.4.5
  _ZNK6Okular8TextPage4textEPKNS_15RegularAreaRectE@Base 4:4.4.5
  _ZNK6Okular8TextPage4textEPKNS_15RegularAreaRectENS0_26TextAreaInclusionBehaviourE@Base 4:4.4.5
+ _ZNK6Okular8TextPage5wordsEPKNS_15RegularAreaRectENS0_26TextAreaInclusionBehaviourE@Base 4:4.8.4
  _ZNK6Okular8TextPage8textAreaEPNS_13TextSelectionE@Base 4:4.4.5
  _ZNK6Okular9FormField10isReadOnlyEv@Base 4:4.4.5
  _ZNK6Okular9FormField16activationActionEv@Base 4:4.4.5
