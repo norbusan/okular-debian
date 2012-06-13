@@ -1,3 +1,9 @@
+okular (4:4.8.4-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jan 2012 18:52:33 +0100
+
 okular (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release
