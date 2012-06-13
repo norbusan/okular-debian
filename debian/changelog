@@ -8,6 +8,7 @@ okular (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3. No further changes.
   * Add watch file.
   * Update installed files.
+  * Update symbols for libokularcore1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jan 2012 18:52:33 +0100
 
