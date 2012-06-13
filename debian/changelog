@@ -5,6 +5,7 @@ okular (4:4.8.4-0r0) UNRELEASED; urgency=low
   [ Eshat Cakar ]
   * Bump kde-sc-dev-latest build dependency to 4.8.4.
   * Bump kdelibs5-dev build dependency to 4.8.
+  * Bump Standards-Version to 3.9.3. No further changes.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jan 2012 18:52:33 +0100
 
