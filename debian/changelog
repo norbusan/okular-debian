@@ -1,6 +1,8 @@
-okular (4:4.8.4-0r0) UNRELEASED; urgency=low
+okular (4:4.8.4-1) unstable; urgency=low
 
+  * Team upload
   * New upstream release.
+  * Update symbols for libokularcore1.
 
   [ Eshat Cakar ]
   * Bump kde-sc-dev-latest build dependency to 4.8.4.
@@ -8,9 +10,8 @@ okular (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3. No further changes.
   * Add watch file.
   * Update installed files.
-  * Update symbols for libokularcore1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Jan 2012 18:52:33 +0100
+ -- Sune Vuorela <sune@debian.org>  Sun, 17 Jun 2012 01:10:33 +0200
 
 okular (4:4.7.4-2) unstable; urgency=low
 
