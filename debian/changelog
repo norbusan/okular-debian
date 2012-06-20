@@ -1,11 +1,11 @@
-okular (4:4.8.4-2) UNRELEASED; urgency=low
+okular (4:4.8.4-2) unstable; urgency=low
 
   * Team upload.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Updated symbols files.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 20 Jun 2012 14:32:57 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 20 Jun 2012 14:37:44 -0300
 
 okular (4:4.8.4-1) unstable; urgency=low
 
