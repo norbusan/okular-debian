@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 libokularcore.so.1 libokularcore1 #MINVER#
- (optional=external)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
- (optional=external)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
- (optional=external|arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD1Ev@Base 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN14KBookmarkGroupD2Ev@Base 4:4.8.4
+ (optional=external|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
+ (optional=external|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
  _ZN6Okular10Annotation11setContentsERK7QString@Base 4:4.4.5
  _ZN6Okular10Annotation11setNativeIdERK8QVariant@Base 4:4.4.5
  _ZN6Okular10Annotation13setUniqueNameERK7QString@Base 4:4.4.5
@@ -17,6 +17,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular10Annotation5Style12setLineStyleENS0_9LineStyleE@Base 4:4.4.5
  _ZN6Okular10Annotation5Style13setLineEffectENS0_10LineEffectE@Base 4:4.4.5
  _ZN6Okular10Annotation5Style18setEffectIntensityEd@Base 4:4.4.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Okular10Annotation5Style7PrivateaSERKS2_@Base 4:4.8.4
  _ZN6Okular10Annotation5Style8setColorERK6QColor@Base 4:4.4.5
  _ZN6Okular10Annotation5Style8setMarksEi@Base 4:4.4.5
  _ZN6Okular10Annotation5Style8setWidthEd@Base 4:4.4.5
@@ -31,8 +32,9 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular10Annotation5styleEv@Base 4:4.4.5
  _ZN6Okular10Annotation6Window10setSummaryERK7QString@Base 4:4.4.5
  _ZN6Okular10Annotation6Window10setTopLeftERKNS_15NormalizedPointE@Base 4:4.4.5
- (arch=i386)_ZN6Okular10Annotation6Window7PrivateD1Ev@Base 4:4.8.4
- (arch=i386)_ZN6Okular10Annotation6Window7PrivateD2Ev@Base 4:4.8.4
+ (arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6Okular10Annotation6Window7PrivateD1Ev@Base 4:4.8.4
+ (arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6Okular10Annotation6Window7PrivateD2Ev@Base 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Okular10Annotation6Window7PrivateaSERKS2_@Base 4:4.8.4
  _ZN6Okular10Annotation6Window7setTextERK7QString@Base 4:4.4.5
  _ZN6Okular10Annotation6Window8setFlagsEi@Base 4:4.4.5
  _ZN6Okular10Annotation6Window8setTitleERK7QString@Base 4:4.4.5
@@ -389,7 +391,7 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular19HighlightAnnotation16setHighlightTypeENS0_13HighlightTypeE@Base 4:4.4.5
  _ZN6Okular19HighlightAnnotation4Quad10setFeatherEd@Base 4:4.4.5
  _ZN6Okular19HighlightAnnotation4Quad11setCapStartEb@Base 4:4.4.5
- (arch=i386)_ZN6Okular19HighlightAnnotation4Quad7PrivateaSERKS2_@Base 4:4.8.4
+ (arch=hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6Okular19HighlightAnnotation4Quad7PrivateaSERKS2_@Base 4:4.8.4
  _ZN6Okular19HighlightAnnotation4Quad8setPointERKNS_15NormalizedPointEi@Base 4:4.4.5
  _ZN6Okular19HighlightAnnotation4Quad9setCapEndEb@Base 4:4.4.5
  _ZN6Okular19HighlightAnnotation4Quad9transformERK7QMatrix@Base 4:4.4.5
@@ -784,8 +786,10 @@ libokularcore.so.1 libokularcore1 #MINVER#
  _ZN6Okular9GeneratorD0Ev@Base 4:4.4.5
  _ZN6Okular9GeneratorD1Ev@Base 4:4.4.5
  _ZN6Okular9GeneratorD2Ev@Base 4:4.4.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmark4ListD1Ev@Base 4:4.6.5
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmark4ListD2Ev@Base 4:4.6.5
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD1Ev@Base 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KBookmarkD2Ev@Base 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KJSStringD1Ev@Base 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KJSStringD2Ev@Base 4:4.8.4
  _ZNK6Okular10Annotation10canBeMovedEv@Base 4:4.4.5
  _ZNK6Okular10Annotation10uniqueNameEv@Base 4:4.4.5
  _ZNK6Okular10Annotation12creationDateEv@Base 4:4.4.5
