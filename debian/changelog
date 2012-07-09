@@ -5,6 +5,8 @@ okular (4:4.8.4-3) UNRELEASED; urgency=low
     internal API of it.
   * Make libokularcore break okular < 4.8, as with 4.8 a private symbol used
     by the okularpart has been dropped.
+  * The two changes above will make sure to avoid different versions of
+    libokularcore and okular at the same time. (Closes: #680946)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jul 2012 15:24:28 +0200
 
