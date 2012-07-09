@@ -37,7 +37,7 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libokularcore1 (= ${binary:Version})
 Suggests: okular-extra-backends (= ${binary:Version}), texlive-binaries, unrar, poppler-data, ghostscript, jovie
 Provides: pdf-viewer, postscript-viewer
 Description: universal document viewer
