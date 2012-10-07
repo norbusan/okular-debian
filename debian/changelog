@@ -7,6 +7,10 @@ okular (4:4.8.4-3) UNRELEASED; urgency=low
     by the okularpart has been dropped.
   * The two changes above will make sure to avoid different versions of
     libokularcore and okular at the same time. (Closes: #680946)
+  * Backport upstream commit edbb4ef9f5aa8f120558b9d4f4b9f68970100c4b to fix
+    the extraction of the page bounding box, used by the trimming function;
+    patch upstream_Call-Generator-signalPixmapRequestDone-_after_-savin.patch.
+    (Closes: #686642)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jul 2012 15:24:28 +0200
 

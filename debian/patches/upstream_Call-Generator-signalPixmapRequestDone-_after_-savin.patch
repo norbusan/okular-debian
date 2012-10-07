@@ -1,0 +1,40 @@
+From edbb4ef9f5aa8f120558b9d4f4b9f68970100c4b Mon Sep 17 00:00:00 2001
+From: Fabio D'Urso <fabiodurso@hotmail.it>
+Date: Tue, 17 Jul 2012 20:35:54 +0200
+Subject: [PATCH] Call Generator::signalPixmapRequestDone _after_ saving the
+ calculated bounding box
+
+Fixes a bug that causes the extraction of a wrong bounding box:
+
+If the request queue is not empty, signalPixmapRequestDone causes a new
+pixmap request to be started, thus overwriting mPixmapGenerationThread's
+mCalcBoundingBox before it is read by the if in the next line.
+
+Now signalPixmapRequestDone is called after the bounding box is saved,
+so that new requests are started only after all data from
+mPixmapGenerationThread have been saved.
+
+BUG: 257370
+REVIEW: 105600
+---
+ core/generator.cpp |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/core/generator.cpp b/core/generator.cpp
+index 0073943..72993c0 100644
+--- a/core/generator.cpp
++++ b/core/generator.cpp
+@@ -103,9 +103,9 @@ void GeneratorPrivate::pixmapGenerationFinished()
+     request->page()->setPixmap( request->id(), new QPixmap( QPixmap::fromImage( img ) ) );
+     const int pageNumber = request->page()->number();
+ 
+-    q->signalPixmapRequestDone( request );
+     if ( mPixmapGenerationThread->calcBoundingBox() )
+         q->updatePageBoundingBox( pageNumber, mPixmapGenerationThread->boundingBox() );
++    q->signalPixmapRequestDone( request );
+ }
+ 
+ void GeneratorPrivate::textpageGenerationFinished()
+-- 
+1.7.10.4
+
