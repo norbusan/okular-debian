@@ -15,6 +15,8 @@ okular (4:4.8.4-3) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Backport upstream commit 91e46331fd7901705a69323c75de84e2467416dd to restore
     word detection in DVI documents. Thanks Luigi Toscano.
+  * Backport upstream commit 823a84942df4d3604b041ef7878a9984b1f12b7f to avoid
+    a crash with broken fonts. Thanks Luigi Toscano.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jul 2012 15:24:28 +0200
 

@@ -1,2 +1,3 @@
 upstream_Call-Generator-signalPixmapRequestDone-_after_-savin.patch
 fix_word_detection_with_dvi_docs.diff
+avoid_crash_with_broken_fonts.diff
