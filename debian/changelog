@@ -12,6 +12,10 @@ okular (4:4.8.4-3) UNRELEASED; urgency=low
     patch upstream_Call-Generator-signalPixmapRequestDone-_after_-savin.patch.
     (Closes: #686642)
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Backport upstream commit 91e46331fd7901705a69323c75de84e2467416dd to restore
+    word detection in DVI documents. Thanks Luigi Toscano.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jul 2012 15:24:28 +0200
 
 okular (4:4.8.4-2) unstable; urgency=low
