@@ -1,4 +1,6 @@
-okular (4:4.8.4-3) UNRELEASED; urgency=low
+okular (4:4.8.4-3) unstable; urgency=low
+
+  * Team upload.
 
   [ Pino Toscano ]
   * Force okular to depend on the same version of libokularcore, as it uses
@@ -18,7 +20,7 @@ okular (4:4.8.4-3) UNRELEASED; urgency=low
   * Backport upstream commit 823a84942df4d3604b041ef7878a9984b1f12b7f to avoid
     a crash with broken fonts. Thanks Luigi Toscano.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jul 2012 15:24:28 +0200
+ -- Pino Toscano <pino@debian.org>  Wed, 28 Nov 2012 17:33:56 +0100
 
 okular (4:4.8.4-2) unstable; urgency=low
 
