@@ -114,7 +114,7 @@ These files are under the GNU Free Documentation License v1.2
     As well, all the Manpages.dox included are under this license, unless
     specified otherwise.
 
-Files under src/
+Files under core/
     Upstream authors are:
 
         Pino Toscano <pino@kde.org>
@@ -122,17 +122,101 @@ Files under src/
         Tobias Koenig <tokoe@kde.org>
         Piotr Szymanski <djurban@pld-dc.org>
         Enrico Ros <eros.kde@email.it>
+        Harri Porten <porten@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under active/
+    Upstream authors are:
+
+        Marco Martin <mart@kde.org>
+        Sebastian Kügler <sebas@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under conf/
+    Upstream authors are:
+
+        Pino Toscano <pino@kde.org>
+        Enrico Ros <eros.kde@email.it>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/comicbook/
+    Upstream authors are:
+
+        Tobias Koenig <tokoe@kde.org>
+        David Palacio <dpalacio@orbitalibre.org>
+        Pino Toscano <pino@kde.org>
 
     License:
     Most of the files are under the GPL v2 or later, with few exceptions listed below.
 
-    These files are released with a BSD-like license
-        okular/generators/dvi/TeXFont_PK.cpp
-        okular/generators/dvi/dviFile.cpp
-        okular/generators/dvi/dviRenderer_draw.cpp
-        okular/generators/dvi/util.cpp
-        okular/generators/dvi/vf.cpp
+Files generators/comicbook/qnatsort.cpp and
+      generators/comicbook/qnatsort.h
+    Upstream author:
 
+        Tobias Koenig <tokoe@kde.org>
+
+    License:
+    These files are released as GPL v2 or at your option GPL v3.
+
+Files under generators/chm/
+    Upstream authors are:
+
+        Georgy Yunaev <gyunaev@ulduzsoft.com>
+        Razvan Cojocaru <razvanco@gmx.net>
+
+    License:
+    These files are under the GPL v2 or later, with a few exceptions listed
+    below.
+
+The file generators/chm/kio-msits/msits.cpp
+
+    License:
+    This files is under the LGPL v2 or later.
+    
+
+
+Files under generators/djvu/
+    Upstream authors are:
+
+        Pino Toscano <pino@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+The files:
+    generators/dvi/generator_dvi.cpp
+    generators/dvi/dviPageInfo.h
+    generators/dvi/kviewshell_export.h
+    generators/dvi/kvs_debug.h
+    generators/dvi/generator_dvi.h
+    generators/dvi/dviPageInfo.cpp
+    generators/dvi/bigEndianByteReader.h
+    generators/dvi/prebookmark.h
+    generators/dvi/dviexport.cpp
+    generators/dvi/dviexport.h
+    Upstream authors are:
+
+        Luigi Toscano <luigi.toscano@tiscali.it>
+        Stefan Kebekus <kebekus@kde.org>
+        Angus Leeming
+
+    License:
+    These files are under the GPL v2 or later.
+
+The files:
+    generators/dvi/TeXFont_PK.cpp
+    generators/dvi/dviFile.cpp
+    generators/dvi/dviRenderer_draw.cpp
+    generators/dvi/util.cpp
+    generators/dvi/vf.cpp
+
+    These files are released with a BSD-like license:
         * Redistribution and use in source and binary forms, with or without
         * modification, are permitted provided that the following conditions
         * are met:
@@ -154,23 +238,210 @@ Files under src/
         * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
         * SUCH DAMAGE.
 
+The file generators/dvi/bigEndianByteReader.h
+    Upstream author:
+    
+        Stefan Kebekus <kebekus@kde.org>
 
-    Files released as GPL v2 or GPL v3:
+    License:
+    These files are under the LGPL v2 or later.
 
-        okular/generators/comicbook/qnatsort.cpp
-        okular/generators/comicbook/qnatsort.h
+Files under generators/epub/
+    Upstream author:
+
+        Ely Levy <elylevy@cs.huji.ac.il>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/fax/
+    Upstream authors are:
+
+        Tobias Koenig <tokoe@kde.org>
+        Frank D. Cringle
+        Helge Deller <deller@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/fictionbook/
+    Upstream author:
+
+        Tobias Koenig <tokoe@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/kimgio/
+    Upstream authors are:
+
+        Albert Astals Cid <aacid@kde.org>
+        Pino Toscano <pino@kde.org>
+        Tobias Koenig <tokoe@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/ooo/
+    Upstream authors are:
+
+        Tobias Koenig <tokoe@kde.org>
+        Brad Hards <bradh@frogmouth.net>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/plucker/
+    Upstream authors are:
+
+        Tobias Koenig <tokoe@kde.org>
+        Bill Janssen
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/poppler/
+    Upstream authors are:
+
+        Albert Astals Cid <aacid@kde.org>
+        Pino Toscano <pino@kde.org>
+        Enrico Ros <eros.kde@email.it>
+        Fabio D'Urso <fabiodurso@hotmail.it>
+        Guillermo A. Amaral B. <gamaral@kde.org>
+
+    License:
+    Most of the files are under the GPL v2 or later, with few exceptions listed below.
+
+Files under generators/poppler/synctex/
+    Upstream author:
+
+        Copyright (c) 2008, 2009, 2010 , 2011 jerome DOT laurens AT u-bourgogne DOT fr
+
+    License:
+        Permission is hereby granted, free of charge, to any person
+        obtaining a copy of this software and associated documentation
+        files (the "Software"), to deal in the Software without
+        restriction, including without limitation the rights to use,
+        copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the
+        Software is furnished to do so, subject to the following
+        conditions:
+
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+        OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+        HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+        WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+        FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+        OTHER DEALINGS IN THE SOFTWARE
+
+        Except as contained in this notice, the name of the copyright holder  
+        shall not be used in advertising or otherwise to promote the sale,  
+        use or other dealings in this Software without prior written  
+        authorization from the copyright holder.
+
+Files under generators/spectre/
+    Upstream author:
+
+        Albert Astals Cid <aacid@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/tiff/
+    Upstream author:
+        
+        Pino Toscano <toscano.pino@tiscali.it>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under generators/tiff/
+    Upstream author:
+        
+        Brad Hards <bradh@frogmouth.net>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under interfaces/
+    Upstream authors are:
+
+        Michel Ludwig <michel.ludwig@kdemail.net>
+        Pino Toscano <pino@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+Files under shell/
+    Upstream authors are:
+
+        Wilco Greven <greven@kde.org>
+        Chris Cheney <ccheney@cheney.cx>
+        Benjamin Meyer <benjamin@csh.rit.edu>
+        Laurent Montel <montel@kde.org>
+        Luboš Luňák <l.lunak@kde.org>
+        Christophe Devriese <Christophe.Devriese@student.kuleuven.ac.be>
+        Albert Astals Cid <aacid@kde.org>
+        Malcolm Hunter <malcolm.hunter@gmx.co.uk>
+        Dominique Devriese <devriese@kde.org>
+        Dirk Mueller <mueller@kde.org>
+        Pino Toscano <pino@kde.org>
+        Andy Goossens <andygoossens@telenet.be>
+
+    License:
+    These files are under the GPL v2 or later.
 
     Files released as LGPL v2:
 
         okular/ui/ktreeviewsearchline.cpp
         okular/ui/ktreeviewsearchline.h
 
-    Files released as LGPL v2 or later:
+Files under tests/
+    Upstream author:
 
-        okular/generators/dvi/bigEndianByteReader.h
-        okular/generators/dvi/bigEndianByteReader.h
-        okular/generators/chm/kio-msits/msits.cpp
+        Pino Toscano <pino@kde.org>
 
-The Debian packaging is ©  2007-2011, Debian Qt/KDE Maintainers
+    License:
+    These files are under the GPL v2 or later.
+
+Files under ui/
+    Upstream authors are:
+
+        Pino Toscano <pino@kde.org>
+        Enrico Ros <eros.kde@email.it>
+        Chu Xiaodong <xiaodongchu@gmail.com>
+        Albert Astals Cid <aacid@kde.org>
+        Niels Ole Salscheider <niels_ole@salscheider-online.de>
+        Duncan Mac-Vicar Prett <duncan@kde.org>
+        Olivier Goffart <ogoffart@kde.org>
+        Tobias Koenig <tokoe@kde.org>
+        John Layt <john@layt.net>
+        Eike Hein <hein@kde.org>
+
+    License:
+    These files are under the GPL v2 or later.
+
+The files:
+    ui/ktreeviewsearchline.h
+    ui/ktreeviewsearchline.cpp
+
+    Upstream authors are:
+        Scott Wheeler <wheeler@kde.org>
+        Rafal Rzepecki <divide@users.sourceforge.net>
+        Hamish Rodda <rodda@kde.org>
+        Pino Toscano <pino@kde.org>
+
+You can find the complete text of the licenses in /usr/share/common-licenses.
+LGPL v2:   /usr/share/common-licenses/LGPL-2
+LGPL v2.1: /usr/share/common-licenses/LGPL-2.1
+LGPL v3:   /usr/share/common-licenses/LGPL-3
+GPL v3:    /usr/share/common-licenses/GPL-3
+
+The Debian packaging is ©  2007-2013, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL,
 see `/usr/share/common-licenses/GPL'.
