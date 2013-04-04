@@ -3,8 +3,6 @@ usr/lib/kde4/okularGenerator_chmlib.so
 usr/lib/kde4/okularGenerator_djvu.so
 usr/lib/kde4/okularGenerator_epub.so
 usr/lib/kde4/okularGenerator_tiff.so
-usr/lib/kde4/imports/org/kde/okular/libokularplugin.so
-usr/lib/kde4/imports/org/kde/okular/qmldir
 usr/share/applications/kde4/okularApplication_chm.desktop
 usr/share/applications/kde4/okularApplication_djvu.desktop
 usr/share/applications/kde4/okularApplication_epub.desktop
