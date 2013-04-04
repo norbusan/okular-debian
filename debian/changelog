@@ -8,6 +8,9 @@ okular (4:4.10.2-1) experimental; urgency=low
     - Rename library package to libokularcore2.
     - Add new symbols file.
   * Add okular manpage.
+  * Add libkactivities-dev as a build-dep.
+  * Update debian/copyright file.
+  * Add new headers to okular-dev.
   * Bump Standards-Version to 3.9.4. No further changes.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 04 Apr 2013 12:43:20 +0200
