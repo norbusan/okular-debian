@@ -1,7 +1,14 @@
-okular (4:4.10.2-1) UNRELEASED; urgency=low
+okular (4:4.10.2-1) experimental; urgency=low
 
   * Team upload.
   * New upstream release.
+
+  [ Maximiliano Curia ]
+  * New library version libokularcore.so.2.
+    - Rename library package to libokularcore2.
+    - Add new symbols file.
+  * Add okular manpage.
+  * Bump Standards-Version to 3.9.4. No further changes.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 04 Apr 2013 12:43:20 +0200
 
