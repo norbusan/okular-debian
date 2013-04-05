@@ -26,6 +26,9 @@ libokularcore.so.2 libokularcore2 #MINVER#
  _ZN6Okular10Annotation5styleEv@Base 4:4.10.2
  _ZN6Okular10Annotation6Window10setSummaryERK7QString@Base 4:4.10.2
  _ZN6Okular10Annotation6Window10setTopLeftERKNS_15NormalizedPointE@Base 4:4.10.2
+ (optional=gccinternal)_ZN6Okular10Annotation6Window7PrivateD1Ev@Base 4:4.10.2
+ (optional=gccinternal)_ZN6Okular10Annotation6Window7PrivateD2Ev@Base 4:4.10.2
+ (optional=gccinternal)_ZN6Okular10Annotation6Window7PrivateaSERKS2_@Base 4:4.10.2
  _ZN6Okular10Annotation6Window7setTextERK7QString@Base 4:4.10.2
  _ZN6Okular10Annotation6Window8setFlagsEi@Base 4:4.10.2
  _ZN6Okular10Annotation6Window8setTitleERK7QString@Base 4:4.10.2
@@ -451,6 +454,7 @@ libokularcore.so.2 libokularcore2 #MINVER#
  _ZN6Okular19HighlightAnnotation16setHighlightTypeENS0_13HighlightTypeE@Base 4:4.10.2
  _ZN6Okular19HighlightAnnotation4Quad10setFeatherEd@Base 4:4.10.2
  _ZN6Okular19HighlightAnnotation4Quad11setCapStartEb@Base 4:4.10.2
+ (optional=gccinternal)_ZN6Okular19HighlightAnnotation4Quad7PrivateaSERKS2_@Base 4:4.10.2
  _ZN6Okular19HighlightAnnotation4Quad8setPointERKNS_15NormalizedPointEi@Base 4:4.10.2
  _ZN6Okular19HighlightAnnotation4Quad9setCapEndEb@Base 4:4.10.2
  _ZN6Okular19HighlightAnnotation4Quad9transformERK10QTransform@Base 4:4.10.2
