@@ -1,3 +1,8 @@
+okular (4:4.10.2-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 22 May 2013 17:53:20 +0200
+
 okular (4:4.10.2-1) experimental; urgency=low
 
   * Team upload.
