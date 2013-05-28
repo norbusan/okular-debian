@@ -1,9 +1,12 @@
-okular (4:4.10.2-2) UNRELEASED; urgency=low
+okular (4:4.10.3-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Switch libtiff4-dev build dependency to libtiff-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 22 May 2013 17:53:20 +0200
+  [ Maximiliano Curia ]
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 13:11:39 +0200
 
 okular (4:4.10.2-1) experimental; urgency=low
 
