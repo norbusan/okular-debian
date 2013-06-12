@@ -23,8 +23,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  zlib1g-dev
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/okular.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/okular.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/okular.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/okular.git
 
 Package: libokularcore2
 Section: libs
