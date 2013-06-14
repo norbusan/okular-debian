@@ -1,4 +1,4 @@
-okular (4:4.10.4-1) UNRELEASED; urgency=low
+okular (4:4.10.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -9,7 +9,7 @@ okular (4:4.10.4-1) UNRELEASED; urgency=low
   * Bump debhelper build-dep and compat to 9.
   * Update vcs fields.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Jun 2013 13:53:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 13:58:51 +0200
 
 okular (4:4.10.2-1) experimental; urgency=low
 
