@@ -3,33 +3,33 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
- José Manuel Santamaría Lema <panfaust@gmail.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
- cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.8),
+ Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
+ kdelibs5-dev (>= 4:4.10),
  pkg-config,
+ libkactivities-dev (>= 4:4.10),
  libdjvulibre-dev,
  libepub-dev,
  libpoppler-qt4-dev (>= 0.8.0),
  libqca2-dev,
  libqimageblitz-dev,
  libspectre-dev,
- libtiff4-dev,
+ libtiff-dev,
  libx11-dev,
  libchm-dev,
  libjpeg-dev,
  libfreetype6-dev,
  zlib1g-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/okular.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/okular.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/okular.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/okular.git
 
-Package: libokularcore1
+Package: libokularcore2
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: okular (<< 4:4.8)
 Description: libraries for the Okular document viewer
  This package contains libraries used by the Okular document viewer.
  .
@@ -38,7 +38,7 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libokularcore1 (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, libokularcore2 (= ${binary:Version})
 Suggests: okular-extra-backends (= ${binary:Version}), texlive-binaries, unrar, poppler-data, ghostscript, jovie
 Provides: pdf-viewer, postscript-viewer
 Description: universal document viewer
@@ -60,8 +60,8 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore1 (= ${binary:Version}), ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libokularcore1}
+Depends: libokularcore2 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libokularcore2}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
