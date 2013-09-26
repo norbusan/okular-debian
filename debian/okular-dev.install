@@ -7,6 +7,7 @@ usr/include/okular/core/fontinfo.h
 usr/include/okular/core/form.h
 usr/include/okular/core/generator.h
 usr/include/okular/core/global.h
+usr/include/okular/core/observer.h
 usr/include/okular/core/okular_export.h
 usr/include/okular/core/page.h
 usr/include/okular/core/pagesize.h
@@ -15,6 +16,7 @@ usr/include/okular/core/settings_core.h
 usr/include/okular/core/sound.h
 usr/include/okular/core/sourcereference.h
 usr/include/okular/core/textdocumentgenerator.h
+usr/include/okular/core/textdocumentsettings.h
 usr/include/okular/core/textpage.h
 usr/include/okular/core/tile.h
 usr/include/okular/core/utils.h
