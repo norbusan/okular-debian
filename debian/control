@@ -26,7 +26,7 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/okular.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/okular.git
 
-Package: libokularcore2
+Package: libokularcore3
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -38,7 +38,7 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libokularcore2 (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, libokularcore3 (= ${binary:Version})
 Suggests: okular-extra-backends (= ${binary:Version}), texlive-binaries, unrar, poppler-data, ghostscript, jovie
 Provides: pdf-viewer, postscript-viewer
 Description: universal document viewer
@@ -60,8 +60,8 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore2 (= ${binary:Version}), ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libokularcore2}
+Depends: libokularcore3 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libokularcore3}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
