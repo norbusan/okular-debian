@@ -1,11 +1,11 @@
-okular (4:4.11.2-1) UNRELEASED; urgency=low
+okular (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
   * Bump lib package soname.
   * Update install files.
   * Add symbols file for libokularcore3.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 11:55:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 12:14:44 +0200
 
 okular (4:4.10.5-1) unstable; urgency=low
 
