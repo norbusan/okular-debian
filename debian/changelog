@@ -1,6 +1,7 @@
 okular (4:4.11.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update build dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 18:32:55 +0100
 
