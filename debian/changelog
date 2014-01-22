@@ -1,8 +1,8 @@
-okular (4:4.11.4-1) UNRELEASED; urgency=low
+okular (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:00:11 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jan 2014 17:17:06 -0300
 
 okular (4:4.11.3-1) unstable; urgency=low
 
