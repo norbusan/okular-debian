@@ -1,0 +1,9 @@
+Tests: testsuite
+Depends: @, @builddeps@, build-essential,
+         xvfb, xauth, dbus-x11,
+         texlive-latex-base
+Restrictions: build-needed
+
+Tests: acc
+Depends: @,
+         dh-acc, exuberant-ctags

@@ -1,6 +1,7 @@
 okular (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Add autopkgtests.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jan 2014 17:17:06 -0300
 
