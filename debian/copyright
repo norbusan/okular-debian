@@ -178,7 +178,7 @@ The file generators/chm/kio-msits/msits.cpp
 
     License:
     This files is under the LGPL v2 or later.
-    
+
 
 
 Files under generators/djvu/
@@ -240,7 +240,7 @@ The files:
 
 The file generators/dvi/bigEndianByteReader.h
     Upstream author:
-    
+
         Stefan Kebekus <kebekus@kde.org>
 
     License:
@@ -339,9 +339,9 @@ Files under generators/poppler/synctex/
         FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
         OTHER DEALINGS IN THE SOFTWARE
 
-        Except as contained in this notice, the name of the copyright holder  
-        shall not be used in advertising or otherwise to promote the sale,  
-        use or other dealings in this Software without prior written  
+        Except as contained in this notice, the name of the copyright holder
+        shall not be used in advertising or otherwise to promote the sale,
+        use or other dealings in this Software without prior written
         authorization from the copyright holder.
 
 Files under generators/spectre/
@@ -354,7 +354,7 @@ Files under generators/spectre/
 
 Files under generators/tiff/
     Upstream author:
-        
+
         Pino Toscano <toscano.pino@tiscali.it>
 
     License:
@@ -362,7 +362,7 @@ Files under generators/tiff/
 
 Files under generators/tiff/
     Upstream author:
-        
+
         Brad Hards <bradh@frogmouth.net>
 
     License:

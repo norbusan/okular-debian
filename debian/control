@@ -2,25 +2,26 @@ Source: okular
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat.de>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.11),
- pkg-config,
- libkactivities-dev (>= 4:4.11),
- libdjvulibre-dev,
- libepub-dev,
- libpoppler-qt4-dev (>= 0.8.0),
- libqca2-dev,
- libqimageblitz-dev,
- libspectre-dev,
- libtiff-dev,
- libx11-dev,
- libchm-dev,
- libjpeg-dev,
- libfreetype6-dev,
- zlib1g-dev
+Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libchm-dev,
+               libdjvulibre-dev,
+               libepub-dev,
+               libfreetype6-dev,
+               libjpeg-dev,
+               libkactivities-dev (>= 4:4.11),
+               libpoppler-qt4-dev (>= 0.8.0),
+               libqca2-dev,
+               libqimageblitz-dev,
+               libspectre-dev,
+               libtiff-dev,
+               libx11-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.14),
+               zlib1g-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
@@ -30,7 +31,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/okular.git
 Package: libokularcore3
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: libraries for the Okular document viewer
  This package contains libraries used by the Okular document viewer.
  .
@@ -39,8 +40,15 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libokularcore3 (= ${binary:Version})
-Suggests: okular-extra-backends (= ${binary:Version}), texlive-binaries, unrar, poppler-data, ghostscript, jovie
+Depends: libokularcore3 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: ghostscript,
+          jovie,
+          okular-extra-backends (= ${binary:Version}),
+          poppler-data,
+          texlive-binaries,
+          unrar
 Provides: pdf-viewer, postscript-viewer
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
@@ -61,8 +69,9 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore3 (= ${binary:Version}), ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libokularcore3}
+Depends: libokularcore3 (= ${binary:Version}),
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libokularcore3}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
@@ -71,7 +80,7 @@ Description: development files for the Okular libraries
 
 Package: okular-extra-backends
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: okular
 Provides: djvu-viewer
 Description: additional document format support for Okular
@@ -87,7 +96,7 @@ Package: okular-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, okular (= ${binary:Version})
+Depends: okular (= ${binary:Version}), ${misc:Depends}
 Replaces: kdegraphics-dbg (<= 4.6.90)
 Breaks: kdegraphics-dbg (<= 4.6.90)
 Description: debugging symbols for okular
