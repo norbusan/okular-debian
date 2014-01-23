@@ -21,7 +21,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libjpeg-dev,
  libfreetype6-dev,
  zlib1g-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/okular.git
