@@ -1,11 +1,11 @@
-okular (4:4.12.2-1) UNRELEASED; urgency=medium
+okular (4:4.12.2-1) experimental; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
   * Update install files.
   * Bump kde-sc-dev-latest build dependency.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:19:57 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:31 +0100
 
 okular (4:4.11.5-1) unstable; urgency=low
 
