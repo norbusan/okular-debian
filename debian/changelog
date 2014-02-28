@@ -1,7 +1,7 @@
 okular (4:4.12.3-1~) UNRELEASED; urgency=medium
 
-  * Add breaks kdegraphics-mobipocket prior 4:4.12. (Closes: #739112)
   * New upstream release.
+  * Add breaks kdegraphics-mobipocket prior 4:4.12. (Closes: #739112)
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:27:33 +0100
 
