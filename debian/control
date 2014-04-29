@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.11),
+               kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.11),
                libchm-dev,
                libdjvulibre-dev,
@@ -13,9 +13,11 @@ Build-Depends: cmake,
                libfreetype6-dev,
                libjpeg-dev,
                libkactivities-dev (>= 4:4.11),
+               libkexiv2-dev,
                libpoppler-qt4-dev (>= 0.8.0),
                libqca2-dev,
                libqimageblitz-dev,
+               libqmobipocket-dev,
                libspectre-dev,
                libtiff-dev,
                libx11-dev,
@@ -50,6 +52,7 @@ Suggests: ghostscript,
           texlive-binaries,
           unrar
 Provides: pdf-viewer, postscript-viewer
+Breaks: kdegraphics-mobipocket (<< 4:4.12)
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
  features, such as annotations, forms, and embedded files.
