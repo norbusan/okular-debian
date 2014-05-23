@@ -3,6 +3,7 @@ okular (4:4.13.1-1~) UNRELEASED; urgency=medium
   * New upstream release.
   * Update build dependencies.
   * Follow upstream soversion bump of okularcore.
+  * New patch: no_xrandr_support_on_xvfb.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 13:29:52 +0200
 
