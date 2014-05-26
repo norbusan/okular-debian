@@ -1,11 +1,11 @@
-okular (4:4.13.1-1~) UNRELEASED; urgency=medium
+okular (4:4.13.1-1) experimental; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
   * Follow upstream soversion bump of okularcore.
   * New patch: no_xrandr_support_on_xvfb.patch
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 13:29:52 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 11:31:34 +0200
 
 okular (4:4.12.4-1) unstable; urgency=medium
 
