@@ -1,8 +1,9 @@
-okular (4:4.13.1-2) UNRELEASED; urgency=medium
+okular (4:4.13.1-2) unstable; urgency=medium
 
   * Update symbols files with 4:4.13.1-1 build logs.
+  * Release to unstable.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 05 Jun 2014 10:21:39 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 Jun 2014 10:39:27 +0200
 
 okular (4:4.13.1-1) experimental; urgency=medium
 
