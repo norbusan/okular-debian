@@ -1,5 +1,7 @@
-# SymbolsHelper-Confirmed: 4:4.12.97 amd64
+# SymbolsHelper-Confirmed: 4:4.13.1 mipsel powerpc s390x
 libokularcore.so.4 libokularcore4 #MINVER#
+ (optional=gccinternal|arch=mipsel powerpc s390x)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:4.13.1
+ (optional=gccinternal|arch=mipsel powerpc s390x)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:4.13.1
  _ZN6Okular10Annotation11setContentsERK7QString@Base 4:4.12.97
  _ZN6Okular10Annotation11setNativeIdERK8QVariant@Base 4:4.12.97
  _ZN6Okular10Annotation13setUniqueNameERK7QString@Base 4:4.12.97
