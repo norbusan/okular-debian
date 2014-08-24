@@ -1,6 +1,7 @@
 okular (4:4.14.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Rename libokularcore package to libokularcore5.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:17:57 +0200
 
