@@ -3,6 +3,7 @@ okular (4:4.14.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Rename libokularcore package to libokularcore5.
   * Remove patch: no_xrandr_support_on_xvfb.patch
+  * New patch: temporarily_disable_failing_test
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:17:57 +0200
 

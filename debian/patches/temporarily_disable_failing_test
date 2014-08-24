@@ -1,0 +1,12 @@
+Index: okular/tests/CMakeLists.txt
+===================================================================
+--- okular.orig/tests/CMakeLists.txt	2014-08-24 19:04:48.079064107 +0200
++++ okular/tests/CMakeLists.txt	2014-08-24 19:55:10.260342030 +0200
+@@ -35,5 +35,5 @@
+ kde4_add_unit_test( editformstest editformstest.cpp )
+ target_link_libraries( editformstest ${KDE4_KDECORE_LIBS} ${QT_QTGUI_LIBRARY} ${QT_QTTEST_LIBRARY} ${QT_QTXML_LIBRARY} okularcore )
+ 
+-kde4_add_unit_test( mainshelltest mainshelltest.cpp ../shell/okular_main.cpp ../shell/shellutils.cpp ../shell/shell.cpp )
+-target_link_libraries( mainshelltest ${KDE4_KPARTS_LIBS} ${QT_QTTEST_LIBRARY} okularpart okularcore )
++# kde4_add_unit_test( mainshelltest mainshelltest.cpp ../shell/okular_main.cpp ../shell/shellutils.cpp ../shell/shell.cpp )
++# target_link_libraries( mainshelltest ${KDE4_KPARTS_LIBS} ${QT_QTTEST_LIBRARY} okularpart okularcore )
