@@ -1,11 +1,11 @@
-okular (4:4.14.1-1~) UNRELEASED; urgency=medium
+okular (4:4.14.1-1) unstable; urgency=medium
 
   * New upstream release (4.14.1).
   * Update install files.
   * Update symbols files from buildds logs (4:4.14.0-2).
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 20:11:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 17 Sep 2014 09:44:26 +0200
 
 okular (4:4.14.0-2) unstable; urgency=medium
 
