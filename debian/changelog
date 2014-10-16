@@ -1,6 +1,7 @@
 okular (4:4.14.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (4.14.2).
+  * Update symbols files from buildds logs (4:4.14.1-1).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Oct 2014 13:38:03 +0200
 
