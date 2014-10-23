@@ -1,7 +1,7 @@
-# SymbolsHelper-Confirmed: 4:4.14.1 alpha amd64 armel armhf mips mipsel powerpc ppc64 ppc64el s390x sparc
+# SymbolsHelper-Confirmed: 4:4.14.2 arm64 hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 x32
 libokularcore.so.5 libokularcore5 #MINVER#
- (arch=!amd64 !sparc)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:4.14.1
- (arch=!amd64 !sparc)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:4.14.1
+ (optional=gccinternal|arch=!amd64 !arm64 !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc !x32)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:4.14.1
+ (optional=gccinternal|arch=!amd64 !arm64 !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !sparc !x32)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:4.14.1
  (arch=sparc)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.14.1
  (arch=sparc)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.14.1
  _ZN6Okular10Annotation11setContentsERK7QString@Base 1.7
