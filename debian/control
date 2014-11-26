@@ -47,6 +47,7 @@ Architecture: any
 Depends: libokularcore5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: cups-bsd
 Suggests: ghostscript,
           jovie,
           okular-extra-backends (= ${binary:Version}),

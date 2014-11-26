@@ -1,3 +1,10 @@
+okular (4:4.14.2-2.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * recommends cups-bsd (Closes: #499514) 
+
+ -- Adrien Grellier <perso@adrieng.fr>  Wed, 26 Nov 2014 21:30:25 +0100
+
 okular (4:4.14.2-2) unstable; urgency=medium
 
   * Update symbols files from buildds logs (4:4.14.2-1).
