@@ -1,3 +1,12 @@
+okular (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Merge with Debian: remaining changes:
+    - Remove build-dep on libkscreen-dev, libkscreen now Plasma 5
+    - Add not-installed
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 18 Dec 2014 13:27:55 +0100
+
 okular (4:4.14.2-2.1) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
@@ -54,6 +63,76 @@ okular (4:4.13.2-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 12 Jul 2014 13:02:30 +0200
 
+okular (4:4.14.2-0ubuntu2) vivid; urgency=medium
+
+  * Remove build-dep on libkscreen-dev, libkscreen now Plasma 5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Nov 2014 14:12:26 +0100
+
+okular (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 06:31:02 -0700
+
+okular (4:4.14.1-0ubuntu2) utopic; urgency=medium
+
+  * Add kubuntu_no-failing-test.diff to ignore failing test
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 29 Sep 2014 19:32:46 +0200
+
+okular (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Removing support for plasma-active as it doees not exist in Utopic. 
+  * Move leftover plasma-active files to not-installed
+  * Add missing icons to install file. 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:51:44 +0200
+
+okular (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * Remove no_xrandr_support_on_xvfb.patch unneeded with libkscreen
+    1.0.5
+  * New upstream release
+  * libokularcore4 now libokularcore5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:36:21 +0200
+
+okular (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 17:27:31 +0200
+
+okular (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:52:09 +0200
+
+okular (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+  * Removed version from libkactivities-dev depend as it was not updated.
+  * Patch symbols with batchpatch
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 17 Jul 2014 16:17:06 -0700
+
+okular (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 12:08:49 +0100
+
+okular (4:4.13.1-2ubuntu1) utopic; urgency=medium
+
+  * Merge with Debian, remaining changes
+    - Build with plasma-active
+    - Build with libtiff5-dev
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 06 Jun 2014 13:30:52 +0200
+
 okular (4:4.13.1-2) unstable; urgency=medium
 
   * Update symbols files with 4:4.13.1-1 build logs.
@@ -70,6 +149,59 @@ okular (4:4.13.1-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 11:31:34 +0200
 
+okular (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:25:28 +0100
+
+okular (4:4.12.97-0ubuntu2) trusty; urgency=medium
+
+  [ Philip Muškovac ]
+  * New upstream release candidate
+
+  [ Jonathan Riddell ]
+  * Rename librery to libokularcore4 for upstream soversion change
+
+  [ Rohan Garg ]
+  * Make sure everything depends on the right lib
+    - libokularcore3abi1 -> libokularcore4
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 02 Apr 2014 11:53:28 +0200
+
+okular (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:52:27 +0100
+
+okular (4:4.12.90-0ubuntu3) trusty; urgency=medium
+
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Mar 2014 10:25:40 +0000
+
+okular (4:4.12.90-0ubuntu2) trusty; urgency=medium
+
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Mar 2014 09:44:01 +0000
+
+okular (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  [ Jonathan Riddell ]
+  * new upstream alpha release
+
+  [ Philip Muškovac ]
+  * Bump ABI of libokularcore3 to 1 and update install and symbols file 
+  * Build-depend on libkscreen-dev 
+
+  [ Jonathan Riddell ]
+  * Add build-dep on libqjson-dev
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:59:47 +0000
+
 okular (4:4.12.4-1) unstable; urgency=medium
 
   * New upstream release.
@@ -84,6 +216,12 @@ okular (4:4.12.3-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:05:31 +0100
 
+okular (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 21:13:56 +0100
+
 okular (4:4.12.2-1) experimental; urgency=medium
 
   * New upstream release.
@@ -92,6 +230,53 @@ okular (4:4.12.2-1) experimental; urgency=medium
   * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:31 +0100
+
+okular (4:4.12.2-0ubuntu2) trusty; urgency=medium
+
+  * Update symbols file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 12 Feb 2014 15:57:38 +0000
+
+okular (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 05 Feb 2014 00:24:51 +0000
+
+okular (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:38:24 +0000
+
+okular (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:41:01 +0000
+
+okular (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:39:53 +0000
+
+okular (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:35:46 +0100
+
+okular (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Add build-dependency on libqmobipocket-dev and libkexiv2-dev
+  * okular breaks/replaces old kdegraphics-mobipocket
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:56:57 +0100
 
 okular (4:4.11.5-1) unstable; urgency=low
 
@@ -118,6 +303,63 @@ okular (4:4.11.2-1) experimental; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 12:14:44 +0200
 
+okular (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:51:35 +0100
+
+okular (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:38:10 +0100
+
+okular (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:40:45 +0100
+
+okular (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 20:01:52 +0100
+
+okular (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:33:30 +0000
+
+okular (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  [ Michał Zając ]
+  * New upstream beta release
+
+  [ Howard Chan ]
+  * Fix the symbols file for libokularcore3.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 28 Jun 2013 18:29:25 +0100
+
+okular (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream release
+ 
+  [ Howard Chan ]
+  * Fix okularcore to new SOVERSION along with symbols and install  
+    file changes.
+  * Fixed some install files.
+  * Updated the control file to enable the new SOVERSION. 
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 01:47:10 +0100
+
 okular (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release.
@@ -137,6 +379,32 @@ okular (4:4.10.4-1) experimental; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 13:58:51 +0200
 
+okular (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream bugfix release
+
+  [ Jonathan Riddell ]
+  * Add build-depends on plasma-active-dev and plasma-widgets-active
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:49:29 +0100
+
+okular (4:4.10.3-0ubuntu2) saucy; urgency=low
+
+  * Update symbols files for arm
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 30 May 2013 12:26:07 +0100
+
+okular (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian, remaining changes:
+   - Add enable_debianabimanager.diff
+   - Make libokularcore2 abi1
+   - Build-dep on libtiff5-dev instead of 4
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 08 May 2013 16:10:58 +0000
+
 okular (4:4.10.2-1) experimental; urgency=low
 
   * Team upload.
@@ -153,6 +421,118 @@ okular (4:4.10.2-1) experimental; urgency=low
   * Bump Standards-Version to 3.9.4. No further changes.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 04 Apr 2013 12:43:20 +0200
+
+okular (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 15:00:37 +0200
+
+okular (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 16:45:49 +0000
+
+okular (4:4.10.0-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 12:11:34 +0000
+
+okular (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 16:06:16 +0000
+
+okular (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:46:12 +0100
+
+okular (4:4.9.95-0ubuntu1) raring; urgency=low
+
+  * New upstream RC release
+  * Install manpage
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:44:00 +0000
+
+okular (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 18:13:19 +0000
+
+okular (4:4.9.80-0ubuntu2) raring; urgency=low
+
+  * Update symbols file for armhf
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 22 Nov 2012 10:48:36 -0500
+
+okular (4:4.9.80-0ubuntu1) raring; urgency=low
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+
+  [ Scott Kitterman ]
+  * Add libkactivities-dev to build-depends
+  * Rename libokularcore1abi1 to libokularcore2abi1 to match soname change and
+    rename .install and .symbols files
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 21 Nov 2012 15:28:09 -0500
+
+okular (4:4.9.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release (LP: #1074747)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 06 Nov 2012 22:45:18 +0100
+
+okular (4:4.9.2-0ubuntu1) quantal-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 02 Oct 2012 15:36:58 +0100
+
+okular (4:4.9.1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 04 Sep 2012 15:25:22 +0530
+
+okular (4:4.9.0-0ubuntu2) quantal; urgency=low
+
+  * Provide CHM support in okular-extra-backends - now that okular is in
+    Universe (LP: #948223)
+    - debian/control: Add libchm-dev to build-depends
+    - debian/okular-extra-backends.install: Add chm related files
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 03 Aug 2012 00:15:50 -0400
+
+okular (4:4.9.0-0ubuntu1) quantal; urgency=low
+
+  * Use direct build-depends versions rather than kde-sc-dev-latest
+  * New upstream release
+  * Build-dep on libtiff5-dev instead of 4
+  * Update files in okular.install
+  * Build-dep on pkg-config
+  * Update symbols file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jul 2012 22:43:27 +0100
+
+okular (4:4.8.90-0ubuntu1) quantal; urgency=low
+
+  * New upstream beta release.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Mon, 11 Jun 2012 16:14:25 +0200
+
+okular (4:4.8.80-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+    - Refresh symbol files
+
+ -- Jonathan Kolberg <bulldog98@kubuntu.org>  Fri, 25 May 2012 22:32:00 +0200
 
 okular (4:4.8.4-3) unstable; urgency=low
 
@@ -202,6 +582,59 @@ okular (4:4.8.4-1) unstable; urgency=low
 
  -- Sune Vuorela <sune@debian.org>  Sun, 17 Jun 2012 01:10:33 +0200
 
+okular (4:4.8.3-0ubuntu2) quantal; urgency=low
+
+  * Refresh symbol files for remaining architectures
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 15 May 2012 20:32:48 +0200
+
+okular (4:4.8.3-0ubuntu1) quantal; urgency=low
+
+  [ Jonathan Kolberg ]
+  * New upstream release
+
+  [ Philip Muškovac ]
+  * Update symbol files for gcc 4.7 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 13 May 2012 19:52:01 +0200
+
+okular (4:4.8.2-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 30 Mar 2012 20:30:00 +0200
+
+okular (4:4.8.1-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Kolberg <bulldog98@kubuntu.org>  Sat, 03 Mar 2012 09:46:23 +0100
+
+okular (4:4.8.0-0ubuntu1~ppa1) precise; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Jan 2012 12:01:21 +0000
+
+okular (4:4.7.97-0ubuntu1) precise; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 04 Jan 2012 13:14:56 +0000
+
+okular (4:4.7.95-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+  * Enable DebianABIManager and bump ABI of libokularcore1
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 23 Dec 2011 22:53:33 +0100
+
+okular (4:4.7.90-0ubuntu1) precise; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Dec 2011 13:28:07 +0000
+
 okular (4:4.7.4-2) unstable; urgency=low
 
   * Team upload.
@@ -227,6 +660,15 @@ okular (4:4.7.4-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 00:57:39 +0100
 
+okular (4:4.7.3-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+  * Merge with Debian, remaining change:
+   - Do not build-dep on libchm-dev, not in main
+   - Remove chm and msits files from okular-extra-backends.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 22 Nov 2011 22:03:32 +0000
+
 okular (4:4.7.2-1) experimental; urgency=low
 
   [ Eshat Cakar ]
@@ -234,3 +676,65 @@ okular (4:4.7.2-1) experimental; urgency=low
     - Okular can find strings with ligatures (Closes: #632979)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:42:37 -0300
+
+okular (4:4.7.2-0r1) raring; urgency=low
+
+  * Initial release. Start from the Kubuntu packaging, thanks!
+    - Okular can find strings with ligatures (Closes: #632979)
+
+ -- Eshat Cakar <info@eshat.de>  Sun, 30 Oct 2011 19:13:29 +0100
+
+okular (4:4.7.2-0ubuntu1) oneiric-proposed; urgency=low
+
+  * New upstream release (LP: #872506)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 03 Oct 2011 14:19:35 +0200
+
+okular (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:17:13 +0200
+
+okular (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 02 Sep 2011 21:34:01 +0530
+
+okular (4:4.7.0-0ubuntu3) oneiric; urgency=low
+
+  * Remove chm related files from okular-extra-backends.install because they
+    are no longer built
+  * Remove debian/docs since README is no longer provided
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 27 Jul 2011 22:07:54 -0400
+
+okular (4:4.7.0-0ubuntu2) oneiric; urgency=low
+
+  * Drop libchm-dev from build-depends (in Universe)
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 27 Jul 2011 20:48:49 -0400
+
+okular (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+    - update libokularcore1.symbols and .install
+
+ -- Romain Perier <romain.perier@gmail.com>  Fri, 22 Jul 2011 21:48:18 +0200
+
+okular (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
+
+  [ Michał Zając ]
+  * New upstream release
+  * New packaging after KDE 4.7 split
+  * Now uses debhelper 8
+  * Added libqca2-dev to Depends
+  * Updated symbols
+
+  [ Philip Muškovac ]
+  * Repack upstream source to include COPYING.DOC and COPYING.LIB
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 00:38:53 +0200
+

@@ -1,7 +1,7 @@
 Source: okular
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
@@ -14,7 +14,6 @@ Build-Depends: cmake,
                libjpeg-dev,
                libkactivities-dev (>= 4:4.11),
                libkexiv2-dev,
-               libkscreen-dev,
                libpoppler-qt4-dev (>= 0.8.0),
                libqca2-dev,
                libqimageblitz-dev,
@@ -26,13 +25,13 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools (>= 0.14),
                zlib1g-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/okular.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/okular.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/okular.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/okular.git
 
-Package: libokularcore5
+Package: libokularcore6
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -44,7 +43,7 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: libokularcore5 (= ${binary:Version}),
+Depends: libokularcore6 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: cups-bsd
@@ -75,9 +74,9 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore5 (= ${binary:Version}),
+Depends: libokularcore6 (= ${binary:Version}),
          ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libokularcore5}
+         ${sameVersionDep:kdelibs5-dev:libokularcore6}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
