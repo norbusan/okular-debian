@@ -6,7 +6,7 @@ Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:14.12.2),
+               kdelibs5-dev (>= 4:4.14.5),
                libchm-dev,
                libdjvulibre-dev,
                libepub-dev,
