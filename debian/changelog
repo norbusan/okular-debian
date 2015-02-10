@@ -4,6 +4,7 @@ okular (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
   * Remove unstable from watch file, uscan fails with 
     remote site does not even have current version
   * Fix kdelibs5-dev version as it is still in the 4.14 series. 
+  * Relax on the kdelibs version requirements so it builds in sid.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 12:23:37 -0800
 
