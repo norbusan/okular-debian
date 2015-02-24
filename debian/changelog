@@ -1,3 +1,14 @@
+okular (4:14.12.2-1~) UNRELEASED; urgency=medium
+
+  [ Adrien Grellier ]
+  * Non-maintainer upload.
+  * recommends cups-bsd (Closes: #499514) 
+
+  [ Maximiliano Curia ]
+  * New upstream release (14.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 12:41:15 +0100
+
 okular (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -16,13 +27,6 @@ okular (4:14.12.0-0ubuntu1) vivid; urgency=medium
     - Add not-installed
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 18 Dec 2014 13:27:55 +0100
-
-okular (4:4.14.2-2.1) UNRELEASED; urgency=medium
-
-  * Non-maintainer upload.
-  * recommends cups-bsd (Closes: #499514) 
-
- -- Adrien Grellier <perso@adrieng.fr>  Wed, 26 Nov 2014 21:30:25 +0100
 
 okular (4:4.14.2-2) unstable; urgency=medium
 
