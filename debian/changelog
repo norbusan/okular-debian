@@ -2,7 +2,7 @@ okular (4:14.12.2-1~) UNRELEASED; urgency=medium
 
   [ Adrien Grellier ]
   * Non-maintainer upload.
-  * recommends cups-bsd (Closes: #499514) 
+  * recommends cups-bsd (Closes: #499514)
 
   [ Maximiliano Curia ]
   * New upstream release (14.12.2).
@@ -12,9 +12,9 @@ okular (4:14.12.2-1~) UNRELEASED; urgency=medium
 okular (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-  * Fix kdelibs5-dev version as it is still in the 4.14 series. 
+  * Fix kdelibs5-dev version as it is still in the 4.14 series.
   * Relax on the kdelibs version requirements so it builds in sid.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:14:58 -0800
@@ -98,9 +98,9 @@ okular (4:4.14.1-0ubuntu2) utopic; urgency=medium
 okular (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
-  * Removing support for plasma-active as it doees not exist in Utopic. 
+  * Removing support for plasma-active as it doees not exist in Utopic.
   * Move leftover plasma-active files to not-installed
-  * Add missing icons to install file. 
+  * Add missing icons to install file.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:51:44 +0200
 
@@ -207,8 +207,8 @@ okular (4:4.12.90-0ubuntu1) trusty; urgency=medium
   * new upstream alpha release
 
   [ Philip Muškovac ]
-  * Bump ABI of libokularcore3 to 1 and update install and symbols file 
-  * Build-depend on libkscreen-dev 
+  * Bump ABI of libokularcore3 to 1 and update install and symbols file
+  * Build-depend on libkscreen-dev
 
   [ Jonathan Riddell ]
   * Add build-dep on libqjson-dev
@@ -365,12 +365,12 @@ okular (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   [ Rohan Garg ]
   * New upstream release
- 
+
   [ Howard Chan ]
-  * Fix okularcore to new SOVERSION along with symbols and install  
+  * Fix okularcore to new SOVERSION along with symbols and install
     file changes.
   * Fixed some install files.
-  * Updated the control file to enable the new SOVERSION. 
+  * Updated the control file to enable the new SOVERSION.
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 01:47:10 +0100
 
@@ -608,7 +608,7 @@ okular (4:4.8.3-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Update symbol files for gcc 4.7 
+  * Update symbol files for gcc 4.7
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 13 May 2012 19:52:01 +0200
 
@@ -751,4 +751,3 @@ okular (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Repack upstream source to include COPYING.DOC and COPYING.LIB
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 00:38:53 +0200
-
