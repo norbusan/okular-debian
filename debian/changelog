@@ -1,4 +1,4 @@
-okular (4:14.12.2-1~) UNRELEASED; urgency=medium
+okular (4:14.12.2-1) experimental; urgency=medium
 
   [ Adrien Grellier ]
   * Non-maintainer upload.
@@ -7,7 +7,7 @@ okular (4:14.12.2-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (14.12.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 12:41:15 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 13:14:52 +0100
 
 okular (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
