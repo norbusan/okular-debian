@@ -2,7 +2,9 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-.PHONY: override_dh_auto_test
+override_dh_auto_test:
+	# Disable dh_auto_test at build time
+	:
 
 override_dh_shlibdeps:
 	$(overridden_command) $(foreach p,$(shell dh_listpackages | grep ^lib),-p$p) -- -xkde-runtime
