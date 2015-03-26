@@ -1,3 +1,9 @@
+okular (4:14.12.3-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:30:10 +0100
+
 okular (4:14.12.2-1) experimental; urgency=medium
 
   [ Adrien Grellier ]
