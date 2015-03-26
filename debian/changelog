@@ -4,6 +4,13 @@ okular (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:30:10 +0100
 
+okular (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Fix kdelibs5 version in build depends 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:20:31 -0700
+
 okular (4:14.12.2-1) experimental; urgency=medium
 
   [ Adrien Grellier ]
