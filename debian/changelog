@@ -1,6 +1,7 @@
 okular (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix kdelibs version 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 15:02:47 -0700
 
