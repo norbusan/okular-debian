@@ -1,9 +1,10 @@
-okular (4:15.04.1-1~) UNRELEASED; urgency=medium
+okular (4:15.04.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 14:09:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:02:51 +0200
 
 okular (4:14.12.3-1) experimental; urgency=medium
 
