@@ -1,10 +1,14 @@
-okular (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+okular (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * Fix kdelibs version 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 23:02:32 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:27:16 +0200
 
 okular (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
