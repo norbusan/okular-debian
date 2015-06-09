@@ -1,4 +1,4 @@
-okular (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
+okular (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -8,7 +8,7 @@ okular (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:27:16 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 22:34:52 +0200
 
 okular (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
