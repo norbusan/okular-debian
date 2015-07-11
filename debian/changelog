@@ -1,8 +1,8 @@
-okular (4:4.14.2-3~) UNRELEASED; urgency=medium
+okular (4:4.14.2-3) unstable; urgency=medium
 
   * Remove libkscreen build dep to allow the transition to happen.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 11 Jul 2015 09:17:51 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 11 Jul 2015 17:36:48 +0200
 
 okular (4:4.14.2-2) unstable; urgency=medium
 
