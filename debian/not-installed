@@ -1,3 +1,5 @@
+# The manpages are gzipped
+usr/share/man/man1/okular.1
 usr/share/applications/kde4/active-documentviewer_chm.desktop
 usr/share/applications/kde4/active-documentviewer_comicbook.desktop
 usr/share/applications/kde4/active-documentviewer_djvu.desktop
