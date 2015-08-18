@@ -1,4 +1,4 @@
-okular (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+okular (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Update symbols: mark as optional symbols gone after building with
@@ -7,7 +7,7 @@ okular (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:45:31 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 12:26:16 +0100
 
 okular (4:15.04.2-0ubuntu1) wily; urgency=medium
 
