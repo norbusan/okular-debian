@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08 amd64
 libokularcore.so.6 libokularcore6 #MINVER#
  _ZN6Okular10Annotation11setContentsERK7QString@Base 4:14.12.0
  _ZN6Okular10Annotation11setNativeIdERK8QVariant@Base 4:14.12.0
@@ -478,9 +478,6 @@ libokularcore.so.6 libokularcore6 #MINVER#
  _ZN6Okular19HighlightAnnotationD2Ev@Base 4:14.12.0
  _ZN6Okular19SourceRefObjectRectC1ERKNS_15NormalizedPointEPv@Base 4:14.12.0
  _ZN6Okular19SourceRefObjectRectC2ERKNS_15NormalizedPointEPv@Base 4:14.12.0
- _ZN6Okular19SourceRefObjectRectD0Ev@Base 4:14.12.0
- _ZN6Okular19SourceRefObjectRectD1Ev@Base 4:14.12.0
- _ZN6Okular19SourceRefObjectRectD2Ev@Base 4:14.12.0
  _ZN6Okular20AnnotationObjectRect9transformERK10QTransform@Base 4:14.12.0
  _ZN6Okular20AnnotationObjectRectC1EPNS_10AnnotationE@Base 4:14.12.0
  _ZN6Okular20AnnotationObjectRectC2EPNS_10AnnotationE@Base 4:14.12.0
@@ -489,9 +486,6 @@ libokularcore.so.6 libokularcore6 #MINVER#
  _ZN6Okular20AnnotationObjectRectD2Ev@Base 4:14.12.0
  _ZN6Okular20TextDocumentSettingsC1ERK7QStringP7QObject@Base 4:14.12.0
  _ZN6Okular20TextDocumentSettingsC2ERK7QStringP7QObject@Base 4:14.12.0
- _ZN6Okular20TextDocumentSettingsD0Ev@Base 4:14.12.0
- _ZN6Okular20TextDocumentSettingsD1Ev@Base 4:14.12.0
- _ZN6Okular20TextDocumentSettingsD2Ev@Base 4:14.12.0
  _ZN6Okular21TextDocumentConverter11addMetaDataENS_12DocumentInfo3KeyERK7QString@Base 4:14.12.0
  _ZN6Okular21TextDocumentConverter11addMetaDataERK7QStringS3_S3_@Base 4:14.12.0
  _ZN6Okular21TextDocumentConverter11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -1267,7 +1261,6 @@ libokularcore.so.6 libokularcore6 #MINVER#
  _ZTVN6Okular15BookmarkManager7PrivateE@Base 4:14.12.0
  _ZTVN6Okular15BookmarkManagerE@Base 4:14.12.0
  _ZTVN6Okular15CaretAnnotationE@Base 4:14.12.0
- _ZTVN6Okular15ConfigInterfaceE@Base 4:14.12.0
  _ZTVN6Okular15FormFieldButtonE@Base 4:14.12.0
  _ZTVN6Okular15FormFieldChoiceE@Base 4:14.12.0
  _ZTVN6Okular15MovieAnnotationE@Base 4:14.12.0

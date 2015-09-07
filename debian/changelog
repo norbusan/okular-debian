@@ -1,10 +1,13 @@
-okular (4:15.04.2-1~) UNRELEASED; urgency=medium
+okular (4:15.08.0-1) unstable; urgency=medium
 
-  * New upstream release (15.04.0).
-  * New upstream release (15.04.1).
-  * New upstream release (15.04.2).
+  * Team upload.
+  * Upload to unstable
+  * New upstream release
+  * Add build-depends on libsoprano-dev since it is no longer indirectly
+    pulled in
+  * Update symbols files for gcc-5 transition (Closes: #778037)
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:02:51 +0200
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 07 Sep 2015 15:40:13 -0400
 
 okular (4:14.12.3-1) experimental; urgency=medium
 
@@ -48,6 +51,12 @@ okular (4:14.12.0-0ubuntu1) vivid; urgency=medium
     - Add not-installed
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 18 Dec 2014 13:27:55 +0100
+
+okular (4:4.14.2-3) unstable; urgency=medium
+
+  * Remove libkscreen build dep to allow the transition to happen.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 11 Jul 2015 17:36:48 +0200
 
 okular (4:4.14.2-2) unstable; urgency=medium
 
