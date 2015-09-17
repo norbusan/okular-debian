@@ -1,3 +1,9 @@
+okular (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release (15.18.1)
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 11:43:29 +0100
+
 okular (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * No change rebuild for new libkexiv
