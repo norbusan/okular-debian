@@ -1,8 +1,8 @@
-okular (4:15.08.1-1~) UNRELEASED; urgency=medium
+okular (4:15.08.1-1) unstable; urgency=medium
 
   * New upstream release (15.08.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:41:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:10:44 +0200
 
 okular (4:15.08.0-1) unstable; urgency=medium
 
