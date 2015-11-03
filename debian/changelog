@@ -1,3 +1,9 @@
+okular (4:15.08.2-0ubuntu2) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:55 +0100
+
 okular (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
