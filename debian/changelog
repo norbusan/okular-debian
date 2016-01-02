@@ -1,3 +1,9 @@
+okular (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:40:11 +0000
+
 okular (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
