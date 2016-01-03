@@ -31,7 +31,7 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/okular.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/okular.git
 
-Package: libokularcore6
+Package: libokularcore7
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -43,7 +43,7 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: libokularcore6 (= ${binary:Version}),
+Depends: libokularcore7 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: cups-bsd
@@ -74,7 +74,7 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore6 (= ${binary:Version}),
+Depends: libokularcore7 (= ${binary:Version}),
          ${misc:Depends},
          ${sameVersionDep:kdelibs5-dev:libokularcore6}
 Description: development files for the Okular libraries

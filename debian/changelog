@@ -1,6 +1,7 @@
 okular (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Bumping libokularcore6 to version 7
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:40:11 +0000
 
