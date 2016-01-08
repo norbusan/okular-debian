@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 4:15.04.2 amd64
-libokularcore.so.6 libokularcore6 #MINVER#
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64 i386
+libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular10Annotation11setContentsERK7QString@Base 4:14.12.0
  _ZN6Okular10Annotation11setNativeIdERK8QVariant@Base 4:14.12.0
  _ZN6Okular10Annotation13setUniqueNameERK7QString@Base 4:14.12.0
