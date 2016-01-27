@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08 amd64
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64
 libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular10Annotation11setContentsERK7QString@Base 4:14.12.0
  _ZN6Okular10Annotation11setNativeIdERK8QVariant@Base 4:14.12.0
@@ -283,7 +283,7 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular14NormalizedRectC2Ev@Base 4:14.12.0
  _ZN6Okular14NormalizedRectaSERKS0_@Base 4:14.12.0
  _ZN6Okular14NormalizedRectoRERKS0_@Base 4:14.12.0
- _ZN6Okular14PageTransition11setDurationEi@Base 4:14.12.0
+ _ZN6Okular14PageTransition11setDurationEd@Base 4:15.12.0
  _ZN6Okular14PageTransition12setAlignmentENS0_9AlignmentE@Base 4:14.12.0
  _ZN6Okular14PageTransition12setDirectionENS0_9DirectionE@Base 4:14.12.0
  _ZN6Okular14PageTransition16setIsRectangularEb@Base 4:14.12.0
@@ -583,6 +583,7 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular5Movie11setRotationENS_8RotationE@Base 4:14.12.0
  _ZN6Okular5Movie14setPosterImageERK6QImage@Base 4:14.12.0
  _ZN6Okular5Movie15setShowControlsEb@Base 4:14.12.0
+ _ZN6Okular5Movie18setPlayRepetitionsEd@Base 4:15.12.0
  _ZN6Okular5Movie18setShowPosterImageEb@Base 4:14.12.0
  _ZN6Okular5Movie7setSizeERK5QSize@Base 4:14.12.0
  _ZN6Okular5MovieC1ERK7QString@Base 4:14.12.0
@@ -1049,6 +1050,7 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular4View4nameEv@Base 4:14.12.0
  _ZNK6Okular5Movie11posterImageEv@Base 4:14.12.0
  _ZNK6Okular5Movie12showControlsEv@Base 4:14.12.0
+ _ZNK6Okular5Movie15playRepetitionsEv@Base 4:15.12.0
  _ZNK6Okular5Movie15showPosterImageEv@Base 4:14.12.0
  _ZNK6Okular5Movie3urlEv@Base 4:14.12.0
  _ZNK6Okular5Movie4sizeEv@Base 4:14.12.0
@@ -1067,6 +1069,7 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular8Document10metaObjectEv@Base 4:14.12.0
  _ZNK6Okular8Document10printErrorEv@Base 4:14.12.0
  _ZNK6Okular8Document11currentPageEv@Base 4:14.12.0
+ _ZNK6Okular8Document11layersModelEv@Base 4:15.12.0
  _ZNK6Okular8Document11orientationEv@Base 4:14.12.0
  _ZNK6Okular8Document12allPagesSizeEv@Base 4:14.12.0
  _ZNK6Okular8Document12documentInfoERK4QSetINS_12DocumentInfo3KeyEE@Base 4:14.12.0
@@ -1081,6 +1084,7 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular8Document14canSaveChangesEv@Base 4:14.12.0
  _ZNK6Okular8Document14historyAtBeginEv@Base 4:14.12.0
  _ZNK6Okular8Document14pageSizeStringEi@Base 4:14.12.0
+ _ZNK6Okular8Document14reloadDocumentEv@Base 4:15.12.0
  _ZNK6Okular8Document15bookmarkManagerEv@Base 4:14.12.0
  _ZNK6Okular8Document15canExportToTextEv@Base 4:14.12.0
  _ZNK6Okular8Document15currentDocumentEv@Base 4:14.12.0
@@ -1138,6 +1142,7 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular9Generator10hasFeatureENS0_16GeneratorFeatureE@Base 4:14.12.0
  _ZNK6Okular9Generator10metaObjectEv@Base 4:14.12.0
  _ZNK6Okular9Generator10printErrorEv@Base 4:14.12.0
+ _ZNK6Okular9Generator11layersModelEv@Base 4:15.12.0
  _ZNK6Okular9Generator13embeddedFilesEv@Base 4:14.12.0
  _ZNK6Okular9Generator13exportFormatsEv@Base 4:14.12.0
  _ZNK6Okular9Generator15pagesSizeMetricEv@Base 4:14.12.0
