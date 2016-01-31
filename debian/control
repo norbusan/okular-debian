@@ -96,14 +96,3 @@ Description: additional document format support for Okular
   * EPub eBooks
  .
  This package is part of the KDE graphics module.
-
-Package: okular-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: okular (= ${binary:Version}), ${misc:Depends}
-Replaces: kdegraphics-dbg (<= 4.6.90)
-Breaks: kdegraphics-dbg (<= 4.6.90)
-Description: debugging symbols for okular
- This package contains debugging files used to investigate problems with
- binaries included in the KDE okular document viewer
