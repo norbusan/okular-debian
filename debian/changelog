@@ -1,3 +1,10 @@
+okular (4:15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:17 +0100
+
 okular (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
@@ -7,6 +14,18 @@ okular (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bumping /usr/share/pkg-kde-tools/qt-kde-team/2 to 3  
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:40:11 +0000
+
+okular (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:38:38 +0100
+
+okular (4:15.08.2-1) unstable; urgency=medium
+
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:06:51 +0200
 
 okular (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
@@ -20,11 +39,28 @@ okular (4:15.08.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 13:04:08 +0100
 
+okular (4:15.08.1-1) unstable; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:10:44 +0200
+
 okular (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:44:50 +0100
+
+okular (4:15.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * New upstream release
+  * Add build-depends on libsoprano-dev since it is no longer indirectly
+    pulled in
+  * Update symbols files for gcc-5 transition (Closes: #778037)
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 07 Sep 2015 15:40:13 -0400
 
 okular (4:15.08.0-0ubuntu2) wily; urgency=medium
 
@@ -61,6 +97,12 @@ okular (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 22:34:52 +0200
 
+okular (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:04 +0200
+
 okular (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -68,12 +110,23 @@ okular (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:20:31 -0700
 
+okular (4:14.12.2-1) experimental; urgency=medium
+
+  [ Adrien Grellier ]
+  * Non-maintainer upload.
+  * recommends cups-bsd (Closes: #499514)
+
+  [ Maximiliano Curia ]
+  * New upstream release (14.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 13:14:52 +0100
+
 okular (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-  * Fix kdelibs5-dev version as it is still in the 4.14 series. 
+  * Fix kdelibs5-dev version as it is still in the 4.14 series.
   * Relax on the kdelibs version requirements so it builds in sid.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:14:58 -0800
@@ -87,12 +140,11 @@ okular (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 18 Dec 2014 13:27:55 +0100
 
-okular (4:4.14.2-2.1) UNRELEASED; urgency=medium
+okular (4:4.14.2-3) unstable; urgency=medium
 
-  * Non-maintainer upload.
-  * recommends cups-bsd (Closes: #499514) 
+  * Remove libkscreen build dep to allow the transition to happen.
 
- -- Adrien Grellier <perso@adrieng.fr>  Wed, 26 Nov 2014 21:30:25 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 11 Jul 2015 17:36:48 +0200
 
 okular (4:4.14.2-2) unstable; urgency=medium
 
@@ -164,9 +216,9 @@ okular (4:4.14.1-0ubuntu2) utopic; urgency=medium
 okular (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
-  * Removing support for plasma-active as it doees not exist in Utopic. 
+  * Removing support for plasma-active as it doees not exist in Utopic.
   * Move leftover plasma-active files to not-installed
-  * Add missing icons to install file. 
+  * Add missing icons to install file.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:51:44 +0200
 
@@ -273,8 +325,8 @@ okular (4:4.12.90-0ubuntu1) trusty; urgency=medium
   * new upstream alpha release
 
   [ Philip Muškovac ]
-  * Bump ABI of libokularcore3 to 1 and update install and symbols file 
-  * Build-depend on libkscreen-dev 
+  * Bump ABI of libokularcore3 to 1 and update install and symbols file
+  * Build-depend on libkscreen-dev
 
   [ Jonathan Riddell ]
   * Add build-dep on libqjson-dev
@@ -431,12 +483,12 @@ okular (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   [ Rohan Garg ]
   * New upstream release
- 
+
   [ Howard Chan ]
-  * Fix okularcore to new SOVERSION along with symbols and install  
+  * Fix okularcore to new SOVERSION along with symbols and install
     file changes.
   * Fixed some install files.
-  * Updated the control file to enable the new SOVERSION. 
+  * Updated the control file to enable the new SOVERSION.
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 01:47:10 +0100
 
@@ -674,7 +726,7 @@ okular (4:4.8.3-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Update symbol files for gcc 4.7 
+  * Update symbol files for gcc 4.7
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 13 May 2012 19:52:01 +0200
 
@@ -817,4 +869,3 @@ okular (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Repack upstream source to include COPYING.DOC and COPYING.LIB
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 00:38:53 +0200
-

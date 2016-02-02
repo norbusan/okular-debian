@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.14),
@@ -19,6 +19,7 @@ Build-Depends: cmake,
                libqimageblitz-dev,
                libqjson-dev,
                libqmobipocket-dev,
+               libsoprano-dev,
                libspectre-dev,
                libtiff-dev,
                libx11-dev,
@@ -26,10 +27,9 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.14),
                zlib1g-dev
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/okular.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/okular.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/okular.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/okular.git
 
 Package: libokularcore7
 Section: libs
@@ -76,7 +76,7 @@ Section: libdevel
 Architecture: any
 Depends: libokularcore7 (= ${binary:Version}),
          ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libokularcore6}
+         ${sameVersionDep:kdelibs5-dev:libokularcore7}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
@@ -96,14 +96,3 @@ Description: additional document format support for Okular
   * EPub eBooks
  .
  This package is part of the KDE graphics module.
-
-Package: okular-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: okular (= ${binary:Version}), ${misc:Depends}
-Replaces: kdegraphics-dbg (<= 4.6.90)
-Breaks: kdegraphics-dbg (<= 4.6.90)
-Description: debugging symbols for okular
- This package contains debugging files used to investigate problems with
- binaries included in the KDE okular document viewer
