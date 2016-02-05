@@ -1,4 +1,4 @@
-okular (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+okular (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Bumping libokularcore6 to version 7
