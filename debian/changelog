@@ -1,4 +1,4 @@
-okular (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+okular (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * New upstream release
   * Bumping libokularcore6 to version 7
@@ -6,7 +6,7 @@ okular (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
   * Updating libokularcore.so.7 libokularcore7 #MINVER#
   * Bumping /usr/share/pkg-kde-tools/qt-kde-team/2 to 3
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:40:11 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:33:14 +0100
 
 okular (4:15.12.1-1) experimental; urgency=medium
 
