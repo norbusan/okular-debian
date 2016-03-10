@@ -1,3 +1,9 @@
+okular (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 10 Mar 2016 09:25:02 -0800
+
 okular (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * New upstream release
