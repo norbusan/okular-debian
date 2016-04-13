@@ -1,3 +1,13 @@
+okular (4:15.12.3-1~1.gbp66e206) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @66e206b454e718291ee10df3ebd6696b0f8d02c0 **
+
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+  * Update symbols files from buildds logs (4:15.12.1-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:01:48 +0200
+
 okular (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
