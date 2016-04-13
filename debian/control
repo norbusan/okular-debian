@@ -28,8 +28,8 @@ Build-Depends: cmake (>= 2.8.9~),
                zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/okular.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/okular.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
 
 Package: libokularcore7
 Section: libs
