@@ -1,12 +1,13 @@
-okular (4:15.12.3-1~1.gbp66e206) UNRELEASED; urgency=medium
+okular (4:15.12.3-1~2.gbp0ea8c7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @66e206b454e718291ee10df3ebd6696b0f8d02c0 **
+  ** SNAPSHOT build @0ea8c77a899aa7d320874dafbbf26512d19b949a **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update symbols files from buildds logs (4:15.12.1-1).
+  * Drop symbols introduced in the experimental version
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:01:48 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 14:25:26 +0200
 
 okular (4:15.12.1-1) experimental; urgency=medium
 
