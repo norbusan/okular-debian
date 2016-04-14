@@ -1,244 +1,5 @@
-# SymbolsHelper-Confirmed: 4:15.12.1 hppa sparc64 x32
+# SymbolsHelper-Confirmed: 4:15.12.3 amd64
 libokularcore.so.7 libokularcore7 #MINVER#
- _Z16makeAndSortLinesRK5QListI18WordWithCharactersEii@Base 4:15.12.1
- _Z17addNecessarySpace5QListI10RegionTextEii@Base 4:15.12.1
- _Z18qt_pixelMultiplieri@Base 4:15.12.1
- (optional=templinst)_Z21qMetaTypeDeleteHelperIN6Okular8FontInfoEEvPT_@Base 4:15.12.1
- _Z23qStringComparisonHelperRK7QStringPKc@Base 4:15.12.1
- (optional=templinst)_Z24qMetaTypeConstructHelperIN6Okular8FontInfoEEPvPKT_@Base 4:15.12.1
- (arch=!x32)_Z4i18nPKc@Base 4:15.12.1
- (arch=!x32)_Z5i18ncPKcS0_@Base 4:15.12.1
- (optional=templinst)_ZN10KSharedPtrI9KMimeTypeE6attachEPS0_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN10KSharedPtrI9KMimeTypeED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN10KSharedPtrI9KMimeTypeED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIN6Okular10Annotation8RevisionEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIN6Okular15NormalizedPointEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIN6Okular15NormalizedPointEE6appendERKS1_@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIN6Okular15NormalizedPointEEaSERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIN6Okular16DocumentViewportEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN11QLinkedListIN6Okular16DocumentViewportEE5clearEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIN6Okular16DocumentViewportEE5eraseENS2_8iteratorE@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIN6Okular16DocumentViewportEE6insertENS2_8iteratorERKS1_@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIP15AllocatedPixmapE13detach_helperEv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN11QLinkedListIP15AllocatedPixmapE5clearEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIP15AllocatedPixmapE5eraseENS2_8iteratorE@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIP15AllocatedPixmapE6appendERKS1_@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular10AnnotationEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular10ObjectRectEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular10ObjectRectEE5eraseENS3_8iteratorE@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular10ObjectRectEE6appendERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular13PixmapRequestEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular13PixmapRequestEE5eraseENS3_8iteratorE@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular13PixmapRequestEE6appendERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular13PixmapRequestEE9removeAllERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular17HighlightAreaRectEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular19SourceRefObjectRectEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN11QLinkedListIPN6Okular9FormFieldEE13detach_helperEv@Base 4:15.12.1
- _ZN12ThreadWeaver3Job12requestAbortEv@Base 4:15.12.1
- _ZN16QPageSizePrivate4initEN9QPageSize10PageSizeIdE@Base 4:15.12.1
- _ZN16QPageSizePrivate4initERK5QSize@Base 4:15.12.1
- _ZN16QPageSizePrivate4initERK6QSizeFN9QPageSize4UnitE@Base 4:15.12.1
- _ZN16QPageSizePrivateC1EN9QPageSize10PageSizeIdE@Base 4:15.12.1
- _ZN16QPageSizePrivateC2EN9QPageSize10PageSizeIdE@Base 4:15.12.1
- _ZN16QPageSizePrivateD1Ev@Base 4:15.12.1
- _ZN16QPageSizePrivateD2Ev@Base 4:15.12.1
- _ZN17kMimeTypeMoreThanclERK10KSharedPtrI8KServiceES4_@Base 4:15.12.1
- _ZN18ChooseEngineDialogC1ERK11QStringListRK10KSharedPtrI9KMimeTypeEP7QWidget@Base 4:15.12.1
- _ZN18ChooseEngineDialogC2ERK11QStringListRK10KSharedPtrI9KMimeTypeEP7QWidget@Base 4:15.12.1
- _ZN18ChooseEngineDialogD0Ev@Base 4:15.12.1
- _ZN18ChooseEngineDialogD1Ev@Base 4:15.12.1
- _ZN18ChooseEngineDialogD2Ev@Base 4:15.12.1
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListI18WordWithCharactersE8iteratorES2_PFbRKS2_S6_EEEvT_S9_RKT0_T1_@Base 4:15.12.1
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListI9KBookmarkE8iteratorES2_PFbRKS2_S6_EEEvT_S9_RKT0_T1_@Base 4:15.12.1
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIP7QActionE8iteratorES3_PFbS3_S3_EEEvT_S8_RKT0_T1_@Base 4:15.12.1
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIPN6Okular8TileNodeEE8iteratorES4_PFbS4_S4_EEEvT_S9_RKT0_T1_@Base 4:15.12.1
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIiE8iteratorEi5qLessIiEEEvT_S6_RKT0_T1_@Base 4:15.12.1
- (optional=templinst)_ZN18QAlgorithmsPrivate17qStableSortHelperIN5QListI10KSharedPtrI8KServiceEE8iteratorES4_17kMimeTypeMoreThanEEvT_S8_RKT0_T1_@Base 4:15.12.1
- (optional=templinst)_ZN18QAlgorithmsPrivate6qMergeIN5QListI10KSharedPtrI8KServiceEE8iteratorEKS4_17kMimeTypeMoreThanEEvT_S9_S9_RT0_T1_@Base 4:15.12.1
- (optional=templinst)_ZN18QAlgorithmsPrivate8qReverseIN5QListI10KSharedPtrI8KServiceEE8iteratorEEEvT_S7_@Base 4:15.12.1
- (optional=templinst)_ZN18QSharedDataPointerIN6Okular15FontInfoPrivateEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN18QSharedDataPointerIN6Okular15PageSizePrivateEE13detach_helperEv@Base 4:15.12.1
- _ZN20KCleanUpGlobalStaticD1Ev@Base 4:15.12.1
- _ZN20KCleanUpGlobalStaticD2Ev@Base 4:15.12.1
- _ZN20OkularBookmarkActionD0Ev@Base 4:15.12.1
- _ZN20OkularBookmarkActionD1Ev@Base 4:15.12.1
- _ZN20OkularBookmarkActionD2Ev@Base 4:15.12.1
- (optional=templinst)_ZN4QMapI7QStringS0_E13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIN6Okular10Annotation20AdditionalActionTypeEPNS0_6ActionEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIPKN6Okular16DocumentObserverEPNS0_12TilesManagerEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIPKN6Okular16DocumentObserverEPNS0_12TilesManagerEE6removeERKS3_@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIPN6Okular16DocumentObserverENS0_11PagePrivate12PixmapObjectEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIPN6Okular4PageE7QVectorI5QPairIPNS0_15RegularAreaRectE6QColorEEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIPN6Okular4PageE7QVectorI5QPairIPNS0_15RegularAreaRectE6QColorEEE6removeERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIPN6Okular4PageE7QVectorIPNS0_15RegularAreaRectEEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIiP11SearchPointE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIiP11SearchPointE5eraseENS2_8iteratorE@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIiP13RunningSearchE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIiP13RunningSearchE5eraseENS2_8iteratorE@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIiPN6Okular15VisiblePageRectEE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIiiE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN4QMapIiiE6removeERKi@Base 4:15.12.1
- (optional=templinst)_ZN5QHashI4KUrl7QStringE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashI4KUrl7QStringE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashI4KUrl7QStringE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashI5QChar7QStringE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashI5QChar7QStringE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QHashI5QChar7QStringE6insertERKS0_RKS1_@Base 4:15.12.1
- (optional=templinst)_ZN5QHashI7QString13GeneratorInfoE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashI7QString13GeneratorInfoE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashI7QString13GeneratorInfoE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIN6Okular10ObjectRect10ObjectTypeE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIN6Okular10ObjectRect10ObjectTypeE15QHashDummyValueE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIN6Okular10ObjectRect10ObjectTypeE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIN6Okular12DocumentInfo3KeyE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIN6Okular12DocumentInfo3KeyE15QHashDummyValueE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIN6Okular12DocumentInfo3KeyE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIN6Okular12DocumentInfo3KeyE15QHashDummyValueE6removeERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular16DocumentObserverE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular16DocumentObserverE15QHashDummyValueE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular16DocumentObserverE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular16DocumentObserverE15QHashDummyValueE6removeERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular4ViewE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular4ViewE15QHashDummyValueE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular4ViewE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular4ViewE15QHashDummyValueE6removeERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular9FormFieldE9KJSObjectE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIPN6Okular9FormFieldE9KJSObjectE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi12pdfsyncpointE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi12pdfsyncpointE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi12pdfsyncpointE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi15QHashDummyValueE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QHashIi15QHashDummyValueE6insertERKiRKS0_@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi15QHashDummyValueE6removeERKi@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi7QStringE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi7QStringE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi7QStringE6insertERKiRKS0_@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi7QStringED1Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIi7QStringED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIiP8PlayDataE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIiP8PlayDataE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIiP8PlayDataE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIiPN6Okular9FormFieldEE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIiPN6Okular9FormFieldEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIiiE11deleteNode2EPN9QHashData4NodeE@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIiiE13detach_helperEv@Base 4:15.12.1
- (optional=templinst)_ZN5QHashIiiE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:15.12.1
- (optional=templinst)_ZN5QListI10KSharedPtrI8KServiceEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI10KSharedPtrI8KServiceEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI10KSharedPtrI8KServiceEED2Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI10QByteArrayED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI10QByteArrayED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListI10RegionTextE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListI10RegionTextE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI10RegionTextED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI10RegionTextED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListI11QLinkedListIN6Okular15NormalizedPointEEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListI11QLinkedListIN6Okular15NormalizedPointEEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI11QLinkedListIN6Okular15NormalizedPointEEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI11QLinkedListIN6Okular15NormalizedPointEEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListI18WordWithCharactersE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListI18WordWithCharactersE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListI18WordWithCharactersE6appendERKS0_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI18WordWithCharactersED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI18WordWithCharactersED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListI18WordWithCharactersEpLERKS1_@Base 4:15.12.1
- (optional=templinst)_ZN5QListI4KUrlE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListI5QPairIS_I18WordWithCharactersE5QRectEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListI5QPairIS_I18WordWithCharactersE5QRectEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListI5QPairIS_I18WordWithCharactersE5QRectEE6appendERKS4_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI5QPairIS_I18WordWithCharactersE5QRectEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI5QPairIS_I18WordWithCharactersE5QRectEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListI5QRectE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListI5QRectE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListI5QRectE6appendERKS0_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI5QRectED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI5QRectED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI7QStringED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI7QStringED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListI7QStringEpLERKS1_@Base 4:15.12.1
- (optional=templinst)_ZN5QListI9KBookmarkE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListI9KBookmarkE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListI9KBookmarkE6appendERKS0_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI9KBookmarkED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListI9KBookmarkED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum7Choice2EE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum7Choice2EE6appendERKS2_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum7Choice2EED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum7Choice2EED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular12ExportFormatEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular12ExportFormatEE6appendERKS1_@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular12ExportFormatEED1Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular12ExportFormatEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular14NormalizedRectEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular14NormalizedRectEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular14NormalizedRectEE6appendERKS1_@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular19HighlightAnnotation4QuadEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular19HighlightAnnotation4QuadEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular19HighlightAnnotation4QuadEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular19HighlightAnnotation4QuadEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate12LinkPositionEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate12LinkPositionEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate12LinkPositionEE5clearEv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate12LinkPositionEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate12LinkPositionEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate13TitlePositionEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate13TitlePositionEE5clearEv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate13TitlePositionEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate13TitlePositionEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate14AnnotationInfoEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate14AnnotationInfoEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate14AnnotationInfoEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate18AnnotationPositionEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate18AnnotationPositionEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate18AnnotationPositionEE5clearEv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate18AnnotationPositionEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate18AnnotationPositionEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate8LinkInfoEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate8LinkInfoEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular28TextDocumentGeneratorPrivate8LinkInfoEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular4TileEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular4TileEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular4TileEED2Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular8FontInfoEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular8FontInfoEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIN6Okular8FontInfoEE5clearEv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular8FontInfoEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular8FontInfoEED2Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular8PageSizeEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular8PageSizeEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIN6Okular8PageSizeEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIP14TinyTextEntityE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIP14TinyTextEntityE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIP14TinyTextEntityE6appendERKS1_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIP14TinyTextEntityED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIP14TinyTextEntityED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIP14TinyTextEntityEpLERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN5QListIP7QActionE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIP7QActionE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIPN6Okular10TextEntityEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIPN6Okular10TextEntityEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIPN6Okular10TextEntityEE6appendERKS2_@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIPN6Okular10TextEntityEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIPN6Okular10TextEntityEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIPN6Okular15FormFieldButtonEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIPN6Okular15FormFieldButtonEED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIPN6Okular15FormFieldButtonEED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIPN6Okular8TileNodeEE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIPN6Okular8TileNodeEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIS_I5QRectEE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIbE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIbED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIbED2Ev@Base 4:15.12.1
- (optional=templinst)_ZN5QListIiE13detach_helperEi@Base 4:15.12.1
- (optional=templinst)_ZN5QListIiE18detach_helper_growEii@Base 4:15.12.1
- (optional=templinst)_ZN5QListIiE6appendERKi@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIiED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN5QListIiED2Ev@Base 4:15.12.1
  _ZN6Okular10Annotation11setContentsERK7QString@Base 4:14.12.0
  _ZN6Okular10Annotation11setNativeIdERK8QVariant@Base 4:14.12.0
  _ZN6Okular10Annotation13setUniqueNameERK7QString@Base 4:14.12.0
@@ -307,8 +68,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular10GotoActionD0Ev@Base 4:14.12.0
  _ZN6Okular10GotoActionD1Ev@Base 4:14.12.0
  _ZN6Okular10GotoActionD2Ev@Base 4:14.12.0
- _ZN6Okular10JSDocument12wrapDocumentEPNS_15DocumentPrivateE@Base 4:15.12.1
- _ZN6Okular10JSDocument8initTypeEP10KJSContext@Base 4:15.12.1
  _ZN6Okular10ObjectRect9transformERK10QTransform@Base 4:14.12.0
  _ZN6Okular10ObjectRectC1ERK9QPolygonFNS0_10ObjectTypeEPv@Base 4:14.12.0
  _ZN6Okular10ObjectRectC1ERKNS_14NormalizedRectEbNS0_10ObjectTypeEPv@Base 4:14.12.0
@@ -334,11 +93,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular11AudioPlayerD0Ev@Base 4:14.12.0
  _ZN6Okular11AudioPlayerD1Ev@Base 4:14.12.0
  _ZN6Okular11AudioPlayerD2Ev@Base 4:14.12.0
- _ZN6Okular11ExecutorKJS7executeERK7QString@Base 4:15.12.1
- _ZN6Okular11ExecutorKJSC1EPNS_15DocumentPrivateE@Base 4:15.12.1
- _ZN6Okular11ExecutorKJSC2EPNS_15DocumentPrivateE@Base 4:15.12.1
- _ZN6Okular11ExecutorKJSD1Ev@Base 4:15.12.1
- _ZN6Okular11ExecutorKJSD2Ev@Base 4:15.12.1
  _ZN6Okular11FilePrinter10deleteFileER8QPrinterNS0_16FileDeletePolicyERK7QString@Base 4:14.12.0
  _ZN6Okular11FilePrinter10printErrorEi@Base 4:14.12.0
  _ZN6Okular11FilePrinter11cupsOptionsER8QPrinterNS1_11OrientationE@Base 4:14.12.0
@@ -374,46 +128,11 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular11MovieActionD0Ev@Base 4:14.12.0
  _ZN6Okular11MovieActionD1Ev@Base 4:14.12.0
  _ZN6Okular11MovieActionD2Ev@Base 4:14.12.0
- _ZN6Okular11PagePrivate10changeSizeERKNS_8PageSizeE@Base 4:15.12.1
- _ZN6Okular11PagePrivate12setHighlightEiPNS_15RegularAreaRectERK6QColor@Base 4:15.12.1
- _ZN6Okular11PagePrivate15setTilesManagerEPKNS_16DocumentObserverEPNS_12TilesManagerE@Base 4:15.12.1
- _ZN6Okular11PagePrivate16deleteHighlightsEi@Base 4:15.12.1
- _ZN6Okular11PagePrivate17imageRotationDoneEPNS_11RotationJobE@Base 4:15.12.1
- _ZN6Okular11PagePrivate17setTextSelectionsEPNS_15RegularAreaRectERK6QColor@Base 4:15.12.1
- _ZN6Okular11PagePrivate20deleteTextSelectionsEv@Base 4:15.12.1
- _ZN6Okular11PagePrivate20restoreLocalContentsERK8QDomNode@Base 4:15.12.1
- _ZN6Okular11PagePrivate8rotateAtENS_8RotationE@Base 4:15.12.1
- _ZN6Okular11PagePrivateC1EPNS_4PageEjddNS_8RotationE@Base 4:15.12.1
- _ZN6Okular11PagePrivateC2EPNS_4PageEjddNS_8RotationE@Base 4:15.12.1
- _ZN6Okular11PagePrivateD1Ev@Base 4:15.12.1
- _ZN6Okular11PagePrivateD2Ev@Base 4:15.12.1
- (optional=templinst)_ZN6Okular11RegularAreaINS_14NormalizedRectE5QRectE11appendShapeERKS1_NS_9MergeSideE@Base 4:15.12.1
- (optional=templinst)_ZN6Okular11RegularAreaINS_14NormalizedRectE5QRectE8simplifyEv@Base 4:15.12.1
- (optional=templinst)_ZN6Okular11RegularAreaINS_14NormalizedRectE5QRectE9transformERK10QTransform@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN6Okular11RegularAreaINS_14NormalizedRectE5QRectED1Ev@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZN6Okular11RegularAreaINS_14NormalizedRectE5QRectED2Ev@Base 4:15.12.1
- _ZN6Okular11RotationJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.1
- _ZN6Okular11RotationJob11qt_metacastEPKc@Base 4:15.12.1
- _ZN6Okular11RotationJob14rotationMatrixENS_8RotationES1_@Base 4:15.12.1
- _ZN6Okular11RotationJob16staticMetaObjectE@Base 4:15.12.1
- _ZN6Okular11RotationJob3runEv@Base 4:15.12.1
- _ZN6Okular11RotationJob7setPageEPNS_11PagePrivateE@Base 4:15.12.1
- _ZN6Okular11RotationJob7setRectERKNS_14NormalizedRectE@Base 4:15.12.1
- _ZN6Okular11RotationJobC1ERK6QImageNS_8RotationES4_PNS_16DocumentObserverE@Base 4:15.12.1
- _ZN6Okular11RotationJobC2ERK6QImageNS_8RotationES4_PNS_16DocumentObserverE@Base 4:15.12.1
- _ZN6Okular11RotationJobD0Ev@Base 4:15.12.1
- _ZN6Okular11RotationJobD1Ev@Base 4:15.12.1
- _ZN6Okular11RotationJobD2Ev@Base 4:15.12.1
  _ZN6Okular11SoundActionC1EdbbbPNS_5SoundE@Base 4:14.12.0
  _ZN6Okular11SoundActionC2EdbbbPNS_5SoundE@Base 4:14.12.0
  _ZN6Okular11SoundActionD0Ev@Base 4:14.12.0
  _ZN6Okular11SoundActionD1Ev@Base 4:14.12.0
  _ZN6Okular11SoundActionD2Ev@Base 4:14.12.0
- _ZN6Okular11ViewPrivateC1Ev@Base 4:15.12.1
- _ZN6Okular11ViewPrivateC2Ev@Base 4:15.12.1
- _ZN6Okular11ViewPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular11ViewPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular11ViewPrivateD2Ev@Base 4:15.12.1
  _ZN6Okular12BrowseActionC1ERK7QString@Base 4:14.12.0
  _ZN6Okular12BrowseActionC2ERK7QString@Base 4:14.12.0
  _ZN6Okular12BrowseActionD0Ev@Base 4:14.12.0
@@ -448,8 +167,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular12ExportFormatD1Ev@Base 4:14.12.0
  _ZN6Okular12ExportFormatD2Ev@Base 4:14.12.0
  _ZN6Okular12ExportFormataSERKS0_@Base 4:14.12.0
- _ZN6Okular12JSFullscreen6objectEP10KJSContext@Base 4:15.12.1
- _ZN6Okular12JSFullscreen8initTypeEP10KJSContext@Base 4:15.12.1
  _ZN6Okular12ScriptActionC1ENS_10ScriptTypeERK7QString@Base 4:14.12.0
  _ZN6Okular12ScriptActionC2ENS_10ScriptTypeERK7QString@Base 4:14.12.0
  _ZN6Okular12ScriptActionD0Ev@Base 4:14.12.0
@@ -492,33 +209,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular12SettingsCoreD0Ev@Base 4:14.12.0
  _ZN6Okular12SettingsCoreD1Ev@Base 4:14.12.0
  _ZN6Okular12SettingsCoreD2Ev@Base 4:14.12.0
- _ZN6Okular12TilesManager10setRequestERKNS_14NormalizedRectEii@Base 4:15.12.1
- _ZN6Okular12TilesManager11setRotationENS_8RotationE@Base 4:15.12.1
- _ZN6Okular12TilesManager13toRotatedRectERKNS_14NormalizedRectENS_8RotationE@Base 4:15.12.1
- _ZN6Okular12TilesManager15fromRotatedRectERKNS_14NormalizedRectENS_8RotationE@Base 4:15.12.1
- _ZN6Okular12TilesManager19cleanupPixmapMemoryEyRKNS_14NormalizedRectEi@Base 4:15.12.1
- _ZN6Okular12TilesManager7Private11deleteTilesERKNS_8TileNodeE@Base 4:15.12.1
- _ZN6Okular12TilesManager7Private13splitBigTilesERNS_8TileNodeERKNS_14NormalizedRectE@Base 4:15.12.1
- _ZN6Okular12TilesManager7Private15markParentDirtyERKNS_8TileNodeE@Base 4:15.12.1
- _ZN6Okular12TilesManager7Private5splitERNS_8TileNodeERKNS_14NormalizedRectE@Base 4:15.12.1
- _ZN6Okular12TilesManager7Private7tilesAtERKNS_14NormalizedRectERNS_8TileNodeER5QListINS_4TileEENS0_8TileLeafE@Base 4:15.12.1
- _ZN6Okular12TilesManager7Private9markDirtyERNS_8TileNodeE@Base 4:15.12.1
- _ZN6Okular12TilesManager7Private9rankTilesERNS_8TileNodeER5QListIPS2_ERKNS_14NormalizedRectEi@Base 4:15.12.1
- _ZN6Okular12TilesManager7Private9setPixmapEPK7QPixmapRKNS_14NormalizedRectERNS_8TileNodeE@Base 4:15.12.1
- _ZN6Okular12TilesManager7PrivateC1Ev@Base 4:15.12.1
- _ZN6Okular12TilesManager7PrivateC2Ev@Base 4:15.12.1
- _ZN6Okular12TilesManager7setSizeEii@Base 4:15.12.1
- _ZN6Okular12TilesManager7tilesAtERKNS_14NormalizedRectENS0_8TileLeafE@Base 4:15.12.1
- _ZN6Okular12TilesManager9hasPixmapERKNS_14NormalizedRectE@Base 4:15.12.1
- _ZN6Okular12TilesManager9markDirtyEv@Base 4:15.12.1
- _ZN6Okular12TilesManager9setPixmapEPK7QPixmapRKNS_14NormalizedRectE@Base 4:15.12.1
- _ZN6Okular12TilesManagerC1EiiiNS_8RotationE@Base 4:15.12.1
- _ZN6Okular12TilesManagerC2EiiiNS_8RotationE@Base 4:15.12.1
- _ZN6Okular12TilesManagerD1Ev@Base 4:15.12.1
- _ZN6Okular12TilesManagerD2Ev@Base 4:15.12.1
- _ZN6Okular13ActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular13ActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular13ActionPrivateD2Ev@Base 4:15.12.1
  _ZN6Okular13ExecuteActionC1ERK7QStringS3_@Base 4:14.12.0
  _ZN6Okular13ExecuteActionC2ERK7QStringS3_@Base 4:14.12.0
  _ZN6Okular13ExecuteActionD0Ev@Base 4:14.12.0
@@ -551,7 +241,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular13TextSelectionC2ERKNS_15NormalizedPointES3_@Base 4:14.12.0
  _ZN6Okular13TextSelectionD1Ev@Base 4:14.12.0
  _ZN6Okular13TextSelectionD2Ev@Base 4:14.12.0
- _ZN6Okular13copyQIODeviceEP9QIODeviceS1_@Base 4:15.12.1
  _ZN6Okular14DocumentActionC1ENS0_18DocumentActionTypeE@Base 4:14.12.0
  _ZN6Okular14DocumentActionC2ENS0_18DocumentActionTypeE@Base 4:14.12.0
  _ZN6Okular14DocumentActionD0Ev@Base 4:14.12.0
@@ -594,17 +283,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular14NormalizedRectC2Ev@Base 4:14.12.0
  _ZN6Okular14NormalizedRectaSERKS0_@Base 4:14.12.0
  _ZN6Okular14NormalizedRectoRERKS0_@Base 4:14.12.0
- _ZN6Okular14PageController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.1
- _ZN6Okular14PageController11qt_metacastEPKc@Base 4:15.12.1
- _ZN6Okular14PageController14addRotationJobEPNS_11RotationJobE@Base 4:15.12.1
- _ZN6Okular14PageController16rotationFinishedEiPNS_4PageE@Base 4:15.12.1
- _ZN6Okular14PageController16staticMetaObjectE@Base 4:15.12.1
- _ZN6Okular14PageController17imageRotationDoneEPN12ThreadWeaver3JobE@Base 4:15.12.1
- _ZN6Okular14PageControllerC1Ev@Base 4:15.12.1
- _ZN6Okular14PageControllerC2Ev@Base 4:15.12.1
- _ZN6Okular14PageControllerD0Ev@Base 4:15.12.1
- _ZN6Okular14PageControllerD1Ev@Base 4:15.12.1
- _ZN6Okular14PageControllerD2Ev@Base 4:15.12.1
  _ZN6Okular14PageTransition11setDurationEd@Base 4:15.12.0
  _ZN6Okular14PageTransition12setAlignmentENS0_9AlignmentE@Base 4:14.12.0
  _ZN6Okular14PageTransition12setDirectionENS0_9DirectionE@Base 4:14.12.0
@@ -659,9 +337,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular15BookmarkManager7Private10_o_changedERK7QStringS4_@Base 4:14.12.0
  _ZN6Okular15BookmarkManager7Private12bookmarkFindERK4KUrlbP14KBookmarkGroup@Base 4:14.12.0
  _ZN6Okular15BookmarkManager7Private12openBookmarkERK9KBookmark6QFlagsIN2Qt11MouseButtonEES5_INS6_16KeyboardModifierEE@Base 4:14.12.0
- _ZN6Okular15BookmarkManager7PrivateD0Ev@Base 4:15.12.1
- _ZN6Okular15BookmarkManager7PrivateD1Ev@Base 4:15.12.1
- _ZN6Okular15BookmarkManager7PrivateD2Ev@Base 4:15.12.1
  _ZN6Okular15BookmarkManager7openUrlERK4KUrl@Base 4:14.12.0
  _ZN6Okular15BookmarkManagerC1EPNS_15DocumentPrivateE@Base 4:14.12.0
  _ZN6Okular15BookmarkManagerC2EPNS_15DocumentPrivateE@Base 4:14.12.0
@@ -676,57 +351,7 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular15CaretAnnotationD0Ev@Base 4:14.12.0
  _ZN6Okular15CaretAnnotationD1Ev@Base 4:14.12.0
  _ZN6Okular15CaretAnnotationD2Ev@Base 4:14.12.0
- _ZN6Okular15DocumentPrivate11requestDoneEPNS_13PixmapRequestE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate12loadSyncFileERK7QString@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate13generatorSaveER13GeneratorInfo@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate13getFreeMemoryEPy@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate13loadViewsInfoEPNS_4ViewERK11QDomElement@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate14getTotalMemoryEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate14refreshPixmapsEi@Base 4:15.12.1
  _ZN6Okular15DocumentPrivate15docDataFileNameERK4KUrlx@Base 4:14.12.0
- _ZN6Okular15DocumentPrivate15generatorConfigER13GeneratorInfo@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate15loadServiceListERK5QListI10KSharedPtrI8KServiceEE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate15unloadGeneratorERK13GeneratorInfo@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate16_o_configChangedEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate16loadDocumentInfoER5QFile@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate16loadDocumentInfoEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate16openRelativeFileERK7QString@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate16rotationFinishedEiPNS_4PageE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate18cacheExportFormatsEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate18fontReadingGotFontERKNS_8FontInfoE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate18setPageBoundingBoxEiRKNS_14NormalizedRectE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate18textGenerationDoneEPNS_4PageE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate19cleanupPixmapMemoryEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate19cleanupPixmapMemoryEy@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate19fontReadingProgressEi@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate19setRotationInternalEib@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate20doProcessSearchMatchEPNS_15RegularAreaRectEP13RunningSearchP4QSetIiEiibRK6QColor@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate20loadGeneratorLibraryERK10KSharedPtrI8KServiceE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate20openDocumentInternalERK10KSharedPtrI8KServiceEbRK7QStringRK10QByteArrayS8_@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate20slotTimedMemoryCheckEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate21calculateMaxTextPagesEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate21calculateMemoryToFreeEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate23notifyAnnotationChangesEi@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate23warnLimitedAnnotSupportEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate24performAddPageAnnotationEiPNS_10AnnotationE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate25loadAllGeneratorLibrariesEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate26searchLowestPriorityPixmapEbbPNS_16DocumentObserverE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate26sendGeneratorPixmapRequestEv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate26slotGeneratorConfigChangedERK7QString@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate27doContinueAllDocumentSearchEPvS1_ii@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate27performModifyPageAnnotationEiPNS_10AnnotationEb@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate27performRemovePageAnnotationEiPNS_10AnnotationE@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate28performSetAnnotationContentsERK7QStringPNS_10AnnotationEi@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate30doContinueDirectionMatchSearchEPv@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate31doContinueGooglesDocumentSearchEPvS1_iiRK11QStringList@Base 4:15.12.1
- _ZN6Okular15DocumentPrivate33isNormalizedRectangleFullyVisibleERKNS_14NormalizedRectEi@Base 4:15.12.1
- _ZN6Okular15EditTextCommand23newContentsLeftOfCursorEv@Base 4:15.12.1
- _ZN6Okular15EditTextCommand23oldContentsLeftOfCursorEv@Base 4:15.12.1
- _ZN6Okular15EditTextCommand24newContentsRightOfCursorEv@Base 4:15.12.1
- _ZN6Okular15EditTextCommand24oldContentsRightOfCursorEv@Base 4:15.12.1
- _ZN6Okular15EditTextCommand9mergeWithEPK12QUndoCommand@Base 4:15.12.1
- _ZN6Okular15EditTextCommandC1ERK7QStringiS3_ii@Base 4:15.12.1
- _ZN6Okular15EditTextCommandC2ERK7QStringiS3_ii@Base 4:15.12.1
  _ZN6Okular15FormFieldButton8setStateEb@Base 4:14.12.0
  _ZN6Okular15FormFieldButtonC1Ev@Base 4:14.12.0
  _ZN6Okular15FormFieldButtonC2Ev@Base 4:14.12.0
@@ -791,15 +416,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular15StampAnnotationD0Ev@Base 4:14.12.0
  _ZN6Okular15StampAnnotationD1Ev@Base 4:14.12.0
  _ZN6Okular15StampAnnotationD2Ev@Base 4:14.12.0
- _ZN6Okular15TextPagePrivate11setWordListERK5QListIP14TinyTextEntityE@Base 4:15.12.1
- _ZN6Okular15TextPagePrivate16correctTextOrderEv@Base 4:15.12.1
- _ZN6Okular15TextPagePrivate17searchPointToAreaEPK11SearchPoint@Base 4:15.12.1
- _ZN6Okular15TextPagePrivate23findTextInternalForwardEiRK7QStringPFbRK10QStringRefS6_ERKN5QListIP14TinyTextEntityE14const_iteratorEiSF_@Base 4:15.12.1
- _ZN6Okular15TextPagePrivate24findTextInternalBackwardEiRK7QStringPFbRK10QStringRefS6_ERKN5QListIP14TinyTextEntityE14const_iteratorEiSF_@Base 4:15.12.1
- _ZN6Okular15TextPagePrivateC1Ev@Base 4:15.12.1
- _ZN6Okular15TextPagePrivateC2Ev@Base 4:15.12.1
- _ZN6Okular15TextPagePrivateD1Ev@Base 4:15.12.1
- _ZN6Okular15TextPagePrivateD2Ev@Base 4:15.12.1
  _ZN6Okular15VisiblePageRectC1EiRKNS_14NormalizedRectE@Base 4:14.12.0
  _ZN6Okular15VisiblePageRectC2EiRKNS_14NormalizedRectE@Base 4:14.12.0
  _ZN6Okular16DocumentObserver10notifyZoomEi@Base 4:14.12.0
@@ -822,23 +438,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular16DocumentViewportC1Ei@Base 4:14.12.0
  _ZN6Okular16DocumentViewportC2ERK7QString@Base 4:14.12.0
  _ZN6Okular16DocumentViewportC2Ei@Base 4:14.12.0
- _ZN6Okular16FormFieldPrivate10setDefaultEv@Base 4:15.12.1
- _ZN6Okular16FormFieldPrivateC1ENS_9FormField9FieldTypeE@Base 4:15.12.1
- _ZN6Okular16FormFieldPrivateC2ENS_9FormField9FieldTypeE@Base 4:15.12.1
- _ZN6Okular16FormFieldPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular16FormFieldPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular16FormFieldPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivate11threadsLockEv@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivate22pixmapGenerationThreadEv@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivate24pixmapGenerationFinishedEv@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivate24textPageGenerationThreadEv@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivate26textpageGenerationFinishedEv@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivate5imageEPNS_13PixmapRequestE@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivateC1Ev@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivateC2Ev@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular16GeneratorPrivateD2Ev@Base 4:15.12.1
  _ZN6Okular16ScreenAnnotation19setAdditionalActionENS_10Annotation20AdditionalActionTypeEPNS_6ActionE@Base 4:14.12.0
  _ZN6Okular16ScreenAnnotation9setActionEPNS_6ActionE@Base 4:14.12.0
  _ZN6Okular16ScreenAnnotationC1ERK8QDomNode@Base 4:14.12.0
@@ -856,55 +455,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular16WidgetAnnotationD0Ev@Base 4:14.12.0
  _ZN6Okular16WidgetAnnotationD1Ev@Base 4:14.12.0
  _ZN6Okular16WidgetAnnotationD2Ev@Base 4:14.12.0
- _ZN6Okular17AnnotationPrivate11distanceSqrEdddd@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivate13baseTransformERK10QTransform@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivate19annotationTransformERK10QTransform@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivate19resetTransformationEv@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivate9transformERK10QTransform@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivate9translateERKNS_15NormalizedPointE@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivateC1Ev@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivateC2Ev@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular17AnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular17GotoActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular17GotoActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular17GotoActionPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular17HighlightAreaRectC1EPKNS_15RegularAreaRectE@Base 4:15.12.1
- _ZN6Okular17HighlightAreaRectC2EPKNS_15RegularAreaRectE@Base 4:15.12.1
- _ZN6Okular18AudioPlayerPrivate12stopPlayingsEv@Base 4:15.12.1
- _ZN6Okular18AudioPlayerPrivate4playERK9SoundInfo@Base 4:15.12.1
- _ZN6Okular18AudioPlayerPrivate8finishedEi@Base 4:15.12.1
- _ZN6Okular18AudioPlayerPrivateC1EPNS_11AudioPlayerE@Base 4:15.12.1
- _ZN6Okular18AudioPlayerPrivateC2EPNS_11AudioPlayerE@Base 4:15.12.1
- _ZN6Okular18AudioPlayerPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular18AudioPlayerPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular18ExecutorKJSPrivate9initTypesEv@Base 4:15.12.1
- _ZN6Okular18MovieActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular18MovieActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular18MovieActionPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular18SoundActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular18SoundActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular18SoundActionPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular19BrowseActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular19BrowseActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular19BrowseActionPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular19EditFormListCommand4redoEv@Base 4:15.12.1
- _ZN6Okular19EditFormListCommand4undoEv@Base 4:15.12.1
- _ZN6Okular19EditFormListCommandC1EPNS_15DocumentPrivateEPNS_15FormFieldChoiceEiRK5QListIiES8_@Base 4:15.12.1
- _ZN6Okular19EditFormListCommandC2EPNS_15DocumentPrivateEPNS_15FormFieldChoiceEiRK5QListIiES8_@Base 4:15.12.1
- _ZN6Okular19EditFormListCommandD0Ev@Base 4:15.12.1
- _ZN6Okular19EditFormListCommandD1Ev@Base 4:15.12.1
- _ZN6Okular19EditFormListCommandD2Ev@Base 4:15.12.1
- _ZN6Okular19EditFormTextCommand4redoEv@Base 4:15.12.1
- _ZN6Okular19EditFormTextCommand4undoEv@Base 4:15.12.1
- _ZN6Okular19EditFormTextCommand9mergeWithEPK12QUndoCommand@Base 4:15.12.1
- _ZN6Okular19EditFormTextCommandC1EPNS_15DocumentPrivateEPNS_13FormFieldTextEiRK7QStringiS7_ii@Base 4:15.12.1
- _ZN6Okular19EditFormTextCommandC2EPNS_15DocumentPrivateEPNS_13FormFieldTextEiRK7QStringiS7_ii@Base 4:15.12.1
- _ZN6Okular19EditFormTextCommandD0Ev@Base 4:15.12.1
- _ZN6Okular19EditFormTextCommandD1Ev@Base 4:15.12.1
- _ZN6Okular19EditFormTextCommandD2Ev@Base 4:15.12.1
  _ZN6Okular19HighlightAnnotation14highlightQuadsEv@Base 4:14.12.0
  _ZN6Okular19HighlightAnnotation16setHighlightTypeENS0_13HighlightTypeE@Base 4:14.12.0
  _ZN6Okular19HighlightAnnotation4Quad10setFeatherEd@Base 4:14.12.0
@@ -926,100 +476,16 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular19HighlightAnnotationD0Ev@Base 4:14.12.0
  _ZN6Okular19HighlightAnnotationD1Ev@Base 4:14.12.0
  _ZN6Okular19HighlightAnnotationD2Ev@Base 4:14.12.0
- _ZN6Okular19ScriptActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular19ScriptActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular19ScriptActionPrivateD2Ev@Base 4:15.12.1
  _ZN6Okular19SourceRefObjectRectC1ERKNS_15NormalizedPointEPv@Base 4:14.12.0
  _ZN6Okular19SourceRefObjectRectC2ERKNS_15NormalizedPointEPv@Base 4:14.12.0
- _ZN6Okular19SourceRefObjectRectD0Ev@Base 4:15.12.1
- _ZN6Okular19SourceRefObjectRectD1Ev@Base 4:15.12.1
- _ZN6Okular19SourceRefObjectRectD2Ev@Base 4:15.12.1
- _ZN6Okular19buildRotationMatrixENS_8RotationE@Base 4:15.12.1
- _ZN6Okular20AddAnnotationCommand4redoEv@Base 4:15.12.1
- _ZN6Okular20AddAnnotationCommand4undoEv@Base 4:15.12.1
- _ZN6Okular20AddAnnotationCommandC1EPNS_15DocumentPrivateEPNS_10AnnotationEi@Base 4:15.12.1
- _ZN6Okular20AddAnnotationCommandC2EPNS_15DocumentPrivateEPNS_10AnnotationEi@Base 4:15.12.1
- _ZN6Okular20AddAnnotationCommandD0Ev@Base 4:15.12.1
- _ZN6Okular20AddAnnotationCommandD1Ev@Base 4:15.12.1
- _ZN6Okular20AddAnnotationCommandD2Ev@Base 4:15.12.1
  _ZN6Okular20AnnotationObjectRect9transformERK10QTransform@Base 4:14.12.0
  _ZN6Okular20AnnotationObjectRectC1EPNS_10AnnotationE@Base 4:14.12.0
  _ZN6Okular20AnnotationObjectRectC2EPNS_10AnnotationE@Base 4:14.12.0
  _ZN6Okular20AnnotationObjectRectD0Ev@Base 4:14.12.0
  _ZN6Okular20AnnotationObjectRectD1Ev@Base 4:14.12.0
  _ZN6Okular20AnnotationObjectRectD2Ev@Base 4:14.12.0
- _ZN6Okular20EditFormComboCommand4redoEv@Base 4:15.12.1
- _ZN6Okular20EditFormComboCommand4undoEv@Base 4:15.12.1
- _ZN6Okular20EditFormComboCommand9mergeWithEPK12QUndoCommand@Base 4:15.12.1
- _ZN6Okular20EditFormComboCommandC1EPNS_15DocumentPrivateEPNS_15FormFieldChoiceEiRK7QStringiS7_ii@Base 4:15.12.1
- _ZN6Okular20EditFormComboCommandC2EPNS_15DocumentPrivateEPNS_15FormFieldChoiceEiRK7QStringiS7_ii@Base 4:15.12.1
- _ZN6Okular20EditFormComboCommandD0Ev@Base 4:15.12.1
- _ZN6Okular20EditFormComboCommandD1Ev@Base 4:15.12.1
- _ZN6Okular20EditFormComboCommandD2Ev@Base 4:15.12.1
- _ZN6Okular20ExecuteActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular20ExecuteActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular20ExecuteActionPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular20FontExtractionThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.1
- _ZN6Okular20FontExtractionThread11qt_metacastEPKc@Base 4:15.12.1
- _ZN6Okular20FontExtractionThread14stopExtractionEv@Base 4:15.12.1
- _ZN6Okular20FontExtractionThread15startExtractionEb@Base 4:15.12.1
- _ZN6Okular20FontExtractionThread16staticMetaObjectE@Base 4:15.12.1
- _ZN6Okular20FontExtractionThread3runEv@Base 4:15.12.1
- _ZN6Okular20FontExtractionThread7gotFontERKNS_8FontInfoE@Base 4:15.12.1
- _ZN6Okular20FontExtractionThread8progressEi@Base 4:15.12.1
- _ZN6Okular20FontExtractionThreadC1EPNS_9GeneratorEi@Base 4:15.12.1
- _ZN6Okular20FontExtractionThreadC2EPNS_9GeneratorEi@Base 4:15.12.1
- _ZN6Okular20FontExtractionThreadD0Ev@Base 4:15.12.1
- _ZN6Okular20FontExtractionThreadD1Ev@Base 4:15.12.1
- _ZN6Okular20FontExtractionThreadD2Ev@Base 4:15.12.1
- _ZN6Okular20FormFieldTextPrivate8setValueERK7QString@Base 4:15.12.1
- _ZN6Okular20FormFieldTextPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular20FormFieldTextPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular20FormFieldTextPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivate11distanceSqrEdddd@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivate13baseTransformERK10QTransform@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivate19resetTransformationEv@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivate9transformERK10QTransform@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivate9translateERKNS_15NormalizedPointE@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular20InkAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular20PixmapRequestPrivate4swapEv@Base 4:15.12.1
  _ZN6Okular20TextDocumentSettingsC1ERK7QStringP7QObject@Base 4:14.12.0
  _ZN6Okular20TextDocumentSettingsC2ERK7QStringP7QObject@Base 4:14.12.0
- _ZN6Okular20TextDocumentSettingsD0Ev@Base 4:15.12.1
- _ZN6Okular20TextDocumentSettingsD1Ev@Base 4:15.12.1
- _ZN6Okular20TextDocumentSettingsD2Ev@Base 4:15.12.1
- _ZN6Okular21DocumentActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular21DocumentActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular21DocumentActionPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular21GeomAnnotationPrivate11distanceSqrEdddd@Base 4:15.12.1
- _ZN6Okular21GeomAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular21GeomAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular21GeomAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular21GeomAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular21GeomAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivate11distanceSqrEdddd@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivate13baseTransformERK10QTransform@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivate19resetTransformationEv@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivate9transformERK10QTransform@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivate9translateERKNS_15NormalizedPointE@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular21LineAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivate13baseTransformERK10QTransform@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivate19resetTransformationEv@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivate9transformERK10QTransform@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivate9translateERKNS_15NormalizedPointE@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular21TextAnnotationPrivateD2Ev@Base 4:15.12.1
  _ZN6Okular21TextDocumentConverter11addMetaDataENS_12DocumentInfo3KeyERK7QString@Base 4:14.12.0
  _ZN6Okular21TextDocumentConverter11addMetaDataERK7QStringS3_S3_@Base 4:14.12.0
  _ZN6Okular21TextDocumentConverter11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -1061,76 +527,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular21TextDocumentGeneratorD0Ev@Base 4:14.12.0
  _ZN6Okular21TextDocumentGeneratorD1Ev@Base 4:14.12.0
  _ZN6Okular21TextDocumentGeneratorD2Ev@Base 4:14.12.0
- _ZN6Okular22CaretAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular22CaretAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular22CaretAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular22CaretAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular22CaretAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular22EditFormButtonsCommand21clearFormButtonStatesEv@Base 4:15.12.1
- _ZN6Okular22EditFormButtonsCommand4redoEv@Base 4:15.12.1
- _ZN6Okular22EditFormButtonsCommand4undoEv@Base 4:15.12.1
- _ZN6Okular22EditFormButtonsCommandC1EPNS_15DocumentPrivateEiRK5QListIPNS_15FormFieldButtonEERKS3_IbE@Base 4:15.12.1
- _ZN6Okular22EditFormButtonsCommandC2EPNS_15DocumentPrivateEiRK5QListIPNS_15FormFieldButtonEERKS3_IbE@Base 4:15.12.1
- _ZN6Okular22EditFormButtonsCommandD0Ev@Base 4:15.12.1
- _ZN6Okular22EditFormButtonsCommandD1Ev@Base 4:15.12.1
- _ZN6Okular22EditFormButtonsCommandD2Ev@Base 4:15.12.1
- _ZN6Okular22FormFieldButtonPrivate8setValueERK7QString@Base 4:15.12.1
- _ZN6Okular22FormFieldButtonPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular22FormFieldButtonPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular22FormFieldButtonPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular22FormFieldChoicePrivate8setValueERK7QString@Base 4:15.12.1
- _ZN6Okular22FormFieldChoicePrivateD0Ev@Base 4:15.12.1
- _ZN6Okular22FormFieldChoicePrivateD1Ev@Base 4:15.12.1
- _ZN6Okular22FormFieldChoicePrivateD2Ev@Base 4:15.12.1
- _ZN6Okular22MovieAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular22MovieAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular22MovieAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular22MovieAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular22MovieAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThread11qt_metacastEPKc@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThread13endGenerationEv@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThread15startGenerationEPNS_13PixmapRequestEb@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThread16staticMetaObjectE@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThread3runEv@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThreadC1EPNS_9GeneratorE@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThreadC2EPNS_9GeneratorE@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThreadD0Ev@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThreadD1Ev@Base 4:15.12.1
- _ZN6Okular22PixmapGenerationThreadD2Ev@Base 4:15.12.1
- _ZN6Okular22RenditionActionPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular22RenditionActionPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular22RenditionActionPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular22SoundAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular22SoundAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular22SoundAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular22SoundAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular22SoundAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular22StampAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular22StampAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular22StampAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular22StampAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular22StampAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular22sourceReferenceToolTipERK7QStringii@Base 4:15.12.1
- _ZN6Okular23RemoveAnnotationCommand4redoEv@Base 4:15.12.1
- _ZN6Okular23RemoveAnnotationCommand4undoEv@Base 4:15.12.1
- _ZN6Okular23RemoveAnnotationCommandC1EPNS_15DocumentPrivateEPNS_10AnnotationEi@Base 4:15.12.1
- _ZN6Okular23RemoveAnnotationCommandC2EPNS_15DocumentPrivateEPNS_10AnnotationEi@Base 4:15.12.1
- _ZN6Okular23RemoveAnnotationCommandD0Ev@Base 4:15.12.1
- _ZN6Okular23RemoveAnnotationCommandD1Ev@Base 4:15.12.1
- _ZN6Okular23RemoveAnnotationCommandD2Ev@Base 4:15.12.1
- _ZN6Okular23ScreenAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular23ScreenAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular23ScreenAnnotationPrivateC1Ev@Base 4:15.12.1
- _ZN6Okular23ScreenAnnotationPrivateC2Ev@Base 4:15.12.1
- _ZN6Okular23ScreenAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular23ScreenAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular23ScreenAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular23WidgetAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular23WidgetAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular23WidgetAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular23WidgetAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular23WidgetAnnotationPrivateD2Ev@Base 4:15.12.1
  _ZN6Okular24FileAttachmentAnnotation15setEmbeddedFileEPNS_12EmbeddedFileE@Base 4:14.12.0
  _ZN6Okular24FileAttachmentAnnotation15setFileIconNameERK7QString@Base 4:14.12.0
  _ZN6Okular24FileAttachmentAnnotationC1ERK8QDomNode@Base 4:14.12.0
@@ -1140,77 +536,12 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular24FileAttachmentAnnotationD0Ev@Base 4:14.12.0
  _ZN6Okular24FileAttachmentAnnotationD1Ev@Base 4:14.12.0
  _ZN6Okular24FileAttachmentAnnotationD2Ev@Base 4:14.12.0
- _ZN6Okular24TextPageGenerationThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThread11qt_metacastEPKc@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThread13endGenerationEv@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThread15startGenerationEPNS_4PageE@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThread16staticMetaObjectE@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThread3runEv@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThreadC1EPNS_9GeneratorE@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThreadC2EPNS_9GeneratorE@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThreadD0Ev@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThreadD1Ev@Base 4:15.12.1
- _ZN6Okular24TextPageGenerationThreadD2Ev@Base 4:15.12.1
- _ZN6Okular26HighlightAnnotationPrivate11distanceSqrEdddd@Base 4:15.12.1
- _ZN6Okular26HighlightAnnotationPrivate13baseTransformERK10QTransform@Base 4:15.12.1
- _ZN6Okular26HighlightAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular26HighlightAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular26HighlightAnnotationPrivate9transformERK10QTransform@Base 4:15.12.1
- _ZN6Okular26HighlightAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular26HighlightAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular26HighlightAnnotationPrivateD2Ev@Base 4:15.12.1
  _ZN6Okular26TextDocumentSettingsWidget6addRowERK7QStringP7QWidget@Base 4:14.12.0
  _ZN6Okular26TextDocumentSettingsWidgetC1EP7QWidget@Base 4:14.12.0
  _ZN6Okular26TextDocumentSettingsWidgetC2EP7QWidget@Base 4:14.12.0
  _ZN6Okular26TextDocumentSettingsWidgetD0Ev@Base 4:14.12.0
  _ZN6Okular26TextDocumentSettingsWidgetD1Ev@Base 4:14.12.0
  _ZN6Okular26TextDocumentSettingsWidgetD2Ev@Base 4:14.12.0
- _ZN6Okular26TranslateAnnotationCommand10minusDeltaEv@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommand26translateBoundingRectangleERKNS_15NormalizedPointE@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommand4redoEv@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommand4undoEv@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommand9mergeWithEPK12QUndoCommand@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommandC1EPNS_15DocumentPrivateEPNS_10AnnotationEiRKNS_15NormalizedPointEb@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommandC2EPNS_15DocumentPrivateEPNS_10AnnotationEiRKNS_15NormalizedPointEb@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommandD0Ev@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommandD1Ev@Base 4:15.12.1
- _ZN6Okular26TranslateAnnotationCommandD2Ev@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate11addMetaDataENS_12DocumentInfo3KeyERK7QString@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate11addMetaDataERK7QStringS3_S3_@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate13addAnnotationEPNS_10AnnotationEii@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate17generateLinkInfosEv@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate18generateTitleInfosEv@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate19initializeGeneratorEv@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate23generateAnnotationInfosEv@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate5imageEPNS_13PixmapRequestE@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate8addTitleEiRK7QStringRK10QTextBlock@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivate9addActionEPNS_6ActionEii@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular28TextDocumentGeneratorPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular29EditAnnotationContentsCommand4redoEv@Base 4:15.12.1
- _ZN6Okular29EditAnnotationContentsCommand4undoEv@Base 4:15.12.1
- _ZN6Okular29EditAnnotationContentsCommand9mergeWithEPK12QUndoCommand@Base 4:15.12.1
- _ZN6Okular29EditAnnotationContentsCommandC1EPNS_15DocumentPrivateEPNS_10AnnotationEiRK7QStringiS7_ii@Base 4:15.12.1
- _ZN6Okular29EditAnnotationContentsCommandC2EPNS_15DocumentPrivateEPNS_10AnnotationEiRK7QStringiS7_ii@Base 4:15.12.1
- _ZN6Okular29EditAnnotationContentsCommandD0Ev@Base 4:15.12.1
- _ZN6Okular29EditAnnotationContentsCommandD1Ev@Base 4:15.12.1
- _ZN6Okular29EditAnnotationContentsCommandD2Ev@Base 4:15.12.1
- _ZN6Okular30extractLilyPondSourceReferenceERK7QStringPS0_PiS4_@Base 4:15.12.1
- _ZN6Okular31FileAttachmentAnnotationPrivate23getNewAnnotationPrivateEv@Base 4:15.12.1
- _ZN6Okular31FileAttachmentAnnotationPrivate23setAnnotationPropertiesERK8QDomNode@Base 4:15.12.1
- _ZN6Okular31FileAttachmentAnnotationPrivateD0Ev@Base 4:15.12.1
- _ZN6Okular31FileAttachmentAnnotationPrivateD1Ev@Base 4:15.12.1
- _ZN6Okular31FileAttachmentAnnotationPrivateD2Ev@Base 4:15.12.1
- _ZN6Okular32buildBoundingRectangleForButtonsERK5QListIPNS_15FormFieldButtonEE@Base 4:15.12.1
- _ZN6Okular33ModifyAnnotationPropertiesCommand4redoEv@Base 4:15.12.1
- _ZN6Okular33ModifyAnnotationPropertiesCommand4undoEv@Base 4:15.12.1
- _ZN6Okular33ModifyAnnotationPropertiesCommandC1EPNS_15DocumentPrivateEPNS_10AnnotationEi8QDomNodeS5_@Base 4:15.12.1
- _ZN6Okular33ModifyAnnotationPropertiesCommandC2EPNS_15DocumentPrivateEPNS_10AnnotationEi8QDomNodeS5_@Base 4:15.12.1
- _ZN6Okular33ModifyAnnotationPropertiesCommandD0Ev@Base 4:15.12.1
- _ZN6Okular33ModifyAnnotationPropertiesCommandD1Ev@Base 4:15.12.1
- _ZN6Okular33ModifyAnnotationPropertiesCommandD2Ev@Base 4:15.12.1
- _ZN6Okular41moveViewportIfBoundingRectNotFullyVisibleENS_14NormalizedRectEPNS_15DocumentPrivateEi@Base 4:15.12.1
  _ZN6Okular4Page11deleteRectsEv@Base 4:14.12.0
  _ZN6Okular4Page11setDurationEd@Base 4:14.12.0
  _ZN6Okular4Page11setTextPageEPNS_8TextPageE@Base 4:14.12.0
@@ -1247,8 +578,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular4ViewD0Ev@Base 4:14.12.0
  _ZN6Okular4ViewD1Ev@Base 4:14.12.0
  _ZN6Okular4ViewD2Ev@Base 4:14.12.0
- _ZN6Okular5JSApp6objectEP10KJSContextPNS_15DocumentPrivateE@Base 4:15.12.1
- _ZN6Okular5JSApp8initTypeEP10KJSContext@Base 4:15.12.1
  _ZN6Okular5Movie11setAutoPlayEb@Base 4:14.12.0
  _ZN6Okular5Movie11setPlayModeENS0_8PlayModeE@Base 4:14.12.0
  _ZN6Okular5Movie11setRotationENS_8RotationE@Base 4:14.12.0
@@ -1286,15 +615,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular6ActionD0Ev@Base 4:14.12.0
  _ZN6Okular6ActionD1Ev@Base 4:14.12.0
  _ZN6Okular6ActionD2Ev@Base 4:14.12.0
- _ZN6Okular6JSData8initTypeEP10KJSContext@Base 4:15.12.1
- _ZN6Okular6JSData8wrapFileEP10KJSContextPNS_12EmbeddedFileE@Base 4:15.12.1
- _ZN6Okular6JSUtil6objectEP10KJSContext@Base 4:15.12.1
- _ZN6Okular6JSUtil8initTypeEP10KJSContext@Base 4:15.12.1
- _ZN6Okular7JSField17clearCachedFieldsEv@Base 4:15.12.1
- _ZN6Okular7JSField8initTypeEP10KJSContext@Base 4:15.12.1
- _ZN6Okular7JSField9wrapFieldEP10KJSContextPNS_9FormFieldEPNS_4PageE@Base 4:15.12.1
- _ZN6Okular7JSSpell6objectEP10KJSContext@Base 4:15.12.1
- _ZN6Okular7JSSpell8initTypeEP10KJSContext@Base 4:15.12.1
  _ZN6Okular8Document10searchTextEiRK7QStringbN2Qt15CaseSensitivityENS0_10SearchTypeEbRK6QColor@Base 4:14.12.0
  _ZN6Okular8Document11addObserverEPNS_16DocumentObserverE@Base 4:14.12.0
  _ZN6Okular8Document11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -1401,11 +721,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular8PageSizeD1Ev@Base 4:14.12.0
  _ZN6Okular8PageSizeD2Ev@Base 4:14.12.0
  _ZN6Okular8PageSizeaSERKS0_@Base 4:14.12.0
- _ZN6Okular8Scripter7executeENS_10ScriptTypeERK7QString@Base 4:15.12.1
- _ZN6Okular8ScripterC1EPNS_15DocumentPrivateE@Base 4:15.12.1
- _ZN6Okular8ScripterC2EPNS_15DocumentPrivateE@Base 4:15.12.1
- _ZN6Okular8ScripterD1Ev@Base 4:15.12.1
- _ZN6Okular8ScripterD2Ev@Base 4:15.12.1
  _ZN6Okular8TextPage6appendERK7QStringPNS_14NormalizedRectE@Base 4:14.12.0
  _ZN6Okular8TextPage8findTextEiRK7QStringNS_15SearchDirectionEN2Qt15CaseSensitivityEPKNS_15RegularAreaRectE@Base 4:14.12.0
  _ZN6Okular8TextPageC1ERK5QListIPNS_10TextEntityEE@Base 4:14.12.0
@@ -1414,8 +729,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular8TextPageC2Ev@Base 4:14.12.0
  _ZN6Okular8TextPageD1Ev@Base 4:14.12.0
  _ZN6Okular8TextPageD2Ev@Base 4:14.12.0
- _ZN6Okular8TileNodeC1Ev@Base 4:15.12.1
- _ZN6Okular8TileNodeC2Ev@Base 4:15.12.1
  _ZN6Okular9FormField19setActivationActionEPNS_6ActionE@Base 4:14.12.0
  _ZN6Okular9FormFieldC1ERNS_16FormFieldPrivateE@Base 4:14.12.0
  _ZN6Okular9FormFieldC2ERNS_16FormFieldPrivateE@Base 4:14.12.0
@@ -1456,48 +769,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZN6Okular9GeneratorD0Ev@Base 4:14.12.0
  _ZN6Okular9GeneratorD1Ev@Base 4:14.12.0
  _ZN6Okular9GeneratorD2Ev@Base 4:14.12.0
- _ZN6Okular9JSConsole6objectEP10KJSContext@Base 4:15.12.1
- _ZN6Okular9JSConsole8initTypeEP10KJSContext@Base 4:15.12.1
- _ZN6QDebugD1Ev@Base 4:15.12.1
- _ZN6QDebugD2Ev@Base 4:15.12.1
- _ZN6QDebuglsEPKc@Base 4:15.12.1
- (arch=!x32)_ZN6QDebuglsERK7QString@Base 4:15.12.1
- (arch=!x32)_ZN6QDebuglsEi@Base 4:15.12.1
- (arch=!x32)_ZN7QStringD1Ev@Base 4:15.12.1
- (arch=!x32)_ZN7QStringD2Ev@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI11QLinkedListIPN6Okular10AnnotationEEE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI11QLinkedListIPN6Okular10ObjectRectEEE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI11QLinkedListIPN6Okular19SourceRefObjectRectEEE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI5QPairIPN6Okular15RegularAreaRectE6QColorEE6appendERKS5_@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI5QPairIPN6Okular15RegularAreaRectE6QColorEE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI5QPairIi8QDomNodeEE6appendERKS2_@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI5QPairIi8QDomNodeEE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI7QPointFE6appendERKS0_@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI7QPointFE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI7QStringE6appendERKS0_@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorI7QStringE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorIPN6Okular15RegularAreaRectEE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorIPN6Okular15VisiblePageRectEE7reallocEii@Base 4:15.12.1
- (optional=templinst)_ZN7QVectorIPN6Okular4PageEE7reallocEii@Base 4:15.12.1
- _ZN9QPageSizeC1ENS_10PageSizeIdE@Base 4:15.12.1
- _ZN9QPageSizeC2ENS_10PageSizeIdE@Base 4:15.12.1
- _ZN9QPageSizeD1Ev@Base 4:15.12.1
- _ZN9QPageSizeD2Ev@Base 4:15.12.1
- _ZNK14KBookmarkOwner12supportsTabsEv@Base 4:15.12.1
- _ZNK14KBookmarkOwner19currentBookmarkListEv@Base 4:15.12.1
- (optional=templinst|arch=!x32)_ZNK14QStringBuilderI7QString13QLatin1StringE9convertToIS0_EET_v@Base 4:15.12.1
- _ZNK16QPageSizePrivate10sizePixelsEi@Base 4:15.12.1
- _ZNK16QPageSizePrivate14isEquivalentToERKS_@Base 4:15.12.1
- _ZNK16QPageSizePrivate4sizeEN9QPageSize4UnitE@Base 4:15.12.1
- _ZNK16QPageSizePrivate7isValidEv@Base 4:15.12.1
- _ZNK16QPageSizePrivateeqERKS_@Base 4:15.12.1
- _ZNK18ChooseEngineDialog17selectedGeneratorEv@Base 4:15.12.1
- (optional=templinst)_ZNK4QMapI7QStringS0_E15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:15.12.1
- (optional=templinst)_ZNK4QMapIiPN6Okular15VisiblePageRectEE15mutableFindNodeEPPN8QMapData4NodeERKi@Base 4:15.12.1
- (optional=templinst)_ZNK5QHashI4KUrl7QStringE8findNodeERKS0_Pj@Base 4:15.12.1
- (optional=templinst)_ZNK5QHashI5QChar7QStringE8findNodeERKS0_Pj@Base 4:15.12.1
- (optional=templinst)_ZNK5QHashI7QString13GeneratorInfoE8findNodeERKS0_Pj@Base 4:15.12.1
- (optional=templinst)_ZNK5QListI10QByteArrayE8containsERKS0_@Base 4:15.12.1
  _ZNK6Okular10Annotation10canBeMovedEv@Base 4:14.12.0
  _ZNK6Okular10Annotation10uniqueNameEv@Base 4:14.12.0
  _ZNK6Okular10Annotation12creationDateEv@Base 4:14.12.0
@@ -1554,18 +825,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular11MovieAction10annotationEv@Base 4:14.12.0
  _ZNK6Okular11MovieAction9actionTipEv@Base 4:14.12.0
  _ZNK6Okular11MovieAction9operationEv@Base 4:14.12.0
- _ZNK6Okular11PagePrivate12tilesManagerEPKNS_16DocumentObserverE@Base 4:15.12.1
- _ZNK6Okular11PagePrivate14rotationMatrixEv@Base 4:15.12.1
- _ZNK6Okular11PagePrivate17saveLocalContentsER8QDomNodeR12QDomDocument6QFlagsINS_8PageItemEE@Base 4:15.12.1
- (optional=templinst)_ZNK6Okular11RegularAreaINS_14NormalizedRectE5QRectE10intersectsERKS1_@Base 4:15.12.1
- (optional=templinst)_ZNK6Okular11RegularAreaINS_14NormalizedRectE5QRectE6isNullEv@Base 4:15.12.1
- (optional=templinst)_ZNK6Okular11RegularAreaINS_14NormalizedRectE5QRectE8containsEdd@Base 4:15.12.1
- _ZNK6Okular11RotationJob10metaObjectEv@Base 4:15.12.1
- _ZNK6Okular11RotationJob4pageEv@Base 4:15.12.1
- _ZNK6Okular11RotationJob4rectEv@Base 4:15.12.1
- _ZNK6Okular11RotationJob5imageEv@Base 4:15.12.1
- _ZNK6Okular11RotationJob8observerEv@Base 4:15.12.1
- _ZNK6Okular11RotationJob8rotationEv@Base 4:15.12.1
  _ZNK6Okular11SoundAction10actionTypeEv@Base 4:14.12.0
  _ZNK6Okular11SoundAction11synchronousEv@Base 4:14.12.0
  _ZNK6Okular11SoundAction3mixEv@Base 4:14.12.0
@@ -1590,12 +849,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular12ScriptAction10scriptTypeEv@Base 4:14.12.0
  _ZNK6Okular12ScriptAction6scriptEv@Base 4:14.12.0
  _ZNK6Okular12ScriptAction9actionTipEv@Base 4:14.12.0
- _ZNK6Okular12TilesManager11totalMemoryEv@Base 4:15.12.1
- _ZNK6Okular12TilesManager12isRequestingERKNS_14NormalizedRectEii@Base 4:15.12.1
- _ZNK6Okular12TilesManager5widthEv@Base 4:15.12.1
- _ZNK6Okular12TilesManager6heightEv@Base 4:15.12.1
- _ZNK6Okular12TilesManager7Private9hasPixmapERKNS_14NormalizedRectERKNS_8TileNodeE@Base 4:15.12.1
- _ZNK6Okular12TilesManager8rotationEv@Base 4:15.12.1
  _ZNK6Okular13ExecuteAction10actionTypeEv@Base 4:14.12.0
  _ZNK6Okular13ExecuteAction10parametersEv@Base 4:14.12.0
  _ZNK6Okular13ExecuteAction8fileNameEv@Base 4:14.12.0
@@ -1654,7 +907,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular14NormalizedRectanERKS0_@Base 4:14.12.0
  _ZNK6Okular14NormalizedRecteqERKS0_@Base 4:14.12.0
  _ZNK6Okular14NormalizedRectorERKS0_@Base 4:14.12.0
- _ZNK6Okular14PageController10metaObjectEv@Base 4:15.12.1
  _ZNK6Okular14PageTransition13isRectangularEv@Base 4:14.12.0
  _ZNK6Okular14PageTransition4typeEv@Base 4:14.12.0
  _ZNK6Okular14PageTransition5angleEv@Base 4:14.12.0
@@ -1691,18 +943,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular15CaretAnnotation11caretSymbolEv@Base 4:14.12.0
  _ZNK6Okular15CaretAnnotation5storeER8QDomNodeR12QDomDocument@Base 4:14.12.0
  _ZNK6Okular15CaretAnnotation7subTypeEv@Base 4:14.12.0
- _ZNK6Okular15DocumentPrivate13localizedSizeERK6QSizeF@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate13namePaperSizeEdd@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate13saveViewsInfoEPNS_4ViewER11QDomElement@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate15pagesSizeStringEv@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate16documentMetaDataERK7QStringRK8QVariant@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate16giveAbsolutePathERK7QString@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate16saveDocumentInfoEv@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate20nextDocumentViewportEv@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate20savePageDocumentInfoEP14KTemporaryFilei@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate25canAddAnnotationsNativelyEv@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate28canModifyExternalAnnotationsEv@Base 4:15.12.1
- _ZNK6Okular15DocumentPrivate28canRemoveExternalAnnotationsEv@Base 4:15.12.1
  _ZNK6Okular15FormFieldChoice10editChoiceEv@Base 4:14.12.0
  _ZNK6Okular15FormFieldChoice10isEditableEv@Base 4:14.12.0
  _ZNK6Okular15FormFieldChoice11multiSelectEv@Base 4:14.12.0
@@ -1734,7 +974,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular16DocumentViewport8toStringEv@Base 4:14.12.0
  _ZNK6Okular16DocumentViewporteqERKS0_@Base 4:14.12.0
  _ZNK6Okular16DocumentViewportltERKS0_@Base 4:14.12.0
- _ZNK6Okular16GeneratorPrivate8metaDataERK7QStringRK8QVariant@Base 4:15.12.1
  _ZNK6Okular16ScreenAnnotation16additionalActionENS_10Annotation20AdditionalActionTypeE@Base 4:14.12.0
  _ZNK6Okular16ScreenAnnotation5storeER8QDomNodeR12QDomDocument@Base 4:14.12.0
  _ZNK6Okular16ScreenAnnotation6actionEv@Base 4:14.12.0
@@ -1742,9 +981,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular16WidgetAnnotation16additionalActionENS_10Annotation20AdditionalActionTypeE@Base 4:14.12.0
  _ZNK6Okular16WidgetAnnotation5storeER8QDomNodeR12QDomDocument@Base 4:14.12.0
  _ZNK6Okular16WidgetAnnotation7subTypeEv@Base 4:14.12.0
- _ZNK6Okular17AnnotationPrivate23openDialogAfterCreationEv@Base 4:15.12.1
- _ZNK6Okular18AudioPlayerPrivate5newIdEv@Base 4:15.12.1
- _ZNK6Okular19EditFormTextCommand2idEv@Base 4:15.12.1
  _ZNK6Okular19HighlightAnnotation13highlightTypeEv@Base 4:14.12.0
  _ZNK6Okular19HighlightAnnotation4Quad16transformedPointEi@Base 4:14.12.0
  _ZNK6Okular19HighlightAnnotation4Quad5pointEi@Base 4:14.12.0
@@ -1758,36 +994,17 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular20AnnotationObjectRect10annotationEv@Base 4:14.12.0
  _ZNK6Okular20AnnotationObjectRect12boundingRectEdd@Base 4:14.12.0
  _ZNK6Okular20AnnotationObjectRect8containsEdddd@Base 4:14.12.0
- _ZNK6Okular20EditFormComboCommand2idEv@Base 4:15.12.1
- _ZNK6Okular20FontExtractionThread10metaObjectEv@Base 4:15.12.1
- _ZNK6Okular20FormFieldTextPrivate5valueEv@Base 4:15.12.1
- _ZNK6Okular20PixmapRequestPrivate12tilesManagerEv@Base 4:15.12.1
  _ZNK6Okular20TextDocumentSettings4fontEv@Base 4:14.12.0
- _ZNK6Okular21TextAnnotationPrivate23openDialogAfterCreationEv@Base 4:15.12.1
  _ZNK6Okular21TextDocumentConverter10metaObjectEv@Base 4:14.12.0
  _ZNK6Okular21TextDocumentConverter9generatorEv@Base 4:14.12.0
  _ZNK6Okular21TextDocumentGenerator10metaObjectEv@Base 4:14.12.0
  _ZNK6Okular21TextDocumentGenerator13exportFormatsEv@Base 4:14.12.0
  _ZNK6Okular21TextDocumentGenerator17canGeneratePixmapEv@Base 4:14.12.0
  _ZNK6Okular21TextDocumentGenerator20generateDocumentInfoERK4QSetINS_12DocumentInfo3KeyEE@Base 4:14.12.0
- _ZNK6Okular22FormFieldButtonPrivate5valueEv@Base 4:15.12.1
- _ZNK6Okular22FormFieldChoicePrivate5valueEv@Base 4:15.12.1
- _ZNK6Okular22PixmapGenerationThread10metaObjectEv@Base 4:15.12.1
- _ZNK6Okular22PixmapGenerationThread11boundingBoxEv@Base 4:15.12.1
- _ZNK6Okular22PixmapGenerationThread15calcBoundingBoxEv@Base 4:15.12.1
- _ZNK6Okular22PixmapGenerationThread5imageEv@Base 4:15.12.1
- _ZNK6Okular22PixmapGenerationThread7requestEv@Base 4:15.12.1
  _ZNK6Okular24FileAttachmentAnnotation12embeddedFileEv@Base 4:14.12.0
  _ZNK6Okular24FileAttachmentAnnotation12fileIconNameEv@Base 4:14.12.0
  _ZNK6Okular24FileAttachmentAnnotation5storeER8QDomNodeR12QDomDocument@Base 4:14.12.0
  _ZNK6Okular24FileAttachmentAnnotation7subTypeEv@Base 4:14.12.0
- _ZNK6Okular24TextPageGenerationThread10metaObjectEv@Base 4:15.12.1
- _ZNK6Okular24TextPageGenerationThread4pageEv@Base 4:15.12.1
- _ZNK6Okular24TextPageGenerationThread8textPageEv@Base 4:15.12.1
- _ZNK6Okular26TranslateAnnotationCommand2idEv@Base 4:15.12.1
- _ZNK6Okular28TextDocumentGeneratorPrivate14createTextPageEi@Base 4:15.12.1
- _ZNK6Okular28TextDocumentGeneratorPrivate8metaDataERK7QStringRK8QVariant@Base 4:15.12.1
- _ZNK6Okular29EditAnnotationContentsCommand2idEv@Base 4:15.12.1
  _ZNK6Okular4Page10formFieldsEv@Base 4:14.12.0
  _ZNK6Okular4Page10objectRectENS_10ObjectRect10ObjectTypeEdddd@Base 4:14.12.0
  _ZNK6Okular4Page10pageActionENS0_10PageActionE@Base 4:14.12.0
@@ -1918,7 +1135,6 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular8TextPage5wordsEPKNS_15RegularAreaRectENS0_26TextAreaInclusionBehaviourE@Base 4:14.12.0
  _ZNK6Okular8TextPage6wordAtERKNS_15NormalizedPointEP7QString@Base 4:14.12.0
  _ZNK6Okular8TextPage8textAreaEPNS_13TextSelectionE@Base 4:14.12.0
- _ZNK6Okular8TileNode7isValidEv@Base 4:15.12.1
  _ZNK6Okular9FormField10isReadOnlyEv@Base 4:14.12.0
  _ZNK6Okular9FormField16activationActionEv@Base 4:14.12.0
  _ZNK6Okular9FormField4typeEv@Base 4:14.12.0
@@ -1941,37 +1157,28 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZNK6Okular9Generator9isAllowedENS_10PermissionE@Base 4:14.12.0
  _ZNK6Okular9Generator9pageSizesEv@Base 4:14.12.0
  _ZNK6Okular9Generator9userMutexEv@Base 4:14.12.0
- _ZNK9QPageSize4sizeENS_4UnitE@Base 4:15.12.1
- _ZNK9QPageSize7isValidEv@Base 4:15.12.1
- _ZTI18ChooseEngineDialog@Base 4:15.12.1
- _ZTI20OkularBookmarkAction@Base 4:15.12.1
  _ZTIN6Okular10AnnotationE@Base 4:14.12.0
  _ZTIN6Okular10GotoActionE@Base 4:14.12.0
  _ZTIN6Okular10ObjectRectE@Base 4:14.12.0
  _ZTIN6Okular11AudioPlayerE@Base 4:14.12.0
  _ZTIN6Okular11MovieActionE@Base 4:14.12.0
- _ZTIN6Okular11RotationJobE@Base 4:15.12.1
  _ZTIN6Okular11SoundActionE@Base 4:14.12.0
- _ZTIN6Okular11ViewPrivateE@Base 4:15.12.1
  _ZTIN6Okular12BrowseActionE@Base 4:14.12.0
  _ZTIN6Okular12EmbeddedFileE@Base 4:14.12.0
  _ZTIN6Okular12ScriptActionE@Base 4:14.12.0
  _ZTIN6Okular12SettingsCoreE@Base 4:14.12.0
- _ZTIN6Okular13ActionPrivateE@Base 4:15.12.1
  _ZTIN6Okular13ExecuteActionE@Base 4:14.12.0
  _ZTIN6Okular13FormFieldTextE@Base 4:14.12.0
  _ZTIN6Okular13InkAnnotationE@Base 4:14.12.0
  _ZTIN6Okular14DocumentActionE@Base 4:14.12.0
  _ZTIN6Okular14GeomAnnotationE@Base 4:14.12.0
  _ZTIN6Okular14LineAnnotationE@Base 4:14.12.0
- _ZTIN6Okular14PageControllerE@Base 4:15.12.1
  _ZTIN6Okular14TextAnnotationE@Base 4:14.12.0
  _ZTIN6Okular15AnnotationProxyE@Base 4:14.12.0
  _ZTIN6Okular15BookmarkManager7PrivateE@Base 4:14.12.0
  _ZTIN6Okular15BookmarkManagerE@Base 4:14.12.0
  _ZTIN6Okular15CaretAnnotationE@Base 4:14.12.0
  _ZTIN6Okular15ConfigInterfaceE@Base 4:14.12.0
- _ZTIN6Okular15EditTextCommandE@Base 4:15.12.1
  _ZTIN6Okular15FormFieldButtonE@Base 4:14.12.0
  _ZTIN6Okular15FormFieldChoiceE@Base 4:14.12.0
  _ZTIN6Okular15MovieAnnotationE@Base 4:14.12.0
@@ -1979,89 +1186,43 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZTIN6Okular15SoundAnnotationE@Base 4:14.12.0
  _ZTIN6Okular15StampAnnotationE@Base 4:14.12.0
  _ZTIN6Okular16DocumentObserverE@Base 4:14.12.0
- _ZTIN6Okular16FormFieldPrivateE@Base 4:15.12.1
- _ZTIN6Okular16GeneratorPrivateE@Base 4:15.12.1
  _ZTIN6Okular16ScreenAnnotationE@Base 4:14.12.0
  _ZTIN6Okular16WidgetAnnotationE@Base 4:14.12.0
- _ZTIN6Okular17AnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular17GotoActionPrivateE@Base 4:15.12.1
- _ZTIN6Okular18MovieActionPrivateE@Base 4:15.12.1
- _ZTIN6Okular18SoundActionPrivateE@Base 4:15.12.1
- _ZTIN6Okular19BrowseActionPrivateE@Base 4:15.12.1
- _ZTIN6Okular19EditFormListCommandE@Base 4:15.12.1
- _ZTIN6Okular19EditFormTextCommandE@Base 4:15.12.1
  _ZTIN6Okular19HighlightAnnotationE@Base 4:14.12.0
- _ZTIN6Okular19ScriptActionPrivateE@Base 4:15.12.1
  _ZTIN6Okular19SourceRefObjectRectE@Base 4:14.12.0
- _ZTIN6Okular20AddAnnotationCommandE@Base 4:15.12.1
  _ZTIN6Okular20AnnotationObjectRectE@Base 4:14.12.0
- _ZTIN6Okular20EditFormComboCommandE@Base 4:15.12.1
- _ZTIN6Okular20ExecuteActionPrivateE@Base 4:15.12.1
- _ZTIN6Okular20FontExtractionThreadE@Base 4:15.12.1
- _ZTIN6Okular20FormFieldTextPrivateE@Base 4:15.12.1
- _ZTIN6Okular20InkAnnotationPrivateE@Base 4:15.12.1
  _ZTIN6Okular20TextDocumentSettingsE@Base 4:14.12.0
- _ZTIN6Okular21DocumentActionPrivateE@Base 4:15.12.1
- _ZTIN6Okular21GeomAnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular21LineAnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular21TextAnnotationPrivateE@Base 4:15.12.1
  _ZTIN6Okular21TextDocumentConverterE@Base 4:14.12.0
  _ZTIN6Okular21TextDocumentGeneratorE@Base 4:14.12.0
- _ZTIN6Okular22CaretAnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular22EditFormButtonsCommandE@Base 4:15.12.1
- _ZTIN6Okular22FormFieldButtonPrivateE@Base 4:15.12.1
- _ZTIN6Okular22FormFieldChoicePrivateE@Base 4:15.12.1
- _ZTIN6Okular22MovieAnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular22PixmapGenerationThreadE@Base 4:15.12.1
- _ZTIN6Okular22RenditionActionPrivateE@Base 4:15.12.1
- _ZTIN6Okular22SoundAnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular22StampAnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular23RemoveAnnotationCommandE@Base 4:15.12.1
- _ZTIN6Okular23ScreenAnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular23WidgetAnnotationPrivateE@Base 4:15.12.1
  _ZTIN6Okular24FileAttachmentAnnotationE@Base 4:14.12.0
- _ZTIN6Okular24TextPageGenerationThreadE@Base 4:15.12.1
- _ZTIN6Okular26HighlightAnnotationPrivateE@Base 4:15.12.1
  _ZTIN6Okular26TextDocumentSettingsWidgetE@Base 4:14.12.0
- _ZTIN6Okular26TranslateAnnotationCommandE@Base 4:15.12.1
- _ZTIN6Okular28TextDocumentGeneratorPrivateE@Base 4:15.12.1
- _ZTIN6Okular29EditAnnotationContentsCommandE@Base 4:15.12.1
- _ZTIN6Okular31FileAttachmentAnnotationPrivateE@Base 4:15.12.1
- _ZTIN6Okular33ModifyAnnotationPropertiesCommandE@Base 4:15.12.1
  _ZTIN6Okular4ViewE@Base 4:14.12.0
  _ZTIN6Okular6ActionE@Base 4:14.12.0
  _ZTIN6Okular8DocumentE@Base 4:14.12.0
  _ZTIN6Okular9FormFieldE@Base 4:14.12.0
  _ZTIN6Okular9GeneratorE@Base 4:14.12.0
- _ZTS18ChooseEngineDialog@Base 4:15.12.1
- _ZTS20OkularBookmarkAction@Base 4:15.12.1
  _ZTSN6Okular10AnnotationE@Base 4:14.12.0
  _ZTSN6Okular10GotoActionE@Base 4:14.12.0
  _ZTSN6Okular10ObjectRectE@Base 4:14.12.0
  _ZTSN6Okular11AudioPlayerE@Base 4:14.12.0
  _ZTSN6Okular11MovieActionE@Base 4:14.12.0
- _ZTSN6Okular11RotationJobE@Base 4:15.12.1
  _ZTSN6Okular11SoundActionE@Base 4:14.12.0
- _ZTSN6Okular11ViewPrivateE@Base 4:15.12.1
  _ZTSN6Okular12BrowseActionE@Base 4:14.12.0
  _ZTSN6Okular12EmbeddedFileE@Base 4:14.12.0
  _ZTSN6Okular12ScriptActionE@Base 4:14.12.0
  _ZTSN6Okular12SettingsCoreE@Base 4:14.12.0
- _ZTSN6Okular13ActionPrivateE@Base 4:15.12.1
  _ZTSN6Okular13ExecuteActionE@Base 4:14.12.0
  _ZTSN6Okular13FormFieldTextE@Base 4:14.12.0
  _ZTSN6Okular13InkAnnotationE@Base 4:14.12.0
  _ZTSN6Okular14DocumentActionE@Base 4:14.12.0
  _ZTSN6Okular14GeomAnnotationE@Base 4:14.12.0
  _ZTSN6Okular14LineAnnotationE@Base 4:14.12.0
- _ZTSN6Okular14PageControllerE@Base 4:15.12.1
  _ZTSN6Okular14TextAnnotationE@Base 4:14.12.0
  _ZTSN6Okular15AnnotationProxyE@Base 4:14.12.0
  _ZTSN6Okular15BookmarkManager7PrivateE@Base 4:14.12.0
  _ZTSN6Okular15BookmarkManagerE@Base 4:14.12.0
  _ZTSN6Okular15CaretAnnotationE@Base 4:14.12.0
  _ZTSN6Okular15ConfigInterfaceE@Base 4:14.12.0
- _ZTSN6Okular15EditTextCommandE@Base 4:15.12.1
  _ZTSN6Okular15FormFieldButtonE@Base 4:14.12.0
  _ZTSN6Okular15FormFieldChoiceE@Base 4:14.12.0
  _ZTSN6Okular15MovieAnnotationE@Base 4:14.12.0
@@ -2069,88 +1230,42 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZTSN6Okular15SoundAnnotationE@Base 4:14.12.0
  _ZTSN6Okular15StampAnnotationE@Base 4:14.12.0
  _ZTSN6Okular16DocumentObserverE@Base 4:14.12.0
- _ZTSN6Okular16FormFieldPrivateE@Base 4:15.12.1
- _ZTSN6Okular16GeneratorPrivateE@Base 4:15.12.1
  _ZTSN6Okular16ScreenAnnotationE@Base 4:14.12.0
  _ZTSN6Okular16WidgetAnnotationE@Base 4:14.12.0
- _ZTSN6Okular17AnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular17GotoActionPrivateE@Base 4:15.12.1
- _ZTSN6Okular18MovieActionPrivateE@Base 4:15.12.1
- _ZTSN6Okular18SoundActionPrivateE@Base 4:15.12.1
- _ZTSN6Okular19BrowseActionPrivateE@Base 4:15.12.1
- _ZTSN6Okular19EditFormListCommandE@Base 4:15.12.1
- _ZTSN6Okular19EditFormTextCommandE@Base 4:15.12.1
  _ZTSN6Okular19HighlightAnnotationE@Base 4:14.12.0
- _ZTSN6Okular19ScriptActionPrivateE@Base 4:15.12.1
  _ZTSN6Okular19SourceRefObjectRectE@Base 4:14.12.0
- _ZTSN6Okular20AddAnnotationCommandE@Base 4:15.12.1
  _ZTSN6Okular20AnnotationObjectRectE@Base 4:14.12.0
- _ZTSN6Okular20EditFormComboCommandE@Base 4:15.12.1
- _ZTSN6Okular20ExecuteActionPrivateE@Base 4:15.12.1
- _ZTSN6Okular20FontExtractionThreadE@Base 4:15.12.1
- _ZTSN6Okular20FormFieldTextPrivateE@Base 4:15.12.1
- _ZTSN6Okular20InkAnnotationPrivateE@Base 4:15.12.1
  _ZTSN6Okular20TextDocumentSettingsE@Base 4:14.12.0
- _ZTSN6Okular21DocumentActionPrivateE@Base 4:15.12.1
- _ZTSN6Okular21GeomAnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular21LineAnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular21TextAnnotationPrivateE@Base 4:15.12.1
  _ZTSN6Okular21TextDocumentConverterE@Base 4:14.12.0
  _ZTSN6Okular21TextDocumentGeneratorE@Base 4:14.12.0
- _ZTSN6Okular22CaretAnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular22EditFormButtonsCommandE@Base 4:15.12.1
- _ZTSN6Okular22FormFieldButtonPrivateE@Base 4:15.12.1
- _ZTSN6Okular22FormFieldChoicePrivateE@Base 4:15.12.1
- _ZTSN6Okular22MovieAnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular22PixmapGenerationThreadE@Base 4:15.12.1
- _ZTSN6Okular22RenditionActionPrivateE@Base 4:15.12.1
- _ZTSN6Okular22SoundAnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular22StampAnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular23RemoveAnnotationCommandE@Base 4:15.12.1
- _ZTSN6Okular23ScreenAnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular23WidgetAnnotationPrivateE@Base 4:15.12.1
  _ZTSN6Okular24FileAttachmentAnnotationE@Base 4:14.12.0
- _ZTSN6Okular24TextPageGenerationThreadE@Base 4:15.12.1
- _ZTSN6Okular26HighlightAnnotationPrivateE@Base 4:15.12.1
  _ZTSN6Okular26TextDocumentSettingsWidgetE@Base 4:14.12.0
- _ZTSN6Okular26TranslateAnnotationCommandE@Base 4:15.12.1
- _ZTSN6Okular28TextDocumentGeneratorPrivateE@Base 4:15.12.1
- _ZTSN6Okular29EditAnnotationContentsCommandE@Base 4:15.12.1
- _ZTSN6Okular31FileAttachmentAnnotationPrivateE@Base 4:15.12.1
- _ZTSN6Okular33ModifyAnnotationPropertiesCommandE@Base 4:15.12.1
  _ZTSN6Okular4ViewE@Base 4:14.12.0
  _ZTSN6Okular6ActionE@Base 4:14.12.0
  _ZTSN6Okular8DocumentE@Base 4:14.12.0
  _ZTSN6Okular9FormFieldE@Base 4:14.12.0
  _ZTSN6Okular9GeneratorE@Base 4:14.12.0
- _ZTV18ChooseEngineDialog@Base 4:15.12.1
- _ZTV20OkularBookmarkAction@Base 4:15.12.1
  _ZTVN6Okular10AnnotationE@Base 4:14.12.0
  _ZTVN6Okular10GotoActionE@Base 4:14.12.0
  _ZTVN6Okular10ObjectRectE@Base 4:14.12.0
  _ZTVN6Okular11AudioPlayerE@Base 4:14.12.0
  _ZTVN6Okular11MovieActionE@Base 4:14.12.0
- _ZTVN6Okular11RotationJobE@Base 4:15.12.1
  _ZTVN6Okular11SoundActionE@Base 4:14.12.0
- _ZTVN6Okular11ViewPrivateE@Base 4:15.12.1
  _ZTVN6Okular12BrowseActionE@Base 4:14.12.0
  _ZTVN6Okular12EmbeddedFileE@Base 4:14.12.0
  _ZTVN6Okular12ScriptActionE@Base 4:14.12.0
  _ZTVN6Okular12SettingsCoreE@Base 4:14.12.0
- _ZTVN6Okular13ActionPrivateE@Base 4:15.12.1
  _ZTVN6Okular13ExecuteActionE@Base 4:14.12.0
  _ZTVN6Okular13FormFieldTextE@Base 4:14.12.0
  _ZTVN6Okular13InkAnnotationE@Base 4:14.12.0
  _ZTVN6Okular14DocumentActionE@Base 4:14.12.0
  _ZTVN6Okular14GeomAnnotationE@Base 4:14.12.0
  _ZTVN6Okular14LineAnnotationE@Base 4:14.12.0
- _ZTVN6Okular14PageControllerE@Base 4:15.12.1
  _ZTVN6Okular14TextAnnotationE@Base 4:14.12.0
  _ZTVN6Okular15AnnotationProxyE@Base 4:14.12.0
  _ZTVN6Okular15BookmarkManager7PrivateE@Base 4:14.12.0
  _ZTVN6Okular15BookmarkManagerE@Base 4:14.12.0
  _ZTVN6Okular15CaretAnnotationE@Base 4:14.12.0
- _ZTVN6Okular15EditTextCommandE@Base 4:15.12.1
  _ZTVN6Okular15FormFieldButtonE@Base 4:14.12.0
  _ZTVN6Okular15FormFieldChoiceE@Base 4:14.12.0
  _ZTVN6Okular15MovieAnnotationE@Base 4:14.12.0
@@ -2158,67 +1273,24 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _ZTVN6Okular15SoundAnnotationE@Base 4:14.12.0
  _ZTVN6Okular15StampAnnotationE@Base 4:14.12.0
  _ZTVN6Okular16DocumentObserverE@Base 4:14.12.0
- _ZTVN6Okular16FormFieldPrivateE@Base 4:15.12.1
- _ZTVN6Okular16GeneratorPrivateE@Base 4:15.12.1
  _ZTVN6Okular16ScreenAnnotationE@Base 4:14.12.0
  _ZTVN6Okular16WidgetAnnotationE@Base 4:14.12.0
- _ZTVN6Okular17AnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular17GotoActionPrivateE@Base 4:15.12.1
- _ZTVN6Okular18MovieActionPrivateE@Base 4:15.12.1
- _ZTVN6Okular18SoundActionPrivateE@Base 4:15.12.1
- _ZTVN6Okular19BrowseActionPrivateE@Base 4:15.12.1
- _ZTVN6Okular19EditFormListCommandE@Base 4:15.12.1
- _ZTVN6Okular19EditFormTextCommandE@Base 4:15.12.1
  _ZTVN6Okular19HighlightAnnotationE@Base 4:14.12.0
- _ZTVN6Okular19ScriptActionPrivateE@Base 4:15.12.1
  _ZTVN6Okular19SourceRefObjectRectE@Base 4:14.12.0
- _ZTVN6Okular20AddAnnotationCommandE@Base 4:15.12.1
  _ZTVN6Okular20AnnotationObjectRectE@Base 4:14.12.0
- _ZTVN6Okular20EditFormComboCommandE@Base 4:15.12.1
- _ZTVN6Okular20ExecuteActionPrivateE@Base 4:15.12.1
- _ZTVN6Okular20FontExtractionThreadE@Base 4:15.12.1
- _ZTVN6Okular20FormFieldTextPrivateE@Base 4:15.12.1
- _ZTVN6Okular20InkAnnotationPrivateE@Base 4:15.12.1
  _ZTVN6Okular20TextDocumentSettingsE@Base 4:14.12.0
- _ZTVN6Okular21DocumentActionPrivateE@Base 4:15.12.1
- _ZTVN6Okular21GeomAnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular21LineAnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular21TextAnnotationPrivateE@Base 4:15.12.1
  _ZTVN6Okular21TextDocumentConverterE@Base 4:14.12.0
  _ZTVN6Okular21TextDocumentGeneratorE@Base 4:14.12.0
- _ZTVN6Okular22CaretAnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular22EditFormButtonsCommandE@Base 4:15.12.1
- _ZTVN6Okular22FormFieldButtonPrivateE@Base 4:15.12.1
- _ZTVN6Okular22FormFieldChoicePrivateE@Base 4:15.12.1
- _ZTVN6Okular22MovieAnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular22PixmapGenerationThreadE@Base 4:15.12.1
- _ZTVN6Okular22RenditionActionPrivateE@Base 4:15.12.1
- _ZTVN6Okular22SoundAnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular22StampAnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular23RemoveAnnotationCommandE@Base 4:15.12.1
- _ZTVN6Okular23ScreenAnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular23WidgetAnnotationPrivateE@Base 4:15.12.1
  _ZTVN6Okular24FileAttachmentAnnotationE@Base 4:14.12.0
- _ZTVN6Okular24TextPageGenerationThreadE@Base 4:15.12.1
- _ZTVN6Okular26HighlightAnnotationPrivateE@Base 4:15.12.1
  _ZTVN6Okular26TextDocumentSettingsWidgetE@Base 4:14.12.0
- _ZTVN6Okular26TranslateAnnotationCommandE@Base 4:15.12.1
- _ZTVN6Okular28TextDocumentGeneratorPrivateE@Base 4:15.12.1
- _ZTVN6Okular29EditAnnotationContentsCommandE@Base 4:15.12.1
- _ZTVN6Okular31FileAttachmentAnnotationPrivateE@Base 4:15.12.1
- _ZTVN6Okular33ModifyAnnotationPropertiesCommandE@Base 4:15.12.1
  _ZTVN6Okular4ViewE@Base 4:14.12.0
  _ZTVN6Okular6ActionE@Base 4:14.12.0
  _ZTVN6Okular8DocumentE@Base 4:14.12.0
  _ZTVN6Okular9FormFieldE@Base 4:14.12.0
  _ZTVN6Okular9GeneratorE@Base 4:14.12.0
- (optional=templinst)_ZZN11QMetaTypeIdIN6Okular8FontInfoEE14qt_metatype_idEvE11metatype_id@Base 4:15.12.1
  _Zls6QDebugRKN6Okular13PixmapRequestE@Base 4:14.12.0
  _Zls6QDebugRKN6Okular14NormalizedRectE@Base 4:14.12.0
  _Zls6QDebugRKN6Okular15NormalizedPointE@Base 4:14.12.0
- _ZmiRKN6Okular15NormalizedPointES2_@Base 4:15.12.1
- _ZpLI14QStringBuilderIS0_I7QStringA2_cEcES2_ERS1_S5_RKS0_IT_T0_E@Base 4:15.12.1
- (optional=templinst)_ZpLI14QStringBuilderIS0_IS0_IS0_I7QStringS1_EcES1_EcES1_ERS1_S6_RKS0_IT_T0_E@Base 4:15.12.1
  __synctex_open@Base 4:14.12.0
  _synctex_bail@Base 4:14.12.0
  _synctex_buffer_get_available_size@Base 4:14.12.0
@@ -2289,12 +1361,10 @@ libokularcore.so.7 libokularcore7 #MINVER#
  _synctex_scanner_get_tag@Base 4:14.12.0
  _synctex_setup_visible_box@Base 4:14.12.0
  _synctex_strip_last_path_extension@Base 4:14.12.0
- (c++)"non-virtual thunk to ChooseEngineDialog::~ChooseEngineDialog()@Base" 4:15.12.1
  (c++)"non-virtual thunk to Okular::TextDocumentGenerator::addPages(KConfigDialog*)@Base" 4:14.12.0
  (c++)"non-virtual thunk to Okular::TextDocumentGenerator::reparseConfig()@Base" 4:14.12.0
  (c++)"non-virtual thunk to Okular::TextDocumentGenerator::~TextDocumentGenerator()@Base" 4:14.12.0
  (c++)"non-virtual thunk to Okular::TextDocumentSettingsWidget::~TextDocumentSettingsWidget()@Base" 4:14.12.0
- (c++)"non-virtual thunk to OkularBookmarkAction::~OkularBookmarkAction()@Base" 4:15.12.1
  synctex_display_query@Base 4:14.12.0
  synctex_edit_query@Base 4:14.12.0
  synctex_ignore_leading_dot_slash@Base 4:14.12.0
