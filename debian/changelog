@@ -1,5 +1,8 @@
-okular (4:15.12.3-1~2.gbp0ea8c7) UNRELEASED; urgency=medium
+okular (4:16.04.0-1~1.gbpfb9427) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @fb9427ebeb3374e37171b93e8969d91876ce5040 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @0ea8c77a899aa7d320874dafbbf26512d19b949a **
 
   * Bump Standards-Version to 3.9.8
@@ -7,7 +10,14 @@ okular (4:15.12.3-1~2.gbp0ea8c7) UNRELEASED; urgency=medium
   * Update symbols files from buildds logs (4:15.12.1-1).
   * Drop symbols introduced in the experimental version
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 14:25:26 +0200
+  [ Maximiliano Curia ]
+  * Pre-release 4:4.14.2-3~
+  * Remove libkscreen build dep to allow the transition to happen.
+  * Add a not-installed file
+  * Release to unstable
+  * update the not-installed file
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 24 Apr 2016 11:19:50 +0200
 
 okular (4:15.12.1-1) experimental; urgency=medium
 
