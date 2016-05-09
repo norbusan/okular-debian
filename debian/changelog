@@ -1,6 +1,6 @@
-okular (4:16.04.0-1~1.gbpfb9427) UNRELEASED; urgency=medium
+okular (4:16.04.0-1~2.gbpc4eb57) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fb9427ebeb3374e37171b93e8969d91876ce5040 **
+  ** SNAPSHOT build @c4eb57c36be89ef6e37a5841ce464be543b80291 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -14,8 +14,12 @@ okular (4:16.04.0-1~1.gbpfb9427) UNRELEASED; urgency=medium
   * Add a not-installed file
   * Release to unstable
   * update the not-installed file
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 24 Apr 2016 11:19:50 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:57:16 +0200
 
 okular (4:15.12.1-1) experimental; urgency=medium
 
