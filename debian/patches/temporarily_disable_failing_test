@@ -1,8 +1,17 @@
-Index: okular/tests/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 12:00:52 +0200
+Subject: temporarily_disable_failing_test
+
 ===================================================================
---- okular.orig/tests/CMakeLists.txt	2014-08-24 19:04:48.079064107 +0200
-+++ okular/tests/CMakeLists.txt	2014-08-24 19:55:10.260342030 +0200
-@@ -35,5 +35,5 @@
+---
+ tests/CMakeLists.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/tests/CMakeLists.txt b/tests/CMakeLists.txt
+index 7fdd0be..495c720 100644
+--- a/tests/CMakeLists.txt
++++ b/tests/CMakeLists.txt
+@@ -35,5 +35,5 @@ target_link_libraries( modifyannotationpropertiestest ${KDE4_KDECORE_LIBS} ${QT_
  kde4_add_unit_test( editformstest editformstest.cpp )
  target_link_libraries( editformstest ${KDE4_KDECORE_LIBS} ${QT_QTGUI_LIBRARY} ${QT_QTTEST_LIBRARY} ${QT_QTXML_LIBRARY} okularcore )
  

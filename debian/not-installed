@@ -1,19 +1,18 @@
-#installed by okular.manpages
-./usr/share/man/man1/okular.1
-
+# The manpages are gzipped
+usr/share/man/man1/okular.1
 # We are removing support for plasma-active
-./usr/share/applications/kde4/active-documentviewer_chm.desktop
-./usr/share/applications/kde4/active-documentviewer_comicbook.desktop
-./usr/share/applications/kde4/active-documentviewer_djvu.desktop
-./usr/share/applications/kde4/active-documentviewer_dvi.desktop
-./usr/share/applications/kde4/active-documentviewer_epub.desktop
-./usr/share/applications/kde4/active-documentviewer_fax.desktop
-./usr/share/applications/kde4/active-documentviewer_fb.desktop
-./usr/share/applications/kde4/active-documentviewer_ghostview.desktop
-./usr/share/applications/kde4/active-documentviewer_kimgio.desktop
-./usr/share/applications/kde4/active-documentviewer_ooo.desktop
-./usr/share/applications/kde4/active-documentviewer_pdf.desktop
-./usr/share/applications/kde4/active-documentviewer_plucker.desktop
-./usr/share/applications/kde4/active-documentviewer_tiff.desktop
-./usr/share/applications/kde4/active-documentviewer_txt.desktop
-./usr/share/applications/kde4/active-documentviewer_xps.desktop
+usr/share/applications/kde4/active-documentviewer_chm.desktop
+usr/share/applications/kde4/active-documentviewer_comicbook.desktop
+usr/share/applications/kde4/active-documentviewer_djvu.desktop
+usr/share/applications/kde4/active-documentviewer_dvi.desktop
+usr/share/applications/kde4/active-documentviewer_epub.desktop
+usr/share/applications/kde4/active-documentviewer_fax.desktop
+usr/share/applications/kde4/active-documentviewer_fb.desktop
+usr/share/applications/kde4/active-documentviewer_ghostview.desktop
+usr/share/applications/kde4/active-documentviewer_kimgio.desktop
+usr/share/applications/kde4/active-documentviewer_ooo.desktop
+usr/share/applications/kde4/active-documentviewer_pdf.desktop
+usr/share/applications/kde4/active-documentviewer_plucker.desktop
+usr/share/applications/kde4/active-documentviewer_tiff.desktop
+usr/share/applications/kde4/active-documentviewer_txt.desktop
+usr/share/applications/kde4/active-documentviewer_xps.desktop
