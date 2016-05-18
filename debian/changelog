@@ -1,3 +1,9 @@
+okular (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:44:23 +0200
+
 okular (4:15.12.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.2).
