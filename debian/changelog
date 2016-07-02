@@ -5,6 +5,7 @@ okular (4:16.04.2-0r1) UNRELEASED; urgency=medium
   * Remove the kactivities support, since the KDE 4 version is unmaintained
     and not usable together with the Frameworks one:
     - drop the libkactivities-dev build dependency
+  * Wrap too long line in older changelog entry.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 11:08:58 +0200
 
@@ -22,7 +23,8 @@ okular (4:16.04.0-1) unstable; urgency=medium
   * Release to unstable
   * update the not-installed file
   * New upstream release (15.12.2).
-  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
