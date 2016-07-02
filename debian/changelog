@@ -1,13 +1,13 @@
-okular (4:16.04.2-0r1) UNRELEASED; urgency=medium
+okular (4:16.04.2-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Remove the kactivities support, since the KDE 4 version is unmaintained
     and not usable together with the Frameworks one:
     - drop the libkactivities-dev build dependency
   * Wrap too long line in older changelog entry.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 11:08:58 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 02 Jul 2016 11:30:13 +0200
 
 okular (4:16.04.0-1) unstable; urgency=medium
 
