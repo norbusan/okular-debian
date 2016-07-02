@@ -2,6 +2,9 @@ okular (4:16.04.2-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Remove the kactivities support, since the KDE 4 version is unmaintained
+    and not usable together with the Frameworks one:
+    - drop the libkactivities-dev build dependency
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 11:08:58 +0200
 
