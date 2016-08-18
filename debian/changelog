@@ -1,3 +1,11 @@
+okular (4:16.08.0-1~1.gbpc45f53) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c45f53952b376b2e39cee6b3f446d982eecc56e0 **
+
+  * UNRELEASED
+
+ -- Pino Toscano <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:57:49 +0200
+
 okular (4:16.04.2-1) unstable; urgency=medium
 
   * Team upload.
