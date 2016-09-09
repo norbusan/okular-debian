@@ -1,10 +1,16 @@
-okular (4:16.08.0-1~1.gbpc45f53) UNRELEASED; urgency=medium
+okular (4:16.08.1-1~1.gbp521156) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @521156700c03c8eeb36db11d1c1791615187bfc9 **
+
+  [ Pino Toscano ]
   ** SNAPSHOT build @c45f53952b376b2e39cee6b3f446d982eecc56e0 **
 
   * UNRELEASED
 
- -- Pino Toscano <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:57:49 +0200
+  [ Automatic packaging ]
+  * Update symbols files.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:57:42 +0200
 
 okular (4:16.04.2-1) unstable; urgency=medium
 
