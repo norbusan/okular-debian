@@ -1,18 +1,12 @@
-okular (4:16.08.2-1~1.gbpbae9b4) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @bae9b44facab8c236be44257539a1f126537ce7b **
-
-  [ Pino Toscano ]
-  ** SNAPSHOT build @c45f53952b376b2e39cee6b3f446d982eecc56e0 **
-
-  * UNRELEASED
+okular (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Update symbols files.
-  * Update symbols files
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:57:39 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 12:34:55 +0200
 
 okular (4:16.04.2-1) unstable; urgency=medium
 
