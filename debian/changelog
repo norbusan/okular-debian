@@ -1,3 +1,9 @@
+okular (4:16.08.90~git11082016-1) xenial; urgency=medium
+
+  * Add back epoch 
+
+ -- Scarlett Clark <scarlett@scarlett-neon>  Thu, 10 Nov 2016 08:28:28 -0700
+
 okular (16.08.90~git11082016-1) xenial; urgency=medium
 
   * KF5 port 
