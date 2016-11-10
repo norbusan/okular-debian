@@ -1,3 +1,9 @@
+okular (16.08.90~git11082016-1) xenial; urgency=medium
+
+  * KF5 port 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 08 Nov 2016 12:39:46 -0700
+
 okular (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
@@ -18,12 +24,6 @@ okular (4:16.04.2-1) unstable; urgency=medium
   * Wrap too long line in older changelog entry.
 
  -- Pino Toscano <pino@debian.org>  Sat, 02 Jul 2016 11:30:13 +0200
-
-okular (4:16.04.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:44:23 +0200
 
 okular (4:16.04.0-1) unstable; urgency=medium
 

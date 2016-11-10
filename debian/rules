@@ -7,4 +7,4 @@ override_dh_auto_test:
 	:
 
 override_dh_strip:
-	$(overridden_command) --dbgsym-migration='okular-dbg (<= 4:15.12.1-1~~)'
+	$(overridden_command) --dbgsym-migration='okular-dbg (<= 16.08.90-1~~)'
