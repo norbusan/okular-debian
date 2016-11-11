@@ -1,8 +1,16 @@
-okular (4:16.08.90~git11082016-1) xenial; urgency=medium
+okular (4:16.08.90~git11082016-0neon2) xenial; urgency=medium
+
+  * Fix copyright, install files. 
+  * Fix lintian overrides.
+  * Add package for mobile.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 11 Nov 2016 07:57:44 -0700
+
+okular (4:16.08.90~git11082016-0neon2) xenial; urgency=medium
 
   * Add back epoch 
 
- -- Scarlett Clark <scarlett@scarlett-neon>  Thu, 10 Nov 2016 08:28:28 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 10 Nov 2016 08:28:28 -0700
 
 okular (16.08.90~git11082016-1) xenial; urgency=medium
 

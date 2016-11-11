@@ -46,12 +46,12 @@ Build-Depends: cmake (>= 2.8.9~),
                qtbase5-dev,
                qtdeclarative5-dev,
                zlib1g-dev
-Standards-Version: 3.9.8
+Standards-Version: 3.9.7
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
 
-Package: libokularcore7
+Package: libokular5core7
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -63,7 +63,7 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: libokularcore7 (= ${binary:Version}),
+Depends: libokular5core7 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: cups-bsd
@@ -94,9 +94,7 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore7 (= ${binary:Version}),
-         ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libokularcore7}
+Depends: libokular5core7 (= ${binary:Version}), ${misc:Depends}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
@@ -110,9 +108,38 @@ Recommends: okular
 Provides: djvu-viewer
 Description: additional document format support for Okular
  These plugins allow Okular to view additional document formats:
-  * Microsoft Compiled HTML Help (CHM)
-  * Tagged Image File Format (TIFF)
-  * DjVu scanned page format
-  * EPub eBooks
+  * Portable Document Format (PDF)
+  * PostScript
+  * Device Independent Format (DVI)
+  * DeJaVu Format
+  * Comic Books
+  * Images (JPEG, PNG, GIF, and many more)
+  * TIFF Image Format
+  * FictionBook Format
+  * Plucker Format
+  * OpenDocument Text Format
+  * Microsofts CHM Format
+  * Microsofts XML Document Format
+ .
+ This package is part of the KDE graphics module.
+
+Package: okular-mobile
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: okular
+Description: mobile support for Okular
+ These plugins allow Okular to view additional document formats for mobile:
+  * Portable Document Format (PDF)
+  * PostScript
+  * Device Independent Format (DVI)
+  * DeJaVu Format
+  * Comic Books
+  * Images (JPEG, PNG, GIF, and many more)
+  * TIFF Image Format
+  * FictionBook Format
+  * Plucker Format
+  * OpenDocument Text Format
+  * Microsofts CHM Format
+  * Microsofts XML Document Format
  .
  This package is part of the KDE graphics module.
