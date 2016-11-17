@@ -64,6 +64,8 @@ Package: okular
 Section: graphics
 Architecture: any
 Depends: libokular5core7 (= ${binary:Version}),
+         qml-module-qtgraphicaleffects,
+         qml-module-qtquick-controls2,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: cups-bsd
@@ -125,7 +127,12 @@ Description: additional document format support for Okular
 
 Package: okular-mobile
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-org-kde-kirigami,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtgraphicaleffects,
+         qml-module-qtquick-controls2,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: okular
 Description: mobile support for Okular
  These plugins allow Okular to view additional document formats for mobile:

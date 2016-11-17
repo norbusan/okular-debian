@@ -1,3 +1,9 @@
+okular (4:16.08.90~git11082016-0neon3) xenial; urgency=medium
+
+  * Add qml deps. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 17 Nov 2016 04:57:26 -0700
+
 okular (4:16.08.90~git11082016-0neon2) xenial; urgency=medium
 
   * Fix copyright, install files. 
