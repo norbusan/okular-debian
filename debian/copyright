@@ -275,7 +275,8 @@ Copyright: 2006, Pino Toscano <toscano.pino@tiscali.it>
 License: GPL-2+
 
 Files: generators/dvi/*
-Copyright: 2001-2005, Stefan Kebekus
+Copyright: 2000-2005, Stefan Kebekus
+           2004, 2005, Wilfried Huss
 License: GPL-2+
 
 Files: generators/dvi/TeXFont_PK.cpp
@@ -296,48 +297,12 @@ Copyright: 2014, Frederik Gladhorn <gladhorn@kde.org>
   2006, Luigi Toscano <luigi.toscano@tiscali.it>
 License: GPL-2+
 
-Files: generators/dvi/dviFile.h
-  generators/dvi/dviRenderer.h
-  generators/dvi/hyperlink.h
-  generators/dvi/textBox.h
-Copyright: 2001-2006, Stefan Kebekus. Distributed under the GPL
-License: UNKNOWN
- Please fill license UNKNOWN from header of generators/dvi/dviFile.h generators/dvi/dviRenderer.h generators/dvi/hyperlink.h generators/dvi/textBox.h
-
 Files: generators/dvi/dviPageInfo.cpp
   generators/dvi/dviPageInfo.h
   generators/dvi/generator_dvi.cpp
   generators/dvi/generator_dvi.h
 Copyright: 2006-2009, Luigi Toscano <luigi.toscano@tiscali.it>
 License: GPL-2+
-
-Files: generators/dvi/dviRenderer_dr.cpp
-Copyright: 2004-2006, Stefan Kebekus
-  2004, 2005, Wilfried Huss
-License: UNKNOWN
- Please fill license UNKNOWN from header of generators/dvi/dviRenderer_dr.cpp
-
-Files: generators/dvi/dvisourcesplitter.cpp
-  generators/dvi/dvisourcesplitter.h
-Copyright: 2004, Copyright: See COPYING file that comes with this distribution
-License: UNKNOWN
- Please fill license UNKNOWN from header of generators/dvi/dvisourcesplitter.cpp generators/dvi/dvisourcesplitter.h
-
-Files: generators/dvi/length.cpp
-  generators/dvi/length.h
-Copyright: 2006, Wilfried Huss
-  2003, 2005, Stefan Kebekus
-License: UNKNOWN
- Please fill license UNKNOWN from header of generators/dvi/length.cpp generators/dvi/length.h
-
-Files: generators/dvi/prebookmark.h
-Copyright: 2005, Stefan Kebekus
-License: GPL-2+
-
-Files: generators/dvi/special.cpp
-Copyright: 2000-2004, Stefan Kebekus (kebekus@kde.org)
-License: UNKNOWN
- Please fill license UNKNOWN from header of generators/dvi/special.cpp
 
 Files: generators/epub/*
 Copyright: 2008, Ely Levy <elylevy@cs.huji.ac.il>
