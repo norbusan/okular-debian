@@ -2,7 +2,7 @@
 <descriptor>
 
 <version>
-    15.12.0
+    16.08.90~git11082016
 </version>
 
 <headers>
@@ -10,7 +10,7 @@
 </headers>
 
 <libs>
-    /usr/lib/libokularcore.so
+    /usr/lib/*/libOkular5Core.so
 </libs>
 
 </descriptor>

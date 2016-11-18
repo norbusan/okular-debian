@@ -1,3 +1,10 @@
+okular (4:16.08.90~git11082016-0neon6) xenial; urgency=medium
+
+  * Add another missing qml dep.
+  * Fix acc file to reflect new so file and version as this is a kf5 port. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 05:36:50 -0700
+
 okular (4:16.08.90~git11082016-0neon5) xenial; urgency=medium
 
   * Some more copyright file cleanup. 
