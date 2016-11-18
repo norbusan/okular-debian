@@ -1,3 +1,9 @@
+okular (4:16.08.90~git11082016-0neon9) xenial; urgency=medium
+
+  * Update tests to kf5. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 08:03:38 -0700
+
 okular (4:16.08.90~git11082016-0neon8) xenial; urgency=medium
 
   * Fix inclue path in acc file 
