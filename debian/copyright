@@ -276,8 +276,7 @@ License: GPL-2+
 
 Files: generators/dvi/*
 Copyright: 2001-2005, Stefan Kebekus
-License: UNKNOWN
- Please fill license UNKNOWN from header of generators/dvi/*
+License: GPL-2+
 
 Files: generators/dvi/TeXFont_PK.cpp
   generators/dvi/dviFile.cpp

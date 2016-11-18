@@ -1,3 +1,10 @@
+okular (4:16.08.90~git11082016-0neon4) xenial; urgency=medium
+
+  * Fix Unknown copyright entry.
+  * Add missing files. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 04:20:38 -0700
+
 okular (4:16.08.90~git11082016-0neon3) xenial; urgency=medium
 
   * Add qml deps. 
