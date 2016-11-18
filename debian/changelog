@@ -1,3 +1,10 @@
+okular (4:16.08.90~git11082016-0neon10) xenial; urgency=medium
+
+  * Add xscreensaver to test runtime deps, I can't seem to sort out 
+    what the other test wants :( 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 11:22:45 -0700
+
 okular (4:16.08.90~git11082016-0neon9) xenial; urgency=medium
 
   * Update tests to kf5. 
