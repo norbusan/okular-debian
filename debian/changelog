@@ -1,3 +1,9 @@
+okular (4:16.08.90~git11082016-0neon8) xenial; urgency=medium
+
+  * Fix inclue path in acc file 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 06:38:39 -0700
+
 okular (4:16.08.90~git11082016-0neon7) xenial; urgency=medium
 
   * Fix controls qml version. Still working on autopkg test failures. 

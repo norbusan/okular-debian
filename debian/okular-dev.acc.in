@@ -6,7 +6,7 @@
 </version>
 
 <headers>
-    /usr/include/okular
+    /usr/include/okular/core
 </headers>
 
 <libs>
