@@ -64,9 +64,11 @@ Package: okular
 Section: graphics
 Architecture: any
 Depends: libokular5core7 (= ${binary:Version}),
-         qml-module-qtgraphicaleffects,
-         qml-module-qtquick-controls2,
+         qml-module-org-kde-kirigami,
+         qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qt-labs-folderlistmodel,
+         qml-module-qtgraphicaleffects,
+         qml-module-qtquick-controls,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: cups-bsd
@@ -131,7 +133,7 @@ Architecture: any
 Depends: qml-module-org-kde-kirigami,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtgraphicaleffects,
-         qml-module-qtquick-controls2,         
+         qml-module-qtquick-controls2,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: okular
