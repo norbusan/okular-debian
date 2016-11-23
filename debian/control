@@ -80,8 +80,8 @@ Suggests: ghostscript,
           unrar
 Provides: pdf-viewer, postscript-viewer
 Breaks: kdegraphics-mobipocket (<< 4:4.12),
-        okular-extra-backends (<< 4:16.08.90+p16.04+git20161122.1356-0)
-Replaces: okular-extra-backends (<< 4:16.08.90+p16.04+git20161122.1356-0)
+        okular-extra-backends (<< 4:16.08.90+p16.04+git20161123.1447-0)
+Replaces: okular-extra-backends (<< 4:16.08.90+p16.04+git20161123.1447-0)
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
  features, such as annotations, forms, and embedded files.
@@ -113,7 +113,7 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: okular
 Provides: djvu-viewer
-Breaks: okular (<< 4:16.08.90+p16.04+git20161122.1356-0)
+Breaks: okular (<< 4:16.08.90+p16.04+git20161123.1447-0)
 Replaces: okular (<< 4:16.08.90+p16.04+git20161122.1356-0)
 Description: additional document format support for Okular
  These plugins allow Okular to view additional document formats:
