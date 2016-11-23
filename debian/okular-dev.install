@@ -26,5 +26,5 @@ usr/include/okular/interfaces/guiinterface.h
 usr/include/okular/interfaces/printinterface.h
 usr/include/okular/interfaces/saveinterface.h
 usr/include/okular/interfaces/viewerinterface.h
-usr/lib/*/cmake/Okular5
+usr/lib/*/cmake/Okular5/
 usr/lib/*/libOkular5Core.so
