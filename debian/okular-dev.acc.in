@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <descriptor>
 
+<version>
+    16.12.1
+</version>
+
 <headers>
-    /usr/include/okular/core
+    /usr/include/okular/core/
 </headers>
 
 <libs>
-    /usr/lib/*/libOkular5Core.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libOkular5Core.so
 </libs>
 
 </descriptor>
