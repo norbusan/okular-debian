@@ -52,6 +52,17 @@ usr/share/kservicetypes5/okularGenerator.desktop
 usr/share/kxmlgui5/okular/part-viewermode.rc
 usr/share/kxmlgui5/okular/part.rc
 usr/share/kxmlgui5/okular/shell.rc
+usr/share/locale/*/LC_MESSAGES/okular.mo
+usr/share/locale/*/LC_MESSAGES/okular_comicbook.mo
+usr/share/locale/*/LC_MESSAGES/okular_dvi.mo
+usr/share/locale/*/LC_MESSAGES/okular_fax.mo
+usr/share/locale/*/LC_MESSAGES/okular_fictionbook.mo
+usr/share/locale/*/LC_MESSAGES/okular_ghostview.mo
+usr/share/locale/*/LC_MESSAGES/okular_kimgio.mo
+usr/share/locale/*/LC_MESSAGES/okular_ooo.mo
+usr/share/locale/*/LC_MESSAGES/okular_plucker.mo
+usr/share/locale/*/LC_MESSAGES/okular_poppler.mo
+usr/share/locale/*/LC_MESSAGES/okular_xps.mo
 usr/share/metainfo/org.kde.okular-comicbook.metainfo.xml
 usr/share/metainfo/org.kde.okular-dvi.metainfo.xml
 usr/share/metainfo/org.kde.okular-fax.metainfo.xml

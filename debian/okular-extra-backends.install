@@ -16,6 +16,9 @@ usr/share/kservices5/okularChm.desktop
 usr/share/kservices5/okularDjvu.desktop
 usr/share/kservices5/okularEPub.desktop
 usr/share/kservices5/okularTiff.desktop
+usr/share/locale/*/LC_MESSAGES/okular_chm.mo
+usr/share/locale/*/LC_MESSAGES/okular_djvu.mo
+usr/share/locale/*/LC_MESSAGES/okular_epub.mo
 usr/share/metainfo/org.kde.okular-chm.metainfo.xml
 usr/share/metainfo/org.kde.okular-djvu.metainfo.xml
 usr/share/metainfo/org.kde.okular-epub.metainfo.xml

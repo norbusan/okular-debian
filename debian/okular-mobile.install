@@ -12,3 +12,5 @@ usr/share/applications/org.kde.mobile.okular_plucker.desktop
 usr/share/applications/org.kde.mobile.okular_txt.desktop
 usr/share/applications/org.kde.mobile.okular_xps.desktop
 usr/share/kpackage/genericqml/org.kde.mobile.okular/
+usr/share/locale/*/LC_MESSAGES/okular_mobi.mo
+usr/share/locale/*/LC_MESSAGES/org.kde.active.documentviewer.mo
