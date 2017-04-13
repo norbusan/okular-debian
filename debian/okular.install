@@ -62,6 +62,7 @@ usr/share/locale/*/LC_MESSAGES/okular_kimgio.mo
 usr/share/locale/*/LC_MESSAGES/okular_ooo.mo
 usr/share/locale/*/LC_MESSAGES/okular_plucker.mo
 usr/share/locale/*/LC_MESSAGES/okular_poppler.mo
+usr/share/locale/*/LC_MESSAGES/okular_txt.mo
 usr/share/locale/*/LC_MESSAGES/okular_xps.mo
 usr/share/metainfo/org.kde.okular-comicbook.metainfo.xml
 usr/share/metainfo/org.kde.okular-dvi.metainfo.xml
