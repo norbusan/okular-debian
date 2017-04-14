@@ -1,6 +1,9 @@
 #!/usr/bin/make -f
 
+l10npkgs_firstversion_ok := 4:17.03.90-0~
+
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time

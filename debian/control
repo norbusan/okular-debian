@@ -144,6 +144,8 @@ Suggests: ghostscript,
           poppler-data,
           texlive-binaries,
           unrar
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: okular
 Description: mobile support for Okular
  These plugins allow Okular to view additional document formats for mobile:
