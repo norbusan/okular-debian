@@ -32,7 +32,7 @@ usr/share/config.kcfg/gssettings.kcfg
 usr/share/config.kcfg/okular.kcfg
 usr/share/config.kcfg/okular_core.kcfg
 usr/share/config.kcfg/pdfsettings.kcfg
-usr/share/doc/HTML/en/okular
+usr/share/doc/HTML/*/okular
 usr/share/icons/hicolor/*/apps/okular.png
 usr/share/kconf_update/okular.upd
 usr/share/kservices5/okularComicbook.desktop
