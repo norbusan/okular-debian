@@ -1,2 +1,3 @@
 # The manpages are gzipped
 usr/share/man/man1/okular.1
+usr/share/man/*/man1/okular.1
