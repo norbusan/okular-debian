@@ -100,7 +100,7 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokular5core7 (= ${binary:Version}), ${misc:Depends}
+Depends: libokular5core7 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
