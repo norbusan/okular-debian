@@ -100,7 +100,8 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons-dev,
+Depends: libkf5config-dev,
+         libkf5coreaddons-dev,
          libokular5core7 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends}
