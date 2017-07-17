@@ -8,7 +8,7 @@ usr/include/okular/core/form.h
 usr/include/okular/core/generator.h
 usr/include/okular/core/global.h
 usr/include/okular/core/observer.h
-usr/include/okular/core/okular_export.h
+usr/include/okular/core/okularcore_export.h
 usr/include/okular/core/page.h
 usr/include/okular/core/pagesize.h
 usr/include/okular/core/pagetransition.h
@@ -26,6 +26,5 @@ usr/include/okular/interfaces/guiinterface.h
 usr/include/okular/interfaces/printinterface.h
 usr/include/okular/interfaces/saveinterface.h
 usr/include/okular/interfaces/viewerinterface.h
-usr/lib/cmake/Okular/OkularConfig.cmake
-usr/lib/cmake/Okular/OkularConfigVersion.cmake
-usr/lib/libokularcore.so
+usr/lib/*/cmake/Okular5/
+usr/lib/*/libOkular5Core.so

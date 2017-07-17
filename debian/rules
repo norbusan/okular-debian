@@ -1,14 +1,13 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+l10npkgs_firstversion_ok := 4:17.03.90-0~
+
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
 
-override_dh_shlibdeps:
-	$(overridden_command) $(foreach p,$(shell dh_listpackages | grep ^lib),-p$p) -- -xkde-runtime
-	$(overridden_command) --remaining-packages
-
 override_dh_strip:
-	$(overridden_command) --dbgsym-migration='okular-dbg (<= 4:15.12.1-1~~)'
+	$(overridden_command) --dbgsym-migration='okular-dbg (<= 16.08.90-1~~)'

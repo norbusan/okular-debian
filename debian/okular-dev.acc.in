@@ -2,15 +2,15 @@
 <descriptor>
 
 <version>
-    15.12.0
+    16.12.1
 </version>
 
 <headers>
-    /usr/include/okular
+    /usr/include/okular/core/
 </headers>
 
 <libs>
-    /usr/lib/libokularcore.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libOkular5Core.so
 </libs>
 
 </descriptor>
