@@ -1,7 +1,6 @@
 Source: okular
 Section: kde
 Priority: optional
-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
@@ -46,8 +45,9 @@ Build-Depends: cmake (>= 2.8.9~),
                zlib1g-dev
 Standards-Version: 3.9.7
 Homepage: http://www.kde.org/
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
+Vcs-Git: git://anongit.neon.kde.org/applications/okular
+Vcs-Browser: https://packaging.neon.kde.org/applications/okular.git
+Maintainer: Neon CI <neon@kde.org>
 
 Package: libokular5core7
 Section: libs

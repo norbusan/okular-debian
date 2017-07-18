@@ -1,8 +1,8 @@
-okular (4:17.04.3-0neon) xenial; urgency=medium
+okular (4:17.04.2+p16.04+git20170711.1430-0) xenial; urgency=medium
 
-  * New release
+  * Automatic Ubuntu CI Build
 
- -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:26:08 +0000
+ -- Neon CI <neon@kde.org>  Tue, 11 Jul 2017 14:31:49 +0000
 
 okular (4:17.04.2-0neon) xenial; urgency=medium
 
