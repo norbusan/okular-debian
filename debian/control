@@ -1,36 +1,55 @@
 Source: okular
 Section: kde
 Priority: optional
-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.14),
+               extra-cmake-modules,
+               kdoctools-dev,
+               kio-dev,
                libchm-dev,
                libdjvulibre-dev,
                libepub-dev,
                libfreetype6-dev,
                libjpeg-dev,
-               libkexiv2-dev,
-               libpoppler-qt4-dev (>= 0.8.0),
-               libqca2-dev,
-               libqimageblitz-dev,
-               libqjson-dev,
+               libkf5activities-dev,
+               libkf5archive-dev,
+               libkf5bookmarks-dev,
+               libkf5completion-dev,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5dbusaddons-dev,
+               libkf5iconthemes-dev,
+               libkf5kexiv2-dev,
+               libkf5khtml-dev,
+               libkf5kjs-dev,
+               libkf5parts-dev,
+               libkf5pty-dev,
+               libkf5threadweaver-dev,
+               libkf5wallet-dev,
+               libkf5windowsystem-dev,
+               libphonon4qt5-dev,
+               libphonon4qt5experimental-dev,
+               libpoppler-qt5-dev,
+               libqca-qt5-2-dev,
                libqmobipocket-dev,
-               libsoprano-dev,
+               libqt5svg5-dev,
                libspectre-dev,
                libtiff-dev,
                libx11-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.14),
+               pkg-kde-tools,
+               qtbase5-dev,
+               qtdeclarative5-dev,
                zlib1g-dev
-Standards-Version: 3.9.8
+Standards-Version: 3.9.7
 Homepage: http://www.kde.org/
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
+Vcs-Git: git://anongit.neon.kde.org/applications/okular
+Vcs-Browser: https://packaging.neon.kde.org/applications/okular.git
+Maintainer: Neon CI <neon@kde.org>
 
-Package: libokularcore7
+Package: libokular5core7
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -42,7 +61,12 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: libokularcore7 (= ${binary:Version}),
+Depends: libokular5core7 (= ${binary:Version}),
+         qml-module-org-kde-kirigami,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qt-labs-folderlistmodel,
+         qml-module-qtgraphicaleffects,
+         qml-module-qtquick-controls,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: cups-bsd
@@ -53,7 +77,13 @@ Suggests: ghostscript,
           texlive-binaries,
           unrar
 Provides: pdf-viewer, postscript-viewer
-Breaks: kdegraphics-mobipocket (<< 4:4.12)
+Breaks: kdegraphics-mobipocket (<< 4:4.12),
+        okular-extra-backends (<< 4:16.12.0),
+        okular-mobile (<< 4:17.04.1-0),
+        ${kde-l10n:all}
+Replaces: okular-extra-backends (<< 4:16.12.0),
+          okular-mobile (<< 4:17.04.1-0),
+          ${kde-l10n:all}
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
  features, such as annotations, forms, and embedded files.
@@ -73,9 +103,12 @@ Description: universal document viewer
 Package: okular-dev
 Section: libdevel
 Architecture: any
-Depends: libokularcore7 (= ${binary:Version}),
-         ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libokularcore7}
+Depends: libkf5config-dev,
+         libkf5coreaddons-dev,
+         libkf5xmlgui-dev,
+         libokular5core7 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends}
 Description: development files for the Okular libraries
  This package contains development files for building Okular document format
  backends.
@@ -87,11 +120,55 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: okular
 Provides: djvu-viewer
+Breaks: okular (<< 4:16.12.0), ${kde-l10n:all}
+Replaces: okular (<< 4:16.12.0), ${kde-l10n:all}
 Description: additional document format support for Okular
  These plugins allow Okular to view additional document formats:
-  * Microsoft Compiled HTML Help (CHM)
-  * Tagged Image File Format (TIFF)
-  * DjVu scanned page format
-  * EPub eBooks
+  * Portable Document Format (PDF)
+  * PostScript
+  * Device Independent Format (DVI)
+  * DeJaVu Format
+  * Comic Books
+  * Images (JPEG, PNG, GIF, and many more)
+  * TIFF Image Format
+  * FictionBook Format
+  * Plucker Format
+  * OpenDocument Text Format
+  * Microsofts CHM Format
+  * Microsofts XML Document Format
+ .
+ This package is part of the KDE graphics module.
+
+Package: okular-mobile
+Architecture: any
+Depends: qml-module-org-kde-kirigami,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtgraphicaleffects,
+         qml-module-qtquick-controls2,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: ghostscript,
+          jovie,
+          okular-extra-backends (= ${binary:Version}),
+          poppler-data,
+          texlive-binaries,
+          unrar
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Recommends: okular
+Description: mobile support for Okular
+ These plugins allow Okular to view additional document formats for mobile:
+  * Portable Document Format (PDF)
+  * PostScript
+  * Device Independent Format (DVI)
+  * DeJaVu Format
+  * Comic Books
+  * Images (JPEG, PNG, GIF, and many more)
+  * TIFF Image Format
+  * FictionBook Format
+  * Plucker Format
+  * OpenDocument Text Format
+  * Microsofts CHM Format
+  * Microsofts XML Document Format
  .
  This package is part of the KDE graphics module.
