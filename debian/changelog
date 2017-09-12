@@ -1,15 +1,16 @@
-okular (4:17.08.1-1~) UNRELEASED; urgency=medium
+okular (4:17.08.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (17.08.1)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
+  * Release to experimental
 
   [ Jonathan Riddell ]
   * update sig
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 22:57:02 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 22:41:29 +0200
 
 okular (4:17.08.1-0neon) xenial; urgency=medium
 
