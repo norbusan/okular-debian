@@ -1,7 +1,6 @@
 etc/xdg/okular.categories
 usr/bin/okular
 usr/lib/*/qt5/plugins/okular/generators/okularGenerator_comicbook.so
-usr/lib/*/qt5/plugins/okular/generators/okularGenerator_comicbook.so
 usr/lib/*/qt5/plugins/okular/generators/okularGenerator_dvi.so
 usr/lib/*/qt5/plugins/okular/generators/okularGenerator_fax.so
 usr/lib/*/qt5/plugins/okular/generators/okularGenerator_fb.so
