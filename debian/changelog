@@ -5,6 +5,8 @@ okular (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
   * Remove trailing whitespaces in changelog.
+  * Install the upstream man pages using dh_install files, not with
+    dh_installman, as they are installed by upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Dec 2017 11:11:56 +0100
 
