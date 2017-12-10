@@ -9,6 +9,7 @@ okular (4:17.08.3-0r1) UNRELEASED; urgency=medium
     dh_installman, as they are installed by upstream.
   * Bump the libqmobipocket-dev build dependency to >= 4:17.08~, so the KF5
     version of it is used. (Closes: #876494)
+  * Remove unused libkf5dbusaddons-dev build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Dec 2017 11:11:56 +0100
 
