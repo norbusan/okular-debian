@@ -11,6 +11,7 @@ okular (4:17.08.3-0r1) UNRELEASED; urgency=medium
     version of it is used. (Closes: #876494)
   * Remove unused libkf5dbusaddons-dev build dependency.
   * Fix Vcs-* fields.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Dec 2017 11:11:56 +0100
 
