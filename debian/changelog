@@ -4,6 +4,7 @@ okular (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Dec 2017 11:11:56 +0100
 
@@ -83,58 +84,58 @@ okular (4:16.12.0-0neon) xenial; urgency=medium
 
 okular (4:16.08.90~git11082016-0neon10) xenial; urgency=medium
 
-  * Add xscreensaver to test runtime deps, I can't seem to sort out 
-    what the other test wants :( 
+  * Add xscreensaver to test runtime deps, I can't seem to sort out
+    what the other test wants :(
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 11:22:45 -0700
 
 okular (4:16.08.90~git11082016-0neon9) xenial; urgency=medium
 
-  * Update tests to kf5. 
+  * Update tests to kf5.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 08:03:38 -0700
 
 okular (4:16.08.90~git11082016-0neon8) xenial; urgency=medium
 
-  * Fix inclue path in acc file 
+  * Fix inclue path in acc file
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 06:38:39 -0700
 
 okular (4:16.08.90~git11082016-0neon7) xenial; urgency=medium
 
-  * Fix controls qml version. Still working on autopkg test failures. 
+  * Fix controls qml version. Still working on autopkg test failures.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 06:35:27 -0700
 
 okular (4:16.08.90~git11082016-0neon6) xenial; urgency=medium
 
   * Add another missing qml dep.
-  * Fix acc file to reflect new so file and version as this is a kf5 port. 
+  * Fix acc file to reflect new so file and version as this is a kf5 port.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 05:36:50 -0700
 
 okular (4:16.08.90~git11082016-0neon5) xenial; urgency=medium
 
-  * Some more copyright file cleanup. 
+  * Some more copyright file cleanup.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 04:52:31 -0700
 
 okular (4:16.08.90~git11082016-0neon4) xenial; urgency=medium
 
   * Fix Unknown copyright entry.
-  * Add missing files. 
+  * Add missing files.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Nov 2016 04:20:38 -0700
 
 okular (4:16.08.90~git11082016-0neon3) xenial; urgency=medium
 
-  * Add qml deps. 
+  * Add qml deps.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 17 Nov 2016 04:57:26 -0700
 
 okular (4:16.08.90~git11082016-0neon2) xenial; urgency=medium
 
-  * Fix copyright, install files. 
+  * Fix copyright, install files.
   * Fix lintian overrides.
   * Add package for mobile.
 
@@ -142,13 +143,13 @@ okular (4:16.08.90~git11082016-0neon2) xenial; urgency=medium
 
 okular (4:16.08.90~git11082016-0neon2) xenial; urgency=medium
 
-  * Add back epoch 
+  * Add back epoch
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 10 Nov 2016 08:28:28 -0700
 
 okular (16.08.90~git11082016-1) xenial; urgency=medium
 
-  * KF5 port 
+  * KF5 port
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 08 Nov 2016 12:39:46 -0700
 
@@ -239,7 +240,7 @@ okular (4:14.12.3-1) experimental; urgency=medium
 okular (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Fix kdelibs5 version in build depends 
+  * Fix kdelibs5 version in build depends
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:20:31 -0700
 
