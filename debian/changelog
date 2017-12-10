@@ -1,6 +1,6 @@
-okular (4:17.08.3-0r1) UNRELEASED; urgency=medium
+okular (4:17.08.3-1) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
@@ -13,7 +13,7 @@ okular (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Fix Vcs-* fields.
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Dec 2017 11:11:56 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 10 Dec 2017 11:42:23 +0100
 
 okular (4:17.08.1-1) experimental; urgency=medium
 
