@@ -1,5 +1,7 @@
 okular (4:17.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Bump Standards-Version to 4.1.3, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Dec 2017 16:39:34 +0100
 
