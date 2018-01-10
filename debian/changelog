@@ -1,5 +1,7 @@
 okular (4:17.08.3-3) UNRELEASED; urgency=medium
 
+  [ Don Armstrong ]
+  * Depend on kinit for kdeinit5 launcher (Closes: #886867)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 10 Jan 2018 22:50:22 +0100
 

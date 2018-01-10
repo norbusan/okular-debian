@@ -66,6 +66,7 @@ Depends: libokular5core7 (= ${binary:Version}),
          qml-module-qt-labs-folderlistmodel,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls,
+         kinit,
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: cups-bsd
