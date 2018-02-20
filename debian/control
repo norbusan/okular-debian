@@ -48,7 +48,7 @@ Homepage: http://www.kde.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/okular.git
 
-Package: libokular5core7
+Package: libokular5core8
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -60,7 +60,7 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: libokular5core7 (= ${binary:Version}),
+Depends: libokular5core8 (= ${binary:Version}),
          qml-module-org-kde-kirigami,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qt-labs-folderlistmodel,
@@ -106,7 +106,7 @@ Architecture: any
 Depends: libkf5config-dev (>= 5.16.0~),
          libkf5coreaddons-dev (>= 5.16.0~),
          libkf5xmlgui-dev,
-         libokular5core7 (= ${binary:Version}),
+         libokular5core8 (= ${binary:Version}),
          qtbase5-dev (>= 5.6.0~),
          ${misc:Depends},
 Description: development files for the Okular libraries
