@@ -1,6 +1,6 @@
-okular (4:17.12.2-0r1) UNRELEASED; urgency=medium
+okular (4:17.12.2-1) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release: (Closes: #887746)
     - allows one to save changed document archives (Closes: #598806)
   * Rename libokular5core7 to libokular5core8, according to the upstream SONAME
@@ -17,7 +17,7 @@ okular (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Switch the qml-module-org-kde-kirigami dependency in okular-mobile to
     qml-module-org-kde-kirigami2, as it is used now.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Feb 2018 16:07:08 +0100
+ -- Pino Toscano <pino@debian.org>  Tue, 20 Feb 2018 17:48:16 +0100
 
 okular (4:17.08.3-3) unstable; urgency=medium
 
