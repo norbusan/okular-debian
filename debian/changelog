@@ -13,6 +13,8 @@ okular (4:17.12.2-0r1) UNRELEASED; urgency=medium
     - make okular-mobile depend on this new module
     - remove all the QML dependencies from okular
   * Tighten the inter-library dependencies.
+  * Switch the qml-module-org-kde-kirigami dependency in okular-mobile to
+    qml-module-org-kde-kirigami2, as it is used now.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Feb 2018 16:07:08 +0100
 

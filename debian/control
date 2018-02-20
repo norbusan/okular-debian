@@ -151,7 +151,7 @@ Description: mobile support for Okular - QML modules
 
 Package: okular-mobile
 Architecture: any
-Depends: qml-module-org-kde-kirigami,
+Depends: qml-module-org-kde-kirigami2,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-org-kde-okular (= ${binary:Version}),
          qml-module-qtgraphicaleffects,
