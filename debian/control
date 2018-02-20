@@ -62,8 +62,7 @@ Description: libraries for the Okular document viewer
 Package: okular
 Section: graphics
 Architecture: any
-Depends: libokular5core8 (= ${binary:Version}),
-         kinit,
+Depends: kinit,
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: cups-bsd

@@ -12,6 +12,7 @@ okular (4:17.12.2-0r1) UNRELEASED; urgency=medium
     dependencies anymore
     - make okular-mobile depend on this new module
     - remove all the QML dependencies from okular
+  * Tighten the inter-library dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Feb 2018 16:07:08 +0100
 
