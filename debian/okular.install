@@ -13,7 +13,6 @@ usr/lib/*/qt5/plugins/okular/generators/okularGenerator_poppler.so
 usr/lib/*/qt5/plugins/okular/generators/okularGenerator_txt.so
 usr/lib/*/qt5/plugins/okular/generators/okularGenerator_xps.so
 usr/lib/*/qt5/plugins/okularpart.so
-usr/lib/*/qt5/qml/org/kde/okular/
 usr/share/applications/okularApplication_comicbook.desktop
 usr/share/applications/okularApplication_dvi.desktop
 usr/share/applications/okularApplication_fax.desktop

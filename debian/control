@@ -63,11 +63,6 @@ Package: okular
 Section: graphics
 Architecture: any
 Depends: libokular5core8 (= ${binary:Version}),
-         qml-module-org-kde-kirigami,
-         qml-module-org-kde-kquickcontrolsaddons,
-         qml-module-qt-labs-folderlistmodel,
-         qml-module-qtgraphicaleffects,
-         qml-module-qtquick-controls,
          kinit,
          ${misc:Depends},
          ${shlibs:Depends},
@@ -141,10 +136,25 @@ Description: additional document format support for Okular
  .
  This package is part of the KDE graphics module.
 
+Package: qml-module-org-kde-okular
+Architecture: any
+Depends: qml-module-qtgraphicaleffects,
+         qml-module-qtquick-controls2,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: okular (<< 4:17.12.2~),
+Replaces: okular (<< 4:17.12.2~),
+Description: mobile support for Okular - QML modules
+ This package contains the QML module for interfacing with the Okular core
+ library.
+ .
+ This package is part of the KDE graphics module.
+
 Package: okular-mobile
 Architecture: any
 Depends: qml-module-org-kde-kirigami,
          qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-org-kde-okular (= ${binary:Version}),
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls2,
          ${misc:Depends},

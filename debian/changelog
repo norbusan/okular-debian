@@ -7,6 +7,11 @@ okular (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Add the libmarkdown2-dev, and libzip-dev build dependencies, optionally
     needed by the new version (for CHM and Mardown backends).
   * Update install files.
+  * Split the QML module from okular to a separate qml-module-org-kde-okular:
+    this way the main application does not contain QML-related files, and
+    dependencies anymore
+    - make okular-mobile depend on this new module
+    - remove all the QML dependencies from okular
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Feb 2018 16:07:08 +0100
 
