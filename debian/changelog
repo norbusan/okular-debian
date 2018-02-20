@@ -2,7 +2,7 @@ okular (4:17.12.2-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release: (Closes: #887746)
-    - allows to save changed document archives (Closes: #598806)
+    - allows one to save changed document archives (Closes: #598806)
   * Rename libokular5core7 to libokular5core8, according to the upstream SONAME
     bump.
   * Add the libmarkdown2-dev, and libzip-dev build dependencies, optionally
