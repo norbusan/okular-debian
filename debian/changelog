@@ -6,6 +6,7 @@ okular (4:17.12.2-0r1) UNRELEASED; urgency=medium
     bump.
   * Add the libmarkdown2-dev, and libzip-dev build dependencies, optionally
     needed by the new version (for CHM and Mardown backends).
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Feb 2018 16:07:08 +0100
 
