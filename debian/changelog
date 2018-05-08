@@ -16,6 +16,7 @@ okular (4:18.04.0-0r1) UNRELEASED; urgency=medium
   * Since the okularcore library bumps SONAME in each stable series, instead of
     using a symbols file make sure the generated shlibs requires the last
     version.
+  * Remove the jovie suggests, as it is not useful for okular.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 May 2018 17:09:50 +0200
 
