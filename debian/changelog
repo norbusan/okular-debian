@@ -2,6 +2,8 @@ okular (4:18.04.0-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Rename libokular5core8 to libokular5core9, according to the upstream SONAME
+    bump.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 May 2018 17:09:50 +0200
 
