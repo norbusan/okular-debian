@@ -13,6 +13,9 @@ okular (4:18.04.0-0r1) UNRELEASED; urgency=medium
     - bump the debhelper build dependency to 11~
     - bump compat to 11
   * Bump Standards-Version to 4.1.4, no changes required.
+  * Since the okularcore library bumps SONAME in each stable series, instead of
+    using a symbols file make sure the generated shlibs requires the last
+    version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 May 2018 17:09:50 +0200
 
