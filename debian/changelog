@@ -9,6 +9,9 @@ okular (4:18.04.0-0r1) UNRELEASED; urgency=medium
     - bump all the KF5 ones to >= 5.33.0
     - add libkf5crash-dev, libkf5purpose-dev, and libqt5texttospeech5-dev
   * Switch Vcs-* fields to salsa.debian.org.
+  * Bump the debhelper compatibility to 11:
+    - bump the debhelper build dependency to 11~
+    - bump compat to 11
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 May 2018 17:09:50 +0200
 
