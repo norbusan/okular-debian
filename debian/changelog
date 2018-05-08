@@ -1,6 +1,6 @@
-okular (4:18.04.0-0r1) UNRELEASED; urgency=medium
+okular (4:18.04.0-1) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Rename libokular5core8 to libokular5core9, according to the upstream SONAME
     bump.
@@ -18,7 +18,7 @@ okular (4:18.04.0-0r1) UNRELEASED; urgency=medium
     version.
   * Remove the jovie suggests, as it is not useful for okular.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 May 2018 17:09:50 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 08 May 2018 17:58:18 +0200
 
 okular (4:17.12.2-2) unstable; urgency=medium
 
