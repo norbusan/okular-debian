@@ -14,5 +14,5 @@ override_dh_auto_test:
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='okular-dbg (<= 16.08.90-1~~)'
 
-override_dh_shlibdeps:
+override_dh_makeshlibs:
 	$(overridden_command) -V
