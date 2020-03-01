@@ -21,6 +21,10 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
     - invoke the dh sequencer using the kf5 addon
     - explicitly link in as-needed mode
     - call the right debhelper command instead of $(overridden_command)
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+    - drop the dh_makeshlibs override, as -V is done by default
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
 

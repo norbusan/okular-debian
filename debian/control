@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
-               debhelper (>= 11~),
+               debhelper-compat (= 12),
                extra-cmake-modules (>= 5.33.0~),
                gettext,
                libchm-dev,
