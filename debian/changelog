@@ -1,6 +1,6 @@
-okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
+okular (4:19.12.2-1) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Update watch file to the new release-service location.
   * Update the build dependencies according to the upstream build system:
@@ -29,7 +29,7 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
   * Remove not-installed file, no more needed now.
   * Bump Standards-Version to 4.5.0, no changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 01 Mar 2020 11:57:33 +0100
 
 okular (4:18.04.0-1) experimental; urgency=medium
 
