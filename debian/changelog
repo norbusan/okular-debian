@@ -17,6 +17,10 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
   * Unregister okular.categories as conffile, as it is no more in /etc.
   * Pass -DBUILD_TESTING=OFF to cmake to disable the build of tests, as they
     are not run at build time anyway.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - explicitly link in as-needed mode
+    - call the right debhelper command instead of $(overridden_command)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
 

@@ -1,21 +1,28 @@
 #!/usr/bin/make -f
 
-l10npkgs_firstversion_ok := 4:16.04.3-11~
+export DEB_LDFLAGS_MAINT_APPEND := -Wl,--as-needed
 
-include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+l10npkgs_firstversion_ok := 4:16.04.3-11~
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
+
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
+%:
+	dh $@ --with kf5
+
 override_dh_auto_configure:
-	$(overridden_command) -- -DBUILD_TESTING=OFF
+	dh_auto_configure -Skf5 -- -DBUILD_TESTING=OFF
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
 
 override_dh_strip:
-	$(overridden_command) --dbgsym-migration='okular-dbg (<= 16.08.90-1~~)'
+	dh_strip --dbgsym-migration='okular-dbg (<= 16.08.90-1~~)'
 
 override_dh_makeshlibs:
-	$(overridden_command) -V
+	dh_makeshlibs -V
+
+override_dh_gencontrol: l10npkgs_firstversion_ok libpkgs_gen_strict_local_shlibs
+	dh_gencontrol
