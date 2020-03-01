@@ -1,5 +1,8 @@
 okular (4:19.12.2-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Replace the transitional libfreetype6-dev build dependency with
+    libfreetype-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 12:13:34 +0100
 
