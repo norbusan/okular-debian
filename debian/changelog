@@ -26,6 +26,7 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
     - remove debian/compat
     - drop the dh_makeshlibs override, as -V is done by default
   * Remove extra quoting around %s in mailcap entries.
+  * Remove not-installed file, no more needed now.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
 
