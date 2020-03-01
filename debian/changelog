@@ -13,6 +13,8 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
     packages.
   * Remove unused okular-dev.acc.in file.
   * Add the configuration for the CI on salsa.
+  * Update install files.
+  * Unregister okular.categories as conffile, as it is no more in /etc.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
 

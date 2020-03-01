@@ -1,4 +1,3 @@
-etc/xdg/okular.categories
 usr/bin/okular
 usr/lib/*/qt5/plugins/okular/generators/okularGenerator_comicbook.so
 usr/lib/*/qt5/plugins/okular/generators/okularGenerator_dvi.so
@@ -83,3 +82,4 @@ usr/share/okular/icons/hicolor/*/apps/okular-fb2.png
 usr/share/okular/icons/hicolor/*/apps/okular-gv.png
 usr/share/okular/pics
 usr/share/okular/tools.xml
+usr/share/qlogging-categories5/okular.categories

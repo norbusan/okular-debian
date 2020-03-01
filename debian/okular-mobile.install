@@ -1,4 +1,4 @@
-usr/share/applications/org.kde.mobile.okular.desktop
+usr/bin/okularkirigami
 usr/share/applications/org.kde.mobile.okular_comicbook.desktop
 usr/share/applications/org.kde.mobile.okular_dvi.desktop
 usr/share/applications/org.kde.mobile.okular_fax.desktop
@@ -11,5 +11,6 @@ usr/share/applications/org.kde.mobile.okular_pdf.desktop
 usr/share/applications/org.kde.mobile.okular_plucker.desktop
 usr/share/applications/org.kde.mobile.okular_txt.desktop
 usr/share/applications/org.kde.mobile.okular_xps.desktop
-usr/share/kpackage/genericqml/org.kde.mobile.okular/
+usr/share/applications/org.kde.okular.kirigami.desktop
 usr/share/locale/*/LC_MESSAGES/org.kde.active.documentviewer.mo
+usr/share/metainfo/org.kde.okular.kirigami.appdata.xml

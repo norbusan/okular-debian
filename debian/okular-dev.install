@@ -12,7 +12,9 @@ usr/include/okular/core/okularcore_export.h
 usr/include/okular/core/page.h
 usr/include/okular/core/pagesize.h
 usr/include/okular/core/pagetransition.h
+usr/include/okular/core/printoptionswidget.h
 usr/include/okular/core/settings_core.h
+usr/include/okular/core/signatureutils.h
 usr/include/okular/core/sound.h
 usr/include/okular/core/sourcereference.h
 usr/include/okular/core/textdocumentgenerator.h
