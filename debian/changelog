@@ -9,6 +9,8 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
     - bump KF packages to 5.44.0
     - remove unused libx11-dev
     - explicitly add gettext
+  * Drop the 'testsuite' autopkgtest, as it does not test the installed
+    packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
 

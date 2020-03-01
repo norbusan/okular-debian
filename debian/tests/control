@@ -1,5 +1,0 @@
-Tests: testsuite
-Depends: @, @builddeps@, build-essential,
-         xvfb, xauth, dbus,
-         texlive-latex-base, xscreensaver
-Restrictions: build-needed
