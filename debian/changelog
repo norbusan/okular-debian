@@ -3,6 +3,12 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * New upstream release.
   * Update watch file to the new release-service location.
+  * Update the build dependencies according to the upstream build system:
+    - bump extra-cmake-modules to 5.33.0
+    - bump Qt packages to 5.9.0
+    - bump KF packages to 5.44.0
+    - remove unused libx11-dev
+    - explicitly add gettext
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
 
