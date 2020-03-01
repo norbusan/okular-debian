@@ -15,6 +15,8 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
   * Add the configuration for the CI on salsa.
   * Update install files.
   * Unregister okular.categories as conffile, as it is no more in /etc.
+  * Pass -DBUILD_TESTING=OFF to cmake to disable the build of tests, as they
+    are not run at build time anyway.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
 
