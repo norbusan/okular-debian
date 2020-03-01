@@ -27,6 +27,7 @@ okular (4:19.12.2-0r1) UNRELEASED; urgency=medium
     - drop the dh_makeshlibs override, as -V is done by default
   * Remove extra quoting around %s in mailcap entries.
   * Remove not-installed file, no more needed now.
+  * Bump Standards-Version to 4.5.0, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 10:22:07 +0100
 

@@ -48,7 +48,7 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.9.0~),
                qtdeclarative5-dev (>= 5.9.0~),
                zlib1g-dev,
-Standards-Version: 4.1.4
+Standards-Version: 4.5.0
 Homepage: http://www.kde.org/
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/okular.git
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/okular
