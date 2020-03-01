@@ -1,3 +1,11 @@
+okular (4:17.12.2-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix path traversal issue when extracting an .okular file
+    (CVE-2018-1000801) (Closes: #908168)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 02 Dec 2018 12:27:39 +0100
+
 okular (4:17.12.2-2) unstable; urgency=medium
 
   * Team upload.
