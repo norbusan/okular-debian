@@ -1,3 +1,10 @@
+okular (4:17.12.2-2.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Add Breaks+Replaces against okular-l10n from lenny. (Closes: #911641)
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 24 Mar 2019 13:05:50 +0100
+
 okular (4:17.12.2-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.

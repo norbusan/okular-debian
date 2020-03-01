@@ -76,9 +76,11 @@ Provides: pdf-viewer, postscript-viewer
 Breaks: kdegraphics-mobipocket (<< 4:4.12),
         okular-extra-backends (<< 4:16.12.0),
         okular-mobile (<< 4:17.04.1-0),
+        okular-l10n,
         ${kde-l10n:all},
 Replaces: okular-extra-backends (<< 4:16.12.0),
           okular-mobile (<< 4:17.04.1-0),
+          okular-l10n,
           ${kde-l10n:all},
 Description: universal document viewer
  Okular is a universal document viewer with support for advanced document
