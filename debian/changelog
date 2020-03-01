@@ -61,6 +61,21 @@ okular (4:18.04.0-1) experimental; urgency=medium
 
  -- Pino Toscano <pino@debian.org>  Tue, 08 May 2018 17:58:18 +0200
 
+okular (4:17.12.2-2.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Add Breaks+Replaces against okular-l10n from lenny. (Closes: #911641)
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 24 Mar 2019 13:05:50 +0100
+
+okular (4:17.12.2-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix path traversal issue when extracting an .okular file
+    (CVE-2018-1000801) (Closes: #908168)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 02 Dec 2018 12:27:39 +0100
+
 okular (4:17.12.2-2) unstable; urgency=medium
 
   * Team upload.
