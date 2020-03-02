@@ -1,13 +1,14 @@
-okular (4:19.12.2-2) UNRELEASED; urgency=medium
+okular (4:19.12.2-2) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
+  * Upload to unstable (see #952886).
   * Replace the transitional libfreetype6-dev build dependency with
     libfreetype-dev.
   * Merge changes from 4:17.12.2-2.1, and 4:17.12.2-2.2:
     - drop patch Fix-path-traversal-issue-when-extracting-an-.okular-.patch,
       backported from upstream
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 12:13:34 +0100
+ -- Pino Toscano <pino@debian.org>  Mon, 02 Mar 2020 19:55:41 +0100
 
 okular (4:19.12.2-1) experimental; urgency=medium
 
