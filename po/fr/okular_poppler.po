@@ -1,0 +1,239 @@
+# translation of okular_poppler.po to Français
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Thomas Boeglin <thomas.boeglin@gmail.com>, 2007, 2008.
+# Guillaume Pujol <guill.p@gmail.com>, 2008.
+# Florian Guillochon <florian.guillochon@gmail.com>, 2009.
+# xavier <xavier.besnard@neuf.fr>, 2012, 2013.
+# Peter Potrowl <peter.potrowl@gmail.com>, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2019-04-06 14:24+0100\n"
+"Last-Translator: Peter Potrowl <peter.potrowl@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xavier Besnard, Thomas Boeglin, Florian Guillochon, Peter Potrowl"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"xavier.besnard@neuf.fr, thomas.boeglin@gmail.com, florian.guillochon@gmail."
+"com, peter.potrowl@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr "Épaissir les lignes fines :"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "Non"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr "Solide"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr "Forme"
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "Options « PDF »"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr "Imprimer les annotations"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "Insérer les annotations dans le document imprimé"
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"Insère les annotations dans le document imprimé. Vous pouvez désactiver ceci "
+"si vous souhaitez imprimer le document original sans annotation."
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "Forcer la rastérisation (conversion en image)"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "Rastériser (convertir en image) avant l'impression"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"Forcer la rastérisation (conversion en image) de chaque page avant "
+"l'impression. Les résultats obtenus sont en général moins bon, mais cela est "
+"utile pour imprimer des documents dont l'impression directe semble "
+"incorrecte."
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr "Ajuster à la zone imprimable"
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr "Ajuster à la page entière"
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr "Aucun ; imprimer en taille originale"
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr "Mode de mise à l'échelle pour les pages imprimées"
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr "Mode de mise à l'échelle :"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF version %1.%2"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "Format"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "Chiffré"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "Non chiffré"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "Sécurité"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "Oui"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "Optimisé"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr "Utilisation de Poppler %1"
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+"Utilisation de Poppler %1\n"
+"\n"
+"Construit sur Poppler %2"
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "Configuration du moteur PDF"
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr "Non disponible"
+
+#~ msgid "PDF Backend"
+#~ msgstr "Moteur PDF"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "Un moteur PDF"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005-2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr ""
+#~ "L'enregistrement de fichiers avec chiffrement n'est pas pris en charge."
+
+#~ msgid "Unknown"
+#~ msgstr "Inconnu"
+
+#~ msgid "Unknown Date"
+#~ msgstr "Date inconnue"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "Chiffrement inconnu"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "Optimisation inconnue"
+
+# unreviewed-context
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Veuillez saisir le mot de passe pour l'ouverture du document :"
+
+# unreviewed-context
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "Mot de passe erroné. Nouvel essai :"
+
+#~ msgid "Document Password"
+#~ msgstr "Mot de passe du document"

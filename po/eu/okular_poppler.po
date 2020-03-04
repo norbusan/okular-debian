@@ -1,0 +1,231 @@
+# Translation of okular_poppler.po to Euskara/Basque (eu).
+# Copyright (C) 2009-2018, Free Software Foundation.
+# Copyright (C) 2019, This file is copyright:
+# This file is distributed under the same license as the okular package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Enbata <urazpian@hotmail.com>, 2009.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2009.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2011, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2019-06-24 10:48+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 19.04.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marcos Goyenetxe,Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "marcos@euskalgnu.org,xalba@euskalnet.net"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr "Areagotu lerro meheak:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "Ez"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr "Solidoa"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr "Forma"
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "PDF aukerak"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr "Inprimatu idatzoharrak"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "Sartu idatzoharrak inprimatutako dokumentuan"
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"Idatzoharrak sartzen ditu inprimatutako dokumentuan. Hau desgaitu dezakezu "
+"jatorrizko idatzoharrik gabeko dokumentua inprimatu nahi baduzu."
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "Derrigortu bilbatzea"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "Bilbatu irudi batean inprimatu aurretik"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"Orrialde bakoitza irudi batean bilbatzea behartzen du hura inprimatu "
+"aurretik. Honek emaitza okerragoak eman ohi ditu, baina beste eratan oker "
+"inprimatzen diren dokumentuak inprimatzeko baliagarria izaten da."
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr "Egokitu azalera inprimagarrira"
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr "Egokitu orri osora"
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr "Bat ere ez; inprimatu jatorrizko neurrian"
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr "Inprimatutako orrientzako eskalatzeko modua"
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr "Eskalatze modua:"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF %1.%2 bertsioa"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "Formatua"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "Zifratuta"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "Zifratu gabe"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "Segurtasuna"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "Bai"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "Optimizatuta"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr "«Poppler» %1 erabiltzen"
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+"«Poppler» %1 erabiltzen\n"
+"\n"
+"«Poppler» %2 erabiliz eraikia"
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "PDF bizkarraldekoaren konfigurazioa"
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr "Ez dago eskuragarri"
+
+#~ msgid "PDF Backend"
+#~ msgstr "PDF motorra"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "PDF fitxategien bilbatzailea"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005-2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "Fitxategiak /Zifratu-rekin gordetzea ez da onartzen."
+
+#~ msgid "Unknown"
+#~ msgstr "Ezezaguna"
+
+#~ msgid "Unknown Date"
+#~ msgstr "Data ezezaguna"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "Zifraketa ezezaguna"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "Optimizazio ezezaguna"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Mesedez sartu pasahitza dokumentua irakurtzeko:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "Pasahitz okerra. Saiatu berriro:"
+
+#~ msgid "Document Password"
+#~ msgstr "Dokumentuaren pasahitza"

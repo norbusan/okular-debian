@@ -1,0 +1,80 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2013, 2016, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2019-09-24 23:46+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr "Okular"
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr "열기..."
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr "책갈피 삭제"
+
+#: package/contents/ui/MainView.qml:36
+msgid "Bookmark this page"
+msgstr "이 페이지 책갈피"
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr "미리 보기 그림"
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr "목차"
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr "책갈피"
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr "검색..."
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr "결과가 없습니다."
+
+#~ msgid "Document to open..."
+#~ msgstr "열 문서..."
+
+#~ msgid ""
+#~ "No Documents found. To start to read, put some files in the Documents "
+#~ "folder of your device."
+#~ msgstr ""
+#~ "문서를 찾을 수 없습니다. 문서를 읽으려면 장치의 '문서' 폴더에 파일을 저장"
+#~ "하십시오."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "Okular 기반 Plasma Active 문서 뷰어"
+
+#~ msgid "Reader"
+#~ msgstr "리더"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "Copyright 2012 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "열 파일 URL"

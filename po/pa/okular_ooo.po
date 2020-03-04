@@ -1,0 +1,167 @@
+# translation of okular_ooo.po to Punjabi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# A S Alam <aalam@users.sf.net>, 2007, 2009, 2010, 2011, 2013, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2019-02-09 13:14-0800\n"
+"Last-Translator: A S Alam <alam.yellow@gmail.com>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alam.yellow@gmail.com"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "ਗਲਤ XML ਡੌਕੂਮੈਂਟ: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "ਸਟਾਈਲ ਜਾਣਕਾਰੀ ਪੜ੍ਹਨ ਲਈ ਅਸਫ਼ਲ"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "ਡੌਕੂਮੈਂਟ ਸਮਗੱਰੀ ਬਦਲਣ ਲਈ ਅਸਫ਼ਲ"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "ਡੌਕੂਮੈਂਟ ਠੀਕ ZIP ਅਕਾਇਵ ਨਹੀਂ ਹੈ"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "ਗਲਤ ਡੌਕੂਮੈਂਟ ਢਾਂਚਾ (ਮੁੱਖ ਡਾਇਰੈਕਟਰੀ ਗੁੰਮ ਹੈ)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "ਗਲਤ ਡੌਕੂਮੈਂਟ ਢਾਂਚਾ (META-INF ਡਾਇਰੈਕਟਰੀ ਗੁੰਮ ਹੈ)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "ਗਲਤ ਡੌਕੂਮੈਂਟ ਢਾਂਚਾ (META-INF/meta.xml ਗੁੰਮ ਹੈ)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "ਗਲਤ ਡੌਕੂਮੈਂਟ ਢਾਂਚਾ (content.xml ਗੁੰਮ ਹੈ)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "ਓਪਨ-ਡੌਕੂਮੈਂਟ ਟੈਕਸਟ"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenDocument ਟੈਕਸਟ ਬੈਕਐਂਡ ਸੰਰਚਨਾ"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"ਇਹ ਡੌਕੂਮੈਂਟ ਇੰਕ੍ਰਿਪਟਡ ਹੈ ਅਤੇ ਕ੍ਰਿਪਟੂ ਸਹਿਯੋਗ ਕੰਪਾਇਲ ਹੈ, ਪਰ ਹੈਸ਼ਿੰਗ ਪਲੱਗਇਨ ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"ਇਹ ਡੌਕੂਮੈਂਟ ਇੰਕ੍ਰਿਪਟਡ ਹੈ ਅਤੇ ਕ੍ਰਿਪਟੂ ਸਹਿਯੋਗ ਕੰਪਾਇਲ ਹੈ, ਪਰ ਕੁੰਜੀ ਡੇਰੀਵੇਸ਼ਨ ਪਲੱਗਇਨ ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"ਇਹ ਡੌਕੂਮੈਂਟ ਇੰਕ੍ਰਿਪਟਡ ਹੈ ਅਤੇ ਕ੍ਰਿਪਟੂ ਸਹਿਯੋਗ ਕੰਪਾਇਲ ਹੈ, ਪਰ ਸੀਫ਼ਰ ਪਲੱਗਇਨ ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"ਇਹ ਡੌਕੂਮੈਂਟ ਇੰਕ੍ਰਿਪਟਡ ਹੈ, ਪਰ ਓਕੁਲਾਰ ਕ੍ਰਿਪਟੂ ਸਹਿਯੋਗ ਬਿਨਾਂ ਕੰਪਾਇਲ ਕੀਤਾ ਹੈ। ਇਹ ਡੌਕੂਮੈਂਟ ਸ਼ਾਇਦ "
+"ਖੁੱਲ੍ਹੇਗਾ ਨਹੀਂ।"
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "ਪ੍ਰੋਡਿਊਸਰ"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "ਬਣਾਇਆ"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "ਨਿਰਮਾਤਾ"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "ਲੇਖਕ"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "ਸੋਧ ਕੀਤੀ"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenDocument ਟੈਕਸਟ ਬੈਕਐਂਡ"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "ਓਪਨ-ਡੌਕੂਮੈਂਟ ਟੈਕਸਟ ਡੌਕੂਮੈਂਟ ਲਈ ਰੈਂਡਰਰ"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "ਡੌਕੂਮੈਂਟ ਪਾਸਵਰਡ"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "ਡੌਕੂਮੈਂਟ ਪੜ੍ਹਨ ਲਈ ਪਾਸਵਰਡ ਦਿਓ ਜੀ:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "ਪਾਸਵਰਡ ਠੀਕ ਨਹੀਂ ਹੈ।"
+
+#~ msgid "Incorrect password"
+#~ msgstr "ਗਲਤ ਪਾਸਵਰਡ"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "ਗਲਤ ਡੌਕੂਮੈਂਟ ਢਾਂਚਾ (styles.xml ਗੁੰਮ ਹੈ)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "ਗਲਤ ਡੌਕੂਮੈਂਟ ਢਾਂਚਾ (meta.xml ਗੁੰਮ ਹੈ)"

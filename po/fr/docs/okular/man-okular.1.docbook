@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+<!ENTITY % French "INCLUDE">
+]>
+
+<!--  Please keep this man page content in sync with Command Line Options sections of Okular handbook -->
+<refentry lang="&language;">
+<refentryinfo>
+<title
+>Manuel utilisateur d'Okular</title>
+<author
+><firstname
+>Yuri</firstname
+><surname
+>Chornoivan</surname
+> <contrib
+>Page « man » pour Okular.</contrib
+> <email
+>yurchor@ukr.net</email
+></author>
+<date
+>2019-02-14</date>
+<releaseinfo
+>Okular 1.7</releaseinfo>
+<productname
+>Applications KDE</productname>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle
+><command
+>okular</command
+></refentrytitle>
+<manvolnum
+>1</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname
+>okular</refname>
+<refpurpose
+>Un afficheur universel de document</refpurpose>
+</refnamediv>
+<!-- body begins here -->
+<refsynopsisdiv id='synopsis'>
+<cmdsynopsis
+><command
+>okular</command
+> <arg choice="opt"
+><replaceable
+>Options d'Okular</replaceable
+></arg
+> <arg choice="opt"
+><replaceable
+>URL</replaceable
+></arg
+> </cmdsynopsis>
+</refsynopsisdiv>
+
+
+<refsect1 id="description"
+><title
+>Description</title>
+<para
+><command
+>okular</command
+> a pour objectif d'afficher des documents de différents formats.</para>
+
+</refsect1>
+
+<refsect1 id="options"
+><title
+>Options pour Okular</title>
+<variablelist>
+
+<varlistentry>
+<term
+><option
+>-p, --page <replaceable
+>nombre</replaceable
+></option
+></term>
+<listitem>
+<para
+>Ouvre une page donnée dans le document.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--presentation</option
+></term>
+<listitem>
+<para
+>Démarre le document dans le mode de présentation.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--print</option
+></term>
+<listitem>
+<para
+>Démarrer avec la boîte de dialogue d'impression.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--print-and-exit</option
+></term>
+<listitem>
+<para
+>Start with print dialog and exit after printing.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--unique</option
+></term>
+<listitem>
+<para
+>Contrôle d'instance unique.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--noraise</option
+></term>
+<listitem>
+<para
+>Permet d'empêcher l'apparition de la fenêtre d'Okular après le démarrage.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--find <replaceable
+>string</replaceable
+></option
+></term>
+<listitem>
+<para
+>Find a string on the text.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</refsect1>
+
+<refsect1 id="arguments"
+><title
+>Arguments</title>
+<variablelist>
+<varlistentry>
+<term
+><option
+>URL</option
+></term>
+<listitem>
+<para
+>Une adresse pour le document à ouvrir. Pour PDF, peut être donné comme <replaceable
+>nom-document</replaceable
+>#<replaceable
+>destination-nommée</replaceable
+> où <replaceable
+>destination-nommée</replaceable
+> est une destination particulière nommée et intégrée dans le document.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</refsect1>
+
+<refsect1 id="feedback"
+><title
+>Retour d'informations</title>
+<para
+>Sur IRC, irc.freenode.net #okular ou par courriel, okular-devel@kde.org ou sur Internet &lt;<ulink url="http://okular.kde.org/"
+>http://okular.kde.org/</ulink
+>&gt;</para>
+</refsect1>
+
+<refsect1>
+<title
+>Voir aussi</title>
+<simplelist>
+<member
+>Des documentations utilisateur plus détaillées sont disponibles sur <ulink url="help:/okular"
+>help:/okular</ulink
+> (ou aussi ne saisissant cet <acronym
+>URL</acronym
+> dans &konqueror; ou lancer <userinput
+><command
+>khelpcenter</command
+> <parameter
+>help:/okular</parameter
+></userinput
+>).</member>
+<member
+>kf5options(7)</member>
+<member
+>qt5options(7)</member>
+<member
+>Plus d'informations sont disponibles sur <ulink url="http://okular.kde.org/"
+>http://okular.kde.org/</ulink
+></member>
+</simplelist>
+</refsect1>
+
+<refsect1 id="copyright"
+><title
+>Copyright</title>
+<para
+>Copyright &copy; 2002 par Wilco Greven et Christophe Devriese</para>
+<para
+>Copyright &copy; 2004-2005 par Enrico Ros</para>
+<para
+>Copyright &copy; 2005 par Piotr Szymanski</para>
+<para
+>Copyright &copy; 2004-2012 par Albert Astals Cid</para>
+<para
+>Copyright &copy; 2006-2009 par Pino Toscano</para>
+<para
+>Licence : GNU General Public Version 2 &lt;<ulink url="http://www.gnu.org/licenses/gpl-2.0.html"
+>http://www.gnu.org/licenses/gpl-2.0.html</ulink
+>&gt;</para>
+</refsect1>
+</refentry>
+

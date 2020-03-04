@@ -1,0 +1,160 @@
+/***************************************************************************
+ *   Copyright (C) 2007 by Pino Toscano <pino@kde.org>                     *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ ***************************************************************************/
+
+#ifndef _OKULAR_GENERATOR_PDF_FORMFIELDS_H_
+#define _OKULAR_GENERATOR_PDF_FORMFIELDS_H_
+
+#include <poppler-form.h>
+#include <config-okular-poppler.h>
+#include "core/form.h"
+
+class PopplerFormFieldButton : public Okular::FormFieldButton
+{
+    public:
+        explicit PopplerFormFieldButton( Poppler::FormFieldButton * field );
+        virtual ~PopplerFormFieldButton();
+
+        // inherited from Okular::FormField
+        Okular::NormalizedRect rect() const override;
+        int id() const override;
+        QString name() const override;
+        QString uiName() const override;
+        QString fullyQualifiedName() const override;
+        bool isReadOnly() const override;
+        void setReadOnly( bool value ) override;
+        bool isVisible() const override;
+        void setVisible( bool value ) override;
+        bool isPrintable() const override;
+        void setPrintable( bool value ) override;
+
+        // inherited from Okular::FormFieldButton
+        ButtonType buttonType() const override;
+        QString caption() const override;
+        bool state() const override;
+        void setState( bool state ) override;
+        QList< int > siblings() const override;
+        void setIcon( Okular::FormField *field ) override;
+#ifdef HAVE_POPPLER_0_79
+        /*
+         * Supported only in newer versions of Poppler library.
+         *
+         * @since 1.9
+        */
+        Poppler::FormFieldIcon icon() const;
+#endif
+
+    private:
+        Poppler::FormFieldButton * m_field;
+        Okular::NormalizedRect m_rect;
+        int m_id;
+
+};
+
+class PopplerFormFieldText : public Okular::FormFieldText
+{
+    public:
+        explicit PopplerFormFieldText( Poppler::FormFieldText * field );
+        virtual ~PopplerFormFieldText();
+
+        // inherited from Okular::FormField
+        Okular::NormalizedRect rect() const override;
+        int id() const override;
+        QString name() const override;
+        QString uiName() const override;
+        QString fullyQualifiedName() const override;
+        bool isReadOnly() const override;
+        void setReadOnly( bool value ) override;
+        bool isVisible() const override;
+        void setVisible( bool value ) override;
+        bool isPrintable() const override;
+        void setPrintable( bool value ) override;
+
+        // inherited from Okular::FormFieldText
+        Okular::FormFieldText::TextType textType() const override;
+        QString text() const override;
+        void setText( const QString& text ) override;
+        void setAppearanceText( const QString& text ) override;
+        bool isPassword() const override;
+        bool isRichText() const override;
+        int maximumLength() const override;
+        Qt::Alignment textAlignment() const override;
+        bool canBeSpellChecked() const override;
+
+    private:
+        Poppler::FormFieldText * m_field;
+        Okular::NormalizedRect m_rect;
+        int m_id;
+
+};
+
+class PopplerFormFieldChoice : public Okular::FormFieldChoice
+{
+    public:
+        explicit PopplerFormFieldChoice( Poppler::FormFieldChoice * field );
+        virtual ~PopplerFormFieldChoice();
+
+        // inherited from Okular::FormField
+        Okular::NormalizedRect rect() const override;
+        int id() const override;
+        QString name() const override;
+        QString uiName() const override;
+        QString fullyQualifiedName() const override;
+        bool isReadOnly() const override;
+        void setReadOnly( bool value ) override;
+        bool isVisible() const override;
+        void setVisible( bool value ) override;
+        bool isPrintable() const override;
+        void setPrintable( bool value ) override;
+
+        // inherited from Okular::FormFieldChoice
+        ChoiceType choiceType() const override;
+        QStringList choices() const override;
+        bool isEditable() const override;
+        bool multiSelect() const override;
+        QList<int> currentChoices() const override;
+        void setCurrentChoices( const QList<int>& choices ) override;
+        QString editChoice() const override;
+        void setEditChoice( const QString& text ) override;
+        Qt::Alignment textAlignment() const override;
+        bool canBeSpellChecked() const override;
+
+    private:
+        Poppler::FormFieldChoice * m_field;
+        Okular::NormalizedRect m_rect;
+        int m_id;
+
+};
+
+class PopplerFormFieldSignature : public Okular::FormFieldSignature
+{
+    public:
+        PopplerFormFieldSignature( Poppler::FormFieldSignature * field );
+        virtual ~PopplerFormFieldSignature();
+
+        // inherited from Okular::FormField
+        Okular::NormalizedRect rect() const override;
+        int id() const override;
+        QString name() const override;
+        QString uiName() const override;
+        QString fullyQualifiedName() const override;
+        bool isReadOnly() const override;
+        bool isVisible() const override;
+
+        // inherited from Okular::FormFieldSignature
+        SignatureType signatureType() const override;
+        const Okular::SignatureInfo &signatureInfo() const override;
+
+    private:
+        Poppler::FormFieldSignature * m_field;
+        Okular::SignatureInfo *m_info;
+        Okular::NormalizedRect m_rect;
+        int m_id;
+};
+
+#endif

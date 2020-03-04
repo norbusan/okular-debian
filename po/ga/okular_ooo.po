@@ -1,0 +1,175 @@
+# Irish translation of okular_ooo
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the okular_ooo package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2007-04-15 19:05-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Cáipéis neamhbhailí XML: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Ní féidir faisnéis stíle a léamh"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Ní féidir ábhar na cáipéise a thiontú"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Ní cartlann bhailí ZIP é seo"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Struchtúr neamhbhailí cáipéise (príomhchomhadlann ar iarraidh)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Struchtúr neamhbhailí cáipéise (comhadlann META-INF ar iarraidh)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Struchtúr neamhbhailí cáipéise (META-INF/manifest.xml ar iarraidh)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Struchtúr neamhbhailí cáipéise (content.xml ar iarraidh)"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text"
+msgstr "Inneall Cáipéisí OpenOffice.org"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Inneall Cáipéisí OpenOffice.org"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Tá an cháipéis seo criptithe, agus tá tacaíocht do chriptiúchán ann, ach "
+"níorbh fhéidir breiseán haiseála a aimsiú"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Tá an cháipéis seo criptithe, agus tá tacaíocht do chriptiúchán ann, ach "
+"níorbh fhéidir breiseán díorthaithe eochrach a aimsiú"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Tá an cháipéis seo criptithe, agus tá tacaíocht do chriptiúchán ann, ach "
+"níorbh fhéidir breiseán sifir a aimsiú"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Tá an cháipéis seo criptithe, ach níor tiomsaíodh Okular le tacaíocht do "
+"chriptiúchán. Is dócha nach mbeidh tú in ann an cháipéis seo a oscailt."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Táirgeoir"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Cruthaithe"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Cruthaitheoir"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Údar"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Athraithe"
+
+#, fuzzy
+#~| msgid "OpenOffice Document Backend"
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "Inneall Cáipéisí OpenOffice.org"
+
+#, fuzzy
+#~| msgid "A renderer for OpenOffice text documents"
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Rindreálaí do cháipéisí téacs OpenOffice.org"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Focal Faire na Cáipéise"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Iontráil an focal faire chun an cháipéis a léamh:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Focal faire mícheart."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Focal faire mícheart"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Struchtúr neamhbhailí cáipéise (styles.xml ar iarraidh)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Struchtúr neamhbhailí cáipéise (meta.xml ar iarraidh)"

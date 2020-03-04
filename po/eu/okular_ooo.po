@@ -1,0 +1,179 @@
+# Translation of okular_ooo.po to Euskara/Basque (eu).
+# Copyright (C) 2009-2018, Free Software Foundation.
+# This file is distributed under the same license as the kdegraphics package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Enbata <urazpian@hotmail.com>, 2009.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2009.
+# marcos, 2011.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2018-08-03 20:06+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marcos Goyenetxe"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "marcos@euskalgnu.org"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "XML dokumentu baliogabea: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Ezin da estiloaren informazioa irakurri"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Ezin da dokumentuaren edukia bihurtu"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Dokumentua ez da baliozko ZIP artxiboa"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Dokumentuaren egitura baliogabea (direktorio nagusia falta da)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Dokumentuaren egitura baliogabea (META-INF direktorioa falta da)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Dokumentuaren egitura baliogabea (META-INF/manifest.xml falta da)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Dokumentuaren egitura baliogabea (content.xml falta da)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument testua"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenDocument testuaren atzealdekoaren konfigurazioa"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Dokumentu hau zifratua dago, eta zifratze euskarria konpilatua dago, baino "
+"hash egiteko plugin bat ezin da aurkitu"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Dokumentu hau zifratua dago, eta zifratze euskarria konpilatua dago, baino "
+"gako deribazio plugin bat ezin da aurkitu"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Dokumentu hau zifratua dago, eta zifratze euskarria konpilatua dago, baino "
+"zifratzeko plugin bat ezin da aurkitu"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Dokumentu hau zifratua dago, baino Okular zifratze euskarririk gabe "
+"konpilatua dago. Dokumentu hau segur aski ez da irekiko."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Ekoizlea"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Sortua"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Sortzailea"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Egilea"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Aldatua"
+
+#, fuzzy
+#~| msgid "OpenOffice Document Backend"
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenOffice dokumentuen motorra"
+
+#, fuzzy
+#~| msgid "A renderer for OpenOffice text documents"
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "OpenOffice testu-dokumentuen errendatzailea"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Dokumentuaren pasahitza"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Sartu pasahitza dokumentua irakurtzeko:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Pasahitza ez da zuzena."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Okerreko pasahitza"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Dokumentuaren egitura baliogabea (styles.xml falta da)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Dokumentuaren egitura baliogabea (meta.xml falta da)"

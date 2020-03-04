@@ -1,0 +1,224 @@
+# Translation of okular_poppler to Croatian
+#
+# Zarko Pintar <zarko.pintar@gmail.com>, 2009.
+# Marko Dimjasevic <marko@dimjasevic.net>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2010-05-12 11:07+0200\n"
+"Last-Translator: Marko Dimjasevic <marko@dimjasevic.net>\n"
+"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marko Dimjašević"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "marko@dimjasevic.net"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "Ne"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr ""
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "Opcije PDF-a"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr ""
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr ""
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "Nametni rasterizaciju"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "Rasteriziraj u sliku prije ispisa"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"Prije ispisa nameće rasterizaciju svake stranice u sliku. Ovo uglavnom daje "
+"lošije rezultate, no korisno je pri ispisu dokumenata koji se nepravilno "
+"ispisuju."
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr ""
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr ""
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr ""
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr ""
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr ""
+
+#: generator_pdf.cpp:832
+#, fuzzy, kde-format
+#| msgctxt "PDF v. <version>"
+#| msgid "PDF v. %1"
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF v. %1"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "Oblik"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "Kriptirano"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "Nekriptirano"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "Sigurnost"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "Da"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "Optimizirano"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr ""
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, fuzzy, kde-format
+#| msgid "PDF Backend"
+msgid "PDF Backend Configuration"
+msgstr "Podrška za PDF"
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr ""
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "Preglednik datoteka tipa PDF"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005–2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Unesite zaporku kako biste čitali dokument:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "Netočna zaporka. Pokušajte ponovno:"
+
+#~ msgid "Document Password"
+#~ msgstr "Zaporka dokumenta"
+
+#~ msgid "Unknown"
+#~ msgstr "Nepoznato"
+
+#~ msgid "Unknown Date"
+#~ msgstr "Nepoznat datum"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "Nepoznato kriptiranje"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "Nepoznata optimizacija"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "Spremanje datoteka s /Kriptiraj nije podržano."

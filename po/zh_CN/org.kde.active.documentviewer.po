@@ -1,0 +1,58 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2020-01-20 21:57\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kdegraphics/org.kde.active."
+"documentviewer.pot\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr "Okular"
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr "打开..."
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr "删除书签"
+
+#: package/contents/ui/MainView.qml:36
+msgid "Bookmark this page"
+msgstr "将此页加为书签"
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr "缩略图"
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr "目录"
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr "书签"
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr "查找..."
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr "无搜索结果。"

@@ -1,0 +1,141 @@
+# Translation of okular_ooo to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2008, 2009, 2010, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-08-16 18:54+0200\n"
+"Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Bjørn Steensrud"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bjornst@skogkatt.homelinux.org"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Ugyldig XML-dokument: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Klarer ikke å lese stilinformasjon"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Klarer ikke å konvertere dokumentinnholdet"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Dokumentet er ikke et gyldig ZIP-arkiv"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Ugyldig dokumentstruktur (hovedkatalog mangler)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Ugyldig dokumentstruktur (META-INF-katalog mangler)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Ugyldig dokumentstruktur (META-INF/manifest.xml mangler)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Ugyldig dokumentstruktur (content.xml mangler)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument-tekst"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Oppsett for OpenDocument-tekstmotoren"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Dette dokumentet er kryptert, og støtte for krypto er kompilert inn, men et "
+"programtillegg for hashing ble ikke funnet"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Dette dokumentet er kryptert, og krypto-støtte er kompilert inn, men det "
+"fantes ikke noe programtillegg for å finne nøkkel"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Dette dokumentet er kryptert, og støtte for krypto er kompilert inn, men et "
+"programtillegg for kryptering ble ikke funnet"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Dokumentet er kryptert, men Okular ble kompilert uten krypto-støtte. Dette "
+"dokumentet kan nok ikke åpnes."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Produsent"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Opprettet"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Opprettet av"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Forfatter"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Endret"

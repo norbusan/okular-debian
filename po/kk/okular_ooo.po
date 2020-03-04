@@ -1,0 +1,172 @@
+# translation of okular_ooo.po to Kazakh
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sairan Kikkarin <sairan@computer.org>, 2008.
+# Sairan Kikkarin <sairan@computer.org>, 2010, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-06-23 03:32+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Сайран Киккарин"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sairan@computer.org"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Жарамсыз XML құжаты: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Стиль мәліметі оқылмады"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Құжаттың мазмұны аударылмады"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Құжат дұрыс ZIP архиві емес"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Құжаттың құрылымы жарамсыз (негізгі қапшығы жоқ)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Құжаттың құрылымы жарамсыз (META-INF қапшығы жоқ)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Құжаттың құрылымы жарамсыз (META-INF/manifest.xml файлы жоқ)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Құжаттың құрылымы жарамсыз (content.xml файлы жоқ)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument мәтіні"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenDocument құжаттың тетігін баптау"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Бұл құжат шифрланған, шифрлауды қолдау орнатылған, бірақ хэштеу плагині "
+"табылмады"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Бұл құжат шифрланған, шифрлауды қолдау орнатылған, бірақ кілтті шығару "
+"плагині табылмады"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Бұл құжат шифрланған, шифрлауды қолдау орнатылған, бірақ шифр плагині "
+"табылмады"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Бұл құжат шифрланған, бірақ Okular шифрлауды қолдауысыз жинақталған. Құжат "
+"ашылмайды шығар."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Өндірушісі"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Құрылған кезі"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Құрушысы"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Авторы"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Өзгертілген кезі"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenDocument құжаттың тетігі"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "OpenDocument мәтін құжаттарды көрсету"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Құжаттың паролі"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Құжатты оқу үшін паролін келіріңіз:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Пароль дұрыс емес"
+
+#~ msgid "Incorrect password"
+#~ msgstr "Жарамсыз пароль"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Құжаттың құрылымы жарамсыз (styles.xml файлы жоқ)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Құжаттың құрылымы жарамсыз (meta.xml файлы жоқ)"

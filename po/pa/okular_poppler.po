@@ -1,0 +1,218 @@
+# translation of okular_poppler.po to Punjabi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# A S Alam <aalam@users.sf.net>, 2007, 2009, 2010, 2012, 2014, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2019-02-09 13:13-0800\n"
+"Last-Translator: A S Alam <alam.yellow@gmail.com>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alam.yellow@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr "ਗੂੜ੍ਹਾ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr "ਸ਼ਕਲ"
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "PDF ਚੋਣਾਂ"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr "ਟਿੱਪਣੀਆਂ ਪਰਿੰਟ ਕਰੋ"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr ""
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "ਧੱਕੇ ਨਾਲ ਰਾਸਟਰੀਜ਼ੇਸ਼ਨ"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "ਪਰਿੰਟਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਚਿੱਤਰ ਦੇ ਰੂਪ 'ਚ ਰਾਸਟਰੀਜ਼ ਕਰੋ"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr ""
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr ""
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr ""
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr ""
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr ""
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF ਵਰਜ਼ਨ %1.%2"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "ਫਾਰਮੈਟ"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "ਇਕ੍ਰਿਪਟਡ"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "ਅਣ-ਇਕ੍ਰਿਪਟਡ"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "ਸੁਰੱਖਿਆ"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "ਹਾਂ"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "ਅਨੁਕੂਲ ਕੀਤਾ"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr ""
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "PDF ਬੈਕਐਂਡ ਸੰਰਚਨਾ"
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr "ਉਪਲੱਬਧ ਨਹੀਂ"
+
+#~ msgid "PDF Backend"
+#~ msgstr "PDF ਬੈਕਐਂਡ"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "ਇੱਕ PDF ਫਾਇਲ ਰੈਂਡਰਰ"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005-2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "/Encrypt ਨਾਲ ਫਾਇਲ ਸੰਭਾਲਣ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।"
+
+#~ msgid "Unknown"
+#~ msgstr "ਅਣਜਾਣ"
+
+#~ msgid "Unknown Date"
+#~ msgstr "ਅਣਜਾਣੀ ਮਿਤੀ"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "ਅਣਜਾਣੀ ਇਕ੍ਰਿਪਸ਼ਨ"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "ਅਣਜਾਣ ਅਨੁਕੂਲਤਾ"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "ਡੌਕੂਮੈਂਟ ਪੜ੍ਹਨ ਲਈ ਪਾਸਵਰਡ ਦਿਓ ਜੀ:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "ਗਲਤ ਪਾਸਵਰਡ ਹੈ। ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ:"
+
+#~ msgid "Document Password"
+#~ msgstr "ਡੌਕੂਮੈਂਟ ਪਾਸਵਰਡ"

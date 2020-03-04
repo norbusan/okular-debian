@@ -1,0 +1,64 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Tamas Szanto <tszanto@interware.hu>, 2009.
+# Balázs Úr <urbalazs@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.3\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-07-02 23:07+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Szántó Tamás"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tszanto@interware.hu"
+
+#: converter.cpp:53
+#, kde-format
+msgid "Error while opening the Mobipocket document."
+msgstr "Hiba történt a Mobipocket-dokumentum megnyitásakor."
+
+#: converter.cpp:58
+#, kde-format
+msgid ""
+"This book is protected by DRM and can be displayed only on designated device"
+msgstr ""
+"A könyv jogvédett, csak a jogvédelem kezelésére alkalmas eszközön tekinthető "
+"meg."
+
+#: generator_mobi.cpp:28
+#, kde-format
+msgid "Mobipocket"
+msgstr "Mobipocket"
+
+#: generator_mobi.cpp:28
+#, kde-format
+msgid "Mobipocket Backend Configuration"
+msgstr "Mobipocket háttérprogram beállítás"
+
+#~ msgid "Mobipocket Backend"
+#~ msgstr "Mobipocket-modul"
+
+#~ msgid "A mobipocket backend"
+#~ msgstr "Egy Mobipocket-modul"
+
+#~ msgid "© 2008-2009 Jakub Stachowski"
+#~ msgstr "(c) Jakub Stachowski, 2008-2009."
+
+#~ msgid "Jakub Stachowski"
+#~ msgstr "Jakub Stachowski"

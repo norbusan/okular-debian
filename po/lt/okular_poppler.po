@@ -1,0 +1,225 @@
+# Lithuanian translations for okular_poppler package.
+# This file is distributed under the same license as the okular_poppler package.
+# Andrius Štikonas <andrius@stikonas.eu>, 2008.
+# Donatas Glodenis <dgvirtual@akl.lt>, 2009.
+# Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>, 2011.
+# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2013-08-11 10:50+0300\n"
+"Last-Translator: Liudas <liudas.alisauskas@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Andrius Štikonas, Liudas Ališauskas"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "andrius@stikonas.eu, liudas@akmc.lt"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr "Pagerinti plonas linijas:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "Ne"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr "Vientisa"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr "Forma"
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "PDF parinktys"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr "Spausdinti anotacijas"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "Įtraukti anotacijas į atspausdintą dokumentą"
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"Įtraukti anotacijas į atspausdintą dokumentą. Galite išjungti tai jei norite "
+"spausdinti originalų neanotuotą dokumentą."
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "Priverstinė rasterizacija"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "Rasterizuoti paveikslėlį prieš spausdinant"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"Priverstinai rasterizuoja kiekvieną puslapį prieš spausdinant. Dėl to "
+"rezultatai paprastai būna prastesni, tačiau tai naudinga tais atvejais, jei "
+"atrodo, kad dokumentas spausdinamas netiksliai."
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr ""
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr ""
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr ""
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr ""
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr ""
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF v. %1.%2"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "Formatas"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "Šifruotas"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "Nešifruotas"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "Saugumas"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "Taip"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "Optimizuotas"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr ""
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "PDF programinės sąsajos konfigūracija"
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr ""
+
+#~ msgid "PDF Backend"
+#~ msgstr "PDF programinė sąsaja"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "PDF failų rodymo priemonė"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005-2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "Failų įrašymas su /Encrypt parinktimi nepalaikomas."
+
+#~ msgid "Unknown"
+#~ msgstr "Nežinoma"
+
+#~ msgid "Unknown Date"
+#~ msgstr "Nežinoma data"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "Nežinomas šifravimas"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "Nežinoma optimizacija"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Prašome įvesti slaptažodį, kad galima būtų perskaityti dokumentą:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "Neteisingas slaptažodis. Bandykite dar kartą:"
+
+#~ msgid "Document Password"
+#~ msgstr "Dokumento slaptažodis"

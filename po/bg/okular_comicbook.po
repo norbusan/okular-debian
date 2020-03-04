@@ -1,0 +1,59 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yasen Pramatarov <yasen@lindeas.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_comicbook\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-09-21 03:09+0200\n"
+"PO-Revision-Date: 2009-09-05 21:00+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ясен Праматаров"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yasen@lindeas.com"
+
+#: document.cpp:97
+#, fuzzy, kde-format
+#| msgid "Cannot open document, unrar was not found."
+msgid "Cannot open document, neither unrar nor unarchiver were found."
+msgstr "Грешка при отваряне на документа. Не е открит unrar."
+
+#: document.cpp:102
+#, kde-format
+msgid ""
+"The version of unrar on your system is not suitable for opening comicbooks."
+msgstr ""
+"Версията на unrar на системата ви не е подходяща за отваряне на документи с "
+"комикси."
+
+#: document.cpp:131
+#, kde-format
+msgid "Unknown ComicBook format."
+msgstr "Непознат формат на комикс."
+
+#~ msgid "ComicBook Backend"
+#~ msgstr "Ядро ComicBook"
+
+#~ msgid "A renderer for various comic book formats"
+#~ msgstr "Показване на различни формати комикси"
+
+#~ msgid "© 2007-2008 Tobias Koenig"
+#~ msgstr "© 2007-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"

@@ -1,0 +1,230 @@
+# translation of okular_poppler.po to Dutch
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rinse de Vries <rinsedevries@kde.nl>, 2007, 2008.
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2009, 2010, 2012, 2013, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2019-04-04 12:49+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 18.12.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Rinse de Vries - 2007, Freek de Kruijf - 2013 t/m 2019"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "rinsedevries@kde.nl,freekdekruijf@kde.nl"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr "Maak dunne lijnen beter zichtbaar:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "Nee"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr "Vast"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr "Vorm"
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "PDF-opties"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr "Annotaties afdrukken"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "Annotaties in het afgedrukte document meenemen"
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"Neemt annotaties in het afgedrukte document mee. U kunt dit uitschakelen als "
+"u het oorspronkelijke document zonder annotaties wilt afdrukken."
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "Rasterisatie afdwingen"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "Naar afbeelding rasteren voor afdrukken"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"Dwingt af dat een pagina wordt gerasterd naar een afbeelding voordat het "
+"wordt afgedrukt. Dit geeft vaak slechtere resultaten, maar kan handig zijn "
+"wanneer documenten niet juist worden afgedrukt."
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr "In afdrukgebied laten passen"
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr "Op volledige pagina laten passen"
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr "Geen; afdrukken op originele grootte"
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr "Modus schalen voor de afgedrukte pagina's"
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr "Schaalmodus:"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF v. %1.%2"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "Opmaak"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "Versleuteld"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "Niet-versleuteld"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "Beveiliging"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "Ja"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "Geoptimaliseerd"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr "Poppler %1 gebruiken"
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+"Poppler %1 gebruiken\n"
+"\n"
+"Gebouwd tegen Poppler %2"
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "Configuratie van PDF-backend"
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr "Niet beschikbaar"
+
+#~ msgid "Select rasterization to enable this!"
+#~ msgstr "Rasterisatie selecteren om dit in te schakelen!"
+
+#~ msgid "PDF Backend"
+#~ msgstr "PDF-backend"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "Een PDF-bestandsviewer"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005-2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "Bestanden opslaan met /Encrypt is niet ondersteund."
+
+#~ msgid "Unknown"
+#~ msgstr "Onbekend"
+
+#~ msgid "Unknown Date"
+#~ msgstr "Onbekende datum"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "Onbekende versleuteling"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "Onbekende optimalisatie"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Voer het wachtwoord in om het document te kunnen lezen:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "Onjuist wachtwoord. Probeer het nogmaals:"
+
+#~ msgid "Document Password"
+#~ msgstr "Documentwachtwoord"

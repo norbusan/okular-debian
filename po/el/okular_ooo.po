@@ -1,0 +1,174 @@
+# translation of okular_ooo.po to greek
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Spiros Georgaras <sng@hellug.gr>, 2007.
+# Σπύρος Γεωργαράς <sngeorgaras@otenet.gr>, 2008.
+# Stelios <sstavra@gmail.com>, 2011.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2011, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2014-01-04 09:51+0100\n"
+"Last-Translator: Dimitrios Glentadakis <dglent@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Σπύρος Γεωργαράς"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sng@hellug.gr"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Μη έγκυρο αρχείο XML: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Αδυναμία ανάγνωσης των πληροφοριών στιλ"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Αδυναμία μετατροπής των περιεχομένων του εγγράφου"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Το έγγραφο δεν είναι μία έγκυρη αρχειοθήκη ZIP"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Μη έγκυρη δομή εγγράφου (λείπει ο κύριος κατάλογος)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Μη έγκυρη δομή εγγράφου (λείπει ο κατάλογος META-INF)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Μη έγκυρη δομή εγγράφου (λείπει το META-INF/manifest.xml)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Μη έγκυρη δομή εγγράφου (λείπει το content.xml)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument Text"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Σύστημα υποστήριξης εγγράφων OpenDocument Text"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Το έγγραφο είναι κρυπτογραφημένο και η υποστήριξη κρυπτογραφίας έχει "
+"ενσωματωθεί σε αυτό, αλλά δεν βρέθηκε κάποιο πρόσθετο που να μπορεί να τη "
+"διαχειριστεί"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Το έγγραφο είναι κρυπτογραφημένο και η υποστήριξη κρυπτογραφίας έχει "
+"ενσωματωθεί σε αυτό, αλλά δεν βρέθηκε κάποιο πρόσθετο ανάκτησης κλειδιών"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Το έγγραφο είναι κρυπτογραφημένο και η υποστήριξη κρυπτογραφίας έχει "
+"ενσωματωθεί σε αυτό, αλλά δεν βρέθηκε κάποιο πρόσθετο κρυπτογραφίας"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Το έγγραφο είναι κρυπτογραφημένο αλλά το Okular δεν παρέχει υποστήριξη "
+"κρυπτογραφίας. Το έγγραφο μάλλον δεν θα ανοίξει."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Παραγωγός"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Δημιουργήθηκε"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Δημιουργός"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Τροποποιήθηκε"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "Σύστημα υποστήριξης εγγράφων OpenDocument Text"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Αποτύπωση εγγράφων κειμένου OpenDocument Text"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Κωδικός πρόσβασης εγγράφου"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Παρακαλώ δώστε τον κωδικό για να διαβάσετε το έγγραφο:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Ο κωδικός πρόσβασης δεν είναι σωστός."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Εσφαλμένος κωδικός πρόσβασης"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Μη έγκυρη δομή εγγράφου (λείπει το styles.xml)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Μη έγκυρη δομή εγγράφου (λείπει το meta.xml)"

@@ -1,0 +1,84 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frederik Schwarzer <schwarzer@kde.org>, 2012.
+# Burkhard Lück <lueck@hube-lueck.de>, 2013, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2019-08-06 11:41+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr "Okular"
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr "Öffnen ..."
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr "Lesezeichen entfernen"
+
+#: package/contents/ui/MainView.qml:36
+msgid "Bookmark this page"
+msgstr "Ein Lesezeichen für diese Seite hinzufügen"
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr "Vorschaubilder"
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr "Inhaltsverzeichnis"
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr "Suchen ..."
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr "Keine Ergebnisse gefunden."
+
+#~ msgid "Document to open..."
+#~ msgstr "Zu öffnendes Dokument ..."
+
+#~ msgid "Open Android..."
+#~ msgstr "Android öffnen ..."
+
+#~ msgid ""
+#~ "No Documents found. To start to read, put some files in the Documents "
+#~ "folder of your device."
+#~ msgstr ""
+#~ "Es wurden keine Dokumente gefunden. Legen Sie einige Dateien im "
+#~ "Dokumentenordner Ihres Geräts ab, um mit dem Lesen zu beginnen."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "Dokumentenbetrachter für „Plasma Active“, der Okular verwendet."
+
+#~ msgid "Reader"
+#~ msgstr "Lesegerät"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "Copyright 2012 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "Adresse (URL) der zu öffnenden Datei"
