@@ -1,0 +1,173 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Chetan Khona <chetan@kompkin.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-03-28 12:33+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "चेतन खोना"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chetan@kompkin.com"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "अवैध एक्सएमएल दस्तऐवज : %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "शैली माहिती वाचू शकत नाही"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "दस्तऐवज मजकूर परिवर्तित करू शकत नाही"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "दस्तऐवज एक वैध झिप संग्रह नाही"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "अवैध दस्तऐवज स्ट्रक्चर (मुख्य संचयीका सापडत नाही)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "अवैध दस्तऐवज स्ट्रक्चर (मेटा-इन्फ संचयीका सापडत नाही)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "अवैध दस्तऐवज स्ट्रक्चर (मेटा-इन्फ/manifest.xml सापडत नाही)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "अवैध दस्तऐवज स्ट्रक्चर (content.xml सापडत नाही)"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text"
+msgstr "ओपनऑफिस दस्तऐवज बॅकएन्ड"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text Backend Configuration"
+msgstr "ओपनऑफिस दस्तऐवज बॅकएन्ड"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"दस्तऐवज कुटलिपीबद्ध आहे, व क्रिप्टो समर्थन कंपाईल केलेले आहे, पण हेशिंग प्लगइन सापडले नाही"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"दस्तऐवज कुटलिपीबद्ध आहे, व क्रिप्टो समर्थन कंपाईल केलेले आहे, पण कळ डेरिव्हेशन प्लगइन सापडले "
+"नाही"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"दस्तऐवज कुटलिपीबद्ध आहे, व क्रिप्टो समर्थन कंपाईल केलेले आहे, पण सायफर प्लगइन सापडले नाही"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"दस्तऐवज कुटलिपीबद्ध आहे, पण ओक्युलर क्रिप्टो समर्थन विना कंपाईल केलेले आहे. दस्तऐवज बहुधा "
+"उघडणार नाही."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "निर्माता"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "तयार केले"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "उत्पादक"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "लेखक"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "सुधारले"
+
+#, fuzzy
+#~| msgid "OpenOffice Document Backend"
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "ओपनऑफिस दस्तऐवज बॅकएन्ड"
+
+#, fuzzy
+#~| msgid "A renderer for OpenOffice text documents"
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "ओपनऑफिस पाठ्य दस्तऐवजांकरिता रेंडरर"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 टोबीआस कोएनींग"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "टोबीआस कोएनींग"
+
+#~ msgid "Document Password"
+#~ msgstr "दस्तऐवज गुप्तशब्द"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "दस्तऐवज वाचण्याकरिता कृपया गुप्तशब्द दाखल करा :"
+
+#~ msgid "The password is not correct."
+#~ msgstr "गुप्तशब्द बरोबर नाही."
+
+#~ msgid "Incorrect password"
+#~ msgstr "अयोग्य गुप्तशब्द"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "अवैध दस्तऐवज स्ट्रक्चर (styles.xml सापडत नाही)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "अवैध दस्तऐवज स्ट्रक्चर (meta.xml सापडत नाही)"

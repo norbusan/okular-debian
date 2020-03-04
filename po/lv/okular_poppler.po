@@ -1,0 +1,229 @@
+# translation of okular_poppler.po to Latvian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Maris Nartiss <maris.kde@gmail.com>, 2007.
+# Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2008, 2010.
+# Einars Sprugis <einars8@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2012-07-05 12:41+0300\n"
+"Last-Translator: Einars Sprugis <einars8@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Māris Nartišs"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "maris.kde@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "Nē"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr ""
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "PDF opcijas"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr "Drukāt anotācijas"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "Drukājamā dokumentā iekļaut anotācijas"
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"Drukāmajā dokumentā iekļauj anotācijas. Varat šo atslēgt, ja vēlaties drukāt "
+"oriģinālo, neanotēto dokumentu."
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "Piespiedu pārvēršana par rastru"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "Pirms drukāšanas pārvērst par rastru piespiedu kārtā"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"Piespiedu kārtā katru lapu pārvērš par attēlu pirms drukāšanas. Šī opcija "
+"parasti dod sliktāku rezultātu, bet var palīdzēt gadījumos, kad izdruka "
+"izskatās nepareizi."
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr ""
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr ""
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr ""
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr ""
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr ""
+
+#: generator_pdf.cpp:832
+#, fuzzy, kde-format
+#| msgctxt "PDF v. <version>"
+#| msgid "PDF v. %1"
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF v. %1"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "Formāts"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "Šifrēts"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "Nešifrēts"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "Drošība"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "Jā"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "Optimizēts"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr ""
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, fuzzy, kde-format
+#| msgid "PDF Backend"
+msgid "PDF Backend Configuration"
+msgstr "PDF aizmugure"
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr ""
+
+#~ msgid "PDF Backend"
+#~ msgstr "PDF aizmugure"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "PDF failu attēlotājs"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005-2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "Failu saglabāšana ar /Encrypt nav atbalstīta."
+
+#~ msgid "Unknown"
+#~ msgstr "Nezināms"
+
+#~ msgid "Unknown Date"
+#~ msgstr "Nezināms datums"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "Nezināma šifrēšana"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "Nezināma optimizācija"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Lai lasītu dokumentu, ievadiet paroli:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "Nepareiza parole. Mēģiniet vēlreiz:"
+
+#~ msgid "Document Password"
+#~ msgstr "Dokumenta parole"

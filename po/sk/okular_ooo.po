@@ -1,0 +1,151 @@
+# translation of okular_ooo.po to Slovak
+# Richard Fric <Richard.Fric@kdemail.net>, 2007, 2009, 2010.
+# Michal Sulek <misurel@gmail.com>, 2009, 2010.
+# Roman Paholík <wizzardsk@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-05-19 08:42+0200\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Richard Frič, Michal Šulek"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Richard.Fric@kdemail.net,misurel@gmail.com"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Neplatný XML dokument: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Nepodarilo sa prečítať informácie o štýle"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Nepodarilo sa previesť obsah dokumentu"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Dokument nie je platný ZIP archív"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Neplatná štruktúra dokumentu (chýba hlavný adresár)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Neplatná štruktúra dokumentu (chýba META-INF adresár)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Neplatná štruktúra dokumentu (chýba META-INF/manifest.xml)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Neplatná štruktúra dokumentu (chýba content.xml)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument Text"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Nastavenie backendu OpenDocument Text"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Tento dokument je zašifrovaný, podpora šifrovania je zakompilovaná, ale "
+"kódovací modul sa nepodarilo nájsť"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Tento dokument je zašifrovaný, podpora šifrovania je zakompilovaná, ale "
+"modul pre odvodenie kľúča sa nepodarilo nájsť"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Tento dokument je zašifrovaný, podpora šifrovania je zakompilovaná, ale "
+"šifrovací modul sa nepodarilo nájsť"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Tento dokument je zašifrovaný, ale podpora šifrovania nie je zakompilovaná v "
+"Okular. Dokument nebude pravdepodobne otvorený."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Vyrobil"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Vytvorené"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Tvorca"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Zmenené"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "Backend OpenDocument Text"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Vykresľovač pre textové dokumenty OpenDocument"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"

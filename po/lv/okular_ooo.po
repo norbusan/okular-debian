@@ -1,0 +1,180 @@
+# translation of okular_ooo.po to Latvian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Maris Nartiss <maris.kde@gmail.com>, 2007.
+# Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2008-05-20 15:56+0300\n"
+"Last-Translator: Viesturs Zarins <viesturs.zarins@mii.lu.lv>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Māris Nartišs"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "maris.kde@gmail.com"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Nederīgs XML dokuments: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Nav iespējams nolasīt stila informāciju"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Nav iespējams konvertēt dokumenta saturu"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Dokuments nav derīgs ZIP arhīvs"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Nederīga dokumenta struktūra (trūkst galvenās mapes)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Nederīga dokumenta struktūra (trūkst META_INF mapes)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Nederīga dokumenta struktūra (trūkst META_INF/manifest.xml)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Nederīga dokumenta struktūra (trūkst content.xml)"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text"
+msgstr "OpenOffice dokumentu aizmugure"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenOffice dokumentu aizmugure"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Šis dokuments ir šifrēts un ir arī šifrēšanas atbalsts, bet neizdevās atrast "
+"kontrolskaitļu spraudni."
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Šis dokuments ir šifrēts un ir arī šifrēšanas atbalsts, bet neizdevās atrast "
+"atslēgu atvēršanas spraudni."
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Šis dokuments ir šifrēts un ir arī šifrēšanas atbalsts, bet neizdevās atrast "
+"šifrēšanas spraudni."
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Šis dokuments ir šifrēts un bet Okular ir kompilēts bez šifrēšanas atbalsta. "
+"Šo dokumentu nebūs iespējams atvērt."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Ražotājs"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Izveidots"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Izveidojis"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Autors"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Mainīts"
+
+#, fuzzy
+#~| msgid "OpenOffice Document Backend"
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenOffice dokumentu aizmugure"
+
+#, fuzzy
+#~| msgid "A renderer for OpenOffice text documents"
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "OpenOffice teksta dokumentu attēlotājs"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Dokumenta parole"
+
+#, fuzzy
+#~| msgid "Please insert the password to read the document:"
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Lai lasītu dokumentu, ievadiet paroli:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Parole nav pareiza."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Nepareiza parole"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Nederīga dokumenta struktūra (trūkst styles.xml)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Nederīga dokumenta struktūra (trūkst meta.xml)"

@@ -1,0 +1,5157 @@
+# translation of okular.po to Icelandic
+# íslensk þýðing okular.po
+# Stígur Snæsson <stigur@vortex.is>, 2004.
+# Þröstur Svanbergsson <throstur@bylur.net>, 2004.
+# Arnar Leosson <leosson@frisurf.no>, 2005.
+# Arnar Leósson <leosson@frisurf.no>, 2005.
+# Björgvin Ragnarsson <nifgraup@gmail.com>, 2005.
+# Sveinn í Felli <sveinki@nett.is>, 2008, 2009, 2010, 2011, 2014, 2016, 2017, 2018, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-01-31 08:25+0100\n"
+"PO-Revision-Date: 2020-01-06 17:29+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Arnar Leósson, Sveinn í Felli"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "leosson@frisurf.no, sv1@fellsnet.is"
+
+#: aboutdata.h:23 ui/annotationwidgets.cpp:449 ui/sidebar.cpp:766
+#, kde-format
+msgid "Okular"
+msgstr "Okular"
+
+#: aboutdata.h:25
+#, kde-format
+msgid "Okular, a universal document viewer"
+msgstr "Okular, fjölhæfur skjalaskoðari"
+
+#: aboutdata.h:27
+#, kde-format
+msgid ""
+"(C) 2002 Wilco Greven, Christophe Devriese\n"
+"(C) 2004-2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004-2017 Albert Astals Cid\n"
+"(C) 2006-2009 Pino Toscano"
+msgstr ""
+"(C) 2002 Wilco Greven, Christophe Devriese\n"
+"(C) 2004-2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004-2017 Albert Astals Cid\n"
+"(C) 2006-2009 Pino Toscano"
+
+#: aboutdata.h:36
+#, kde-format
+msgid "Former maintainer"
+msgstr "Fyrrverandi umsjónarmaður"
+
+#: aboutdata.h:37
+#, kde-format
+msgid "Lots of framework work, ODT and FictionBook backends"
+msgstr "Mikið af kerfisvinnu, ODT og FictionBook bakendar"
+
+#: aboutdata.h:38
+#, kde-format
+msgid "Developer"
+msgstr "Forritari"
+
+#: aboutdata.h:39
+#, kde-format
+msgid "Created Okular from KPDF codebase"
+msgstr "Bjó til Okular út frá KPDF kóða"
+
+#: aboutdata.h:40
+#, kde-format
+msgid "KPDF developer"
+msgstr "KPDF forritari"
+
+#: aboutdata.h:41
+#, kde-format
+msgid "Annotations artwork"
+msgstr "Skreyting á glósum"
+
+#: aboutdata.h:42
+#, kde-format
+msgid "Table selection tool"
+msgstr "Töfluvalsverkfæri"
+
+#: aboutdata.h:43
+#, kde-format
+msgid "Annotation improvements"
+msgstr "Endurbætur á glósum"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightImages)
+#: conf/dlgaccessibilitybase.ui:28
+#, kde-format
+msgid "Draw border around &Images"
+msgstr "Teikna ramma í kr&ingum myndir"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightLinks)
+#: conf/dlgaccessibilitybase.ui:35
+#, kde-format
+msgid "Draw border around &Links"
+msgstr "Teikna ramma í kringum teng&la"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ChangeColors)
+#: conf/dlgaccessibilitybase.ui:45
+#, kde-format
+msgid "Change &colors"
+msgstr "Breyta &litum"
+
+#. i18n: ectx: property (text), widget (QLabel, warn)
+#: conf/dlgaccessibilitybase.ui:63
+#, kde-format
+msgid "Warning: these options can badly affect drawing speed."
+msgstr "Athugið: þessir valkostir geta hægt umtalsvert á teiknihraða."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgaccessibilitybase.ui:78
+#, kde-format
+msgid "Color mode:"
+msgstr "Litahamur:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:89
+#, kde-format
+msgid "Invert Colors"
+msgstr "Snúa við litum"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:94
+#, kde-format
+msgid "Change Paper Color"
+msgstr "Breyta blaðsíðulit"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:99
+#, kde-format
+msgid "Change Dark & Light Colors"
+msgstr "Breyta dökkum og ljósum litum"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:104
+#, kde-format
+msgid "Convert to Black & White"
+msgstr "Umbreyta í svarthvítt"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: conf/dlgaccessibilitybase.ui:165
+#, kde-format
+msgid "Paper color:"
+msgstr "Blaðsíðulitur:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: conf/dlgaccessibilitybase.ui:218
+#, kde-format
+msgid "Dark color:"
+msgstr "Dökkur litur:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: conf/dlgaccessibilitybase.ui:250
+#, kde-format
+msgid "Light color:"
+msgstr "Ljós litur:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: conf/dlgaccessibilitybase.ui:291
+#, kde-format
+msgid "Threshold:"
+msgstr "Þröskuldur:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: conf/dlgaccessibilitybase.ui:323
+#, kde-format
+msgid "Contrast:"
+msgstr "Birtuskil:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, speechBox)
+#: conf/dlgaccessibilitybase.ui:357
+#, kde-format
+msgid "Speech"
+msgstr "Speech"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgaccessibilitybase.ui:363
+#, kde-format
+msgid "Engine"
+msgstr "Vél"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: conf/dlgannotationsbase.ui:31
+#, kde-format
+msgid "Identity"
+msgstr "Auðkenni"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgannotationsbase.ui:55
+#, kde-format
+msgid "Au&thor:"
+msgstr "&Höfundur:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgannotationsbase.ui:71
+#, fuzzy, kde-format
+#| msgid ""
+#| "<b>Note</b>: the information here is used only for comments and reviews. "
+#| "Information inserted here will not be transmitted without your knowledge."
+msgid ""
+"<b>Note</b>: the information here is used only for annotations. The "
+"information is saved in annotated documents, and so will be transmitted "
+"together with the document."
+msgstr ""
+"<b> Athugsemd</b>: upplýsingarnar hér eru aðeins notaðar fyrir athugasemdir "
+"og yfirferð. Það sem hér er sett inn verður ekki sent öðrum án þíns "
+"samþykkis."
+
+#. i18n: ectx: property (title), widget (QGroupBox, annotToolsGroup)
+#: conf/dlgannotationsbase.ui:87
+#, kde-format
+msgid "Annotation tools"
+msgstr "Verkfæri fyrir glósur"
+
+#: conf/dlgeditor.cpp:28
+#, kde-format
+msgctxt "Text editor"
+msgid "Custom Text Editor"
+msgstr "Sérsniðinn textaritill"
+
+#: conf/dlgeditor.cpp:29
+#, kde-format
+msgctxt "Text editor"
+msgid "Kate"
+msgstr "Kate"
+
+#: conf/dlgeditor.cpp:30
+#, kde-format
+msgctxt "Text editor"
+msgid "Kile"
+msgstr "Kile"
+
+#: conf/dlgeditor.cpp:31
+#, kde-format
+msgctxt "Text editor"
+msgid "SciTE"
+msgstr "SciTE"
+
+#: conf/dlgeditor.cpp:32
+#, kde-format
+msgctxt "Text editor"
+msgid "Emacs client"
+msgstr "Emacs biðlari"
+
+#: conf/dlgeditor.cpp:33
+#, kde-format
+msgctxt "Text editor"
+msgid "Lyx client"
+msgstr "Lyx biðlari"
+
+#: conf/dlgeditor.cpp:34
+#, kde-format
+msgctxt "Text editor"
+msgid "TeXstudio"
+msgstr ""
+
+#: conf/dlgeditor.cpp:37
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<qt>Set the command of a custom text editor to be launched.<br />\n"
+"You can also put few placeholders:\n"
+"<ul>\n"
+"  <li>%f - the file name</li>\n"
+"  <li>%l - the line of the file to be reached</li>\n"
+"  <li>%c - the column of the file to be reached</li>\n"
+"</ul>\n"
+"If %f is not specified, then the file name is appended to the specified "
+"command."
+msgstr ""
+"<qt>Setur skipun fyrir sérsniðinn textaritil sem á að ræsa.<br />\n"
+"Þú getur líka sett inn nokkrar ígildisbreytur:\n"
+"<ul>\n"
+"  <li>%f - nafn á skrá</li>\n"
+"  <li>%l - lína í skrá sem á að meðhöndla</li>\n"
+"  <li>%c - dálkur í skrá sem á að meðhöndla</li>\n"
+"</ul>\n"
+"Ef %f er ekki tekið fram, þá verður nafninu bætt við tilgreinda skipun."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlgeditorbase.ui:19 conf/preferencesdialog.cpp:56
+#, kde-format
+msgid "Editor"
+msgstr "Ritill"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgeditorbase.ui:25
+#, kde-format
+msgid "Editor:"
+msgstr "Ritill:"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_ExternalEditor)
+#: conf/dlgeditorbase.ui:32
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the editor you want to launch when Okular wants to open a source file."
+msgstr ""
+"Veldu hvaða ritil á að nota þegar Okular þarf að opna skrá með upprunakóða."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgeditorbase.ui:70
+#, kde-format
+msgid "Command:"
+msgstr "Skipun:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlggeneralbase.ui:32 conf/dlgpresentationbase.ui:129
+#: conf/editannottooldialog.cpp:81
+#, kde-format
+msgid "Appearance"
+msgstr "Útlit"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowScrollBars)
+#: conf/dlggeneralbase.ui:70
+#, kde-format
+msgid "Show scroll&bars"
+msgstr "Birta s&krunstikur"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SyncThumbnailsViewport)
+#: conf/dlggeneralbase.ui:80
+#, kde-format
+msgid "Link the &thumbnails with the page"
+msgstr "&Tengja smámyndirnar við síðuna"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowOSD)
+#: conf/dlggeneralbase.ui:87
+#, kde-format
+msgid "Show &hints and info messages"
+msgstr "Birta &vísbendingar og upplýsingaskilaboð"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DisplayDocumentTitle)
+#: conf/dlggeneralbase.ui:94
+#, kde-format
+msgid "Display document title in titlebar if available"
+msgstr "Birta titil skjals í titilslá ef tiltækur"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlggeneralbase.ui:101
+#, kde-format
+msgid "When not displaying document title:"
+msgstr "Þegar ekki er birtur titil skjals:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFileName)
+#: conf/dlggeneralbase.ui:126
+#, kde-format
+msgid "Display file name only"
+msgstr "Birta einungis skráarheiti"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFilePath)
+#: conf/dlggeneralbase.ui:136
+#, kde-format
+msgid "Display full file path"
+msgstr "Birta fulla slóð skráa"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseCustomBackgroundColor)
+#: conf/dlggeneralbase.ui:164
+#, kde-format
+msgid "Use custom background color"
+msgstr "Nota sérsniðinn bakgrunnslit"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlggeneralbase.ui:233
+#, kde-format
+msgid "Program Features"
+msgstr "Hæfileikar forrits"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShellOpenFileInTabs)
+#: conf/dlggeneralbase.ui:271
+#, kde-format
+msgid "Open new files in &tabs"
+msgstr "Opna nýjar skrár í &flipum"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ObeyDRM)
+#: conf/dlggeneralbase.ui:278
+#, kde-format
+msgid "&Obey DRM limitations"
+msgstr "Fylgja &DRM takmörkunum"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WatchFile)
+#: conf/dlggeneralbase.ui:285
+#, kde-format
+msgid "&Reload document on file change"
+msgstr "Endu&rhlaða skjali við breytingu á skrá"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChooseGenerators)
+#: conf/dlggeneralbase.ui:292
+#, kde-format
+msgid "Show backend selection dialog"
+msgstr "Birta glugga með vali bakenda"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_rtlReadingDirection)
+#: conf/dlggeneralbase.ui:318
+#, kde-format
+msgid "Right to left reading direction"
+msgstr "Lesið frá hægri-til-vinstri"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: conf/dlggeneralbase.ui:343
+#, kde-format
+msgid "View Options"
+msgstr "Valmöguleikar skoðunar"
+
+#. i18n: ectx: property (text), widget (QLabel, columnLabel)
+#: conf/dlggeneralbase.ui:349
+#, kde-format
+msgid "Overview &columns:"
+msgstr "&Yfirlitsdálkar:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, scrollOverlapLabel)
+#: conf/dlggeneralbase.ui:372
+#, kde-format
+msgid ""
+"Defines how much of the current viewing area will still be visible when "
+"pressing the Page Up/Down keys."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, scrollOverlapLabel)
+#: conf/dlggeneralbase.ui:375
+#, kde-format
+msgid "&Page Up/Down overlap:"
+msgstr "&Upp/Niður skörun síðna:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ScrollOverlap)
+#: conf/dlggeneralbase.ui:388
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:402 conf/dlggeneralbase.ui:423
+#, kde-format
+msgid ""
+"Defines the default zoom mode for files which were never opened before.\n"
+"For files which were opened before the previous zoom is applied."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:406 conf/dlggeneralbase.ui:427
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Defines the default zoom mode for files which were never opened before.\n"
+"For files which were opened before the previous zoom is applied."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: conf/dlggeneralbase.ui:409
+#, kde-format
+msgid "&Default Zoom:"
+msgstr "Sjálfgefinn að&dráttur:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:431
+#, no-c-format, kde-format
+msgid "100%"
+msgstr "100%"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:436 part.cpp:3116 ui/pageview.cpp:4196
+#, kde-format
+msgid "Fit Width"
+msgstr "Passa á breidd"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:441 ui/pageview.cpp:4196
+#, kde-format
+msgid "Fit Page"
+msgstr "Passa á síðu"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:446 ui/pageview.cpp:4196
+#, kde-format
+msgid "Auto Fit"
+msgstr "Aðlaga sjálfvirkt"
+
+#: conf/dlgperformance.cpp:55
+#, kde-format
+msgid ""
+"Keeps used memory as low as possible. Do not reuse anything. (For systems "
+"with low memory.)"
+msgstr ""
+"Heldur minnisnotkun í lágmarki. Ekki endurnota neitt. (Fyrir kerfi með lítið "
+"minni.)"
+
+#: conf/dlgperformance.cpp:58
+#, kde-format
+msgid ""
+"A good compromise between memory usage and speed gain. Preload next page and "
+"boost searches. (For systems with 2GB of memory, typically.)"
+msgstr ""
+"Góð málamiðlun á milli minnisnotkunar og hraða. Forhlaða næstu síðu og bæta "
+"leitir. (Venjulega fyrir kerfi með 2GB af minni.)"
+
+#: conf/dlgperformance.cpp:61
+#, kde-format
+msgid ""
+"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
+"with more than 4GB of memory.)"
+msgstr ""
+"Setja allt í minni. Forhlaða næstu síðu. Auka leitir. (Fyrir kerfi með meira "
+"en 4GB af minni.)"
+
+#: conf/dlgperformance.cpp:65
+#, no-c-format, kde-format
+msgid ""
+"Loads and keeps everything in memory. Preload all pages. (Will use at "
+"maximum 50% of your total memory or your free memory, whatever is bigger.)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: conf/dlgperformancebase.ui:32
+#, kde-format
+msgid "CPU Usage"
+msgstr "Örgjörvanotkun"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableCompositing)
+#: conf/dlgperformancebase.ui:87
+#, kde-format
+msgid "Enable &transparency effects"
+msgstr "&Leyfa gegnsæi"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupbox)
+#: conf/dlgperformancebase.ui:146
+#, kde-format
+msgid "Memory Usage"
+msgstr "Minnisnotkun"
+
+#. i18n: ectx: property (text), widget (QRadioButton, lowRadio)
+#: conf/dlgperformancebase.ui:193
+#, kde-format
+msgid "&Low"
+msgstr "&Lítil"
+
+#. i18n: ectx: property (text), widget (QRadioButton, normalRadio)
+#: conf/dlgperformancebase.ui:203
+#, kde-format
+msgid "Nor&mal (default)"
+msgstr "&Venjuleg (sjálfgefið)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, aggressiveRadio)
+#: conf/dlgperformancebase.ui:213
+#, kde-format
+msgid "Aggr&essive"
+msgstr "M&ikil"
+
+#. i18n: ectx: property (text), widget (QRadioButton, greedyRadio)
+#: conf/dlgperformancebase.ui:223
+#, kde-format
+msgid "G&reedy"
+msgstr "G&ráðug"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlgperformancebase.ui:302
+#, kde-format
+msgid "Rendering"
+msgstr "Myndgerð"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextAntialias)
+#: conf/dlgperformancebase.ui:308
+#, kde-format
+msgid "Enable Text Antialias"
+msgstr "Virkja afstöllun texta"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_GraphicsAntialias)
+#: conf/dlgperformancebase.ui:315
+#, kde-format
+msgid "Enable Graphics Antialias"
+msgstr "Virkja afstöllun myndefnis"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextHinting)
+#: conf/dlgperformancebase.ui:322
+#, kde-format
+msgid "Enable Text Hinting"
+msgstr "Virkja hnikun texta"
+
+#: conf/dlgpresentation.cpp:35
+#, kde-format
+msgctxt "@label:listbox The current screen, for the presentation mode"
+msgid "Current Screen"
+msgstr "Núverandi skjár"
+
+#: conf/dlgpresentation.cpp:36
+#, kde-format
+msgctxt "@label:listbox The default screen for the presentation mode"
+msgid "Default Screen"
+msgstr "Sjálfgefinn skjár"
+
+#: conf/dlgpresentation.cpp:40
+#, kde-format
+msgctxt "@label:listbox %1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "Skjár %1"
+
+#: conf/dlgpresentation.cpp:55
+#, kde-format
+msgctxt "Advance every %1 seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " sekúnda"
+msgstr[1] " sekúndur"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: conf/dlgpresentationbase.ui:29
+#, kde-format
+msgid "Navigation"
+msgstr "Leiðarstýring"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesAdvance)
+#: conf/dlgpresentationbase.ui:67
+#, kde-format
+msgid "Advance every:"
+msgstr "Áfram hverja:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesLoop)
+#: conf/dlgpresentationbase.ui:86
+#, kde-format
+msgid "Loop after last page"
+msgstr "Endurtaka eftir síðustu síðu"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: conf/dlgpresentationbase.ui:95
+#, fuzzy, kde-format
+#| msgid "Navigation"
+msgid "Touch navigation:"
+msgstr "Leiðarstýring"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTapNavigation)
+#: conf/dlgpresentationbase.ui:106
+#, kde-format
+msgid "Tap left/right side to go back/forward"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTapNavigation)
+#: conf/dlgpresentationbase.ui:111
+#, kde-format
+msgid "Tap anywhere to go forward"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTapNavigation)
+#: conf/dlgpresentationbase.ui:116
+#, kde-format
+msgid "Disabled"
+msgstr "Óvirkt"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: conf/dlgpresentationbase.ui:137
+#, kde-format
+msgid "Background color:"
+msgstr "Bakgrunnslitur:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: conf/dlgpresentationbase.ui:150
+#, kde-format
+msgid "Mouse cursor:"
+msgstr "Músarbendill:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: conf/dlgpresentationbase.ui:161
+#, kde-format
+msgid "Hidden After Delay"
+msgstr "Falinn eftir töf"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: conf/dlgpresentationbase.ui:166
+#, kde-format
+msgid "Always Visible"
+msgstr "Alltaf sýnilegur"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: conf/dlgpresentationbase.ui:171
+#, kde-format
+msgid "Always Hidden"
+msgstr "Alltaf falinn"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowProgress)
+#: conf/dlgpresentationbase.ui:181
+#, kde-format
+msgid "Show &progress indicator"
+msgstr "Birta &framvinduvísi"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowSummary)
+#: conf/dlgpresentationbase.ui:188
+#, kde-format
+msgid "Show s&ummary page"
+msgstr "Birta yfirlit&ssíðu"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SlidesTransitionsEnabled)
+#: conf/dlgpresentationbase.ui:198
+#, kde-format
+msgid "Enable transitions"
+msgstr "Virkja umskiptingar"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: conf/dlgpresentationbase.ui:210
+#, kde-format
+msgid "Default transition:"
+msgstr "Sjálfgefin umskipting:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:221
+#, kde-format
+msgid "Blinds Vertical"
+msgstr "Lóðréttar gardínur"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:226
+#, kde-format
+msgid "Blinds Horizontal"
+msgstr "Láréttar gardínur"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:231
+#, kde-format
+msgid "Box In"
+msgstr "Kassi inn"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:236
+#, kde-format
+msgid "Box Out"
+msgstr "Kassi út"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:241
+#, kde-format
+msgid "Dissolve"
+msgstr "Leysa upp"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:246
+#, kde-format
+msgid "Fade"
+msgstr "Deyfa út"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:251
+#, kde-format
+msgid "Glitter Down"
+msgstr "Glóð niður"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:256
+#, kde-format
+msgid "Glitter Right"
+msgstr "Glóð til vinstri"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:261
+#, kde-format
+msgid "Glitter Right-Down"
+msgstr "Glóð hægri niður"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:266
+#, kde-format
+msgid "Random Transition"
+msgstr "Slembin umskipting"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:271
+#, kde-format
+msgid "Replace"
+msgstr "Skipta út"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:276
+#, kde-format
+msgid "Split Horizontal In"
+msgstr "Kljúfa lárétt inn"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:281
+#, kde-format
+msgid "Split Horizontal Out"
+msgstr "Kljúfa lárétt út"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:286
+#, kde-format
+msgid "Split Vertical In"
+msgstr "Kljúfa lóðrétt inn"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:291
+#, kde-format
+msgid "Split Vertical Out"
+msgstr "Kljúfa lóðrétt út"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:296
+#, kde-format
+msgid "Wipe Down"
+msgstr "Fletta niður"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:301
+#, kde-format
+msgid "Wipe Right"
+msgstr "Fletta til hægri"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:306
+#, kde-format
+msgid "Wipe Left"
+msgstr "Fletta til vinstri"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:311
+#, kde-format
+msgid "Wipe Up"
+msgstr "Fletta upp"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: conf/dlgpresentationbase.ui:322
+#, kde-format
+msgid "Placement"
+msgstr "Staðsetning"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgpresentationbase.ui:328
+#, kde-format
+msgid "Screen:"
+msgstr "Skjár:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, annotationToolsGroupBox)
+#: conf/dlgpresentationbase.ui:344
+#, kde-format
+msgid "Drawing Tool Configuration"
+msgstr "Uppsetning teikniverkfæris"
+
+#: conf/editannottooldialog.cpp:60 conf/editdrawingtooldialog.cpp:46
+#, kde-format
+msgid "&Name:"
+msgstr "&Heiti:"
+
+#: conf/editannottooldialog.cpp:69
+#, kde-format
+msgid "&Type:"
+msgstr "&Tegund:"
+
+#: conf/editannottooldialog.cpp:87 ui/guiutils.cpp:74
+#: ui/pageviewannotator.cpp:230 ui/pageviewannotator.cpp:1106
+#, kde-format
+msgid "Pop-up Note"
+msgstr "Sprett-athugasemd"
+
+#: conf/editannottooldialog.cpp:88 ui/guiutils.cpp:80
+#: ui/pageviewannotator.cpp:209 ui/pageviewannotator.cpp:1104
+#, kde-format
+msgid "Inline Note"
+msgstr "Innfelldur minnismiði"
+
+#: conf/editannottooldialog.cpp:89 ui/guiutils.cpp:113
+#: ui/pageviewannotator.cpp:1102
+#, kde-format
+msgid "Freehand Line"
+msgstr "Fríhendislína"
+
+#: conf/editannottooldialog.cpp:90 ui/guiutils.cpp:85
+#: ui/pageviewannotator.cpp:1116
+#, kde-format
+msgid "Straight Line"
+msgstr "Bein lína"
+
+#: conf/editannottooldialog.cpp:91 ui/guiutils.cpp:87
+#: ui/pageviewannotator.cpp:1108
+#, kde-format
+msgid "Polygon"
+msgstr "Marghyrningur"
+
+#: conf/editannottooldialog.cpp:92
+#, kde-format
+msgid "Text markup"
+msgstr "Textamerking"
+
+#: conf/editannottooldialog.cpp:93
+#, kde-format
+msgid "Geometrical shape"
+msgstr "Rúmfræðilögun"
+
+#: conf/editannottooldialog.cpp:94 ui/guiutils.cpp:110
+#: ui/pageviewannotator.cpp:1114
+#, kde-format
+msgid "Stamp"
+msgstr "Stimpill"
+
+#: conf/editannottooldialog.cpp:95 ui/guiutils.cpp:78
+#: ui/pageviewannotator.cpp:216 ui/pageviewannotator.cpp:1122
+#, kde-format
+msgid "Typewriter"
+msgstr ""
+
+#: conf/editannottooldialog.cpp:101
+#, kde-format
+msgid "Create annotation tool"
+msgstr "Búa til verkfæri fyrir glósur"
+
+#: conf/editannottooldialog.cpp:105
+#, kde-format
+msgid "Edit annotation tool"
+msgstr "Breyta verkfæri fyrir glósur"
+
+#: conf/editdrawingtooldialog.cpp:53
+#, kde-format
+msgid "Color:"
+msgstr "Litur:"
+
+#: conf/editdrawingtooldialog.cpp:60
+#, kde-format
+msgid "&Pen Width:"
+msgstr "&Pennabreidd:"
+
+#: conf/editdrawingtooldialog.cpp:66
+#, kde-format
+msgctxt "Suffix for the pen width, eg '10 px'"
+msgid " px"
+msgstr " px"
+
+#: conf/editdrawingtooldialog.cpp:70 ui/annotationwidgets.cpp:285
+#, kde-format
+msgid "&Opacity:"
+msgstr "Óge&gnsæi:"
+
+#: conf/editdrawingtooldialog.cpp:76 ui/annotationwidgets.cpp:284
+#, kde-format
+msgctxt "Suffix for the opacity level, eg '80 %'"
+msgid " %"
+msgstr " %"
+
+#: conf/editdrawingtooldialog.cpp:82
+#, kde-format
+msgid "Create drawing tool"
+msgstr "Búa til teikniverkfæri"
+
+#: conf/editdrawingtooldialog.cpp:89
+#, kde-format
+msgid "Edit drawing tool"
+msgstr "Breyta teikniverkfæri"
+
+#: conf/preferencesdialog.cpp:40 ui/certificateviewer.cpp:238
+#, kde-format
+msgid "General"
+msgstr "Almennt"
+
+#: conf/preferencesdialog.cpp:40
+#, kde-format
+msgid "General Options"
+msgstr "Almennir valkostir"
+
+#: conf/preferencesdialog.cpp:41
+#, kde-format
+msgid "Accessibility"
+msgstr "Aðgengi"
+
+#: conf/preferencesdialog.cpp:41
+#, kde-format
+msgid "Accessibility Reading Aids"
+msgstr "Hjálpartæki fyrir lestraraðgengi"
+
+#: conf/preferencesdialog.cpp:42
+#, kde-format
+msgid "Performance"
+msgstr "Afköst"
+
+#: conf/preferencesdialog.cpp:42
+#, kde-format
+msgid "Performance Tuning"
+msgstr "Fínstilling afkasta"
+
+#: conf/preferencesdialog.cpp:45
+#, kde-format
+msgid "Configure Viewer"
+msgstr "Stilla skoðara"
+
+#: conf/preferencesdialog.cpp:52
+#, kde-format
+msgid "Presentation"
+msgstr "Kynning"
+
+#: conf/preferencesdialog.cpp:53
+#, kde-format
+msgid "Options for Presentation Mode"
+msgstr "Stillingar fyrir kynningarham"
+
+#: conf/preferencesdialog.cpp:54
+#, kde-format
+msgid "Annotations"
+msgstr "Glósur"
+
+#: conf/preferencesdialog.cpp:55
+#, kde-format
+msgid "Annotation Options"
+msgstr "Valkostir fyrir glósur"
+
+#: conf/preferencesdialog.cpp:56
+#, kde-format
+msgid "Editor Options"
+msgstr "Valmöguleikar ritils"
+
+#: conf/widgetconfigurationtoolsbase.cpp:33
+#, kde-format
+msgid "&Add..."
+msgstr "Bæt&a við..."
+
+#: conf/widgetconfigurationtoolsbase.cpp:36
+#, kde-format
+msgid "&Edit..."
+msgstr "Br&eyta..."
+
+#: conf/widgetconfigurationtoolsbase.cpp:40
+#, kde-format
+msgid "&Remove"
+msgstr "&Fjarlægja"
+
+#: conf/widgetconfigurationtoolsbase.cpp:44
+#, kde-format
+msgid "Move &Up"
+msgstr "Færa &upp"
+
+#: conf/widgetconfigurationtoolsbase.cpp:48
+#, kde-format
+msgid "Move &Down"
+msgstr "Færa &niður"
+
+#: conf/widgetdrawingtools.cpp:113
+#, kde-format
+msgid "Default Drawing Tool #%1"
+msgstr "Sjálfgefið teikniverkfæri #%1"
+
+#: conf/widgetdrawingtools.cpp:148 conf/widgetdrawingtools.cpp:192
+#, kde-format
+msgid "There's already a tool with that name. Using a default one"
+msgstr "Það finnst þegar verkfæri með þessu nafni. Nota sjálfgefið"
+
+#: conf/widgetdrawingtools.cpp:148 conf/widgetdrawingtools.cpp:192
+#, kde-format
+msgid "Duplicated Name"
+msgstr "Endurtekið nafn"
+
+#: core/action.cpp:121
+#, kde-format
+msgid "Go to page %1"
+msgstr "Fara á síðu %1"
+
+#: core/action.cpp:122
+#, kde-format
+msgid "Open external file"
+msgstr "Opna utanaðkomandi skrá"
+
+#: core/action.cpp:180
+#, kde-format
+msgid "Execute '%1'..."
+msgstr "Framkvæma '%1'..."
+
+#: core/action.cpp:279
+#, kde-format
+msgid "First Page"
+msgstr "Fyrsta síða"
+
+#: core/action.cpp:281 ui/presentationwidget.cpp:177
+#, kde-format
+msgid "Previous Page"
+msgstr "Fyrri síða"
+
+#: core/action.cpp:283 ui/presentationwidget.cpp:193
+#, kde-format
+msgid "Next Page"
+msgstr "Næsta síða"
+
+#: core/action.cpp:285
+#, kde-format
+msgid "Last Page"
+msgstr "Síðasta síða"
+
+#: core/action.cpp:287
+#, kde-format
+msgid "Back"
+msgstr "Til baka"
+
+#: core/action.cpp:289
+#, kde-format
+msgid "Forward"
+msgstr "Áfram"
+
+#: core/action.cpp:291
+#, kde-format
+msgid "Quit"
+msgstr "Hætta"
+
+#: core/action.cpp:293
+#, kde-format
+msgid "Start Presentation"
+msgstr "Byrja kynningu"
+
+#: core/action.cpp:295
+#, kde-format
+msgid "End Presentation"
+msgstr "Enda kynningu"
+
+#: core/action.cpp:297
+#, kde-format
+msgid "Find..."
+msgstr "Finna..."
+
+#: core/action.cpp:299
+#, kde-format
+msgid "Go To Page..."
+msgstr "Fara á síðu..."
+
+#: core/action.cpp:346
+#, kde-format
+msgid "Play sound..."
+msgstr "Spila hljóð..."
+
+#: core/action.cpp:413 core/action.cpp:526
+#, kde-format
+msgid "JavaScript Script"
+msgstr "JavaScript skrifta"
+
+#: core/action.cpp:461
+#, kde-format
+msgid "Play movie..."
+msgstr "Spila kvikmynd..."
+
+#: core/action.cpp:531
+#, kde-format
+msgid "Play movie"
+msgstr "Spila myndskeið"
+
+#: core/action.cpp:533
+#, kde-format
+msgid "Stop movie"
+msgstr "Stöðva myndskeið"
+
+#: core/action.cpp:535
+#, kde-format
+msgid "Pause movie"
+msgstr "Gera hlé á myndskeiði"
+
+#: core/action.cpp:537
+#, kde-format
+msgid "Resume movie"
+msgstr "Halda áfram með myndskeið"
+
+#: core/chooseenginedialog.cpp:25
+#, kde-format
+msgid "Backend Selection"
+msgstr "Val bakenda"
+
+#: core/chooseenginedialog.cpp:43
+#, kde-format
+msgid ""
+"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
+"><br />Please select which one to use:</qt>"
+msgstr ""
+"<qt>Meira einn bakendi fannst fyrir MIME-tegundina:<br /><b>%1</b> (%2).<br /"
+"><br />Vinsamlegast veldu hvern þeirra eigi að nota:</qt>"
+
+#: core/document.cpp:181
+#, kde-format
+msgctxt "paper type and orientation (eg: Portrait A4)"
+msgid "Portrait %1"
+msgstr "Lóðrétt %1"
+
+#: core/document.cpp:183
+#, kde-format
+msgctxt "paper type and orientation (eg: Portrait A4)"
+msgid "Landscape %1"
+msgstr "Lárétt %1"
+
+#: core/document.cpp:210
+#, kde-format
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 x %2 in (%3)"
+msgstr "%1 x %2 tommur (%3)"
+
+#: core/document.cpp:214
+#, kde-format
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 x %2 mm (%3)"
+msgstr "%1 x %2 mm (%3)"
+
+#: core/document.cpp:1734
+#, kde-format
+msgid "Continuing search from beginning"
+msgstr "Halda leit áfram frá byrjun"
+
+#: core/document.cpp:1739
+#, kde-format
+msgid "Continuing search from bottom"
+msgstr "Halda leit áfram að neðan"
+
+#: core/document.cpp:2548
+#, kde-format
+msgid ""
+"Can not find a plugin which is able to handle the document being passed."
+msgstr "Finn ekki neitt íforrit sem meðhöndlað getur skjalið sem um ræðir."
+
+#: core/document.cpp:3679
+#, kde-format
+msgctxt "remove a collection of annotations from the page"
+msgid "remove annotations"
+msgstr "fjarlægja glósu"
+
+#: core/document.cpp:4256 core/document.cpp:4264
+#, kde-format
+msgid ""
+"The document is trying to execute an external application and, for your "
+"safety, Okular does not allow that."
+msgstr ""
+"Skjalið er að reyna að keyra utanaðkomandi forrit og af öryggisástæðum "
+"leyfir Okular það ekki."
+
+#: core/document.cpp:4277
+#, kde-format
+msgid "No application found for opening file of mimetype %1."
+msgstr "Ekkert forrit fannst sem getur opnað skrá af tegundinni %1."
+
+#: core/document.cpp:4652
+#, kde-format
+msgid "Could not open a temporary file"
+msgstr "Get ekki opnað bráðabirgðaskrá"
+
+#: core/document.cpp:4654
+#, kde-format
+msgid "Print conversion failed"
+msgstr "Umbreyting fyrir prentun mistókst"
+
+#: core/document.cpp:4656
+#, kde-format
+msgid "Printing process crashed"
+msgstr "Prentferlið hrundi"
+
+#: core/document.cpp:4658
+#, kde-format
+msgid "Printing process could not start"
+msgstr "Ekki var hægt að ræsa prentferlið"
+
+#: core/document.cpp:4660
+#, kde-format
+msgid "Printing to file failed"
+msgstr "Prentun í skrá mistókst"
+
+#: core/document.cpp:4662
+#, kde-format
+msgid "Printer was in invalid state"
+msgstr "Prentarinn var í óþekktu ástandi"
+
+#: core/document.cpp:4664
+#, kde-format
+msgid "Unable to find file to print"
+msgstr "Get ekki fundið skrá til að prenta"
+
+#: core/document.cpp:4666
+#, kde-format
+msgid "There was no file to print"
+msgstr "Það var engin skrá til að prenta"
+
+#: core/document.cpp:4668
+#, kde-format
+msgid ""
+"Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
+"available"
+msgstr ""
+"Gat ekki fundið hentugt forrit til að prenta með. Gakktu úr skugga um að "
+"CUPS lpr tvíundaskráin (forritið) sé tiltæk"
+
+#: core/document.cpp:4670
+#, kde-format
+msgid "The page print size is invalid"
+msgstr "Prentstærð síðunar er ógild"
+
+#: core/document.cpp:5329 part.cpp:1115
+#, kde-format
+msgid "Could not open '%1'. File does not exist"
+msgstr "Gat ekki opnað '%1'. Skráin er ekki til."
+
+#: core/document.cpp:5810
+#, kde-format
+msgid "Title"
+msgstr "Titill"
+
+#: core/document.cpp:5813
+#, kde-format
+msgid "Subject"
+msgstr "Efni"
+
+#: core/document.cpp:5816
+#, kde-format
+msgid "Description"
+msgstr "Lýsing"
+
+#: core/document.cpp:5819
+#, kde-format
+msgid "Author"
+msgstr "Höfundur"
+
+#: core/document.cpp:5822
+#, kde-format
+msgid "Creator"
+msgstr "Forrit"
+
+#: core/document.cpp:5825
+#, kde-format
+msgid "Producer"
+msgstr "Framleiðandi"
+
+#: core/document.cpp:5828
+#, kde-format
+msgid "Copyright"
+msgstr "Höfundarréttur"
+
+#: core/document.cpp:5831
+#, kde-format
+msgid "Pages"
+msgstr "Síður"
+
+#: core/document.cpp:5834
+#, kde-format
+msgid "Created"
+msgstr "Búið til"
+
+#: core/document.cpp:5837
+#, kde-format
+msgid "Modified"
+msgstr "Breytt"
+
+#: core/document.cpp:5840
+#, kde-format
+msgid "Mime Type"
+msgstr "MIME tegund"
+
+#: core/document.cpp:5843
+#, kde-format
+msgid "Category"
+msgstr "Flokkur"
+
+#: core/document.cpp:5846
+#, kde-format
+msgid "Keywords"
+msgstr "Stikkorð"
+
+#: core/document.cpp:5849
+#, kde-format
+msgid "File Path"
+msgstr "Slóð á skrá"
+
+#: core/document.cpp:5852
+#, kde-format
+msgid "File Size"
+msgstr "Skráarstærð"
+
+#: core/document.cpp:5855
+#, kde-format
+msgid "Page Size"
+msgstr "Blaðsíðustærð"
+
+#: core/documentcommands.cpp:69
+#, kde-format
+msgctxt "Add an annotation to the page"
+msgid "add annotation"
+msgstr "bæta við glósu"
+
+#: core/documentcommands.cpp:116
+#, kde-format
+msgctxt "Remove an annotation from the page"
+msgid "remove annotation"
+msgstr "fjarlægja glósu"
+
+#: core/documentcommands.cpp:167
+#, kde-format
+msgctxt "Modify an annotation's internal properties (Color, line-width, etc.)"
+msgid "modify annotation properties"
+msgstr "breyta eiginleikum glósu"
+
+#: core/documentcommands.cpp:205
+#, kde-format
+msgctxt "Translate an annotation's position on the page"
+msgid "translate annotation"
+msgstr "þýða glósu"
+
+#: core/documentcommands.cpp:282
+#, kde-format
+msgctxt "Change an annotation's size"
+msgid "adjust annotation"
+msgstr "laga glósu"
+
+#: core/documentcommands.cpp:355
+#, kde-format
+msgctxt "Generic text edit command"
+msgid "edit text"
+msgstr "breyta texta"
+
+#: core/documentcommands.cpp:444
+#, kde-format
+msgctxt "Edit an annotation's text contents"
+msgid "edit annotation contents"
+msgstr "breyta efni glósu"
+
+#: core/documentcommands.cpp:502
+#, kde-format
+msgctxt "Edit an form's text contents"
+msgid "edit form contents"
+msgstr "breyta innihaldi forms"
+
+#: core/documentcommands.cpp:559
+#, kde-format
+msgctxt "Edit a list form's choices"
+msgid "edit list form choices"
+msgstr ""
+
+#: core/documentcommands.cpp:601
+#, kde-format
+msgctxt "Edit a combo form's selection"
+msgid "edit combo form selection"
+msgstr ""
+
+#: core/documentcommands.cpp:690
+#, kde-format
+msgctxt "Edit the state of a group of form buttons"
+msgid "edit form button states"
+msgstr ""
+
+#: core/generator.cpp:762
+#, kde-format
+msgid "Plain &Text..."
+msgstr "Hreinn &texti..."
+
+#: core/generator.cpp:765
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: core/generator.cpp:770
+#, kde-format
+msgctxt "This is the document format"
+msgid "OpenDocument Text"
+msgstr "OpenDocument texti"
+
+#: core/generator.cpp:774
+#, kde-format
+msgctxt "This is the document format"
+msgid "HTML"
+msgstr "HTML"
+
+#: core/printoptionswidget.cpp:22
+#, kde-format
+msgid "Print Options"
+msgstr "Valkostir prentunar"
+
+#: core/printoptionswidget.cpp:26
+#, kde-format
+msgid "Fit to printable area"
+msgstr ""
+
+#: core/printoptionswidget.cpp:27
+#, kde-format
+msgid "Fit to full page"
+msgstr ""
+
+#: core/printoptionswidget.cpp:28
+#, kde-format
+msgid "Scale mode:"
+msgstr "Kvörðunarhamur:"
+
+#: core/script/kjs_app.cpp:170
+#, kde-format
+msgid "Missing alert type"
+msgstr ""
+
+#: core/script/kjs_app.cpp:225
+#, kde-format
+msgid "Do not show this message again"
+msgstr "Ekki sýna þessi skilaboð aftur"
+
+#: core/sourcereference.cpp:102
+#, kde-format
+msgctxt "'source' is a source file"
+msgid "Source: %1"
+msgstr "Uppruni: %1"
+
+#: core/textdocumentsettings.cpp:40
+#, kde-format
+msgid "&Default Font:"
+msgstr "Sjálf&gefið letur:"
+
+#. i18n: ectx: Menu (file)
+#: part-viewermode.rc:5 part.rc:4
+#, kde-format
+msgid "&File"
+msgstr "&Skrá"
+
+#. i18n: ectx: Menu (settings)
+#: part-viewermode.rc:9 part.rc:89
+#, kde-format
+msgid "&Settings"
+msgstr "S&tillingar"
+
+#. i18n: ectx: Menu (help)
+#: part-viewermode.rc:14 part.rc:95
+#, kde-format
+msgid "&Help"
+msgstr "&Hjálp"
+
+#. i18n: ectx: Menu (view_orientation)
+#: part-viewermode.rc:32 part.rc:44
+#, kde-format
+msgid "&Orientation"
+msgstr "S&tefna"
+
+#. i18n: ectx: Menu (bookmarks)
+#. i18n: ectx: Menu (okular_bookmarks)
+#: part-viewermode.rc:51 part.rc:66
+#, kde-format
+msgid "&Bookmarks"
+msgstr "&Bókamerki"
+
+#. i18n: ectx: ToolBar (OkularViewerToolBar)
+#: part-viewermode.rc:64
+#, kde-format
+msgid "Viewer Toolbar"
+msgstr "Verkfærastika fyrir skoðara"
+
+#: part.cpp:426
+#, kde-format
+msgid "Contents"
+msgstr "Innihald"
+
+#: part.cpp:432
+#, kde-format
+msgid "Layers"
+msgstr "Lög"
+
+#: part.cpp:444
+#, kde-format
+msgid "Thumbnails"
+msgstr "Smámyndir"
+
+#: part.cpp:450
+#, kde-format
+msgid "Reviews"
+msgstr "Umsagnir"
+
+#: part.cpp:455
+#, kde-format
+msgid "Bookmarks"
+msgstr "Bókamerki"
+
+#: part.cpp:461
+#, kde-format
+msgid "Signatures"
+msgstr "Undirskriftir"
+
+#: part.cpp:495
+#, kde-format
+msgid ""
+"This document contains annotations or form data that were saved internally "
+"by a previous Okular version. Internal storage is <b>no longer supported</b>."
+"<br/>Please save to a file in order to move them if you want to continue to "
+"edit the document."
+msgstr ""
+
+#: part.cpp:501
+#, kde-format
+msgid ""
+"This document has embedded files. <a href=\"okular:/embeddedfiles\">Click "
+"here to see them</a> or go to File -> Embedded Files."
+msgstr ""
+"Þetta skjal inniheldur innfelldar skrár. <a href=\"okular:/embeddedfiles"
+"\">Smelltu hér til að sjá þær</a> eða farðu í 'Skrá -> Innfelldar skrár'."
+
+#: part.cpp:668
+#, kde-format
+msgctxt "Previous page"
+msgid "Previous"
+msgstr "Fyrri"
+
+#: part.cpp:669
+#, kde-format
+msgid "Go back to the Previous Page"
+msgstr "Fara til baka á síðuna sem þú varst áður á"
+
+#: part.cpp:670
+#, kde-format
+msgid "Moves to the previous page of the document"
+msgstr "Fer á fyrri síðu skjalsins"
+
+#: part.cpp:680
+#, kde-format
+msgctxt "Next page"
+msgid "Next"
+msgstr "Næsta"
+
+#: part.cpp:681
+#, kde-format
+msgid "Advance to the Next Page"
+msgstr "Áfram á næstu síðu"
+
+#: part.cpp:682
+#, kde-format
+msgid "Moves to the next page of the document"
+msgstr "Fer á næstu síðu skjalsins"
+
+#: part.cpp:693
+#, kde-format
+msgid "Beginning of the document"
+msgstr "Upphaf skjalsins"
+
+#: part.cpp:694
+#, kde-format
+msgid "Moves to the beginning of the document"
+msgstr "Fer á upphaf skjalsins"
+
+#: part.cpp:698
+#, kde-format
+msgid "End of the document"
+msgstr "Endir skjalisins"
+
+#: part.cpp:699
+#, kde-format
+msgid "Moves to the end of the document"
+msgstr "Fer á enda skjalsins"
+
+#: part.cpp:710 part.cpp:2406 ui/bookmarklist.cpp:250 ui/bookmarklist.cpp:277
+#, kde-format
+msgid "Rename Bookmark"
+msgstr "Endurnefna bókamerki"
+
+#: part.cpp:712
+#, kde-format
+msgid "Rename the current bookmark"
+msgstr "Endurnefna þetta bókamerki"
+
+#: part.cpp:716
+#, kde-format
+msgid "Previous Bookmark"
+msgstr "Fyrra bókamerki"
+
+#: part.cpp:718
+#, kde-format
+msgid "Go to the previous bookmark"
+msgstr "Fara á fyrra bókamerki"
+
+#: part.cpp:722
+#, kde-format
+msgid "Next Bookmark"
+msgstr "Næsta bókamerki"
+
+#: part.cpp:724
+#, kde-format
+msgid "Go to the next bookmark"
+msgstr "Fara á næsta bókamerki"
+
+#: part.cpp:752
+#, kde-format
+msgid "Configure Okular..."
+msgstr "Stilla Okular..."
+
+#: part.cpp:757
+#, kde-format
+msgid "Configure Viewer..."
+msgstr "Stilla skoðara..."
+
+#: part.cpp:764
+#, kde-format
+msgid "Configure Viewer Backends..."
+msgstr "Stilla skoðunarbakenda..."
+
+#: part.cpp:768
+#, kde-format
+msgid "Configure Backends..."
+msgstr "Stilla bakenda..."
+
+#: part.cpp:782 ui/annotationpopup.cpp:105 ui/annotationpopup.cpp:140
+#: ui/propertiesdialog.cpp:53
+#, kde-format
+msgid "&Properties"
+msgstr "&Eiginleikar"
+
+#: part.cpp:803
+#, kde-format
+msgid "About Backend"
+msgstr "Um bakenda"
+
+#: part.cpp:808
+#, kde-format
+msgid "Reloa&d"
+msgstr "En&durlesa"
+
+#: part.cpp:810
+#, kde-format
+msgid "Reload the current document from disk."
+msgstr "Endurhlaða skjalinu frá diski."
+
+#: part.cpp:816
+#, kde-format
+msgid "Close &Find Bar"
+msgstr "Loka &leitarslá"
+
+#: part.cpp:821
+#, kde-format
+msgid "Page Number"
+msgstr "Blaðsíðutal"
+
+#: part.cpp:857
+#, kde-format
+msgid "Select All Text on Current Page"
+msgstr "Lesa upp allan texta á núverandi síðu"
+
+#: part.cpp:869
+#, kde-format
+msgid "Show &Navigation Panel"
+msgstr "Birta stjór&nunarspjald"
+
+#: part.cpp:877
+#, kde-format
+msgid "Show &Page Bar"
+msgstr "Birta &blaðsíðustiku"
+
+#: part.cpp:883
+#, kde-format
+msgid "Show &Signatures Panel"
+msgstr "Birta undirritunar&spjald"
+
+#: part.cpp:891
+#, kde-format
+msgid "&Embedded Files"
+msgstr "&Innfelldar skrár"
+
+#: part.cpp:897
+#, kde-format
+msgid "E&xport As"
+msgstr "Fl&ytja út sem"
+
+#: part.cpp:909
+#, kde-format
+msgid "S&hare"
+msgstr "&Deila"
+
+#: part.cpp:918
+#, kde-format
+msgid "P&resentation"
+msgstr "&Kynning"
+
+#: part.cpp:925
+#, kde-format
+msgid "Open Con&taining Folder"
+msgstr "Opna umly&kjandi möppu"
+
+#: part.cpp:931
+#, kde-format
+msgid "&Import PostScript as PDF..."
+msgstr "&Flytja inn PostScript sem PDF..."
+
+#: part.cpp:936
+#, kde-format
+msgid "&Get Books From Internet..."
+msgstr "Sæ&kja bækur af internetinu..."
+
+#: part.cpp:941
+#, kde-format
+msgid "Switch Blackscreen Mode"
+msgstr "Skipta um ham svartskjás"
+
+#: part.cpp:949
+#, kde-format
+msgid "Erase Drawing"
+msgstr "Þurrka út teikningu"
+
+#: part.cpp:954
+#, kde-format
+msgid "Configure Annotations..."
+msgstr "Stilla glósur..."
+
+#: part.cpp:959
+#, kde-format
+msgid "Play/Pause Presentation"
+msgstr "Spila/gera hlé á kynningu"
+
+#: part.cpp:1122
+#, kde-format
+msgid "Could not open '%1' (%2) "
+msgstr "Gat ekki opnað '%1' (%2) "
+
+#: part.cpp:1177
+#, kde-format
+msgid "The loading of %1 has been canceled."
+msgstr "Hætt hefur verið við hleðslu %1."
+
+#: part.cpp:1193
+#, kde-format
+msgid "Could not open %1. Reason: %2"
+msgstr "Gat ekki opnað %1. Ástæða: %2"
+
+#: part.cpp:1225
+#, kde-format
+msgid "Configure Viewer Backends"
+msgstr "Stilla skoðunarbakenda"
+
+#: part.cpp:1229
+#, kde-format
+msgid "Configure Backends"
+msgstr "Stilla bakenda"
+
+#: part.cpp:1318
+#, kde-format
+msgid ""
+"The program \"ps2pdf\" was not found, so Okular can not import PS files "
+"using it."
+msgstr ""
+"Forritið \"ps2pdf\" fannst ekki, þannig að Okular getur ekki notað það til "
+"að flytja inn PS skrár."
+
+#: part.cpp:1318
+#, kde-format
+msgid "ps2pdf not found"
+msgstr "ps2pdf fannst ekki"
+
+#: part.cpp:1323
+#, kde-format
+msgid "PostScript files (%1)"
+msgstr "PostScript-skrár (%1)"
+
+#: part.cpp:1339
+#, kde-format
+msgid "Importing PS file as PDF (this may take a while)..."
+msgstr "Flyt inn PS-skrá sem PDF (þetta gæti teki tíma)..."
+
+#: part.cpp:1478
+#, kde-format
+msgid "Please enter the password to read the document:"
+msgstr "Gefðu upp lykilorðið til að lesa skjalið:"
+
+#: part.cpp:1480
+#, kde-format
+msgid "Incorrect password. Try again:"
+msgstr "Rangt lykilorð. Reyndu aftur:"
+
+#: part.cpp:1485
+#, kde-format
+msgid "Document Password"
+msgstr "Lykilorð á skjali"
+
+#: part.cpp:1597
+#, kde-format
+msgid "This document has XFA forms, which are currently <b>unsupported</b>."
+msgstr ""
+
+#: part.cpp:1605
+#, kde-format
+msgid ""
+"This document has forms. Click on the button to interact with them, or use "
+"View -> Show Forms."
+msgstr ""
+"Þetta skjal inniheldur form. Smelltu á hnappinn til að vinna með þau, eða "
+"notaðu 'Skoða -> Sýna form'."
+
+#: part.cpp:1618
+#, kde-format
+msgid ""
+"All editing and interactive features for this document are disabled. Please "
+"save a copy and reopen to edit this document."
+msgstr ""
+
+#: part.cpp:1622
+#, kde-format
+msgid "This document is digitally signed."
+msgstr "Þetta skjal er með stafrænni undirritun."
+
+#: part.cpp:1706
+#, kde-format
+msgid ""
+"This document wants to be shown full screen.\n"
+"Leave normal mode and enter presentation mode?"
+msgstr ""
+
+#: part.cpp:1708
+#, kde-format
+msgid "Request to Change Viewing Mode"
+msgstr ""
+
+#: part.cpp:1709
+#, kde-format
+msgid "Enter Presentation Mode"
+msgstr "Fara í kynningarham"
+
+#: part.cpp:1710
+#, kde-format
+msgid "Deny Request"
+msgstr "Hafna beiðni"
+
+#: part.cpp:1789
+#, kde-format
+msgid "Could not open %1"
+msgstr "Gat ekki opnað %1"
+
+#: part.cpp:1809
+#, kde-format
+msgid ""
+"There are unsaved changes, and the file '%1' has been modified by another "
+"program. Your changes will be lost, because the file can no longer be saved."
+"<br>Do you want to continue reloading the file?"
+msgstr ""
+
+#: part.cpp:1810 part.cpp:1818 part.cpp:2599
+#, kde-format
+msgid "File Changed"
+msgstr "Skrá breytt"
+
+#: part.cpp:1811
+#, kde-format
+msgid "Continue Reloading"
+msgstr "Halda áfram með endurlestur"
+
+#: part.cpp:1812
+#, kde-format
+msgid "Abort Reloading"
+msgstr "Hætta við endurlestur"
+
+#: part.cpp:1817
+#, kde-format
+msgid ""
+"There are unsaved changes, and the file '%1' has been modified by another "
+"program. Your changes will be lost, because the file can no longer be saved."
+"<br>Do you want to continue closing the file?"
+msgstr ""
+
+#: part.cpp:1819
+#, kde-format
+msgid "Continue Closing"
+msgstr "Halda áfram með lokun"
+
+#: part.cpp:1820
+#, kde-format
+msgid "Abort Closing"
+msgstr "Hætta við lokun"
+
+#: part.cpp:1826
+#, kde-format
+msgid "Do you want to save your changes to \"%1\" or discard them?"
+msgstr "Viltu vista breytingar þínar á \"%1\" eða henda þeim?"
+
+#: part.cpp:1827
+#, kde-format
+msgid "Close Document"
+msgstr "Loka skjali"
+
+#: part.cpp:1946
+#, kde-format
+msgid ""
+"This link points to a close document action that does not work when using "
+"the embedded viewer."
+msgstr ""
+"Þessi tengill bendir á aðgerð sem lokar skjali og virkar ekki með ívöfnum "
+"skoðara."
+
+#: part.cpp:1952
+#, kde-format
+msgid ""
+"This link points to a quit application action that does not work when using "
+"the embedded viewer."
+msgstr ""
+"Þessi tengill bendir á aðgerð sem lokar forritun og virkar ekki með ívöfnum "
+"skoðara."
+
+#: part.cpp:2054 part.cpp:2073
+#, kde-format
+msgid "Reloading the document..."
+msgstr "Endurles skjalið..."
+
+#: part.cpp:2210 part.cpp:3112 ui/bookmarklist.cpp:251
+#, kde-format
+msgid "Remove Bookmark"
+msgstr "Fjarlægja bókamerki"
+
+#: part.cpp:2281
+#, kde-format
+msgid "Go to Page"
+msgstr "Fara á síðu"
+
+#: part.cpp:2304
+#, kde-format
+msgid "&Page:"
+msgstr "&Síða:"
+
+#: part.cpp:2406
+#, kde-format
+msgid "Enter the new name of the bookmark:"
+msgstr "Sláðu inn nýja heitið á bókamerkinu:"
+
+#: part.cpp:2457
+#, kde-format
+msgid "Rename this Bookmark"
+msgstr "Endurnefna þetta bókamerki"
+
+#: part.cpp:2460
+#, kde-format
+msgid "Remove this Bookmark"
+msgstr "Fjarlægja þetta bókamerki"
+
+#: part.cpp:2550 part.cpp:2551 part.cpp:3278
+#, kde-format
+msgctxt "File type name and pattern"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: part.cpp:2560 ui/revisionviewer.cpp:46
+#, kde-format
+msgid "Save As"
+msgstr "Vista sem"
+
+#: part.cpp:2598
+#, kde-format
+msgid ""
+"The file '%1' has been modified by another program, which means it can no "
+"longer be saved."
+msgstr ""
+"Skránni '%1' hefur verið breytt af öðru forriti, sem þýðir að ekki er lengur "
+"hægt að vista hana."
+
+#: part.cpp:2608
+#, kde-format
+msgid ""
+"The current document is protected with a password.<br />In order to save, "
+"the file needs to be reloaded. You will be asked for the password again and "
+"your undo/redo history will be lost.<br />Do you want to continue?"
+msgstr ""
+
+#: part.cpp:2609 part.cpp:2647
+#, kde-format
+msgid "Save - Warning"
+msgstr "Vistun - Aðvörun"
+
+#: part.cpp:2628
+#, kde-format
+msgid "Could not open the temporary file for saving."
+msgstr "Get ekki opnað bráðabirgðaskrá fyrir vistun."
+
+#: part.cpp:2646
+#, kde-format
+msgid ""
+"After saving, the current document format requires the file to be reloaded. "
+"Your undo/redo history will be lost.<br />Do you want to continue?"
+msgstr ""
+
+#: part.cpp:2661 part.cpp:2732 part.cpp:2755 part.cpp:3295
+#, kde-format
+msgid "File could not be saved in '%1'. Try to save it to another location."
+msgstr ""
+"Ekki tókst að vista skrána í '%1'. Reyndu að vista hana á annarri "
+"staðsetningu."
+
+#: part.cpp:2674
+#, kde-format
+msgid "Filled form contents"
+msgstr "Innihald útfyllts forms"
+
+#: part.cpp:2675
+#, kde-format
+msgid "User annotations"
+msgstr "Glósur notandans"
+
+#: part.cpp:2681
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them."
+msgstr ""
+
+#: part.cpp:2684 part.cpp:2707
+#, kde-format
+msgid "Warning"
+msgstr "Aðvörun"
+
+#: part.cpp:2685 part.cpp:2708
+#, kde-format
+msgid "Save as Okular document archive..."
+msgstr "Vista sem Okular skjalasafnskrá..."
+
+#: part.cpp:2700
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them. Click <i>Continue</i> to save the document and "
+"discard these elements."
+msgstr ""
+
+#: part.cpp:2701
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them. Click <i>Continue</i> to save, but you will lose "
+"these elements as well as the undo/redo history."
+msgstr ""
+
+#: part.cpp:2703
+#, kde-format
+msgid "Continue"
+msgstr "Áfram"
+
+#: part.cpp:2704
+#, kde-format
+msgid "Continue losing changes"
+msgstr "Halda áfram og tapa breytingum"
+
+#: part.cpp:2734
+#, kde-format
+msgid "File could not be saved in '%1'. %2"
+msgstr "Ekki tókst að vista skrána í ''%1'. %2"
+
+#: part.cpp:2778
+#, kde-format
+msgid ""
+"Okular cannot copy %1 to the specified location.\n"
+"\n"
+"The document does not exist anymore."
+msgstr ""
+"Okular getur ekki afritað %1 á tilgreinda staðsetningu.\n"
+"\n"
+"Skjalið virðist ekki vera til lengur."
+
+#: part.cpp:2812
+#, kde-format
+msgid ""
+"File could not be saved in '%1'. Error: '%2'. Try to save it to another "
+"location."
+msgstr ""
+"Ekki tókst að vista skrána í '%1'. Villa: '%2'. Reyndu að vista hana á "
+"annarri staðsetningu."
+
+#: part.cpp:3093
+#, fuzzy, kde-format
+#| msgid "End Presentation"
+msgid "Expand whole section"
+msgstr "Enda kynningu"
+
+#: part.cpp:3095
+#, kde-format
+msgid "Collapse whole section"
+msgstr ""
+
+#: part.cpp:3097
+#, kde-format
+msgid "Expand all"
+msgstr "Opna allt"
+
+#: part.cpp:3099
+#, kde-format
+msgid "Collapse all"
+msgstr "Fella saman allt"
+
+#: part.cpp:3109 ui/annotationmodel.cpp:334
+#, kde-format
+msgid "Page %1"
+msgstr "Síða %1"
+
+#: part.cpp:3114
+#, kde-format
+msgid "Add Bookmark"
+msgstr "Setja bókamerki"
+
+#: part.cpp:3124
+#, kde-format
+msgid "Tools"
+msgstr "Verkfæri"
+
+#: part.cpp:3336
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Prenta"
+
+#: part.cpp:3413
+#, kde-format
+msgid "Printing this document is not allowed."
+msgstr "Prentun af skjalinu er ekki leyfð."
+
+#: part.cpp:3422
+#, kde-format
+msgid ""
+"Could not print the document. Unknown error. Please report to bugs.kde.org"
+msgstr ""
+"Gat ekki prentað skjalið. Óþekkt villa. Sendu inn villuskýrslu til bugs.kde."
+"org"
+
+#: part.cpp:3426
+#, kde-format
+msgid ""
+"Could not print the document. Detailed error is \"%1\". Please report to "
+"bugs.kde.org"
+msgstr ""
+"Gat ekki prentað skjalið. Útlistuð villa var \"%1\". Sendu inn villuskýrslu "
+"til bugs.kde.org"
+
+#: part.cpp:3513
+#, kde-format
+msgid "Go to the place you were before"
+msgstr "Fara þangað sem þú varst síðast"
+
+#: part.cpp:3517
+#, kde-format
+msgid "Go to the place you were after"
+msgstr "Fara þangað sem þú varst eftir"
+
+#: part.cpp:3544
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not create temporary file "
+"<nobr><strong>%1</strong></nobr>.</qt>"
+msgstr ""
+"<qt><strong>Skráarvilla!</strong> Gat ekki búið til bráðabirgðaskrá "
+"<nobr><strong>%1</strong></nobr>.</qt>"
+
+#: part.cpp:3557
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</"
+"strong></nobr> for uncompression. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>Skráarvilla!</strong> Gat ekki opnað skrá <nobr><strong>%1</"
+"strong></nobr> til að afþjappa hana. Skránni verður ekki hlaðið inn.</qt>"
+
+#: part.cpp:3560
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>This error typically occurs if you do not have enough permissions to "
+#| "read the file. You can check ownership and permissions if you right-click "
+#| "on the file in the Dolphin file manager and then choose the 'Properties' "
+#| "tab.</qt>"
+msgid ""
+"<qt>This error typically occurs if you do not have enough permissions to "
+"read the file. You can check ownership and permissions if you right-click on "
+"the file in the Dolphin file manager, then choose the 'Properties' option, "
+"and select 'Permissions' tab in the opened window.</qt>"
+msgstr ""
+"<qt>Þessi villa gerist venjulega ef þú ert ekki með nægar heimildir til að "
+"lesa skrána. Þú getur athugað með eiganda og heimildir með því að "
+"hægrismella á skrána í Dolphin skráastjóranum og velja síðan flipann "
+"'Eiginleikar'.</qt>"
+
+#: part.cpp:3584
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>"
+"%1</strong></nobr>. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>Skráarvilla!</strong> Gat ekki afþjappað skrána <nobr><strong>"
+"%1</strong></nobr>. Skránni verður ekki hlaðið inn.</qt>"
+
+#: part.cpp:3587
+#, kde-format
+msgid ""
+"<qt>This error typically occurs if the file is corrupt. If you want to be "
+"sure, try to decompress the file manually using command-line tools.</qt>"
+msgstr ""
+"<qt>Þessi villa kemur venjulega upp þegar skráin er skemmd. Ef þú vilt "
+"fullvissa þig um það, reyndu að afþjappa hana með því að nota skipunarlínu-"
+"tól.</qt>"
+
+#: part.cpp:3616
+#, kde-format
+msgid "No Bookmarks"
+msgstr "Engin bókamerki"
+
+#: part.cpp:3690
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr "Vandamál kom upp við að deila skjalinu: %1"
+
+#: part.cpp:3691 part.cpp:3698
+#, kde-format
+msgid "Share"
+msgstr "Deila"
+
+#: part.cpp:3695
+#, kde-format
+msgid "Document shared successfully"
+msgstr "Tókst að deila skjali"
+
+#: part.cpp:3697
+#, kde-format
+msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
+msgstr "Þú getur fundið deilda skjalið á: <a href=\"%1\">%1</a>"
+
+#. i18n: ectx: Menu (edit)
+#: part.rc:18
+#, kde-format
+msgid "&Edit"
+msgstr "&Breyta"
+
+#. i18n: ectx: Menu (view)
+#: part.rc:31
+#, kde-format
+msgid "&View"
+msgstr "S&koða"
+
+#. i18n: ectx: Menu (go)
+#: part.rc:54
+#, kde-format
+msgid "&Go"
+msgstr "&Fara"
+
+#. i18n: ectx: Menu (tools)
+#: part.rc:74
+#, kde-format
+msgid "&Tools"
+msgstr "Verk&færi"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: part.rc:99 shell/shell.rc:22
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Aðalverkfæraslá"
+
+#: shell/main.cpp:59
+#, kde-format
+msgid "Page of the document to be shown"
+msgstr "Síða skjals sem á að sýna"
+
+#: shell/main.cpp:60
+#, kde-format
+msgid "Start the document in presentation mode"
+msgstr "Ræsa skjalið í kynningarham"
+
+#: shell/main.cpp:61
+#, kde-format
+msgid "Start with print dialog"
+msgstr "Byrja með prentglugga"
+
+#: shell/main.cpp:62
+#, fuzzy, kde-format
+#| msgid "Start with print dialog"
+msgid "Start with print dialog and exit after printing"
+msgstr "Byrja með prentglugga"
+
+#: shell/main.cpp:63
+#, kde-format
+msgid "\"Unique instance\" control"
+msgstr "Stjórnun fyrir \"Sértækt tilvik\""
+
+#: shell/main.cpp:64
+#, kde-format
+msgid "Not raise window"
+msgstr "Ekki lyfta glugga"
+
+#: shell/main.cpp:65
+#, kde-format
+msgid "Find a string on the text"
+msgstr ""
+
+#: shell/main.cpp:66
+#, kde-format
+msgid "Documents to open. Specify '-' to read from stdin."
+msgstr "Skjal til opna. Tilgreindu '-' til að lesa frá stdin."
+
+#: shell/okular_main.cpp:127
+#, kde-format
+msgid "Error: Can't open more than one document with the --unique switch"
+msgstr ""
+
+#: shell/okular_main.cpp:134
+#, kde-format
+msgid "Error: Can't open more than one document with the --presentation switch"
+msgstr ""
+
+#: shell/okular_main.cpp:141
+#, kde-format
+msgid "Error: Can't open more than one document with the --print switch"
+msgstr ""
+
+#: shell/okular_main.cpp:148
+#, kde-format
+msgid "Error: Can't open more than one document with the --page switch"
+msgstr ""
+
+#: shell/okular_main.cpp:155
+#, kde-format
+msgid "Error: Can't open more than one document with the --find switch"
+msgstr ""
+
+#: shell/shell.cpp:92
+#, kde-format
+msgid "Unable to find the Okular component: %1"
+msgstr "Get ekki fundið Okular einingu: %1"
+
+#: shell/shell.cpp:135
+#, kde-format
+msgid ""
+"There is already a unique Okular instance running. This instance won't be "
+"the unique one."
+msgstr ""
+
+#: shell/shell.cpp:152
+#, kde-format
+msgid "Unable to find the Okular component."
+msgstr "Get ekki fundið Okular einingu."
+
+#: shell/shell.cpp:341
+#, kde-format
+msgid ""
+"Click to open a file\n"
+"Click and hold to open a recent file"
+msgstr ""
+"Smelltu til að opna skrá\n"
+"Smelltu og haltu niðri til að opna nýlega skrá"
+
+#: shell/shell.cpp:342
+#, kde-format
+msgid ""
+"<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
+msgstr ""
+"<b>Smelltu</b> til að opna skrá eða <b>smelltu og haltu niðri</b> til að "
+"velja nýlega opnaða skrá"
+
+#: shell/shell.cpp:355
+#, kde-format
+msgid "Next Tab"
+msgstr "Næsti flipi"
+
+#: shell/shell.cpp:361
+#, kde-format
+msgid "Previous Tab"
+msgstr "Fyrri flipi"
+
+#: shell/shell.cpp:471
+#, kde-format
+msgid "All files (*)"
+msgstr "Allar skrár (*)"
+
+#: shell/shell.cpp:472
+#, kde-format
+msgid "All supported files (%1)"
+msgstr "Allar studdar skrár (%1)"
+
+#: shell/shell.cpp:475
+#, kde-format
+msgid "Open Document"
+msgstr "Opna skjal"
+
+#: shell/shell.cpp:580
+#, kde-format
+msgid "Confirm Close"
+msgstr "Staðfesta lokun"
+
+#: shell/shell.cpp:584
+#, kde-format
+msgid "Close Tabs"
+msgstr "Loka flipum"
+
+#: shell/shell.cpp:590
+#, kde-format
+msgid "You are about to close %1 tabs. Are you sure you want to continue?"
+msgstr ""
+"Þú ert að fara að loka %1 flipum. Ertu viss um að þú viljir halda áfram?"
+
+#: shell/shell.cpp:591
+#, kde-format
+msgid "Warn me when I attempt to close multiple tabs"
+msgstr "Aðvara þegar mörgum flipum er lokað"
+
+#: ui/annotationpopup.cpp:88
+#, kde-format
+msgid "Annotation"
+msgid_plural "%1 Annotations"
+msgstr[0] "Glósa"
+msgstr[1] "%1 glósur"
+
+#: ui/annotationpopup.cpp:90 ui/annotationpopup.cpp:130
+#, kde-format
+msgid "&Open Pop-up Note"
+msgstr "&Opna sprett-athugsemd"
+
+#: ui/annotationpopup.cpp:95 ui/annotationpopup.cpp:134
+#, kde-format
+msgid "&Delete"
+msgstr "&Eyða"
+
+#: ui/annotationpopup.cpp:115 ui/annotationpopup.cpp:149
+#, kde-format
+msgctxt "%1 is the name of the file to save"
+msgid "&Save '%1'..."
+msgstr "Vi&sta '%1'..."
+
+#: ui/annotationpropertiesdialog.cpp:58
+#, kde-format
+msgid "&Appearance"
+msgstr "Ú&tlit"
+
+#: ui/annotationpropertiesdialog.cpp:63
+#, kde-format
+msgid "&General"
+msgstr "&Almennt"
+
+#: ui/annotationpropertiesdialog.cpp:68
+#, kde-format
+msgid "&Author:"
+msgstr "&Höfundur:"
+
+#: ui/annotationpropertiesdialog.cpp:73
+#, kde-format
+msgid "Created:"
+msgstr "Búið til:"
+
+#: ui/annotationpropertiesdialog.cpp:78
+#, kde-format
+msgid "Modified:"
+msgstr "Breytt:"
+
+#: ui/annotationpropertiesdialog.cpp:115
+#, kde-format
+msgid "Pop-up Note Properties"
+msgstr "Eiginleikar sprett-minnismiða"
+
+#: ui/annotationpropertiesdialog.cpp:119
+#, fuzzy, kde-format
+#| msgid "Caret Properties"
+msgid "Typewriter Properties"
+msgstr "Eiginleikar innskotsmerkis (caret)"
+
+#: ui/annotationpropertiesdialog.cpp:121
+#, kde-format
+msgid "Inline Note Properties"
+msgstr "Eiginleikar innfellds minnismiða"
+
+#: ui/annotationpropertiesdialog.cpp:126
+#, kde-format
+msgid "Straight Line Properties"
+msgstr "Eiginleikar beinnar línu"
+
+#: ui/annotationpropertiesdialog.cpp:128
+#, kde-format
+msgid "Polygon Properties"
+msgstr "Eiginleikar marghyrnings"
+
+#: ui/annotationpropertiesdialog.cpp:131
+#, kde-format
+msgid "Geometry Properties"
+msgstr "Eiginleikar forms"
+
+#: ui/annotationpropertiesdialog.cpp:134
+#, kde-format
+msgid "Text Markup Properties"
+msgstr "Eiginleikar textamerkingar"
+
+#: ui/annotationpropertiesdialog.cpp:137
+#, kde-format
+msgid "Stamp Properties"
+msgstr "Eiginleikar stimpils"
+
+#: ui/annotationpropertiesdialog.cpp:140
+#, kde-format
+msgid "Freehand Line Properties"
+msgstr "Eiginleikar fríhendislínu"
+
+#: ui/annotationpropertiesdialog.cpp:143
+#, kde-format
+msgid "Caret Properties"
+msgstr "Eiginleikar innskotsmerkis (caret)"
+
+#: ui/annotationpropertiesdialog.cpp:146
+#, kde-format
+msgid "File Attachment Properties"
+msgstr "Eiginleikar viðhengis"
+
+#: ui/annotationpropertiesdialog.cpp:149
+#, kde-format
+msgid "Sound Properties"
+msgstr "Eiginleikar hljóðs"
+
+#: ui/annotationpropertiesdialog.cpp:152
+#, kde-format
+msgid "Movie Properties"
+msgstr "Eiginleikar kvikmyndar"
+
+#: ui/annotationpropertiesdialog.cpp:155
+#, kde-format
+msgid "Annotation Properties"
+msgstr "Eiginleikar glósu"
+
+#: ui/annotationpropertiesdialog.cpp:180
+#, kde-format
+msgid "Modified: %1"
+msgstr "Afritaði: %1"
+
+#: ui/annotationwidgets.cpp:55
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select a custom stamp symbol from file"
+msgstr ""
+
+#: ui/annotationwidgets.cpp:161
+#, kde-format
+msgctxt "@title:window file chooser"
+msgid "Select custom stamp symbol"
+msgstr "Veldu sérsniðið stimpilmerki"
+
+#: ui/annotationwidgets.cpp:162
+#, kde-format
+msgid ""
+"*.ico *.png *.xpm *.svg *.svgz | Icon Files (*.ico *.png *.xpm *.svg *.svgz)"
+msgstr ""
+
+#: ui/annotationwidgets.cpp:168
+#, fuzzy, kde-kuit-format
+msgctxt "@info"
+msgid "Could not load the file <filename>%1</filename>"
+msgstr "Gat ekki lesið skrána."
+
+#: ui/annotationwidgets.cpp:169
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid file"
+msgstr "Ógild skrá"
+
+#: ui/annotationwidgets.cpp:275
+#, kde-format
+msgid "&Color:"
+msgstr "&Litur:"
+
+#: ui/annotationwidgets.cpp:374
+#, kde-format
+msgid "Icon:"
+msgstr "Táknmynd:"
+
+#: ui/annotationwidgets.cpp:375
+#, kde-format
+msgid "Comment"
+msgstr "Athugasemd"
+
+#: ui/annotationwidgets.cpp:376
+#, kde-format
+msgid "Help"
+msgstr "Hjálp"
+
+#: ui/annotationwidgets.cpp:377
+#, kde-format
+msgid "Insert"
+msgstr "Setja inn"
+
+#: ui/annotationwidgets.cpp:378
+#, kde-format
+msgid "Key"
+msgstr "Lykill"
+
+#: ui/annotationwidgets.cpp:379
+#, kde-format
+msgid "New paragraph"
+msgstr "Ný málsgrein"
+
+#: ui/annotationwidgets.cpp:380
+#, kde-format
+msgid "Note"
+msgstr "Minnismiði"
+
+#: ui/annotationwidgets.cpp:381
+#, kde-format
+msgid "Paragraph"
+msgstr "Málsgrein"
+
+#: ui/annotationwidgets.cpp:389
+#, kde-format
+msgid "Font:"
+msgstr "Letur:"
+
+#: ui/annotationwidgets.cpp:398
+#, kde-format
+msgid "Text &color:"
+msgstr "Litur t&exta:"
+
+#: ui/annotationwidgets.cpp:406
+#, kde-format
+msgid "&Align:"
+msgstr "&Jafna:"
+
+#: ui/annotationwidgets.cpp:407
+#, kde-format
+msgid "Left"
+msgstr "Vinstri"
+
+#: ui/annotationwidgets.cpp:408
+#, kde-format
+msgid "Center"
+msgstr "Miðjað"
+
+#: ui/annotationwidgets.cpp:409
+#, kde-format
+msgid "Right"
+msgstr "Hægri"
+
+#: ui/annotationwidgets.cpp:417
+#, kde-format
+msgid "Border &width:"
+msgstr "&Breidd jaðars:"
+
+#: ui/annotationwidgets.cpp:435
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<warning>experimental feature.<nl/>Stamps inserted in PDF documents are not "
+"visible in PDF readers other than Okular.</warning>"
+msgstr ""
+
+#: ui/annotationwidgets.cpp:446
+#, kde-format
+msgid "Stamp symbol:"
+msgstr "Stimpilmerki:"
+
+#: ui/annotationwidgets.cpp:450
+#, kde-format
+msgid "Bookmark"
+msgstr "Bókamerki"
+
+#: ui/annotationwidgets.cpp:451
+#, kde-format
+msgid "KDE"
+msgstr "KDE"
+
+#: ui/annotationwidgets.cpp:452
+#, kde-format
+msgid "Information"
+msgstr "Upplýsingar"
+
+#: ui/annotationwidgets.cpp:453
+#, kde-format
+msgid "Approved"
+msgstr "Samþykkt"
+
+#: ui/annotationwidgets.cpp:454
+#, kde-format
+msgid "As Is"
+msgstr "Í núverandi ástandi"
+
+#: ui/annotationwidgets.cpp:455
+#, kde-format
+msgid "Confidential"
+msgstr "Trúnaðarmál"
+
+#: ui/annotationwidgets.cpp:456
+#, kde-format
+msgid "Departmental"
+msgstr "Deild"
+
+#: ui/annotationwidgets.cpp:457
+#, kde-format
+msgid "Draft"
+msgstr "Uppkast"
+
+#: ui/annotationwidgets.cpp:458
+#, kde-format
+msgid "Experimental"
+msgstr "Á tilraunastigi"
+
+#: ui/annotationwidgets.cpp:459
+#, kde-format
+msgid "Expired"
+msgstr "Útrunnið"
+
+#: ui/annotationwidgets.cpp:460
+#, kde-format
+msgid "Final"
+msgstr "Lokaútgáfa"
+
+#: ui/annotationwidgets.cpp:461
+#, kde-format
+msgid "For Comment"
+msgstr "Fyrir athugasemdir"
+
+#: ui/annotationwidgets.cpp:462
+#, kde-format
+msgid "For Public Release"
+msgstr "Fyrir almenna útgáfu"
+
+#: ui/annotationwidgets.cpp:463
+#, kde-format
+msgid "Not Approved"
+msgstr "Ósamþykkt"
+
+#: ui/annotationwidgets.cpp:464
+#, kde-format
+msgid "Not For Public Release"
+msgstr "Ekki fyrir almenna útgáfu"
+
+#: ui/annotationwidgets.cpp:465
+#, kde-format
+msgid "Sold"
+msgstr "Selt"
+
+#: ui/annotationwidgets.cpp:466
+#, kde-format
+msgid "Top Secret"
+msgstr "Algjört leyndarmál"
+
+#: ui/annotationwidgets.cpp:510 ui/annotationwidgets.cpp:580
+#: ui/annotationwidgets.cpp:650 ui/annotationwidgets.cpp:722
+#: ui/annotationwidgets.cpp:808
+#, kde-format
+msgid "&Width:"
+msgstr "&Breidd:"
+
+#: ui/annotationwidgets.cpp:515
+#, kde-format
+msgid "Line start:"
+msgstr "Línubyrjun:"
+
+#: ui/annotationwidgets.cpp:517
+#, kde-format
+msgid "Line end:"
+msgstr "Línuendi:"
+
+#: ui/annotationwidgets.cpp:522
+#, kde-format
+msgid "Square"
+msgstr "Ferningur"
+
+#: ui/annotationwidgets.cpp:523
+#, kde-format
+msgid "Circle"
+msgstr "Hringur"
+
+#: ui/annotationwidgets.cpp:524
+#, kde-format
+msgid "Diamond"
+msgstr "Tígull"
+
+#: ui/annotationwidgets.cpp:525
+#, kde-format
+msgid "Open Arrow"
+msgstr ""
+
+#: ui/annotationwidgets.cpp:526
+#, kde-format
+msgid "Closed Arrow"
+msgstr ""
+
+#: ui/annotationwidgets.cpp:527
+#, kde-format
+msgid "None"
+msgstr "Ekkert"
+
+#: ui/annotationwidgets.cpp:528
+#, kde-format
+msgid "Butt"
+msgstr ""
+
+#: ui/annotationwidgets.cpp:529
+#, kde-format
+msgid "Right Open Arrow"
+msgstr ""
+
+#: ui/annotationwidgets.cpp:530
+#, kde-format
+msgid "Right Closed Arrow"
+msgstr ""
+
+#: ui/annotationwidgets.cpp:531
+#, kde-format
+msgid "Slash"
+msgstr "Skástrik"
+
+#: ui/annotationwidgets.cpp:546
+#, kde-format
+msgid "Leader line length:"
+msgstr "Lengd bendilínu:"
+
+#: ui/annotationwidgets.cpp:548
+#, kde-format
+msgid "Leader line extensions length:"
+msgstr "Lengd viðbótarbendilínu:"
+
+#: ui/annotationwidgets.cpp:563 ui/annotationwidgets.cpp:715
+#, kde-format
+msgid "Enabled"
+msgstr "Virkt"
+
+#: ui/annotationwidgets.cpp:567 ui/annotationwidgets.cpp:719
+#, fuzzy, kde-format
+#| msgid "Save file"
+msgid "Shape fill:"
+msgstr "Vista skrá"
+
+#: ui/annotationwidgets.cpp:677 ui/annotationwidgets.cpp:710
+#, kde-format
+msgid "Type:"
+msgstr "Tegund:"
+
+#: ui/annotationwidgets.cpp:678 ui/guiutils.cpp:96
+#, kde-format
+msgid "Highlight"
+msgstr "Upplitun"
+
+#: ui/annotationwidgets.cpp:679 ui/guiutils.cpp:99
+#: ui/pageviewannotator.cpp:1112
+#, kde-format
+msgid "Squiggle"
+msgstr "Beygla"
+
+#: ui/annotationwidgets.cpp:680 ui/guiutils.cpp:102
+#: ui/pageviewannotator.cpp:1120
+#, kde-format
+msgid "Underline"
+msgstr "Undirstrikað"
+
+#: ui/annotationwidgets.cpp:681 ui/pageviewannotator.cpp:1118
+#, kde-format
+msgid "Strike out"
+msgstr "Yfirstrikað"
+
+#: ui/annotationwidgets.cpp:724 ui/pageviewannotator.cpp:1110
+#, kde-format
+msgid "Rectangle"
+msgstr "Rétthyrningur"
+
+#: ui/annotationwidgets.cpp:725 ui/pageviewannotator.cpp:1098
+#, kde-format
+msgid "Ellipse"
+msgstr "Sporbaugur"
+
+#: ui/annotationwidgets.cpp:776
+#, kde-format
+msgid "File attachment symbol:"
+msgstr "Tákn fyrir viðhengi:"
+
+#: ui/annotationwidgets.cpp:779
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Graph"
+msgstr "Línurit"
+
+#: ui/annotationwidgets.cpp:780
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Push Pin"
+msgstr "Teiknibóla"
+
+#: ui/annotationwidgets.cpp:781
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Paperclip"
+msgstr "Bréfaklemma"
+
+#: ui/annotationwidgets.cpp:782
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Tag"
+msgstr "Merki"
+
+#: ui/annotationwidgets.cpp:791
+#, kde-format
+msgctxt "'File' as normal file, that can be opened, saved, etc.."
+msgid "File"
+msgstr "Skrá"
+
+#: ui/annotationwidgets.cpp:795 ui/embeddedfilesdialog.cpp:92
+#, kde-format
+msgctxt "Not available size"
+msgid "N/A"
+msgstr "ekki tiltækt"
+
+#: ui/annotationwidgets.cpp:796
+#, kde-format
+msgid "No description available."
+msgstr "Engin lýsing tiltæk."
+
+#: ui/annotationwidgets.cpp:804
+#, kde-format
+msgid "Name:"
+msgstr "Nafn:"
+
+#: ui/annotationwidgets.cpp:815
+#, kde-format
+msgid "Description:"
+msgstr "Lýsing:"
+
+#: ui/annotationwidgets.cpp:876
+#, kde-format
+msgid "Caret symbol:"
+msgstr "Innskotstákn (caret):"
+
+#: ui/annotationwidgets.cpp:878
+#, kde-format
+msgctxt "Symbol for caret annotations"
+msgid "None"
+msgstr "Enginn"
+
+#: ui/annotationwidgets.cpp:879
+#, kde-format
+msgctxt "Symbol for caret annotations"
+msgid "P"
+msgstr "P"
+
+#: ui/annotwindow.cpp:57
+#, kde-format
+msgid "Close this note"
+msgstr "Loka þessum minnismiða"
+
+#: ui/annotwindow.cpp:102 ui/findbar.cpp:65
+#, kde-format
+msgid "Options"
+msgstr "Valkostir"
+
+#: ui/annotwindow.cpp:113
+#, kde-format
+msgid ""
+"This annotation may contain LaTeX code.\n"
+"Click here to render."
+msgstr ""
+"Þessi glósa gæti innihaldið LaTeX-kóða.\n"
+"Smelltu hér til að myndgera."
+
+#: ui/annotwindow.cpp:389
+#, kde-format
+msgid "Cannot find latex executable."
+msgstr "Fann ekki latex keyrsluskrána."
+
+#: ui/annotwindow.cpp:389 ui/annotwindow.cpp:394 ui/annotwindow.cpp:399
+#: ui/annotwindow.cpp:404
+#, kde-format
+msgid "LaTeX rendering failed"
+msgstr "LaTeX myndgerð mistókst"
+
+#: ui/annotwindow.cpp:394
+#, kde-format
+msgid "Cannot find dvipng executable."
+msgstr "Fann ekki dvipng keyrsluskrána."
+
+#: ui/annotwindow.cpp:399
+#, kde-format
+msgid "A problem occurred during the execution of the 'latex' command."
+msgstr "Vandamál kom upp við keyrslu á 'latex' skipuninni."
+
+#: ui/annotwindow.cpp:404
+#, kde-format
+msgid "A problem occurred during the execution of the 'dvipng' command."
+msgstr "Vandamál kom upp við keyrslu á 'dvipng' skipuninni."
+
+#: ui/bookmarklist.cpp:110
+#, kde-format
+msgctxt "%1 is the file name"
+msgid ""
+"%1\n"
+"\n"
+"One bookmark"
+msgid_plural ""
+"%1\n"
+"\n"
+"%2 bookmarks"
+msgstr[0] ""
+"%1\n"
+"\n"
+"Eitt bókamerki"
+msgstr[1] ""
+"%1\n"
+"\n"
+"%2 bókamerki"
+
+#: ui/bookmarklist.cpp:127 ui/searchwidget.cpp:40 ui/side_reviews.cpp:120
+#: ui/toc.cpp:38
+#, kde-format
+msgid "Search..."
+msgstr "Leita..."
+
+#: ui/bookmarklist.cpp:156
+#, kde-format
+msgid "Current document only"
+msgstr "Eingöngu núverandi skjal"
+
+#: ui/bookmarklist.cpp:249
+#, kde-format
+msgid "Go to This Bookmark"
+msgstr "Fara á þetta bókamerki"
+
+#: ui/bookmarklist.cpp:276
+#, kde-format
+msgctxt "Opens the selected document"
+msgid "Open Document"
+msgstr "Opna skjal"
+
+#: ui/bookmarklist.cpp:278
+#, kde-format
+msgid "Remove Bookmarks"
+msgstr "Fjarlægja bókamerki"
+
+#: ui/certificateviewer.cpp:132
+#, kde-format
+msgid "Version"
+msgstr "Útgáfa"
+
+#: ui/certificateviewer.cpp:134
+#, kde-format
+msgid "Serial Number"
+msgstr "Raðnúmer"
+
+#: ui/certificateviewer.cpp:136
+#, kde-format
+msgid "Issuer"
+msgstr "Útgefandi"
+
+#: ui/certificateviewer.cpp:138 ui/certificateviewer.cpp:257
+#, kde-format
+msgid "Issued On"
+msgstr "Gefið út"
+
+#: ui/certificateviewer.cpp:140 ui/certificateviewer.cpp:258
+#, kde-format
+msgid "Expires On"
+msgstr "Rennur út"
+
+#: ui/certificateviewer.cpp:142
+#, kde-format
+msgctxt "The person/company that made the signature"
+msgid "Subject"
+msgstr "Viðfangsefni"
+
+#: ui/certificateviewer.cpp:144
+#, kde-format
+msgid "Public Key"
+msgstr "Dreifilykill"
+
+#: ui/certificateviewer.cpp:146
+#, fuzzy, kde-format
+#| msgid "Memory Usage"
+msgid "Key Usage"
+msgstr "Minnisnotkun"
+
+#: ui/certificateviewer.cpp:156
+#, kde-format
+msgid "V%1"
+msgstr "V%1"
+
+#: ui/certificateviewer.cpp:168
+#, kde-format
+msgid "%1 (%2 bits)"
+msgstr "%1 (%2 bita)"
+
+#: ui/certificateviewer.cpp:215
+#, kde-format
+msgid "Property"
+msgstr "Eiginleiki"
+
+#: ui/certificateviewer.cpp:217
+#, kde-format
+msgid "Value"
+msgstr "Gildi"
+
+#: ui/certificateviewer.cpp:229
+#, kde-format
+msgid "Certificate Viewer"
+msgstr "Skilríkjaskoðari"
+
+#: ui/certificateviewer.cpp:232
+#, kde-format
+msgid "Export..."
+msgstr "Flytja út..."
+
+#: ui/certificateviewer.cpp:240
+#, kde-format
+msgid "Issued By"
+msgstr "Gefið út af"
+
+#: ui/certificateviewer.cpp:243 ui/certificateviewer.cpp:250
+#, kde-format
+msgid "Common Name(CN)"
+msgstr "Almennt heiti (CN)"
+
+#: ui/certificateviewer.cpp:244 ui/certificateviewer.cpp:251
+#, kde-format
+msgid "EMail"
+msgstr "Tölvupóstfang"
+
+#: ui/certificateviewer.cpp:245 ui/certificateviewer.cpp:252
+#, kde-format
+msgid "Organization(O)"
+msgstr "Stofnun/Samtök/Félag (O)"
+
+#: ui/certificateviewer.cpp:247
+#, kde-format
+msgid "Issued To"
+msgstr "Útgefið handa"
+
+#: ui/certificateviewer.cpp:254
+#, kde-format
+msgid "Validity"
+msgstr "Lögmæti"
+
+#: ui/certificateviewer.cpp:260
+#, kde-format
+msgid "Fingerprints"
+msgstr "Fingraför"
+
+#: ui/certificateviewer.cpp:268
+#, kde-format
+msgid "SHA-1 Fingerprint"
+msgstr "SHA-1 fingrafar"
+
+#: ui/certificateviewer.cpp:269
+#, kde-format
+msgid "SHA-256 Fingerprint"
+msgstr "SHA-256 fingrafar"
+
+#: ui/certificateviewer.cpp:287
+#, kde-format
+msgid "Details"
+msgstr "Nánar"
+
+#: ui/certificateviewer.cpp:288
+#, kde-format
+msgid "Certificate Data:"
+msgstr "Gögn skilríkis"
+
+#: ui/certificateviewer.cpp:331
+#, kde-format
+msgid "Where do you want to save this certificate?"
+msgstr "Hvar viltu vista þetta skilríki?"
+
+#: ui/certificateviewer.cpp:332
+#, kde-format
+msgid "Certificate File (*.cer)"
+msgstr "Skilríkjaskrá (*.cer)"
+
+#: ui/certificateviewer.cpp:339
+#, kde-format
+msgid "Unable to export certificate!"
+msgstr "Tókst ekki að flytja út skilríki!"
+
+#. i18n: tag tool attribute name
+#: ui/data/drawingtools.xml:11
+#, kde-format
+msgid "Red"
+msgstr "Rautt"
+
+#. i18n: tag tool attribute name
+#: ui/data/drawingtools.xml:16
+#, kde-format
+msgid "Green"
+msgstr "Grænt"
+
+#. i18n: tag tool attribute name
+#: ui/data/drawingtools.xml:21
+#, kde-format
+msgid "Blue"
+msgstr "Blátt"
+
+#. i18n: tag tool attribute name
+#: ui/data/drawingtools.xml:26
+#, kde-format
+msgid "Yellow"
+msgstr "Gult"
+
+#. i18n: tag tool attribute name
+#: ui/data/drawingtools.xml:31
+#, kde-format
+msgid "Black"
+msgstr "Svart"
+
+#. i18n: tag tool attribute name
+#: ui/data/drawingtools.xml:36
+#, kde-format
+msgid "White"
+msgstr "Hvítt"
+
+#: ui/drawingtoolactions.cpp:170
+#, kde-format
+msgid "Drawing Tool: %1"
+msgstr "Teikniverkfæri: %1"
+
+#: ui/drawingtoolactions.cpp:192 ui/drawingtoolactions.cpp:193
+#, kde-format
+msgid "Eraser"
+msgstr "Strokleður"
+
+#: ui/embeddedfilesdialog.cpp:44
+#, kde-format
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "Óþekkt"
+
+#: ui/embeddedfilesdialog.cpp:49
+#, kde-format
+msgctxt "@title:window"
+msgid "Embedded Files"
+msgstr "Innbyggðar skrár"
+
+#: ui/embeddedfilesdialog.cpp:63
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "Skoða"
+
+#: ui/embeddedfilesdialog.cpp:71
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Heiti"
+
+#: ui/embeddedfilesdialog.cpp:72
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Lýsing"
+
+#: ui/embeddedfilesdialog.cpp:73
+#, kde-format
+msgctxt "@title:column"
+msgid "Size"
+msgstr "Stærð"
+
+#: ui/embeddedfilesdialog.cpp:74
+#, kde-format
+msgctxt "@title:column"
+msgid "Created"
+msgstr "Búin til"
+
+#: ui/embeddedfilesdialog.cpp:75
+#, kde-format
+msgctxt "@title:column"
+msgid "Modified"
+msgstr "Breytt"
+
+#: ui/embeddedfilesdialog.cpp:156
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Save As..."
+msgstr "Vista &sem..."
+
+#: ui/embeddedfilesdialog.cpp:157
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&View..."
+msgstr "S&koða..."
+
+#: ui/fileprinterpreview.cpp:137
+#, kde-format
+msgid "Could not load print preview part"
+msgstr "Gat ekki opnað prentforskoðunarhlutann"
+
+#: ui/fileprinterpreview.cpp:152
+#, kde-format
+msgid "Print Preview"
+msgstr "Forskoða útprentun"
+
+#: ui/findbar.cpp:36 ui/presentationsearchbar.cpp:66
+#, kde-format
+msgid "Close"
+msgstr "Loka"
+
+#: ui/findbar.cpp:40
+#, kde-format
+msgctxt "Find text"
+msgid "F&ind:"
+msgstr "F&inna:"
+
+#: ui/findbar.cpp:51
+#, kde-format
+msgid "Text to search for"
+msgstr "Texti til að leita eftir"
+
+#: ui/findbar.cpp:56
+#, kde-format
+msgctxt "Find and go to the next search match"
+msgid "Next"
+msgstr "Næsta"
+
+#: ui/findbar.cpp:57
+#, kde-format
+msgid "Jump to next match"
+msgstr "Hoppa í næstu samsvörun"
+
+#: ui/findbar.cpp:60
+#, kde-format
+msgctxt "Find and go to the previous search match"
+msgid "Previous"
+msgstr "Fyrri"
+
+#: ui/findbar.cpp:61
+#, kde-format
+msgid "Jump to previous match"
+msgstr "Hoppa í fyrri samsvörun"
+
+#: ui/findbar.cpp:66
+#, kde-format
+msgid "Modify search behavior"
+msgstr "Breyta leitarhegðun"
+
+#: ui/findbar.cpp:68
+#, kde-format
+msgid "Case sensitive"
+msgstr "Háð há/lágstöfum"
+
+#: ui/findbar.cpp:70
+#, kde-format
+msgid "From current page"
+msgstr "Frá núverandi síðu"
+
+#: ui/findbar.cpp:72
+#, kde-format
+msgid "Find as you type"
+msgstr "Leita að texta meðan þú skrifar"
+
+#: ui/formwidgets.cpp:824
+#, kde-format
+msgid "*|All Files"
+msgstr "*|Allar skrár"
+
+#: ui/formwidgets.cpp:1249 ui/signaturepropertiesdialog.cpp:39
+#, kde-format
+msgid "Signature Properties"
+msgstr "Eiginleikar undirritunar"
+
+#: ui/guiutils.cpp:85
+#, kde-format
+msgid "Straight Line with Comment"
+msgstr "Bein lína með athugasemd"
+
+#: ui/guiutils.cpp:87
+#, kde-format
+msgid "Polygon with Comment"
+msgstr ""
+
+#: ui/guiutils.cpp:90
+#, kde-format
+msgid "Geometry with Comment"
+msgstr "Flatartákn með athugasemd"
+
+#: ui/guiutils.cpp:90
+#, kde-format
+msgid "Geometry"
+msgstr "Form"
+
+#: ui/guiutils.cpp:96
+#, kde-format
+msgid "Highlight with Comment"
+msgstr "Uppljómun með athugasemd"
+
+#: ui/guiutils.cpp:99
+#, kde-format
+msgid "Squiggle with Comment"
+msgstr "Beyglun með athugasemd"
+
+#: ui/guiutils.cpp:102
+#, kde-format
+msgid "Underline with Comment"
+msgstr "Undirstrikun með athugasemd"
+
+#: ui/guiutils.cpp:105
+#, kde-format
+msgid "Strike Out with Comment"
+msgstr "Gegnumstrikun með athugasemd"
+
+#: ui/guiutils.cpp:105
+#, kde-format
+msgid "Strike Out"
+msgstr "Gegnumstrikað"
+
+#: ui/guiutils.cpp:110
+#, kde-format
+msgid "Stamp with Comment"
+msgstr ""
+
+#: ui/guiutils.cpp:113
+#, kde-format
+msgid "Freehand Line with Comment"
+msgstr "Fríhendislína með athugasemd"
+
+#: ui/guiutils.cpp:116
+#, kde-format
+msgid "Caret"
+msgstr "Innskotsmerki (caret)"
+
+#: ui/guiutils.cpp:119
+#, kde-format
+msgid "File Attachment"
+msgstr "Viðhengi"
+
+#: ui/guiutils.cpp:122
+#, kde-format
+msgid "Sound"
+msgstr "Hljóð"
+
+#: ui/guiutils.cpp:125
+#, kde-format
+msgid "Movie"
+msgstr "Kvikmynd"
+
+#: ui/guiutils.cpp:128
+#, kde-format
+msgctxt "Caption for a screen annotation"
+msgid "Screen"
+msgstr "Skjár"
+
+#: ui/guiutils.cpp:131
+#, kde-format
+msgctxt "Caption for a widget annotation"
+msgid "Widget"
+msgstr "Græja"
+
+#: ui/guiutils.cpp:134
+#, kde-format
+msgctxt "Caption for a rich media annotation"
+msgid "Rich Media"
+msgstr "Rich Media"
+
+#: ui/guiutils.cpp:146
+#, kde-format
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "Óþekkt"
+
+#: ui/guiutils.cpp:163 ui/presentationwidget.cpp:384
+#, kde-format
+msgid "Author: %1"
+msgstr "Höfundur: %1"
+
+#: ui/guiutils.cpp:230 ui/propertiesdialog.cpp:214
+#, kde-format
+msgid "Where do you want to save %1?"
+msgstr "Hvar viltu vista %1?"
+
+#: ui/guiutils.cpp:241 ui/propertiesdialog.cpp:227
+#, kde-format
+msgid "Could not open \"%1\" for writing. File was not saved."
+msgstr "Gat ekki opnað \"%1\" til skrifunar. Skráin var ekki vistuð."
+
+#: ui/ktreeviewsearchline.cpp:285
+#, kde-format
+msgid "Search Options"
+msgstr "Leitarvalmöguleikar"
+
+#: ui/ktreeviewsearchline.cpp:286
+#, kde-format
+msgctxt "Enable case sensitive search in the side navigation panels"
+msgid "Case Sensitive"
+msgstr "Háð há/lágstöfum"
+
+#: ui/ktreeviewsearchline.cpp:289
+#, kde-format
+msgctxt "Enable regular expression search in the side navigation panels"
+msgid "Regular Expression"
+msgstr "Regluleg segð"
+
+#: ui/ktreeviewsearchline.cpp:376
+#, kde-format
+msgid "S&earch:"
+msgstr "L&eita:"
+
+#: ui/minibar.cpp:187
+#, kde-format
+msgctxt "Layouted like: '5 [pages] of 10'"
+msgid "of"
+msgstr "af"
+
+#: ui/pageview.cpp:508
+#, kde-format
+msgid "Zoom"
+msgstr "Aðdráttur"
+
+#: ui/pageview.cpp:520
+#, kde-format
+msgid "Zoom to 100%"
+msgstr "Aðdráttur 100%"
+
+#: ui/pageview.cpp:531
+#, kde-format
+msgid "Rotate &Right"
+msgstr "Snúa til hæg&ri"
+
+#: ui/pageview.cpp:532
+#, kde-format
+msgctxt "Rotate right"
+msgid "Right"
+msgstr "Hægri"
+
+#: ui/pageview.cpp:536
+#, kde-format
+msgid "Rotate &Left"
+msgstr "Snúa ti&l vinstri"
+
+#: ui/pageview.cpp:537
+#, kde-format
+msgctxt "Rotate left"
+msgid "Left"
+msgstr "Vinstri"
+
+#: ui/pageview.cpp:541
+#, kde-format
+msgid "Original Orientation"
+msgstr "Upprunaleg stefna"
+
+#: ui/pageview.cpp:546
+#, kde-format
+msgid "&Page Size"
+msgstr "&Blaðsíðustærð"
+
+#: ui/pageview.cpp:554
+#, kde-format
+msgid "&Trim View"
+msgstr "S&kera sýn"
+
+#: ui/pageview.cpp:558
+#, kde-format
+msgid "&Trim Margins"
+msgstr "S&kera af spássíðum"
+
+#: ui/pageview.cpp:565
+#, kde-format
+msgid "Trim To &Selection"
+msgstr "Skera að vali"
+
+#: ui/pageview.cpp:571
+#, kde-format
+msgid "Fit &Width"
+msgstr "&Passa á breidd"
+
+#: ui/pageview.cpp:575
+#, kde-format
+msgid "Fit &Page"
+msgstr "Passa á &síðu"
+
+#: ui/pageview.cpp:579
+#, kde-format
+msgid "&Auto Fit"
+msgstr "&Aðlaga sjálfvirkt"
+
+#: ui/pageview.cpp:583
+#, kde-format
+msgid "Fit Wi&ndow to Page"
+msgstr "Gluggi &passi á síðu"
+
+#: ui/pageview.cpp:590
+#, kde-format
+msgid "&View Mode"
+msgstr "&Skoðunarhamur"
+
+#: ui/pageview.cpp:603
+#, kde-format
+msgid "Single Page"
+msgstr "Ein síða"
+
+#: ui/pageview.cpp:604
+#, kde-format
+msgid "Facing Pages"
+msgstr "Mótstæðar síður"
+
+#: ui/pageview.cpp:605
+#, kde-format
+msgid "Facing Pages (Center First Page)"
+msgstr "Mótstæðar síður (fyrsta síða miðjuð)"
+
+#: ui/pageview.cpp:606
+#, kde-format
+msgid "Overview"
+msgstr "Yfirlit"
+
+#: ui/pageview.cpp:618
+#, kde-format
+msgid "&Continuous"
+msgstr "Á&framhaldið"
+
+#: ui/pageview.cpp:626
+#, kde-format
+msgid "&Browse"
+msgstr "&Velja"
+
+#: ui/pageview.cpp:634
+#, kde-format
+msgid "&Zoom"
+msgstr "Að&dráttur"
+
+#: ui/pageview.cpp:642
+#, kde-format
+msgid "&Toggle Change Colors"
+msgstr "Víxla li&tabreytingum"
+
+#: ui/pageview.cpp:656
+#, kde-format
+msgid "Area &Selection"
+msgstr "Val &svæðis"
+
+#: ui/pageview.cpp:665
+#, kde-format
+msgid "&Text Selection"
+msgstr "&Textaval"
+
+#: ui/pageview.cpp:673
+#, kde-format
+msgid "T&able Selection"
+msgstr "Töfluv&al"
+
+#: ui/pageview.cpp:681
+#, kde-format
+msgid "&Magnifier"
+msgstr "&Skjástækkun"
+
+#: ui/pageview.cpp:689
+#, kde-format
+msgid "&Review"
+msgstr "&Yfirfara"
+
+#: ui/pageview.cpp:703
+#, kde-format
+msgid "Speak Whole Document"
+msgstr "Lesa upp allt skjalið"
+
+#: ui/pageview.cpp:708
+#, kde-format
+msgid "Speak Current Page"
+msgstr "Lesa upp núverandi síðu"
+
+#: ui/pageview.cpp:713
+#, kde-format
+msgid "Stop Speaking"
+msgstr "Stöðva tal"
+
+#: ui/pageview.cpp:718
+#, kde-format
+msgid "Pause/Resume Speaking"
+msgstr ""
+
+#: ui/pageview.cpp:730
+#, kde-format
+msgid "Scroll Up"
+msgstr "Renna upp"
+
+#: ui/pageview.cpp:736
+#, kde-format
+msgid "Scroll Down"
+msgstr "Renna niður"
+
+#: ui/pageview.cpp:742
+#, kde-format
+msgid "Scroll Page Up"
+msgstr "Renna síðu upp"
+
+#: ui/pageview.cpp:748
+#, kde-format
+msgid "Scroll Page Down"
+msgstr "Renna síðu niður"
+
+#: ui/pageview.cpp:1171
+#, kde-format
+msgid " Loaded a one-page document."
+msgid_plural " Loaded a %1-page document."
+msgstr[0] " Hlóð inn einnar síðu skjali."
+msgstr[1] " Hlóð inn %1-síðu skjali."
+
+#: ui/pageview.cpp:2887
+#, kde-format
+msgid "Text (1 character)"
+msgid_plural "Text (%1 characters)"
+msgstr[0] "Texti (1 stafur)"
+msgstr[1] "Texti (%1 stafir)"
+
+#: ui/pageview.cpp:2888 ui/pageview.cpp:2907
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "Afrita á klippispjald"
+
+#: ui/pageview.cpp:2894 ui/pageview.cpp:3054 ui/pageview.cpp:3182
+#, kde-format
+msgid "Copy forbidden by DRM"
+msgstr "Afritun bönnuð með DRM"
+
+#: ui/pageview.cpp:2898 ui/pageview.cpp:3177
+#, kde-format
+msgid "Speak Text"
+msgstr "Tala texta"
+
+#: ui/pageview.cpp:2906
+#, kde-format
+msgid "Image (%1 by %2 pixels)"
+msgstr "Mynd (%1 x %2 punktar)"
+
+#: ui/pageview.cpp:2908
+#, kde-format
+msgid "Save to File..."
+msgstr "Vista í skrá..."
+
+#: ui/pageview.cpp:2930
+#, kde-format
+msgid "Image [%1x%2] copied to clipboard."
+msgstr "Mynd [%1x%2] afrituð á klippispjald."
+
+#: ui/pageview.cpp:2935
+#, kde-format
+msgid "Save file"
+msgstr "Vista skrá"
+
+#: ui/pageview.cpp:2935
+#, kde-format
+msgid "Images (*.png *.jpeg)"
+msgstr "Myndir (*.png *.jpeg)"
+
+#: ui/pageview.cpp:2937
+#, kde-format
+msgid "File not saved."
+msgstr "Skrá ekki vistuð."
+
+#: ui/pageview.cpp:2948
+#, kde-format
+msgid "Image [%1x%2] saved to %3 file."
+msgstr "Mynd [%1x%2] vistuð í %3 skrá."
+
+#: ui/pageview.cpp:3173
+#, kde-format
+msgid "Copy Text"
+msgstr "Afrita texta"
+
+#: ui/pageview.cpp:3197
+#, kde-format
+msgid "Go to '%1'"
+msgstr "Fara á '%1'"
+
+#: ui/pageview.cpp:4454
+#, kde-format
+msgid "Hide Forms"
+msgstr "Fela form"
+
+#: ui/pageview.cpp:4458
+#, kde-format
+msgid "Show Forms"
+msgstr "Birta form"
+
+#: ui/pageview.cpp:4513
+#, kde-format
+msgid "Search for '%1' with"
+msgstr "Leita að '%1' með"
+
+#: ui/pageview.cpp:4528
+#, kde-format
+msgid "Configure Web Shortcuts..."
+msgstr "Stilla vefskammstafanir..."
+
+#: ui/pageview.cpp:4554
+#, kde-format
+msgid "Follow This Link"
+msgstr "Fylgja þessum tengli"
+
+#: ui/pageview.cpp:4557
+#, kde-format
+msgid "Play this Sound"
+msgstr "Spila þetta hljóð"
+
+#: ui/pageview.cpp:4559
+#, kde-format
+msgid "Stop Sound"
+msgstr "Stöðva hljóð"
+
+#: ui/pageview.cpp:4569
+#, kde-format
+msgid "Copy Link Address"
+msgstr "Afrita vistfang tengils"
+
+#: ui/pageview.cpp:4591
+#, kde-format
+msgid "Search for '%1' in this document"
+msgstr "Leita að '%1' í þessu skjali"
+
+#: ui/pageview.cpp:5083
+#, kde-format
+msgid "Welcome"
+msgstr "Velkomin(n)"
+
+#: ui/pageview.cpp:5190
+#, kde-format
+msgid "Select zooming area. Right-click to zoom out."
+msgstr "Veldu stækkunarsvæði. Hægrismelltu til að renna frá."
+
+#: ui/pageview.cpp:5206
+#, kde-format
+msgid "Click to see the magnified view."
+msgstr "Smelltu til að sjá stækkaða sýn."
+
+#: ui/pageview.cpp:5218
+#, kde-format
+msgid "Draw a rectangle around the text/graphics to copy."
+msgstr "Dragðu kassa yfir textann/myndina sem þú vilt afrita."
+
+#: ui/pageview.cpp:5235
+#, kde-format
+msgid "Select text"
+msgstr "Velja texta"
+
+#: ui/pageview.cpp:5253
+#, kde-format
+msgid ""
+"Draw a rectangle around the table, then click near edges to divide up; press "
+"Esc to clear."
+msgstr ""
+"Dragðu ferhyrnt svæði í kringum töfluna, smelltu nálægt jöðrum til að skipta "
+"upp; ýttu á Esc til að hreinsa."
+
+#: ui/pageview.cpp:5290
+#, kde-format
+msgid "Annotations author"
+msgstr "Höfundur glósa"
+
+#: ui/pageview.cpp:5291
+#, kde-format
+msgid "Please insert your name or initials:"
+msgstr "Settu inn nafn þitt eða upphafsstafi:"
+
+#: ui/pageview.cpp:5462
+#, kde-format
+msgid "Draw a rectangle around the page area you wish to keep visible"
+msgstr "Dragðu kassa yfir svæðið á síðunni sem þú vilt halda sýnilegu."
+
+#: ui/pageviewannotator.cpp:207 ui/pageviewannotator.cpp:214
+#, kde-format
+msgid "New Text Note"
+msgstr "Nýr textaminnismiði"
+
+#: ui/pageviewannotator.cpp:207 ui/pageviewannotator.cpp:214
+#, kde-format
+msgid "Text of the new note:"
+msgstr "Texti á nýjum minnismiða:"
+
+#: ui/pageviewannotator.cpp:1035
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw an ellipse (drag to select a zone)"
+msgstr "Teikna sporbaug (draga til að velja svæði)"
+
+#: ui/pageviewannotator.cpp:1037
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Highlight text"
+msgstr "Uppljóma texta"
+
+#: ui/pageviewannotator.cpp:1039
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a freehand line"
+msgstr "Teikna fríhendislínu"
+
+#: ui/pageviewannotator.cpp:1041
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Inline Text Annotation (drag to select a zone)"
+msgstr "Innfelld textaglósa (draga til að velja svæði)"
+
+#: ui/pageviewannotator.cpp:1043
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Put a pop-up note"
+msgstr "Setja inn sprett-athugasemd"
+
+#: ui/pageviewannotator.cpp:1045
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a polygon (click on the first point to close it)"
+msgstr "Draga marghyrning (smella á fyrsta punkt til að loka)"
+
+#: ui/pageviewannotator.cpp:1047
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a rectangle"
+msgstr "Teikna rétthyrning"
+
+#: ui/pageviewannotator.cpp:1049
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Squiggle text"
+msgstr "Beygla texta"
+
+#: ui/pageviewannotator.cpp:1051
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Put a stamp symbol"
+msgstr "Setja stimpilmerki"
+
+#: ui/pageviewannotator.cpp:1053
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a straight line"
+msgstr "Teikna beina línu"
+
+#: ui/pageviewannotator.cpp:1055
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Strike out text"
+msgstr "Yfirstrika texta"
+
+#: ui/pageviewannotator.cpp:1057
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Underline text"
+msgstr "Undirstrika texta"
+
+#: ui/pageviewannotator.cpp:1059
+#, fuzzy, kde-format
+#| msgctxt "Annotation tool"
+#| msgid "Inline Text Annotation (drag to select a zone)"
+msgctxt "Annotation tool"
+msgid "Typewriter Annotation (drag to select a zone)"
+msgstr "Innfelld textaglósa (draga til að velja svæði)"
+
+#: ui/pageviewannotator.cpp:1100
+#, kde-format
+msgid "Highlighter"
+msgstr "Uppljómun"
+
+#: ui/presentationsearchbar.cpp:80
+#, kde-format
+msgid "Find Next"
+msgstr "Finna næsta"
+
+#: ui/presentationwidget.cpp:166
+#, kde-format
+msgctxt "[document title/filename] – Presentation"
+msgid "%1 – Presentation"
+msgstr "%1 - Kynning"
+
+#: ui/presentationwidget.cpp:222
+#, kde-format
+msgid "Switch Screen"
+msgstr "Skipta um skjá"
+
+#: ui/presentationwidget.cpp:229
+#, kde-format
+msgctxt "%1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "Skjár %1"
+
+#: ui/presentationwidget.cpp:236
+#, kde-format
+msgid "Exit Presentation Mode"
+msgstr "Fara úr kynningarham"
+
+#: ui/presentationwidget.cpp:382
+#, kde-format
+msgid "Title: %1"
+msgstr "Titill: %1"
+
+#: ui/presentationwidget.cpp:385
+#, kde-format
+msgid "Pages: %1"
+msgstr "Síður: %1"
+
+#: ui/presentationwidget.cpp:386
+#, kde-format
+msgid "Click to begin"
+msgstr "Smelltu til að byrja"
+
+#: ui/presentationwidget.cpp:530
+#, kde-format
+msgctxt "For Presentation"
+msgid "Pause"
+msgstr "Gera hlé"
+
+#: ui/presentationwidget.cpp:535
+#, kde-format
+msgctxt "For Presentation"
+msgid "Play"
+msgstr "Afspilun"
+
+#: ui/presentationwidget.cpp:1661
+#, kde-format
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+"Það eru tvær leiðir til að hætta í kynningarham. Þú getur annað hvort smellt "
+"á ESC hnappinn eða smellt á hnappinn sem kemur fram þegar músin er færð í "
+"hægra hornið uppi. Auðvitað getur þú hringað gluggum (Alt + TAB er "
+"sjálfgefið til þess)"
+
+#: ui/presentationwidget.cpp:1785
+#, kde-format
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode "
+"is active"
+msgid "Giving a presentation"
+msgstr "Halda kynningu"
+
+#: ui/propertiesdialog.cpp:48
+#, kde-format
+msgid "Unknown File"
+msgstr "Óþekkt skrá"
+
+#: ui/propertiesdialog.cpp:62
+#, kde-format
+msgid "%1 Properties"
+msgstr "%1 eiginleikar"
+
+#: ui/propertiesdialog.cpp:109
+#, kde-format
+msgctxt "mimetype information, example: \"PDF Document (application/pdf)\""
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: ui/propertiesdialog.cpp:122
+#, kde-format
+msgid "%1:"
+msgstr "%1:"
+
+#: ui/propertiesdialog.cpp:129
+#, kde-format
+msgid "&Fonts"
+msgstr "&Letur"
+
+#: ui/propertiesdialog.cpp:150
+#, kde-format
+msgid "Reading font information..."
+msgstr "Les upplýsingar um letur..."
+
+#: ui/propertiesdialog.cpp:209
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Extract Font"
+msgstr "Afþjappa l&etri"
+
+#: ui/propertiesdialog.cpp:261
+#, kde-format
+msgid "Type 1"
+msgstr "Type 1"
+
+#: ui/propertiesdialog.cpp:264
+#, kde-format
+msgid "Type 1C"
+msgstr "Type 1C"
+
+#: ui/propertiesdialog.cpp:267
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "Type 1C (OT)"
+msgstr "Type 1C (OT)"
+
+#: ui/propertiesdialog.cpp:270
+#, kde-format
+msgid "Type 3"
+msgstr "Type 3"
+
+#: ui/propertiesdialog.cpp:273
+#, kde-format
+msgid "TrueType"
+msgstr "TrueType"
+
+#: ui/propertiesdialog.cpp:276
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "TrueType (OT)"
+msgstr "TrueType (OT)"
+
+#: ui/propertiesdialog.cpp:279
+#, kde-format
+msgid "CID Type 0"
+msgstr "CID Type 0"
+
+#: ui/propertiesdialog.cpp:282
+#, kde-format
+msgid "CID Type 0C"
+msgstr "CID Type 0C"
+
+#: ui/propertiesdialog.cpp:285
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "CID Type 0C (OT)"
+msgstr "CID Type 0C (OT)"
+
+#: ui/propertiesdialog.cpp:288
+#, kde-format
+msgid "CID TrueType"
+msgstr "CID TrueType"
+
+#: ui/propertiesdialog.cpp:291
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "CID TrueType (OT)"
+msgstr "CID TrueType (OT)"
+
+#: ui/propertiesdialog.cpp:294
+#, kde-format
+msgid "TeX PK"
+msgstr "TeX PK"
+
+#: ui/propertiesdialog.cpp:297
+#, kde-format
+msgid "TeX virtual"
+msgstr "TeX sýndar"
+
+#: ui/propertiesdialog.cpp:300
+#, kde-format
+msgid "TeX Font Metric"
+msgstr "TeX leturmálsetningar"
+
+#: ui/propertiesdialog.cpp:303
+#, kde-format
+msgid "TeX FreeType-handled"
+msgstr "TeX FreeType-meðhöndlað"
+
+#: ui/propertiesdialog.cpp:306
+#, kde-format
+msgctxt "Unknown font type"
+msgid "Unknown"
+msgstr "Óþekkt"
+
+#: ui/propertiesdialog.cpp:320
+#, kde-format
+msgid "Embedded (subset)"
+msgstr "Innfellt (aðeins notaðir stafir - subset)"
+
+#: ui/propertiesdialog.cpp:323
+#, kde-format
+msgid "Fully embedded"
+msgstr "Allt innfellt"
+
+#: ui/propertiesdialog.cpp:334
+#, kde-format
+msgid "No"
+msgstr "Nei"
+
+#: ui/propertiesdialog.cpp:337
+#, kde-format
+msgid "Yes (subset)"
+msgstr "Já (aðeins notaðir stafir - subset)"
+
+#: ui/propertiesdialog.cpp:340
+#, kde-format
+msgid "Yes"
+msgstr "Já"
+
+#: ui/propertiesdialog.cpp:362
+#, kde-format
+msgctxt "Replacing missing font with another one"
+msgid "%1 (substituting with %2)"
+msgstr ""
+
+#: ui/propertiesdialog.cpp:364
+#, kde-format
+msgctxt "font name not available (empty)"
+msgid "[n/a]"
+msgstr "[n/a]"
+
+#: ui/propertiesdialog.cpp:379
+#, kde-format
+msgid "Unknown font"
+msgstr "Óþekkt letur"
+
+#: ui/propertiesdialog.cpp:383
+#, kde-format
+msgid "Embedded: %1"
+msgstr "Innfellt %1"
+
+#: ui/propertiesdialog.cpp:416
+#, kde-format
+msgid "Name"
+msgstr "Heiti"
+
+#: ui/propertiesdialog.cpp:417
+#, kde-format
+msgid "Type"
+msgstr "Tegund"
+
+#: ui/propertiesdialog.cpp:418
+#, kde-format
+msgid "File"
+msgstr "Skrá"
+
+#: ui/revisionviewer.cpp:43
+#, fuzzy, kde-format
+#| msgid "Print Preview"
+msgid "Revision Preview"
+msgstr "Forskoða útprentun"
+
+#: ui/revisionviewer.cpp:55
+#, fuzzy, kde-format
+#| msgid "Where do you want to save %1?"
+msgid "Where do you want to save this revision?"
+msgstr "Hvar viltu vista %1?"
+
+#: ui/revisionviewer.cpp:59
+#, kde-format
+msgid "Could not save file %1."
+msgstr "Gat ekki skrifað skrá %1."
+
+#: ui/revisionviewer.cpp:77
+#, fuzzy, kde-format
+#| msgid "Could not open %1. Reason: %2"
+msgid "Could not view revision."
+msgstr "Gat ekki opnað %1. Ástæða: %2"
+
+#: ui/searchwidget.cpp:41
+#, kde-format
+msgid "Enter at least 3 letters to filter pages"
+msgstr "Sláðu inn að minsta kosti 3 stafi til að sía síðurnar"
+
+#: ui/searchwidget.cpp:51
+#, kde-format
+msgid "Case Sensitive"
+msgstr "Háð há/lágstöfum"
+
+#: ui/searchwidget.cpp:53
+#, kde-format
+msgid "Match Phrase"
+msgstr "Passar við setningu"
+
+#: ui/searchwidget.cpp:54
+#, kde-format
+msgid "Match All Words"
+msgstr "Passar við öll orð"
+
+#: ui/searchwidget.cpp:55
+#, kde-format
+msgid "Match Any Word"
+msgstr "Passar við eitthvað orð"
+
+#: ui/searchwidget.cpp:74
+#, kde-format
+msgid "Filter Options"
+msgstr "Valmöguleikar síu"
+
+#: ui/side_reviews.cpp:63
+#, kde-format
+msgid ""
+"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
+"or select <i>Tools -&gt; Review</i> from the menu.</div>"
+msgstr ""
+"<div align=center><h3>Engar glósur</h3> Til að búa til nýjar glósur ýttu á "
+"F6 eða veldu <i>Verkfæri -&gt; Yfirfara</i> frá aðalvalmyndinni</div>"
+
+#: ui/side_reviews.cpp:131
+#, kde-format
+msgid "Group by Page"
+msgstr "Hópa eftir síðu"
+
+#: ui/side_reviews.cpp:136
+#, kde-format
+msgid "Group by Author"
+msgstr "Hópa eftir höfundi"
+
+#: ui/side_reviews.cpp:144
+#, kde-format
+msgid "Show reviews for current page only"
+msgstr "Aðeins sýna yfirferð fyrir núverandi síðu"
+
+#: ui/side_reviews.cpp:154
+#, kde-format
+msgid "Expand all elements"
+msgstr ""
+
+#: ui/side_reviews.cpp:156
+#, kde-format
+msgid "Collapse all elements"
+msgstr ""
+
+#: ui/sidebar.cpp:767
+#, kde-format
+msgid "Show Text"
+msgstr "Birta texta"
+
+#: ui/sidebar.cpp:783
+#, kde-format
+msgid "Small Icons"
+msgstr "Litlar táknmyndir"
+
+#: ui/sidebar.cpp:784
+#, kde-format
+msgid "Normal Icons"
+msgstr "Venjulegar táknmyndir"
+
+#: ui/sidebar.cpp:785
+#, kde-format
+msgid "Large Icons"
+msgstr "Stórar táknmyndir"
+
+#: ui/signatureguiutils.cpp:43
+#, kde-format
+msgid "The signature is cryptographically valid."
+msgstr ""
+
+#: ui/signatureguiutils.cpp:45
+#, kde-format
+msgid "The signature is cryptographically invalid."
+msgstr ""
+
+#: ui/signatureguiutils.cpp:47
+#, kde-format
+msgid "Digest Mismatch occurred."
+msgstr ""
+
+#: ui/signatureguiutils.cpp:49
+#, kde-format
+msgid "The signature CMS/PKCS7 structure is malformed."
+msgstr ""
+
+#: ui/signatureguiutils.cpp:51
+#, kde-format
+msgid "The requested signature is not present in the document."
+msgstr ""
+
+#: ui/signatureguiutils.cpp:53
+#, kde-format
+msgid "The signature could not be verified."
+msgstr "Ekki var hægt að sannreyna undirritunina."
+
+#: ui/signatureguiutils.cpp:62
+#, kde-format
+msgid "Certificate is Trusted."
+msgstr "Skilríki er treyst."
+
+#: ui/signatureguiutils.cpp:64
+#, kde-format
+msgid "Certificate issuer isn't Trusted."
+msgstr "Útgefanda skilríkis er ekki treyst."
+
+#: ui/signatureguiutils.cpp:66
+#, kde-format
+msgid "Certificate issuer is unknown."
+msgstr "Útgefandi skilríkis er ekki þekktur."
+
+#: ui/signatureguiutils.cpp:68
+#, kde-format
+msgid "Certificate has been Revoked."
+msgstr "Skilríkið hefur veriið afturkallað."
+
+#: ui/signatureguiutils.cpp:70
+#, kde-format
+msgid "Certificate has Expired."
+msgstr "Skilríkið er útrunnið."
+
+#: ui/signatureguiutils.cpp:72
+#, kde-format
+msgid "Certificate has not yet been verified."
+msgstr "Skilríkið hefur ekki enn verið sannreynt."
+
+#: ui/signatureguiutils.cpp:74
+#, kde-format
+msgid "Unknown issue with Certificate or corrupted data."
+msgstr "Óþekkt vandamál varðandi skilríki eða skemmd gögn."
+
+#: ui/signatureguiutils.cpp:83
+#, kde-format
+msgid "MD2"
+msgstr "MD2"
+
+#: ui/signatureguiutils.cpp:85
+#, kde-format
+msgid "MD5"
+msgstr "MD5"
+
+#: ui/signatureguiutils.cpp:87
+#, kde-format
+msgid "SHA1"
+msgstr "SHA1"
+
+#: ui/signatureguiutils.cpp:89
+#, kde-format
+msgid "SHA256"
+msgstr "SHA256"
+
+#: ui/signatureguiutils.cpp:91
+#, kde-format
+msgid "SHA384"
+msgstr "SHA384"
+
+#: ui/signatureguiutils.cpp:93
+#, kde-format
+msgid "SHA512"
+msgstr "SHA512"
+
+#: ui/signatureguiutils.cpp:95
+#, kde-format
+msgid "SHA224"
+msgstr "SHA224"
+
+#: ui/signatureguiutils.cpp:97
+#, kde-format
+msgid "Unknown Algorithm"
+msgstr "Óþekkt reiknirit"
+
+#: ui/signatureguiutils.cpp:106
+#, kde-format
+msgid "RSA"
+msgstr "RSA"
+
+#: ui/signatureguiutils.cpp:108
+#, kde-format
+msgid "DSA"
+msgstr "DSA"
+
+#: ui/signatureguiutils.cpp:110
+#, kde-format
+msgid "EC"
+msgstr "EC"
+
+#: ui/signatureguiutils.cpp:112 ui/signatureguiutils.cpp:115
+#, kde-format
+msgid "Unknown Type"
+msgstr "Óþekkt tegund"
+
+#: ui/signatureguiutils.cpp:122
+#, kde-format
+msgid "Digital Signature"
+msgstr "Stafræn undirritun"
+
+#: ui/signatureguiutils.cpp:124
+#, kde-format
+msgid "Non-Repudiation"
+msgstr ""
+
+#: ui/signatureguiutils.cpp:126
+#, kde-format
+msgid "Encrypt Keys"
+msgstr "Dulrita lykla"
+
+#: ui/signatureguiutils.cpp:128
+#, kde-format
+msgid "Decrypt Keys"
+msgstr "Afkóða lykla"
+
+#: ui/signatureguiutils.cpp:130
+#, kde-format
+msgid "Key Agreement"
+msgstr ""
+
+#: ui/signatureguiutils.cpp:132
+#, kde-format
+msgid "Sign Certificate"
+msgstr "Undirrita skilríki"
+
+#: ui/signatureguiutils.cpp:134
+#, kde-format
+msgid "Sign CRL"
+msgstr ""
+
+#: ui/signatureguiutils.cpp:136
+#, kde-format
+msgid "Encrypt Only"
+msgstr ""
+
+#: ui/signatureguiutils.cpp:138
+#, kde-format
+msgid "No Usage Specified"
+msgstr "Engin notkun tilgreind"
+
+#: ui/signatureguiutils.cpp:144
+#, kde-format
+msgctxt "Joins the various ways a signature key can be used in a longer string"
+msgid ", "
+msgstr ", "
+
+#: ui/signaturemodel.cpp:143
+#, kde-format
+msgid "Rev. %1: Signed By %2"
+msgstr "Útg. %1: Undirritað af %2"
+
+#: ui/signaturemodel.cpp:149
+#, kde-format
+msgid "Signing Time: %1"
+msgstr ""
+
+#: ui/signaturemodel.cpp:152 ui/signaturepropertiesdialog.cpp:32
+#, kde-format
+msgid "Not Available"
+msgstr "Ekki tiltæk(ur)"
+
+#: ui/signaturemodel.cpp:152
+#, kde-format
+msgid "Reason: %1"
+msgstr "Ástæða: %1"
+
+#: ui/signaturemodel.cpp:155
+#, kde-format
+msgid "Field: %1 on page %2"
+msgstr ""
+
+#: ui/signaturepanel.cpp:86
+#, kde-format
+msgid "Properties"
+msgstr "Eiginleikar"
+
+#: ui/signaturepropertiesdialog.cpp:55
+#, kde-format
+msgid "The document has not been modified since it was signed."
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:59
+#, kde-format
+msgid ""
+"The revision of the document that was covered by this signature has not been "
+"modified;\n"
+"however there have been subsequent changes to the document."
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:65
+#, kde-format
+msgid ""
+"The document has been modified in a way not permitted by a previous signer."
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:69
+#, kde-format
+msgid "The document integrity verification could not be completed."
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:72
+#, kde-format
+msgid "Validity Status"
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:75
+#, kde-format
+msgid "Signature Validity:"
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:76
+#, kde-format
+msgid "Document Modifications:"
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:79
+#, kde-format
+msgid "Additional Information"
+msgstr "Viðbótarupplýsingar"
+
+#: ui/signaturepropertiesdialog.cpp:82
+#, kde-format
+msgid "Signed By:"
+msgstr "Undirritað af:"
+
+#: ui/signaturepropertiesdialog.cpp:83
+#, kde-format
+msgid "Signing Time:"
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:84
+#, kde-format
+msgid "Reason:"
+msgstr "Ástæða:"
+
+#: ui/signaturepropertiesdialog.cpp:85
+#, kde-format
+msgid "Location:"
+msgstr "Staðsetning:"
+
+#: ui/signaturepropertiesdialog.cpp:96
+#, kde-format
+msgid "Document Version"
+msgstr "Útgáfa skjals"
+
+#: ui/signaturepropertiesdialog.cpp:99
+#, kde-format
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:102
+#, kde-format
+msgid "View Signed Version..."
+msgstr ""
+
+#: ui/signaturepropertiesdialog.cpp:109
+#, kde-format
+msgid "View Certificate..."
+msgstr "Skoða skilríki..."
+
+#: ui/thumbnaillist.cpp:999
+#, kde-format
+msgid "Show bookmarked pages only"
+msgstr "Aðeins sýna bókamerktar síður"
+
+#: ui/toolaction.cpp:21
+#, kde-format
+msgid "Selection Tools"
+msgstr "Valverkfæri"
+
+#: ui/toolaction.cpp:71 ui/toolaction.cpp:83
+#, fuzzy, kde-format
+#| msgid ""
+#| "Click to use the current selection tool\n"
+#| "Click and hold to choose another selection tool"
+msgid ""
+"Click to use the current selection tool\n"
+"Click on the arrow to choose another selection tool"
+msgstr ""
+"Smella til að nota núverandi valverkfæri\n"
+"Smelltu og haltu niðri til að velja annað valverkfæri"
+
+#: ui/videowidget.cpp:142
+#, kde-format
+msgctxt "start the movie playback"
+msgid "Play"
+msgstr "Spila"
+
+#: ui/videowidget.cpp:147
+#, kde-format
+msgctxt "pause the movie playback"
+msgid "Pause"
+msgstr "Gera hlé"
+
+#: ui/videowidget.cpp:255
+#, kde-format
+msgctxt "stop the movie playback"
+msgid "Stop"
+msgstr "Stöðva"
+
+#~ msgid "Created: %1"
+#~ msgstr "Búið til: %1"
+
+#~ msgid "Line Extensions"
+#~ msgstr "Línuviðbætur"
+
+#~ msgid "Style"
+#~ msgstr "Stíll"
+
+#~ msgid "&Size:"
+#~ msgstr "&Stærð:"
+
+#~ msgid "Inner color:"
+#~ msgstr "Innri litur:"
+
+#~ msgid "Name: %1"
+#~ msgstr "Nafn: %1"
+
+#~ msgid "Size: %1"
+#~ msgstr "Stærð: %1"
+
+#~ msgid "&Browse Tool"
+#~ msgstr "&Skoðunarverkfæri"
+
+#~ msgid "&Zoom Tool"
+#~ msgstr "S&tækkunarVverkfæri"
+
+#~ msgctxt "Zoom Tool"
+#~ msgid "Zoom"
+#~ msgstr "Aðdráttur"
+
+#~ msgid "&Selection Tool"
+#~ msgstr "&Valverkfæri"
+
+#~ msgctxt "Select Tool"
+#~ msgid "Selection"
+#~ msgstr "Val"
+
+#~ msgid "&Text Selection Tool"
+#~ msgstr "&Textavalsverkfæri"
+
+#~ msgid "T&able Selection Tool"
+#~ msgstr "Töfluv&alsverkfæri"
+
+#~ msgctxt "Magnifier Tool"
+#~ msgid "Magnifier"
+#~ msgstr "Skjástækkun"
+
+#, fuzzy
+#~| msgid "End of the document"
+#~ msgid "Only for PDF documents"
+#~ msgstr "Endir skjalisins"
+
+#, fuzzy
+#~| msgctxt "Symbol for caret annotations"
+#~| msgid "None"
+#~ msgid " None"
+#~ msgstr "Enginn"
+
+#~ msgid ""
+#~ "The document requested to be launched in presentation mode.\n"
+#~ "Do you want to allow it?"
+#~ msgstr ""
+#~ "Þessi skrá verður opnuð í kynningarham því skráin bað um það.\n"
+#~ "Viltu leyfa það?"
+
+#~ msgid "Presentation Mode"
+#~ msgstr "Kynningarhamur"
+
+#~ msgid "Allow"
+#~ msgstr "Leyfa"
+
+#~ msgid "Allow the presentation mode"
+#~ msgstr "Leyfa kynningarham"
+
+#~ msgid "Do Not Allow"
+#~ msgstr "Ekki leyfa"
+
+#~ msgid "Do not allow the presentation mode"
+#~ msgstr "Ekki leyfa kynningarham"
+
+#~ msgid "Save &Copy As..."
+#~ msgstr "&Vista afrit sem..."
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "Enda skjals náð.\n"
+#~ "Halda áfram frá byrjun?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the bottom?"
+#~ msgstr ""
+#~ "Byrjun skjals náð.\n"
+#~ "Halda áfram frá enda?"
+
+#~ msgid "Current maintainer"
+#~ msgstr "Núverandi umsjónarmaður"
+
+#~ msgid "Pino Toscano"
+#~ msgstr "Pino Toscano"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Piotr Szymanski"
+#~ msgstr "Piotr Szymanski"
+
+#~ msgid "Enrico Ros"
+#~ msgstr "Enrico Ros"
+
+#~ msgid "Eugene Trounev"
+#~ msgstr "Eugene Trounev"
+
+#~ msgid "Jiri Baum - NICTA"
+#~ msgstr "Jiri Baum - NICTA"
+
+#~ msgid "Fabio D'Urso"
+#~ msgstr "Fabio D'Urso"
+
+#~ msgid " sec."
+#~ msgstr " sek."
+
+#~ msgid "Pencil color:"
+#~ msgstr "Blýantslitur:"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A0"
+#~ msgstr "lárétt DIN/ISO A0"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A0"
+#~ msgstr "lóðrétt DIN/ISO A0"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A1"
+#~ msgstr "lárétt DIN/ISO A1"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A1"
+#~ msgstr "lóðrétt DIN/ISO A1"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A2"
+#~ msgstr "lárétt DIN/ISO A2"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A2"
+#~ msgstr "lóðrétt DIN/ISO A2"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A3"
+#~ msgstr "lárétt DIN/ISO A3"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A3"
+#~ msgstr "lóðrétt DIN/ISO A3"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A4"
+#~ msgstr "lárétt DIN/ISO A4"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A4"
+#~ msgstr "lóðrétt DIN/ISO A4"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A5"
+#~ msgstr "lárétt DIN/ISO A5"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A5"
+#~ msgstr "lóðrétt DIN/ISO A5"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A6"
+#~ msgstr "lárétt DIN/ISO A6"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A6"
+#~ msgstr "lóðrétt DIN/ISO A6"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A7"
+#~ msgstr "lárétt DIN/ISO A7"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A7"
+#~ msgstr "lóðrétt DIN/ISO A7"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A8"
+#~ msgstr "lárétt DIN/ISO A8"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A8"
+#~ msgstr "lóðrétt DIN/ISO A8"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO A9"
+#~ msgstr "lárétt DIN/ISO A9"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO A9"
+#~ msgstr "lóðrétt DIN/ISO A9"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B0"
+#~ msgstr "lárétt DIN/ISO B0"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B0"
+#~ msgstr "lóðrétt DIN/ISO B0"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B1"
+#~ msgstr "lárétt DIN/ISO B1"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B1"
+#~ msgstr "lóðrétt DIN/ISO B1"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B2"
+#~ msgstr "lárétt DIN/ISO B2"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B2"
+#~ msgstr "lóðrétt DIN/ISO B2"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B3"
+#~ msgstr "lárétt DIN/ISO B3"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B3"
+#~ msgstr "lóðrétt DIN/ISO B3"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B4"
+#~ msgstr "lárétt DIN/ISO B4"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B4"
+#~ msgstr "lóðrétt DIN/ISO B4"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B5"
+#~ msgstr "lárétt DIN/ISO B5"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B5"
+#~ msgstr "lóðrétt DIN/ISO B5"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B6"
+#~ msgstr "lárétt DIN/ISO B6"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B6"
+#~ msgstr "lóðrétt DIN/ISO B6"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B7"
+#~ msgstr "lárétt DIN/ISO B7"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B7"
+#~ msgstr "lóðrétt DIN/ISO B7"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B8"
+#~ msgstr "lárétt DIN/ISO B8"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B8"
+#~ msgstr "lóðrétt DIN/ISO B8"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B9"
+#~ msgstr "lárétt DIN/ISO B9"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B9"
+#~ msgstr "lóðrétt DIN/ISO B9"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DIN/ISO B10"
+#~ msgstr "lárétt DIN/ISO B10"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DIN/ISO B10"
+#~ msgstr "lóðrétt DIN/ISO B10"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape letter"
+#~ msgstr "lárétt bréfsefni (letter)"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait letter"
+#~ msgstr "lóðrétt bréfsefni (letter)"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape legal"
+#~ msgstr "lárétt löggilt"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait legal"
+#~ msgstr "lóðrétt löggilt"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape executive"
+#~ msgstr "lárétt formlegt (executive)"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait executive"
+#~ msgstr "lóðétt formlegt (executive)"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape Comm10E"
+#~ msgstr "lárétt Comm10E"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait Comm10E"
+#~ msgstr "lóðétt Comm10E"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape DLE"
+#~ msgstr "lárétt DLE"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait DLE"
+#~ msgstr "lóðétt DLE"
+
+#~ msgctxt "paper size"
+#~ msgid "landscape folio"
+#~ msgstr "lárétt folio"
+
+#~ msgctxt "paper size"
+#~ msgid "portrait folio"
+#~ msgstr "lóðétt folio"
+
+#~ msgctxt "paper size"
+#~ msgid "ledger"
+#~ msgstr "höfuðbók (ledger)"
+
+#~ msgctxt "paper size"
+#~ msgid "tabloid"
+#~ msgstr "dagblaðssnið (tabloid)"
+
+#~ msgctxt "paper size"
+#~ msgid "unknown landscape paper size"
+#~ msgstr "óþekkt lárétt pappírsstærð"
+
+#~ msgctxt "paper size"
+#~ msgid "unknown portrait paper size"
+#~ msgstr "óþekkt lóðrétt pappírsstærð"
+
+#~ msgid "Toggle Drawing Mode"
+#~ msgstr "Víxla teikniham af/á"
+
+#~ msgid "Starting Jovie Text-to-Speech service Failed: %1"
+#~ msgstr "Ræsing Jovie Texti-í-tal þjónustunnar mistókst: %1"
+
+#~ msgid "Search Columns"
+#~ msgstr "Leitardálkar"
+
+#~ msgid "All Visible Columns"
+#~ msgstr "Allir sýnilegir dálkar"
+
+#~ msgid "No document opened."
+#~ msgstr "Ekkert skjal opnað."
+
+#~ msgid "No matches found for '%1'."
+#~ msgstr "Engar samsvaranir fundust fyrir '%1'."
+
+#~ msgid "Search in progress..."
+#~ msgstr "Leit í gangi..."
+
+#~ msgid "Searching for %1"
+#~ msgstr "Leita að %1"
+
+#~ msgid "Identity Settings"
+#~ msgstr "Stillingar auðkennis"
+
+#~ msgid "Highlight Properties"
+#~ msgstr "Eiginleikar upplitunar"
+
+#~ msgid "Ink Properties"
+#~ msgstr "Eiginleikar bleks"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Text Annotation"
+#~ msgstr "Athugasemd"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Green Ink"
+#~ msgstr "Grænt blek"
+
+#~ msgid "Yellow Highlighter"
+#~ msgstr "Gul áherslustrikun"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Yellow Highlight"
+#~ msgstr "Gul áherslustrikun"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Straight Yellow Line"
+#~ msgstr "Bein gul lína"
+
+#~ msgid "Black Underlining"
+#~ msgstr "Svört undirlína"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Underline the text with a black line"
+#~ msgstr "Undirstrika texta með svartri línu"
+
+#~ msgid "Cyan Ellipse"
+#~ msgstr "Blágrænn sporbaugur"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "A cyan ellipse"
+#~ msgstr "Blágrænn sporbaugur"
+
+#~ msgid "Ink"
+#~ msgstr "Blek"
+
+#~ msgid "Enable &background generation"
+#~ msgstr "Leyfa &bakgrunnsvinnslu"
+
+#~ msgid "Reset Forms"
+#~ msgstr "Frumstilla eyðublað"

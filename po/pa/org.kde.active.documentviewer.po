@@ -1,0 +1,72 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# A S Alam <aalam@users.sf.net>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2012-12-20 08:49+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr ""
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr ""
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr ""
+
+#: package/contents/ui/MainView.qml:36
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Bookmark this page"
+msgstr "ਬੁੱਕਮਾਰਕ"
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr "ਥੰਮਨੇਲ"
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr "ਸਮੱਗਰੀ ਸਾਰਣੀ"
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr "ਬੁੱਕਮਾਰਕ"
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr ""
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr "ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਲੱਭਾ।"
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "ਓਕਲਾਰ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਪਲਾਜ਼ਮਾ ਐਕਟਿਵ ਲਈ ਡੌਕੂਮੈਂਟ ਦਰਸ਼ਕ"
+
+#~ msgid "Reader"
+#~ msgstr "ਰੀਡਰ"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "Copyright 2012 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "ਮਾਰਕੋ ਮਾਰਟਿਨ"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "ਫਾਇਲ ਖੋਲ੍ਹਣ ਲਈ URL"

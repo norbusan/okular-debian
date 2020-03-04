@@ -1,0 +1,170 @@
+# translation of okular_ooo.po to Italian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the okular package.
+#
+# Luigi Toscano <luigi.toscano@tiscali.it>, 2007, 2008, 2010, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-06-22 20:17+0200\n"
+"Last-Translator: Luigi Toscano <luigi.toscano@tiscali.it>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Luigi Toscano"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "luigi.toscano@tiscali.it"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Documento XML non valido: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Impossibile leggere le informazioni sullo stile"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Impossibile convertire il contenuto del documento"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Il documento non è un archivio ZIP valido"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Struttura del documento non valida (manca la directory principale)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Struttura del documento non valida (manca la directory META-INF)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Struttura del documento non valida (manca META-INF/manifest.xml)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Struttura del documento non valida (manca content.xml)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument Text"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Configurazione del backend OpenDocument Text"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Il documento è cifrato ed il supporto per la crittografia è compilato nel "
+"programma, ma non è stata trovata un'estensione per l'hashing"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Il documento è cifrato ed il supporto per la crittografia è compilato nel "
+"programma, ma non è stata trovata un'estensione per la derivazione della "
+"chiave"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Il documento è cifrato ed il supporto per la crittografia è compilato nel "
+"programma, ma non è stata trovata un'estensione per la codifica"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Il documento è cifrato, ma Okular è stato compilato senza il supporto per la "
+"crittografia. Il documento probabilmente non potrà essere aperto."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Produttore"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Creato"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Creatore"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Autore"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Modificato"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "Backend OpenDocument Text"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Un visualizzatore per documenti OpenDocument Text"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Password documento"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Inserire la password per leggere il documento:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "La password è sbagliata."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Password errata"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Struttura del documento non valida (manca style.xml)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Struttura del documento non valida (manca meta.xml)"

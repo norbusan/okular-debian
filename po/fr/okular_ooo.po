@@ -1,0 +1,178 @@
+# translation of okular_ooo.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Mickael Sibelle <kimael@gmail.com>, 2008.
+# Peter Potrowl <peter.potrowl@gmail.com>, 2010, 2013.
+# xavier <xavier.besnard@neuf.fr>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-06-28 12:39-0700\n"
+"Last-Translator: Peter Potrowl <peter.potrowl@gmail.com>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.5\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mickaël Sibelle, Peter Potrowl"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kimael@gmail.com, peter.potrowl@gmail.com"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Document XML non valide : %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Impossible de lire les informations de style"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Impossible de convertir le contenu du document"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Ce document n'est pas une archive « ZIP » valable"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Structure du document non valable (il manque le dossier principal)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Structure du document non valable (il manque le dossier « META-INF »)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr ""
+"Structure du document non valable (il manque « META-INF/manifest.xml »)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Structure du document non valable (il manque « content.xml »)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "Document « OpenDocument »"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Configuration du moteur de traitement de documents « OpenDocument »"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Ce document est chiffré et la prise en charge du chiffrement est compilé, "
+"mais impossible de trouver un module externe de hachage"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Ce document est chiffré et la prise en charge du chiffrement est compilé, "
+"mais impossible de trouver un module externe de dérivation de clés"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Ce document est chiffré et la prise en charge du chiffrement est compilé, "
+"mais impossible de trouver un module externe de chiffrement"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Ce document est chiffré mais Okular a été compilé sans la prise en charge du "
+"chiffrement. Ce document ne s'ouvrira probablement pas."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Producteur"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Créé"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Créateur"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Auteur"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Modifié"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "Moteur de traitement de documents « OpenDocument »"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Un moteur de rendu pour des documents « OpenDocument »"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Mot de passe du document"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Veuillez saisir le mot de passe pour lire le document :"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Le mot de passe est incorrect."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Mot de passe incorrect"
+
+#, fuzzy
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Structure du document non valable (il manque « styles.xml »)"
+
+#, fuzzy
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Structure du document non valable (il manque « meta.xml »)"

@@ -1,0 +1,59 @@
+# Translation of org.kde.active.documentviewer.po to Catalan
+# Copyright (C) 2012-2019 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2012, 2016, 2018, 2019.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.active.documentviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2019-08-06 09:44+0200\n"
+"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Generator: Lokalize 19.07.70\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr "Okular"
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr "Obre..."
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr "Suprimeix punt"
+
+#: package/contents/ui/MainView.qml:36
+msgid "Bookmark this page"
+msgstr "Apunta aquesta pàgina"
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr "Miniatures"
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr "Taula de continguts"
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr "Adreces d'interès"
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr "Cerca..."
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr "No s'ha trobat cap resultat."

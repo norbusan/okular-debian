@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: org\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2019-08-04 18:53+0100\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: Okular Android\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr "Okular"
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr "Abrir..."
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr "Remover o favorito"
+
+#: package/contents/ui/MainView.qml:36
+msgid "Bookmark this page"
+msgstr "Adicionar aos favoritos"
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr "Miniaturas"
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr "Índice analítico"
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr "Favoritos"
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr "Procurar..."
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr "Não foram encontrados resultados."
+
+#~ msgid "Document to open..."
+#~ msgstr "Documento a abrir..."

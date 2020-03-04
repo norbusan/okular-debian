@@ -1,0 +1,175 @@
+# translation of okular_ooo.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2008, 2010.
+# Auk Piseth <piseth_dv@khmeros.info>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2010-04-27 16:02+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, ​អេង វណ្ណៈ, អោក ពិសិដ្ឋ​"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "ឯកសារ XML មិនត្រឹមត្រូវ ៖ %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "មិនអាច​អាន​ព័ត៌មានរចនាប័ទ្ម​បានទេ"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "មិនអាច​បម្លែង​មាតិកា​ឯកសារ​បានទេ"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "ឯកសារ​មិនមែនជា​ប័ណ្ណសារ ZIP ត្រឹមត្រូវ​ទេ"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "រចនាសម្ព័ន្ធ​ឯកសារ​មិនត្រឹមត្រូវ (បាត់​ថត​មេ)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "រចនាសម្ព័ន្ធ​ឯកសារ​មិនត្រឹមត្រូវ (បាត់​ថត META-INF)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "រចនា​សម្ព័ន្ធ​ឯកសារ​មិនត្រឹមត្រូវ (បាត់ META-INF/manifest.xml)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "រចនា​សម្ព័ន្ធ​ឯកសារ​មិនត្រឹមត្រូវ (បាត់ content.xml)"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text"
+msgstr "ផ្នែក​ខាង​ក្រោយ​របស់​ឯកសារ OpenOffice"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text Backend Configuration"
+msgstr "ផ្នែក​ខាង​ក្រោយ​របស់​ឯកសារ OpenOffice"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"​ឯកសារ​នេះ ត្រូវបាន​អ៊ិនគ្រីប និង​បាន​ចងក្រង​ការ​គាំទ្រ​ការ​គ្រីប ប៉ុន្តែ​រក​មិនឃើញ​កម្មវិធី​ជំនួយ​ដែល​ខូច​ទេ"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"ឯកសារ​នេះ ត្រូវបាន​អ៊ិនគ្រីប និង​ចងក្រង​ការ​គាំទ្រ​ការ​អ៊ិនគ្រីប ប៉ុន្តែរក​មិនឃើញ​កម្មវិធី​ជំនួយ​ទាញយក​សោ​ទេ"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"ឯកសារ​នេះ​ត្រូវបាន​អ៊ិនគ្រីប និង​បាន​ចងក្រង​ការ​គាំទ្រ​ការ​គ្រីប ប៉ុន្តែ​មិនអាច​រក​ឃើញ​កម្មវិធី​ជំនួយ cipher"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"ឯកសារ​នេះ ត្រូវបាន​អ៊ិនគ្រីប ប៉ុន្តែ Okular ត្រូវបាន​ចងក្រង​ដោយ​គ្មាន​ការ​គាំទ្រ​ការ​គ្រីប ។ ឯកសារ​នេះ "
+"ប្រហែល​ជា​មិនបើក​ទេ ។"
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "អ្នក​ផលិត"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "បាន​បង្កើត​"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "អ្នក​បង្កើត"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "អ្នក​និពន្ធ"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "បាន​កែប្រែ"
+
+#, fuzzy
+#~| msgid "OpenOffice Document Backend"
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "ផ្នែក​ខាង​ក្រោយ​របស់​ឯកសារ OpenOffice"
+
+#, fuzzy
+#~| msgid "A renderer for OpenOffice text documents"
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "កម្មវិធី​បង្ហាញ​សម្រាប់​ឯកសារ​អត្ថបទរបស់ OpenOffice"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៦-២០០៨ ដោយ Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "ពាក្យ​សម្ងាត់​ឯកសារ"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "សូម​បញ្ចូល​ពាក្យ​សម្ងាត់​ដើម្បី​អាន​ឯកសារ ៖"
+
+#~ msgid "The password is not correct."
+#~ msgstr "ពាក្យ​សម្ងាត់​មិនត្រឹមត្រូវ ។"
+
+#~ msgid "Incorrect password"
+#~ msgstr "ពាក្យ​សម្ងាត់​មិនត្រឹមត្រូវ"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "រចនា​សម្ព័ន្ធ​ឯកសារ​មិនត្រឹមត្រូវ (បាត់ styles.xml)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "រចនា​សម្ព័ន្ធ​ឯកសារ​មិនត្រឹមត្រូវ (បាត់ meta.xml)"

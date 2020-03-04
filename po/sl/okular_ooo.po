@@ -1,0 +1,171 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jure Repinc <jlp@holodeck1.com>, 2008, 2010.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-05-24 17:48+0200\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jure Repinc,Andrej Mernik"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jlp@holodeck1.com,andrejm@ubuntu.si"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Neveljaven dokument XML: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Ni bilo mogoče prebrati podatkov o slogih"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Ni bilo mogoče pretvoriti vsebine dokumenta"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Dokument ni veljaven arhiv ZIP"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Neveljavna zgradba dokumenta (manjka glavna mapa)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Neveljavna zgradba dokumenta (manjka mapa META-INF)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Neveljavna zgradba dokumenta (manjka META-INF/manifest.xml)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Neveljavna zgradba dokumenta (manjka content.xml)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "Besedilo OpenDocument"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Nastavitev zaledja za dokumente OpenDocument"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Ta dokument je šifriran. Podpora za odšifriranje je na voljo, ni pa mogoče "
+"najti vstavka za razpršila."
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Ta dokument je šifriran. Podpora za odšifriranje je na voljo, ni pa mogoče "
+"najti vstavka za izpeljavo ključa."
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Ta dokument je šifriran. Podpora za odšifriranje je na voljo, ni pa mogoče "
+"najti vstavka za šifre."
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Ta dokument je šifriran, a podpora za odšifriranje ni na voljo. Dokumenta "
+"verjetno ne bo mogoče odpreti."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Izdelovalec"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Ustvarjeno"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Ustvarjalec"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Avtor"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Spremenjeno"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "Zaledje za dokumente OpenDocument"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Izrisovalnik besedilnih dokumentov OpenDocument"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Geslo za dokument"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Pred branjem dokumenta je potrebno vnesti geslo:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Geslo je napačno."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Napačno geslo"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Neveljavna zgradba dokumenta (manjka styles.xml)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Neveljavna zgradba dokumenta (manjka meta.xml)"

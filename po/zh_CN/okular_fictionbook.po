@@ -1,0 +1,67 @@
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2020-01-20 21:57\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kdegraphics/okular_fictionbook.pot\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: converter.cpp:97
+#, kde-format
+msgid "Document is not a valid FictionBook"
+msgstr "文档不是有效的 FictionBook"
+
+#: document.cpp:32
+#, kde-format
+msgid "Unable to open document: %1"
+msgstr "无法打开文档：%1"
+
+#: document.cpp:39
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "文档不是有效的 ZIP 存档"
+
+#: document.cpp:45
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "无效的文档结构(缺少主目录)"
+
+#: document.cpp:60
+#, kde-format
+msgid "No content found in the document"
+msgstr "文档中未找到内容"
+
+#: document.cpp:71
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "无效的 XML 文档：%1"
+
+#: generator_fb.cpp:29
+#, kde-format
+msgid "FictionBook"
+msgstr "Fiction 电子书"
+
+#: generator_fb.cpp:29
+#, kde-format
+msgid "FictionBook Backend Configuration"
+msgstr "Fiction 电子书后端配置"

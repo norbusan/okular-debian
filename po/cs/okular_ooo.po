@@ -1,0 +1,139 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-05-20 10:26+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lukáš Tinkl"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukas@kde.org"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Neplatný XML dokument: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Neplatné informace o stylu"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Nelze zkonvertovat obsah dokumentu"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Dokument není platným archivem ZIP"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Neplatná struktura dokumentu (chybí hlavní adresář)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Neplatná struktura dokumentu (chybí META-INF adresář)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Neplatná struktura dokumentu (chybí META-INF/meta.xml)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Neplatná struktura dokumentu (chybí content.xml)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument Text"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Nastavení podpůrné vrstvy OpenDocument Text"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Tento dokument je zašifrován a podpora kryptografie je zakompilována, ale "
+"hashovací modul nebyl nalezen"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Tento dokument je zašifrován a podpora kryptografie je zakompilována, ale "
+"modul pro odvozování klíče nebyl nalezen"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Tento dokument je zašifrován a podpora kryptografie je zakompilována, ale "
+"šifrovací modul nebyl nalezen"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Tento dokument je zašifrován, ale Okular byl zkompilován bez podpory "
+"kryptografie. Tento dokument se nejspíš neotevře."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Producent"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Vytvořil"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Změněno"

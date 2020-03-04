@@ -1,0 +1,176 @@
+# translation of okular_ooo.po to Finnish
+# translation of okular_ooo.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Mikko Piippo <piippo@cc.helsinki.fi>, 2007, 2008.
+# Teemu Rytilahti <teemu.rytilahti@kde-fi.org>, 2008.
+# Lasse Liehu <lliehu@kolumbus.fi>, 2011, 2013, 2014.
+#
+# KDE Finnish translation sprint participants:
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2014-03-31 05:34+0300\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
+"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-12-01 22:24:14+0000\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mikko Piippo"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mikko.piippo@helsinki.fi"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Virheellinen XML-tiedosto: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Tyylitietoa ei voitu lukea"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Tiedoston sisältöä ei voitu muuntaa"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Tiedosto ei ole kelvollinen Zip-arkisto"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Tiedoston rakenne viallinen (päähakemisto puuttuu)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Tiedoston rakenne viallinen (META-INF-hakemisto puuttuu)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Tiedoston rakenne viallinen (META-INF/manifest.xml puuttuu)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Tiedoston rakenne viallinen (content.xml puuttuu)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument Text"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenDocument Text -taustaosan asetukset"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Tiedosto on salattu, ja ohjelmaan on käännetty salaustuki, mutta tarvittavaa "
+"liitännäistä ei löydy."
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Tiedosto on salattu, ja ohjelmaan on käännetty salaustuki, mutta avaimen "
+"johtamisliitännäistä ei löydy."
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Tiedosto on salattu, ja ohjelmaan on käännetty salaustuki, mutta tarvittavaa "
+"salakirjoitusliitännäistä ei löydy."
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Tiedosto on salattu, mutta Okular on käännetty ilman salaustukea. Tiedostoa "
+"ei todennäköisesti onnistuta avaamaan."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Tuottaja"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Tehnyt"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Tekijä"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Kirjoittaja"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Muutettu"
+
+# pmap: =/elat=OpenDocument Text -taustaosasta/
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenDocument Text -taustaosa"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "OpenDocument Text -tiedostojen näytin"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006–2008 Tobias König"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Tiedoston salasana"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Anna tiedoston lukemiseksi tarvittava salasana:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Salasana ei ollut oikea."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Virheellinen salasana"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Asiakirjan rakenne viallinen (styles.xml puuttuu)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Asiakirjan rakenne viallinen (meta.xml puuttuu)"

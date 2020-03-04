@@ -1,0 +1,216 @@
+# translation of okular_poppler.po to Hindi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2007-12-27 17:20+0530\n"
+"Last-Translator: Ravishankar Shrivastava <raviratlami@yahoo.com>\n"
+"Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "नहीं"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr ""
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "पीडीएफ़ विकल्प"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr ""
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr ""
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "रास्टराइजेशन बाध्य करें"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "छपाई से पहले छवि में रास्टराइज करें"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr ""
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr ""
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr ""
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr ""
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr ""
+
+#: generator_pdf.cpp:832
+#, fuzzy, kde-format
+#| msgctxt "PDF v. <version>"
+#| msgid "PDF v. %1"
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "पीडीएफ सं. %1"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "फॉर्मेट"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "एनक्रिप्टेड"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "अनएनक्रिप्टेड"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "सुरक्षा"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "हाँ"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "ऑप्टीमाइज़्ड"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr ""
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr ""
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr ""
+
+#~ msgid "Unknown"
+#~ msgstr "अज्ञात"
+
+#~ msgid "Unknown Date"
+#~ msgstr "अज्ञात तारीख़"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "अज्ञात एनक्रिप्शन"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "अज्ञात ऑप्टीमाइज़ेशन"
+
+#, fuzzy
+#~| msgid "Please insert the password to read the document:"
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "दस्तावेज़ को पढ़ने के लिए कृपया पासवर्ड प्रविष्ट करें:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "गलत पासवर्ड. कृपया पुनः कोशिश करें:"
+
+#~ msgid "Document Password"
+#~ msgstr "दस्तावेज़ पासवर्ड"
+
+#~ msgid "Aspect ratio change"
+#~ msgstr "आस्पेक्ट रेशो परिवर्तन"
+
+#~ msgid "Print with specified margins"
+#~ msgstr "निर्दिष्ट हाशिया के साथ छापें"
+
+#~ msgid "Print adapting margins to keep aspect ratio"
+#~ msgstr "ऑस्पेक्ट रेशो को बनाए रखते हुए हाशिया के साथ छापें"

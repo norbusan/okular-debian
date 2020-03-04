@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Ozan Çağlayan <ozan@pardus.org.tr>, 2010,2013
+# obsoleteman <tulliana@gmail.com>, 2008
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegraphics-kde4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2014-06-08 13:55+0000\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/kdegraphics-k-tr/"
+"language/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Serdar Soytetir"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tulliana@gmail.com"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Geçersiz XML belgesi: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Biçim bilgisi okunamadı"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Belge içeriği dönüştürülemedi"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Belge geçerli bir ZIP arşivi değil"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Geçersiz belge yapısı (ana dizin kayıp)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Geçersiz belge yapısı (META-INF dizini kayıp)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Geçersiz belge yapısı (META-INF/manifest.xml kayıp)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Geçersiz belge yapısı (content.xml kayıp)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenOffice Metin"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenOffice Metin Arka Ucu Yapılandırması"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Bu belge şifrelenmiş ve şifreleme desteği derlenmiş ama karıştırma eklentisi "
+"konumlandırılamadı"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Bu belge şifrelenmiş ve şifreleme desteği derlenmiş ama anahtar üretme "
+"eklentisi konumlandırılamadı"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Bu belge şifrelenmiş ve şifreleme desteği derlenmiş ama anahtar eklentisi "
+"konumlandırılamadı"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Bu belge şifrelenmiş ancak Okular şifreleme desteği olmadan derlemiş. "
+"Olasılıkla bu belge açılamayacak."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Üretici"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Oluşturuldu"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Oluşturan"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Yazar"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Değiştirildi"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenOffice Metin Arka Ucu"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "OpenOffice Metin Belgeleri için hazırlayıcı"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"

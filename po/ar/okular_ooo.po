@@ -1,0 +1,168 @@
+# translation of okular_ooo.po to Arabic
+# translation of okular_ooo.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# hayig2000 <hayig2000@gmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2012.
+# Abdalrahim G. Fakhouri <abdilra7eem@yahoo.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2014-07-05 19:07+0300\n"
+"Last-Translator: Abdalrahim G. Fakhouri <abdilra7eem@yahoo.com>\n"
+"Language-Team: Arabic <Arabic <doc@arabeyes.org>>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "مستند XML  غير صحيح %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "عاجز عن قراءة أسلوب المعلومات"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "عاجز عن تحويل  محتوى المستند"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "المستند ليس أرشيف ZIP صحيح"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "هيكل المستند غير صحيح (الدليل الرئيسي مفقود)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "هيكل المستند غير صحيح (دليل META-INF مفقود)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "هيكل المستند غير صحيح (META-INF/manifest.xml مفقود)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "هيكل المستند غير صحيح (content.xml مفقود)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "ملف نصوص المكتب المفتوح"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "خلفية المستند أوبن أوفيس"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr "المستند مشفر ودعم التشفيرcrypto موجود ولكن الملحق hashing غير موجود"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"المستند مشفر ودعم التشفيرcrypto موجود ولكن الملحق key derivation  غير موجود"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr "المستند مشفر ودعم التشفيرcrypto موجود ولكن الملحق cipher غير موجود"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr "المستند مشفر ولكن دعم التشفيرcrypto غير موجود والوثيقة ربما لن تفتح"
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "المنتج"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "تاريخ الإنشاء"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "المنشئ"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "المؤلف"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "معدّل"
+
+#, fuzzy
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "خلفية المستند أوبن أوفيس"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "أداة لتصيير لملفات نصوص المكتب المفتوح"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "كلمة السر للمستند"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "رجاء أدخل كلمة السر لقراءة المستند:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "كلمة السر غير صحيحة"
+
+#~ msgid "Incorrect password"
+#~ msgstr "كلمة السر غير صحيحة"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "هيكل المستند غير صحيح (styles.xml مفقود)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "هيكل المستند غير صحيح (meta.xml مفقود)"

@@ -1,0 +1,72 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Chetan Khona <chetan@kompkin.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2013-03-23 15:32+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr ""
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr ""
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr ""
+
+#: package/contents/ui/MainView.qml:36
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Bookmark this page"
+msgstr "ओळखचिन्हे"
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr "लघुप्रतिमा"
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr "मचकूराची यादी"
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr "ओळखचिन्हे"
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr ""
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr "सापडले नाही."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "प्लाज्मा एक्टिव्ह करिता ओक्युलर वापरणारा दस्तऐवज प्रदर्शक"
+
+#~ msgid "Reader"
+#~ msgstr "वाचक"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "सर्वाधिकार 2012 मार्को मार्टिन"
+
+#~ msgid "Marco Martin"
+#~ msgstr "मार्को मार्टिन"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "उघडावयाच्या फाईलचे URL"

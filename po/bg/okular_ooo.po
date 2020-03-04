@@ -1,0 +1,170 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2007.
+# Yasen Pramatarov <yasen@lindeas.com>, 2009, 2010, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-07-23 09:55+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@ludost.net>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ясен Праматаров,Златко Попов"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yasen@lindeas.com,zlatkopopov@fsa-bg.org"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Невалиден XML документ: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Грешка при четене информацията за стил"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Грешка при конвертиране съдържанието на документа"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Документът не е валиден ZIP архив"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Невалидна структура на документа (липсва главната директория)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Невалидна структура на документа (липсва директория META INF)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Невалидна структура на документа (липсва META-INF/manifest.xml)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Невалидна структура на документа (липсва content.xml)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "Текстов документ OpenDocument"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Настройки на ядро за текстови документи OpenDocument"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Документът е шифриран и има поддръжка на шифриране, но не може да се открие "
+"приставка за хеширане."
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Документът е шифриран и има поддръжка на шифриране, но не може да се открие "
+"приставка за извличане на ключове."
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Документът е шифриран и има поддръжка на шифриране, но не може да се открие "
+"приставка за шифри."
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Документът е шифриран, но Okular е бил компилиран без поддръжка на "
+"шифриране. Документът най-вероятно няма да се отвори."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Производител"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Създаден"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Създател"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Автор"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Последна промяна"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "Ядро за документи OpenDocument"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Показване на текстови документи OpenDocument"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Парола за документа"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Въведете парола за отваряне на документа:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Паролата е неправилна."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Неправилна парола"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Невалидна структура на документа (липсва styles.xml)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Невалидна структура на документа (липсва meta.xml)"

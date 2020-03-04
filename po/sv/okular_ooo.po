@@ -1,0 +1,170 @@
+# translation of okular_ooo.po to Swedish
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2007, 2008, 2010, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-05-24 18:31+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Asserhäll"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "stefan.asserhall@bredband.net"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Felaktigt XML-dokument: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Kan inte läsa stilinformation"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Kan inte konvertera dokumentets innehåll"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Dokumentet är inte ett giltigt ZIP-arkiv"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Felaktig dokumentstruktur (huvudkatalogen saknas)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Felaktig dokumentstruktur (META-INF katalogen saknas)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Felaktig dokumentstruktur (META-INF/manifest.xml saknas)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Felaktig dokumentstruktur (content.xml saknas)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenOffice-text"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Inställning av OpenOffice-textgränssnitt"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Dokumentet är krypterat, och krypteringsstöd är inkompilerat, men ett "
+"insticksprogram för kondensatberäkning kunde inte hittas"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Dokumentet är krypterat, och krypteringsstöd är inkompilerat, men ett "
+"insticksprogram för nyckelhärledning kunde inte hittas"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Dokumentet är krypterat, och krypteringsstöd är inkompilerat, men ett "
+"insticksprogram för chiffrering kunde inte hittas"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Dokumentet är krypterat, men Okular kompilerades utan krypteringsstöd. "
+"Dokumentet kommer troligen inte att kunna öppnas."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Producent"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Skapad"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Skapare"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Författare"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Ändrad"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenOffice-textgränssnitt"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Ett återgivningsprogram för OpenOffice-textdokument"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Dokumentlösenord"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Ange lösenordet för att läsa dokumentet:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Lösenordet är inte riktigt."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Felaktigt lösenord."
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Felaktig dokumentstruktur (styles.xml saknas)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Felaktig dokumentstruktur (meta.xml saknas)"

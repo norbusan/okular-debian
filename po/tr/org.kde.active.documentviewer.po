@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Volkan Gezer, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegraphics-kde4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2017-08-03 12:14+0000\n"
+"Last-Translator: Mesutcan <mesutcank@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/kdegraphics-k-tr/"
+"language/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr ""
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr ""
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr ""
+
+#: package/contents/ui/MainView.qml:36
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Bookmark this page"
+msgstr "Yer İmleri"
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr "Küçük Resimler"
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr "İçindekiler tablosu"
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr "Yer İmleri"
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr ""
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr "Sonuç bulunamadı."
+
+#~ msgid ""
+#~ "No Documents found. To start to read, put some files in the Documents "
+#~ "folder of your device."
+#~ msgstr ""
+#~ "Belge bulunamadı. Okumaya başlamak için, bazı dosyaları cihazınızın "
+#~ "Belgeler klasörüne koyun."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "Okular kullanarak Plasma Active için belge görüntüleyici"
+
+#~ msgid "Reader"
+#~ msgstr "Okuyucu"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "Telif Hakkı 2012 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "Açılacak dosya adresi"

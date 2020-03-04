@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.active.documentviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-08 03:11+0100\n"
+"PO-Revision-Date: 2012-10-25 00:10-0700\n"
+"Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: package/contents/ui/main.qml:32
+msgid "Okular"
+msgstr ""
+
+#: package/contents/ui/main.qml:46
+msgid "Open..."
+msgstr ""
+
+#: package/contents/ui/MainView.qml:36
+msgid "Remove bookmark"
+msgstr ""
+
+#: package/contents/ui/MainView.qml:36
+msgid "Bookmark this page"
+msgstr ""
+
+#: package/contents/ui/OkularDrawer.qml:71
+msgid "Thumbnails"
+msgstr ""
+
+#: package/contents/ui/OkularDrawer.qml:85
+msgid "Table of contents"
+msgstr ""
+
+#: package/contents/ui/OkularDrawer.qml:99
+msgid "Bookmarks"
+msgstr ""
+
+#: package/contents/ui/TableOfContents.qml:39
+#: package/contents/ui/Thumbnails.qml:34
+msgid "Search..."
+msgstr ""
+
+#: package/contents/ui/ThumbnailsBase.qml:47
+msgid "No results found."
+msgstr ""

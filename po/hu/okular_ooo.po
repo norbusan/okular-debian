@@ -1,0 +1,172 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Tamas Szanto <tszanto@interware.hu>, 2008.
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2010.
+# Balázs Úr <urbalazs@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.2\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-07-02 23:08+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Szántó Tamás"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tszanto@interware.hu"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Érvénytelen XML-dokumentum: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Nem sikerült beolvasni a stílusadatokat"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Nem sikerült konvertálni a dokumentum tartalmát"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "A dokumentum nem ZIP formátumú"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Érvénytelen dokumentumstruktúra (hiányzik az alapkönyvtár)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Érvénytelen dokumentumstruktúra (hiányzik a META-INF mappa)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr ""
+"Érvénytelen dokumentumstruktúra (hiányzik a META-INF/manifest.xml fájl)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Érvénytelen dokumentumstruktúra (hiányzik a content.xml fájl)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument szöveg"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenDocument szöveg háttérprogram beállítás"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"A dokumentum titkosított, a dekódolási funkciók bele vannak fordítva a "
+"programba, de egy szükséges kezelőmodul nem található"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"A dokumentum titkosított, a dekódolási funkciók bele vannak fordítva a "
+"programba, de nem található kulcsderivációs modul"
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"A dokumentum titkosított, a dekódolási funkciók bele vannak fordítva a "
+"programba, de nem található dekódoló modul"
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"A dokumentum titkosított, de az Okularból kihagyták fordításkor a dekódolási "
+"funkciókat. A dokumentum valószínűleg nem nyitható meg."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Készítő"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Létrehozási dátum"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Létrehozó"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Szerző"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Utolsó módosítás"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenDocument szöveg háttérprogram"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Megjelenítő az OpenDocument szöveg dokumentumokhoz"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "(c) Tobias Koenig, 2006-2008."
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Jelszó"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Adja meg a jelszót a dokumentum olvasásához:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "A jelszó nem megfelelő."
+
+#~ msgid "Incorrect password"
+#~ msgstr "A jelszó nem megfelelő"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Érvénytelen dokumentumstruktúra (hiányzik a styles.xml fájl)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Érvénytelen dokumentumstruktúra (hiányzik a meta.xml fájl)"

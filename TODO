@@ -1,0 +1,274 @@
+TODO - okular
+Legend:
+    ADD - ADDed (new feature)
+    CHG - CHanGed (existing behavior)
+    FIX - FIXed (bug or regression)
+    MRG - MeRGed (code from a branch or a patch)
+
+Bugs and wishes to close when moving okular to kdegraphics:
+-> WISH  91146: Add capability to extract plain text from a pdf file.
+-> WISH  91251: "Magic marker" tool for higlighting text
+-> WISH  91809: kpdf cant fill in formulars
+-> WISH  93416: support for pdf sticky notes
+-> BUG   97869: kpdf fails to properly hide the context menu
+-> WISH  99352: Cannot change orientation of pdf file
+-> WISH  99787: kpdf needs to have a bookmark list
+-> WISH 100341: first page at right, in two pages mode
+-> WISH 102523: wish: if opening second file, file/open dir should be dirname($current_file)
+-> WISH 102704: Handle gzipped and bzipped PDFs
+-> WISH 102788: Current page number visible
+-> WISH 103051: make notes on pdf files
+-> BUG  106546: Search with "/" and ALT+TAB
+-> WISH 107998: kpdf horizontal scroll bar
+-> WISH 109346: ability to select everything on page(s) and use ctrl+a to select all (text)
+-> BUG  110440: Almost all options in Find dialog are always disabled
+-> WISH 111651: Usability: Make find-as-you-type widget more distinguishable
+-> WISH 114648: An option to deny documents' fullscreen requests is desirable.
+-> WISH 115557: Automatically detect and remove white page borders
+-> WISH 117045: text search: continue backwards
+-> WISH 117449: kpdf should read files from stdin with the - option
+-> WISH 117805: Wish: Select pages like kghostview
+-> WISH 118872: An option to read all the document with Kttsd
+-> WISH 118938: No way to find out the page size(s)
+-> WISH 119084: pdf attachment support: saving/opening attachments in pdf...
+-> WISH 119455: use poppler library for kpdf
+-> WISH 119919: make it possible to disable transition in presentation mode
+-> WISH 122863: Show page numbers of chapters/bookmarks in contents tab
+-> BUG  130123: kpdf text selection inconsistent with the rest of KDE
+-> WISH 131045: Add context menu for URLs
+-> WISH 132152: Usability: contents / pdfbookmarks panel is not accessible via keyboard only
+-> WISH 134115: specifing to kpdf the first-opened page from command line
+-> WISH 134646: remember (and restore) zoom per file not per app
+-> WISH 136820: would like a reload button or menu item in KPDF
+-> WISH 137905: command-line option for presentation mode
+-> WISH 145345: goto page: update slider while editing page number
+
+In progress [working on]:
+-> search: backward text search (BR117045)
+-> various backends: fill about data information
+-> gui: add config for gfx (yes/no) and text (yes/no/kde) antialias
+-> core: provide a binary compatible okularcore library to extend the format capabilities
+-> KPDF -> okular conversion of configuration & datafiles {configuration(done), document data(in progress), kwallet passwords(missing)}
+-> inverse search (BR113191)
+   find with an usability expert the "best" way to activate such a link
+   provide a configuration widget to choose the editor and configure a custom one
+-> toc: highlight the row of the current page (BR127358)
+   (check if there's a better way to do the highlighting - in case just edit TOCModel)
+-> annotations: renderers in PagePainter (for the 6 annots)
+-> annotations: handlers in PageView for WindowAnnots and others..
+-> annotations: creators in PageViewAnnotator (40% done)
+-> annotations: framework (BR67300,BR62793) and tools (BR67300,BR91251)
+-> annotations: add the annot pane (cool plz!)
+-> rotate the whole document / individual pages (on screen/print?) (BR99352)
+-> link: add a Okular::Anchor link class
+-> pageview: update layout when toggling the 'ebook atyle alignment'
+
+More items (first items will enter 'In progress list' first):
+-> annotations: "move" and "delete" tools
+-> rethink which buttons show in the toolbar (BR139825)
+-> annotations: configurabile tools in the toolbar (BR137903)
+-> pageview: add vp damaging queue and flush function. add coolfx to smoothmove using damaging
+-> annotations: toolbar: display tooltip only the first time
+-> annotations: provide nice wizards. Make it easy to deliver/copy/move the xml files (by Uga)
+-> GHNS: get hot new ebooks on the supported formats (pdf for now) (enrico)
+-> pageview: add scrollbar marks for bookmarks (like kate)
+-> pageview: change document viewport after mouse scrolling ended (not every scroll frame)
+   this will give better mvc consistancy
+-> other info on pdfs properties: number of accessed times, time spent on pdf, ...
+-> part: collapsing the left panel will hide it (activate hiding action)
+-> preload: add a delay when forward loading pages
+-> bookmarks: fastmarks (new bookmark concept with tab-like signs, shortcuts, etc) (BR
+-> viewport restoring: sometimes it seems to restore the viewport a bit under where it was
+-> core: Delay TOC (DocumentSynopsis) generation (and move it on thread)
+-> core: add a way to handle "named xpdf links" in Okular::Action instead of resolving all
+   dests when displaying a page (speedups a lot generation of page with many links)
+-> toolbar: move the toolbar to the top of pageview (left panel is really at the left of the toolbar)
+-> thumbnailslist: clinking on highlighted rect should bring the viewport to that search result (BR98334)
+-> Dom framework to cache document metadata. It should archive those types of data:
+   (NOTE: already Dom'ed object is marked with 'X')
+   - <X> Synopsis will go there after 1st generation (so we can edit it too)
+   - <X> Document info (after the 1st gen)
+   - <X> Bookmarked pages
+   - <X> Current Viewport and 10 history steps
+   - Edited pages (rotated/with_data for example)
+   - Overlay editing (highlighting/notations/etc..)
+   - Presentation related overrides (FS mode, individual / global transitions)
+   - ..more stuff.. but this isn't a problem, since a QDom is flexible by design
+   The Object will reside into the Document and must not be accessible by Observers in
+   a direct way. Dom format, relations to other classes and accessing must be specified
+   in a separated diagram or text file.
+   - Plus think at storing xml data to an external shared server.. something that
+   has to do with versioning data.. (shared annotations, bookmarks & co.)
+-> add okular manual in PDF format loaded on the first startup or on menu->help->manual
+   this visually explains basic usage, mouse buttons functions & more..
+-> ADD: click over image allows "save image" [60% done (activerect of type image)]
+-> bookview: 3d opengl widget for viewing the document as a real book (turning pages, etc..)
+-> wallet: use asynchronous interface (to prevent ui-blocking)
+-> restore a location from a given url (like http:/someurl?stringForViewport) (BR99240)
+-> automatic online dictionaries / translators (BR80338)
+-> sidebar: evaluate wether to make the left toolbox auto-hiding (kicker like) (BR94495)
+-> add OCR for building TextPages out of pure graphical (aka scanned) pages
+-> presentation: provide a pageX/totalPages indicator in addition to the circle one
+-> presentation: implement missing transitions (6/11 done) (BR139284)
+-> presentation: save a flag (to the xml) to open a pdf in presentation mode
+-> presentation: wheel not visible on black. gradient appreciated on lighter backgrounds.
+-> presentation: 2 pages per view, for users reading ebooks with wide screens.
+-> goto 'logical' page (usually differs from pdf's page) (req. by Luca Burrelli)
+-> move some document related features from part to the document (see find, goto dialog, ...)
+-> tools: ruler (BR155737), measure: distance, perimeter, ?area?, color picker
+-> export: export to other formats keeping formatting (PS is basically printing. PNG is easy too)
+-> export: extract images (have a look at ImageOutputDev.cc and pdfimages.cc from xpdf (not in our xpdf sources))
+-> history as a toolbox child (collecting Doc's viewport changes notifications)
+-> take care of TODOs in code
+-> cleanup code and update README.png
+
+Icons needed:
+- okular (ToolBAR): 1 continuous, 2 tied-pages, 3 Normal (not scroll only, it
+    performs other ops), 4 Zoom, 5 Select, 6 Annotation/Review
+- okular (Edit Tools): text highlighter, line, polygon, ellipse, text underline
+- COMMON (here in ToolBox): Toc, Annotations
+
+Done (newest features come first):
+-> ADD: core: forms support (BR91809)
+-> ADD: kspeech TTS interface. speech {document(BR118872) / page / selection}
+-> CHG: thumbnails list: refactor to do internal rendering as pageview does
+-> ADD: select more than one annotation in the annotation tree (BR155668)
+-> ADD: text selection: select all (BR109346)
+-> ADD: text selection in wordprocessor style (BR130123)
+-> ADD: open gzipped and bzipped documents (BR102704)
+-> ADD: thumbnailslist: show Viewport in a blended way, allowing to be dragged (BR135521)
+-> CHG: async way to read the fonts, no more blocking properties dialog
+-> CHG: use ThreadWeaver for the rotating jobs
+-> ADD: save/restore the values of the form fields when closing/opening a documents
+-> ADD: "dummy" mode for a very simple interface when the okular part is in eg printing preview
+-> ADD: bookmarks: improved interface, with easy handling of the bookmarks of all the documents (BR99787,BR136113)
+-> ADD: Reload action to force the reload of the current document (BR136820)
+-> CHG: renamed Okular::Link to Okular::Action
+-> ADD: presentation: add page counter and a widget to manually set pages on the top bar
+-> ADD: basic support for Text and Line DjVu annotations
+-> FIX: regression: popup context menu when using right button in selection mode (BR99315)
+-> ADD: annotations: add config option for default name change
+-> ADD: presentation: add a red pencil that creates ink annotations
+-> CHG: support links with shapes different than a rectangle
+-> ADD: export: give the generators the ability to export all the text to plain file (if supported), the PDF generator already use this (BR91146)
+-> CHG: search: use shortcut for 'find next' action (not the default one) in find-ahead
+-> CHG: use shortcuts for next and prev page even in presentation mode (by Tobias Koenig)
+-> ADD: bookmarks: go to next/previous actions (showing in thumbnailslist rmb popup too)
+-> CHG: open dialog: switch to directory where the already opened (local) file is
+-> ADD: toc: add search bar (a 'prune on type' lineedit like in thumbnails widget) (BR99349)
+-> FIX: kfile-plugins/pdf: provide internal support and rewrite that plugin (drops xpdf dependancy from kdegraphics) (by ktech)
+-> CHG: core: abstract TextPage generation (the last xpdf dependant class!)
+-> CHG: create a DocumentInfo structure for passing the font information from generators to the document
+-> ADD: presentation: link following (BR98388)
+-> ADD: add ebook-friendly alignment option, better layouting (BR100341)
+-> FIX: random crash when closing kpdf with kapp->quit() (don't use Settings:: in destructors)
+-> FIX: implement links for starting end exiting from presentation mode (pdf FullScreen, Close actions)
+-> CHG: cursor wraps on screen for dragging the page/dynZooming
+-> FIX: raised scaling performance by 10x times for typ usage, removed odd cases, speedups to viewScroll and dynZoom
+-> ADD: annotations: complete xml storage/retrieval of internal annotations
+-> CHG: page properties (bookmarks, annotations, ...) storage moved to Page class
+-> ADD: sidebar: add shortcut for showing/hiding it (BR99316)
+-> ADD: annotations: PDF1.6 reader (PDF's annotations -> our data structures)
+-> ADD: Internal data structures for annotations handling.
+-> FIX: rmb when no doc displayed to restore menu
+-> ADD: Save zoom setting on exit
+-> ADD: Put fonts used by the document on the properties dialog
+-> ADD: partial implementation of XYZ links
+-> ADD: google-like search on thumbnails
+-> ADD: use kde wallet for storing passwords of protected files
+*> The branch 'kpdf_annotations' was created at this point. [2005-Feb-12]
+-> FIX: trigger redraw on 'filter text' on current page (need new highlight engine first)
+-> ADD: Obey DRM is now a configuration option
+-> FIX: fixed viewport saving/restoring (+performance fix) on presentation mode
+-> FIX: leakfix when closing document while thread was running (no more leaks now)
+-> FIX: direct hi-performance pixels manipulation for highlighting (instead of the obsoleted setRasterOp)
+-> CHG: new search api. supports multiple searches at once, multiple highlights per page
+-> ADD: pageView moves smoothly when searching / moving in history
+-> ADD: better bookmark rendering in thumbnailslist (show 'clip overlay')
+-> CHG: changes and cleanups in pageView's mouse handling functions
+-> ADD: KTTSD simple support: speech selection using kspeech api via pure dcop (don't break compatibility)
+-> CHG: right click and drag while in 'normal' mode changes to 'selection' mode and selects
+-> FIX: complete valgrind check and leakfix (2 leaks were present) [27-Jan-04]
+-> ADD: history, forward/back history actions, history links and xml storage (10 steps)
+-> ADD: rmb popup on thumbnailslist (the popup shared with pageView: same behavior)
+-> ADD: display 'current page' / 'total pages' with analog indicator, active labels, etc
+-> CHG: Presentation mode is now Ctrl+Shift+p instead of F9 because it was colliding with Konqueror's toggle sidebar
+-> FIX: various in memory unallocator, preload with single pages, pageview
+-> FIX: optimized pageView (removed 1 waster req on start, lowered reqs)
+-> FIX: memory unloading order and hard swap avoiding
+-> CHG: open and open-recent buttons unified in Shell
+-> CHG: lens icon for the find-ahead messages
+-> ADD: page preloading
+-> FIX: smarter memory management / prioritize queries
+-> ADD: type ahead search in pageview (type '/' then the word to search..) (JakubS)
+-> FIX: scroll page if the searched string is not visible
+-> FIX: use a global Viewport over the document (linked views, real link following, location restoring, etc)
+-> FIX: wrong zoom buttons order (BR74248) (check consistancy with kdvi/kviewshell/kghostview/.. (not konq))
+-> ADD: presentation: cursor modes: hidden, visible, hidden with delay (Tobias)
+-> ADD: presentation: default transition which is used when no transition is defined in document (Tobias)
+-> ADD: presentation: support for automatic advance and loop on last page (Tobias)
+-> ADD: presentation: add additional presentation page to settings dialog (Tobias)
+-> CHG: presentation: the round wheel indicator can be clicked to change page
+-> FIX: layout margins on pageView
+-> ADD: restore the last active page when a file is opened again
+-> ADD: Save bookmarks into a file so you they get recovered when opening the same file again (Albert)
+-> FIX: searchline back to work
+-> CHG: DocumentInfo is now a DomTree and the properties dialog is dynamically generated (Tobias)
+-> ADD: Presentation transitions are loaded from the pdf files as well as fullscreen state (Tobias)
+*> Merged on HEAD on 2005-01-02 (The branch is frozen, development continues here)
+-> FIX: Fix my update cursor FIX :-D
+-> ADD: Make kpdf aware of Find and GoToPage actions
+-> FIX: Update cursor correctly when a link moves to a page and the cursor is over a link on that page
+-> ADD: Asynchronous PDF Generator implementation (for the user: faster UI, preloading, etc..)
+-> FIX: Memory manager (free cache if needed, avoid disk swap and oom)
+-> ADD: Presentation View (only the 'glitter' transition implemented for now)
+-> FIX: FixPack1 [dyn_zoom repaints, initial panel width, zoom_lineedit focus proxy, searchwidget refactor{thumbs restoring on clear, buttons size, less code}, highlight bookmarked thumbnails]
+-> FIX: Some fullScreen loving, if we are on fullscreen put an action on RMB menu ti get out of it, if we were on fullScreen mode on exit bring back correctly if we were also seeing toolbar or menubar
+-> FIX: When in non continuous mode and scrolling up a page, set the viewport at the bottom of the page (Albert)
+-> ADD: Show the window maximized when the user opens the program for the very first time (Albert)
+-> ADD: Use 'Generators' as providers for contents generation
+-> ADD: Add properties dialog (Albert)
+-> ADD: Support for show/hide menubar in rmb menu, different from HEAD so that supports Konqueror too (Albert)
+-> ADD: Watch File option (Albert)
+-> ADD: import Marco Martin's "another kpdf icon" (kde-look: 16146) (Albert)
+-> ADD: dynamic zoom with mid mouse button (click and drag up-down to zoom in-out)
+-> FIX: merge select text & select gfx, two sections on the same pop-up menu
+-> ADD: reading aids (inverted display, recolor, black/white, draw link border, draw image border)
+-> FIX: zoom preserved when switching modes and flickerless drawing
+-> ADD: Printing as PS instead of as image (Albert)
+-> ADD: Remember page on session logout and put the document in it on session restore (Albert)
+-> ADD: gfx capturing tool
+-> ADD: composited renderer framework (in addition to a fast light one)
+-> FIX: pageview repaint done internally (speed boost and reduced memory consumption)
+-> ADD: KConfigXT settings framework and Accessibility config (acc. code mostly not done)
+-> FIX: workaround for scrollview bug 1/2 (painting hidden widgets under certain circumstances)
+-> ADD: zoom into a rect defined by mouse (aka zoom to window)
+-> FIX: sheet rotation in landscape case
+-> ADD: Some dcop functions (goToPage, openDocument and give # of pages) (Albert)
+-> MRG: link following ('actionMovie' kind is missing)
+-> ADD: text selection (rectangular blocks) in selection mode
+-> ADD: autoscroll page with Shift+Up/Dn keys (exact konqueror's behavior)
+-> CHG: remake single page mode
+-> FIX: zoom buttons in sync with text
+-> ADD: continuous mode
+-> ADD: multiple pages per view (gui selects 1 or 2 ppv)
+-> MRG: the option to open password protected files (from head)
+-> MRG: the Table Of Contents (from head)
+-> ADD: a 'search bar' with prune-as-you-type feature
+-> MRG: Albert's search ported and implemented case sensitive
+-> CHG: smart handling of pixmap using an Observer ID (thumbnails are gone, only pixmaps now)
+-> FIX: some toolbar/menu changes
+-> ADD: outline bottom and right edges (of pages)
+-> FIX: centering pages in the view
+-> FIX: kpdf output at 100% has exactly the same size as acroread now
+-> CHG: qsplitter layouting
+-> FIX: zooming works as expected (and added 'fit to page' too)
+-> ADD: new go to page dialog
+-> GHG: previews sorted by visible areas (prioritize items where the scrollbar is)
+-> FIX: previews speedup: 50-100%
+-> CHG: use local instead of X memory for thumbnails (..)
+-> MRG: merge lots of kpdf_part and part (centralview) code (to simplify/cleanup)
+*> The branch 'kpdf_experiments' was created at this point. Code refactoring started.
+-> ADD: Completely use xpdf code for rendering that solves most font problems (Albert)
+-> MRG: Replace xpdf version with lastest one (3.00) that supports PDF 1.5 (Albert)
+-> newest added features are at the top of the list

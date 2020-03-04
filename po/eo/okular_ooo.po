@@ -1,0 +1,173 @@
+# translation of okular_ooo.po to esperanto
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Pierre-Marie Pédrot <pedrotpmx@wanadoo.fr>, 2007.
+# Axel Rousseau <axel@esperanto-jeunes.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2010-01-03 18:51+0100\n"
+"Last-Translator: Axel Rousseau <axel@esperanto-jeunes.org>\n"
+"Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Pierre-Marie Pédrot"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pedrotpmx@wanadoo.fr"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Nevalida XML dokumento: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Ne eblas legi la stilinformon"
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Ne eblas konverti la dokumentan enhavon"
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "La dokumento ne estas valida ZIP arkivo"
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Nevalida dokumenta strukturo (ĉefa dosierujo mankas)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Nevalida dokumenta strukturo (META-INF dosierujo mankas)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Nevalida dokumenta strukturo (META-INF/manifest.xml mankas)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Nevalida dokumenta strukturo (content.xml mankas)"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text"
+msgstr "OpenOffice Dokumenta Interno"
+
+#: generator_ooo.cpp:32
+#, fuzzy, kde-format
+#| msgid "OpenOffice Document Backend"
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenOffice Dokumenta Interno"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"La dokumento estas kriptigita, la kripta subteno estas enkompilita sed "
+"haketada kromprogramo ne troveblas"
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Produktisto"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Kreita"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Kreinto"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Aŭtoro"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Ŝanĝita"
+
+#, fuzzy
+#~| msgid "OpenOffice Document Backend"
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "OpenOffice Dokumenta Interno"
+
+#, fuzzy
+#~| msgid "A renderer for OpenOffice text documents"
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Rigardilo por OpenOffice tekstaj dokumentoj"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Dokumenta pasvorto"
+
+#, fuzzy
+#~| msgid "Please insert the password to read the document:"
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Bonvolu tajpi la pasvorton por legi la dokumenton:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Pasvorto malĝustas"
+
+#~ msgid "Incorrect password"
+#~ msgstr "Pasvorto nevalida"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Nevalida dokumenta strukturo (styles.xml mankas)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Nevalida dokumenta strukturo (meta.xml mankas)"

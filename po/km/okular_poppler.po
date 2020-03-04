@@ -1,0 +1,228 @@
+# translation of okular_poppler.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2008, 2010, 2012.
+# Auk Piseth <piseth_dv@khmeros.info>, 2008.
+# Seng Sutha, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-10-22 02:50+0200\n"
+"PO-Revision-Date: 2012-06-11 14:24+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, ​អេង វណ្ណៈ, អោក ពិសិដ្ឋ​"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:12
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:23 generator_pdf.cpp:834
+#, kde-format
+msgid "No"
+msgstr "ទេ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:28
+#, kde-format
+msgid "Solid"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:33
+#, kde-format
+msgid "Shape"
+msgstr ""
+
+#: generator_pdf.cpp:94
+#, kde-format
+msgid "PDF Options"
+msgstr "ជម្រើស PDF"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Print annotations"
+msgstr "បោះបង់​ការ​ពន្យល់"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "ដាក់​បញ្ចូល​ការពន្យល់​ក្នុង​ឯកសារ​ដែល​បានបោះពុម្ព"
+
+#: generator_pdf.cpp:98
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"ដាក់​បញ្ចូល​ការ​ពន្យល់​ក្នុង​​ឯកសារ​ដែលបានបោះពុម្ព ។ អ្នក​អាច​បិទ​វា ប្រសិន​បើ​អ្នក​ចង់​បោះពុម្ព​ឯកសារ​ដែល​គ្មាន​​"
+"ការ​ពន្យល់​ដើម ។"
+
+#: generator_pdf.cpp:100
+#, kde-format
+msgid "Force rasterization"
+msgstr "បង្ខំ​ការ​បម្លែង"
+
+#: generator_pdf.cpp:101
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "បម្លែង​ទៅជា​រូបភាព​មុន​ពេល​បោះពុម្ព"
+
+#: generator_pdf.cpp:102
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"បង្ខំ​ការ​បម្លែង​ទំព័រ​នីមួយៗ​ទៅ​ជា​រូបភាព​មុន​ពេល​បោះពុម្ព​វា ។ វា​តាមធម្មតា​ផ្ដល់នូវ​លទ្ធផល​មិន​ល្អ ប៉ុន្តែ​មាន​"
+"ប្រយោជន៍​នៅ​ពេល​បោះពុម្ព​ឯកសារ ដែល​បង្ហាញ​ដើម្បី​បោះពុម្ព​មិន​ត្រឹមត្រូវ ។"
+
+#: generator_pdf.cpp:109
+#, kde-format
+msgid "Fit to printable area"
+msgstr ""
+
+#: generator_pdf.cpp:110
+#, kde-format
+msgid "Fit to full page"
+msgstr ""
+
+#: generator_pdf.cpp:111
+#, kde-format
+msgid "None; print original size"
+msgstr ""
+
+#: generator_pdf.cpp:112
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr ""
+
+#: generator_pdf.cpp:113
+#, kde-format
+msgid "Scale mode:"
+msgstr ""
+
+#: generator_pdf.cpp:832
+#, fuzzy, kde-format
+#| msgctxt "PDF v. <version>"
+#| msgid "PDF v. %1"
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF v. %1"
+
+#: generator_pdf.cpp:832
+#, kde-format
+msgid "Format"
+msgstr "ទ្រង់ទ្រាយ"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Encrypted"
+msgstr "បាន​អ៊ិនគ្រីប"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Unencrypted"
+msgstr "មិន​បាន​អ៊ិនគ្រីប"
+
+#: generator_pdf.cpp:833
+#, kde-format
+msgid "Security"
+msgstr "សុវត្ថិភាព"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Yes"
+msgstr "បាទ/ចាស"
+
+#: generator_pdf.cpp:834
+#, kde-format
+msgid "Optimized"
+msgstr "បង្កើន​ប្រសិទ្ធិភាព"
+
+#: generator_pdf.cpp:1578
+#, kde-format
+msgid "Using Poppler %1"
+msgstr ""
+
+#: generator_pdf.cpp:1580
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, kde-format
+msgid "PDF"
+msgstr ""
+
+#: generator_pdf.cpp:1630
+#, fuzzy, kde-format
+#| msgid "PDF Backend"
+msgid "PDF Backend Configuration"
+msgstr "ផ្នែក​ខាង​ក្រោយ​របស់ PDF"
+
+#: pdfsignatureutils.cpp:44 pdfsignatureutils.cpp:50
+#, kde-format
+msgid "Not Available"
+msgstr ""
+
+#~ msgid "PDF Backend"
+#~ msgstr "ផ្នែក​ខាង​ក្រោយ​របស់ PDF"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "កម្មវិធី​បង្ហាញ​ឯកសារ PDF"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៥-២០០៨ ដោយ Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "ការ​​រក្សាឯកសារ​ដោយ​មាន /Encrypt ​មិនបាន​គាំទ្រ ។"
+
+#~ msgid "Unknown"
+#~ msgstr "មិន​ស្គាល់"
+
+#~ msgid "Unknown Date"
+#~ msgstr "មិន​ស្គាល់​កាលបរិច្ឆេទ"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "មិន​ស្គាល់​ការ​អ៊ិនគ្រីប"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "មិន​ស្គាល់​ការ​បង្កើន​ប្រសិទ្ធិភាព"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "សូម​បញ្ចូល​ពាក្យសម្ងាត់ ដើម្បី​អាន​ឯកសារ ៖"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ​ឡើយ ។ សូម​ព្យាយាម​ម្ដង​ទៀត ៖"
+
+#~ msgid "Document Password"
+#~ msgstr "ពាក្យ​សម្ងាត់​ឯកសារ"

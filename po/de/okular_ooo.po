@@ -1,0 +1,170 @@
+# Thomas Reitelbach <tr@erdfunkstelle.de>, 2007, 2008.
+# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2013.
+# Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
+# Frederik Schwarzer <schwarzer@kde.org>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ooo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:08+0200\n"
+"PO-Revision-Date: 2013-08-14 17:32+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Thomas Reitelbach"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tr@erdfunkstelle.de"
+
+#: converter.cpp:99
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "Ungültiges XML-Dokument: %1"
+
+#: converter.cpp:113
+#, kde-format
+msgid "Unable to read style information"
+msgstr "Stil-Informationen können nicht eingelesen werden."
+
+#: converter.cpp:162
+#, kde-format
+msgid "Unable to convert document content"
+msgstr "Dokumentinhalt kann nicht konvertiert werden."
+
+#: document.cpp:29
+#, kde-format
+msgid "Document is not a valid ZIP archive"
+msgstr "Das Dokument ist kein gültiges ZIP-Archiv."
+
+#: document.cpp:35
+#, kde-format
+msgid "Invalid document structure (main directory is missing)"
+msgstr "Ungültige Dokumentstruktur (Basisordner fehlt)"
+
+#: document.cpp:41
+#, kde-format
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "Ungültige Dokumentstruktur (Ordner META-INF fehlt)"
+
+#: document.cpp:46
+#, kde-format
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "Ungültige Dokumentstruktur (META-INF/manifest.xml fehlt)"
+
+#: document.cpp:57
+#, kde-format
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "Ungültige Dokumentstruktur (content.xml fehlt)"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text"
+msgstr "OpenDocument-Textformat"
+
+#: generator_ooo.cpp:32
+#, kde-format
+msgid "OpenDocument Text Backend Configuration"
+msgstr "Einstellungen zum Anzeigemodul OpenDocument-Text"
+
+#: manifest.cpp:276
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr ""
+"Das Dokument ist verschlüsselt und Unterstützung für Verschlüsselung ist "
+"eingebaut, aber es kann kein Hash-Modul gefunden werden."
+
+#: manifest.cpp:282
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr ""
+"Das Dokument ist verschlüsselt und Unterstützung für Verschlüsselung ist "
+"eingebaut, aber es kann kein Modul zur Schlüssel-Ableitung gefunden werden."
+
+#: manifest.cpp:288
+#, kde-format
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr ""
+"Das Dokument ist verschlüsselt und Unterstützung für Verschlüsselung ist "
+"eingebaut, aber es kann kein Cipher-Modul gefunden werden."
+
+#: manifest.cpp:315
+#, kde-format
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr ""
+"Das Dokument ist verschlüsselt, aber Okular wurde ohne Unterstützung für "
+"Verschlüsselung installiert. Das Dokument kann höchstwahrscheinlich nicht "
+"geöffnet werden."
+
+#: styleparser.cpp:135
+#, kde-format
+msgid "Producer"
+msgstr "Erzeuger"
+
+#: styleparser.cpp:139
+#, kde-format
+msgid "Created"
+msgstr "Erstellt am"
+
+#: styleparser.cpp:141
+#, kde-format
+msgid "Creator"
+msgstr "Ersteller"
+
+#: styleparser.cpp:143
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: styleparser.cpp:147
+#, kde-format
+msgid "Modified"
+msgstr "Geändert am"
+
+#~ msgid "OpenDocument Text Backend"
+#~ msgstr "Anzeigemodul für OpenDocument-Textformat"
+
+#~ msgid "A renderer for OpenDocument Text documents"
+#~ msgstr "Ein Renderer für OpenDocument-Textdokumente"
+
+#~ msgid "© 2006-2008 Tobias Koenig"
+#~ msgstr "© 2006–2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Document Password"
+#~ msgstr "Dokument-Passwort"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Bitte geben Sie das Passwort zum Lesen des Dokuments ein:"
+
+#~ msgid "The password is not correct."
+#~ msgstr "Das Passwort ist falsch."
+
+#~ msgid "Incorrect password"
+#~ msgstr "Falsches Passwort"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "Ungültige Dokumentstruktur (styles.xml fehlt)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "Ungültige Dokumentstruktur (meta.xml fehlt)"
