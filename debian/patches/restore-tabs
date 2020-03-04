@@ -1,0 +1,31 @@
+diff --git a/shell/shell.cpp b/shell/shell.cpp
+index 8c0c62e..a708c37 100644
+--- a/shell/shell.cpp
++++ b/shell/shell.cpp
+@@ -61,6 +61,7 @@
+ static const char *shouldShowMenuBarComingFromFullScreen = "shouldShowMenuBarComingFromFullScreen";
+ static const char *shouldShowToolBarComingFromFullScreen = "shouldShowToolBarComingFromFullScreen";
+ 
++static const char* const SESSION_KEY = "Session";
+ static const char* const SESSION_URL_KEY = "Urls";
+ static const char* const SESSION_TAB_KEY = "ActiveTab";
+ 
+@@ -151,6 +152,9 @@ Shell::Shell( const QString &serializedOptions )
+     m_isValid = false;
+     KMessageBox::error(this, i18n("Unable to find the Okular component."));
+   }
++  KConfigGroup tabgroup = KSharedConfig::openConfig()->group( SESSION_KEY );
++  readProperties(tabgroup);
++
+ }
+ 
+ bool Shell::eventFilter(QObject *obj, QEvent *event)
+@@ -329,6 +333,8 @@ void Shell::writeSettings()
+         group.writeEntry( shouldShowMenuBarComingFromFullScreen, m_menuBarWasShown );
+         group.writeEntry( shouldShowToolBarComingFromFullScreen, m_toolBarWasShown );
+     }
++    KConfigGroup tabgroup = KSharedConfig::openConfig()->group( SESSION_KEY );
++    saveProperties(tabgroup);
+     KSharedConfig::openConfig()->sync();
+ }
+ 

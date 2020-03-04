@@ -1,3 +1,11 @@
+okular (4:19.12.2-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Use my own tab restoration code
+    https://invent.kde.org/kde/okular/-/merge_requests/126
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 04 Mar 2020 09:08:14 +0900
+
 okular (4:19.12.2-2) unstable; urgency=medium
 
   * Team upload.
