@@ -1,3 +1,10 @@
+okular (4:19.12.3-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Mar 2020 23:00:24 +0100
+
 okular (4:19.12.2-2) unstable; urgency=medium
 
   * Team upload.
