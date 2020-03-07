@@ -98,6 +98,8 @@ Description: universal document viewer
   * G3 fax
   * various electronic book formats: ComicBook, FictionBook, and Plucker
  .
+ Additional document formats are in the okular-extra-backends package.
+ .
  This package is part of the KDE graphics module.
 
 Package: okular-dev
@@ -124,18 +126,11 @@ Breaks: okular (<< 4:16.12.0), ${kde-l10n:all}
 Replaces: okular (<< 4:16.12.0), ${kde-l10n:all}
 Description: additional document format support for Okular
  These plugins allow Okular to view additional document formats:
-  * Portable Document Format (PDF)
-  * PostScript
-  * Device Independent Format (DVI)
   * DeJaVu Format
-  * Comic Books
-  * Images (JPEG, PNG, GIF, and many more)
   * TIFF Image Format
-  * FictionBook Format
-  * Plucker Format
-  * OpenDocument Text Format
-  * Microsofts CHM Format
-  * Microsofts XML Document Format
+  * Microsoft CHM Format
+  * EPUB
+  * Markdown
  .
  This package is part of the KDE graphics module.
 
