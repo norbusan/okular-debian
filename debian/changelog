@@ -1,10 +1,10 @@
-okular (4:19.12.3-0r1) UNRELEASED; urgency=medium
+okular (4:19.12.3-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Slightly improve the description of okular, and okular-extra-backends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Mar 2020 23:00:24 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 08 Mar 2020 09:04:21 +0100
 
 okular (4:19.12.2-2) unstable; urgency=medium
 
