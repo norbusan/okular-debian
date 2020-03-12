@@ -5,7 +5,7 @@
 # Erik Kjær Pedersen <erik@binghamton.edu>, 2002, 2003, 2004, 2005, 2006.
 # Erik K. Pedersen <erik@binghamton.edu>, 2005, 2008.
 # Rune Rønde Møller <runermoeller@gmail.com>, 2008.
-# Martin Schlander <mschlander@opensuse.org>, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019.
+# Martin Schlander <mschlander@opensuse.org>, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019, 2020.
 # Anders Lund <anders@alweb.dk>, 2009.
 # Claus Christensen <claus_chr@webspeed.dk>, 2012.
 msgid ""
@@ -13,14 +13,14 @@ msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-31 08:25+0100\n"
-"PO-Revision-Date: 2019-04-20 15:28+0100\n"
+"PO-Revision-Date: 2020-02-13 19:54+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 18.12.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #, kde-format
@@ -186,13 +186,13 @@ msgstr "Kontrast:"
 #: conf/dlgaccessibilitybase.ui:357
 #, kde-format
 msgid "Speech"
-msgstr ""
+msgstr "Tale"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: conf/dlgaccessibilitybase.ui:363
 #, kde-format
 msgid "Engine"
-msgstr ""
+msgstr "Motor"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: conf/dlgannotationsbase.ui:31
@@ -202,10 +202,9 @@ msgstr "Identitet"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: conf/dlgannotationsbase.ui:55
-#, fuzzy, kde-format
-#| msgid "&Author:"
+#, kde-format
 msgid "Au&thor:"
-msgstr "&Forfatter:"
+msgstr "Opha&vsmand:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: conf/dlgannotationsbase.ui:71
@@ -267,7 +266,7 @@ msgstr "Lyx-klient"
 #, kde-format
 msgctxt "Text editor"
 msgid "TeXstudio"
-msgstr ""
+msgstr "TeXstudio"
 
 #: conf/dlgeditor.cpp:37
 #, kde-format
@@ -648,10 +647,9 @@ msgstr "I løkke efter sidste side"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: conf/dlgpresentationbase.ui:95
-#, fuzzy, kde-format
-#| msgid "Navigation"
+#, kde-format
 msgid "Touch navigation:"
-msgstr "Navigering"
+msgstr "Touch-navigering:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTapNavigation)
 #: conf/dlgpresentationbase.ui:106
@@ -669,7 +667,7 @@ msgstr ""
 #: conf/dlgpresentationbase.ui:116
 #, kde-format
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktiveret"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: conf/dlgpresentationbase.ui:137
@@ -915,10 +913,9 @@ msgstr "Frimærke"
 
 #: conf/editannottooldialog.cpp:95 ui/guiutils.cpp:78
 #: ui/pageviewannotator.cpp:216 ui/pageviewannotator.cpp:1122
-#, fuzzy, kde-format
-#| msgid "Overwrite"
+#, kde-format
 msgid "Typewriter"
-msgstr "Overskriv"
+msgstr "Skrivemaskine"
 
 #: conf/editannottooldialog.cpp:101
 #, kde-format
@@ -1474,37 +1471,34 @@ msgid "HTML"
 msgstr "HTML"
 
 #: core/printoptionswidget.cpp:22
-#, fuzzy, kde-format
-#| msgid "Editor Options"
+#, kde-format
 msgid "Print Options"
-msgstr "Editor-indstillinger"
+msgstr "Udskriftsindstillinger"
 
 #: core/printoptionswidget.cpp:26
 #, kde-format
 msgid "Fit to printable area"
-msgstr ""
+msgstr "Tilpas muligt udskriftsområde"
 
 #: core/printoptionswidget.cpp:27
 #, kde-format
 msgid "Fit to full page"
-msgstr ""
+msgstr "Tilpas til hel side"
 
 #: core/printoptionswidget.cpp:28
-#, fuzzy, kde-format
-#| msgid "Color mode:"
+#, kde-format
 msgid "Scale mode:"
-msgstr "Farvetilstand:"
+msgstr "Skaleringstilstand:"
 
 #: core/script/kjs_app.cpp:170
 #, kde-format
 msgid "Missing alert type"
-msgstr ""
+msgstr "Mangler alarmtype"
 
 #: core/script/kjs_app.cpp:225
-#, fuzzy, kde-format
-#| msgid "Close this message"
+#, kde-format
 msgid "Do not show this message again"
-msgstr "Luk denne besked"
+msgstr "Vis ikke denne besked igen"
 
 #: core/sourcereference.cpp:102
 #, kde-format
@@ -1582,7 +1576,7 @@ msgstr "Bogmærker"
 #: part.cpp:461
 #, kde-format
 msgid "Signatures"
-msgstr ""
+msgstr "Signaturer"
 
 #: part.cpp:495
 #, kde-format
@@ -1780,7 +1774,7 @@ msgstr "P&ræsentation"
 #: part.cpp:925
 #, kde-format
 msgid "Open Con&taining Folder"
-msgstr ""
+msgstr "Åbn inde&holdende mappe"
 
 #: part.cpp:931
 #, kde-format
@@ -1798,10 +1792,9 @@ msgid "Switch Blackscreen Mode"
 msgstr "Skift sortskærmtilstand"
 
 #: part.cpp:949
-#, fuzzy, kde-format
-#| msgid "Erase Drawings"
+#, kde-format
 msgid "Erase Drawing"
-msgstr "Slet tegninger"
+msgstr "Slet tegning"
 
 #: part.cpp:954
 #, kde-format
@@ -1901,10 +1894,9 @@ msgid ""
 msgstr ""
 
 #: part.cpp:1622
-#, fuzzy, kde-format
-#| msgid "Printing this document is not allowed."
+#, kde-format
 msgid "This document is digitally signed."
-msgstr "Udskrift af dokumentet tillades ikke."
+msgstr "Dette dokument er digitalt signeret."
 
 #: part.cpp:1706
 #, kde-format
@@ -1912,22 +1904,23 @@ msgid ""
 "This document wants to be shown full screen.\n"
 "Leave normal mode and enter presentation mode?"
 msgstr ""
+"Dette dokument vil vises i fuldskærm.\n"
+"Vil du forlade normal tilstand og gå i præsentationstilstand?"
 
 #: part.cpp:1708
 #, kde-format
 msgid "Request to Change Viewing Mode"
-msgstr ""
+msgstr "Anmoder om ændring af visningstilstand"
 
 #: part.cpp:1709
-#, fuzzy, kde-format
-#| msgid "Exit Presentation Mode"
+#, kde-format
 msgid "Enter Presentation Mode"
-msgstr "Forlad præsentationstilstand"
+msgstr "Gå i præsentationstilstand"
 
 #: part.cpp:1710
 #, kde-format
 msgid "Deny Request"
-msgstr ""
+msgstr "Afvis anmodning"
 
 #: part.cpp:1789
 #, kde-format
@@ -2161,33 +2154,33 @@ msgstr ""
 "Dokumentet eksisterer ikke mere."
 
 #: part.cpp:2812
-#, fuzzy, kde-format
-#| msgid "File could not be saved in '%1'. Try to save it to another location."
+#, kde-format
 msgid ""
 "File could not be saved in '%1'. Error: '%2'. Try to save it to another "
 "location."
-msgstr "Fil kunne ikke gemmes til '%1'. Prøv at gem den et andet sted."
+msgstr ""
+"Fil kunne ikke gemmes i \"%1\". Fejl: \"%2\". Prøv at gemme den et andet "
+"sted."
 
 #: part.cpp:3093
-#, fuzzy, kde-format
-#| msgid "End Presentation"
+#, kde-format
 msgid "Expand whole section"
-msgstr "Afslut præsentation"
+msgstr "Fold hele sektionen ud"
 
 #: part.cpp:3095
 #, kde-format
 msgid "Collapse whole section"
-msgstr ""
+msgstr "Fold hele sektionen sammen"
 
 #: part.cpp:3097
 #, kde-format
 msgid "Expand all"
-msgstr ""
+msgstr "Fold alle ud"
 
 #: part.cpp:3099
 #, kde-format
 msgid "Collapse all"
-msgstr ""
+msgstr "Fold alle sammen"
 
 #: part.cpp:3109 ui/annotationmodel.cpp:334
 #, kde-format
@@ -2366,10 +2359,9 @@ msgid "Start with print dialog"
 msgstr "Start med udskriftsdialog"
 
 #: shell/main.cpp:62
-#, fuzzy, kde-format
-#| msgid "Start with print dialog"
+#, kde-format
 msgid "Start with print dialog and exit after printing"
-msgstr "Start med udskriftsdialog"
+msgstr "Start med udskriftsdialog og afslut efter udskrift"
 
 #: shell/main.cpp:63
 #, kde-format
@@ -2537,16 +2529,14 @@ msgid "&Author:"
 msgstr "&Forfatter:"
 
 #: ui/annotationpropertiesdialog.cpp:73
-#, fuzzy, kde-format
-#| msgid "Created"
+#, kde-format
 msgid "Created:"
-msgstr "Oprettet"
+msgstr "Oprettet:"
 
 #: ui/annotationpropertiesdialog.cpp:78
-#, fuzzy, kde-format
-#| msgid "Modified"
+#, kde-format
 msgid "Modified:"
-msgstr "Ændret"
+msgstr "Ændret:"
 
 #: ui/annotationpropertiesdialog.cpp:115
 #, kde-format
@@ -2554,10 +2544,9 @@ msgid "Pop-up Note Properties"
 msgstr "Egenskaber for pop-op-noter"
 
 #: ui/annotationpropertiesdialog.cpp:119
-#, fuzzy, kde-format
-#| msgid "Caret Properties"
+#, kde-format
 msgid "Typewriter Properties"
-msgstr "Egenskaber for korrekturmærke"
+msgstr "Egenskaber for skrivemaskine"
 
 #: ui/annotationpropertiesdialog.cpp:121
 #, kde-format
@@ -2643,18 +2632,19 @@ msgstr "Sæt et frimærkesymbol"
 msgid ""
 "*.ico *.png *.xpm *.svg *.svgz | Icon Files (*.ico *.png *.xpm *.svg *.svgz)"
 msgstr ""
+"*.ico *.png *.xpm *.svg *.svgz | Ikonfiler (*.ico *.png *.xpm *.svg *.svgz)"
 
 #: ui/annotationwidgets.cpp:168
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not load the file <filename>%1</filename>"
-msgstr ""
+msgstr "Kunne ikke indlæse filen <filename>%1</filename>"
 
 #: ui/annotationwidgets.cpp:169
 #, kde-format
 msgctxt "@title:window"
 msgid "Invalid file"
-msgstr ""
+msgstr "Ugyldig fil"
 
 #: ui/annotationwidgets.cpp:275
 #, kde-format
@@ -2662,10 +2652,9 @@ msgid "&Color:"
 msgstr "&Farve:"
 
 #: ui/annotationwidgets.cpp:374
-#, fuzzy, kde-format
-#| msgid "Icon"
+#, kde-format
 msgid "Icon:"
-msgstr "Ikon"
+msgstr "Ikon:"
 
 #: ui/annotationwidgets.cpp:375
 #, kde-format
@@ -2688,8 +2677,7 @@ msgid "Key"
 msgstr "Tast"
 
 #: ui/annotationwidgets.cpp:379
-#, fuzzy, kde-format
-#| msgid "New Paragraph"
+#, kde-format
 msgid "New paragraph"
 msgstr "Nyt afsnit"
 
@@ -2709,16 +2697,14 @@ msgid "Font:"
 msgstr "Skrifttype:"
 
 #: ui/annotationwidgets.cpp:398
-#, fuzzy, kde-format
-#| msgid "&Color:"
+#, kde-format
 msgid "Text &color:"
-msgstr "&Farve:"
+msgstr "Tekst&farve:"
 
 #: ui/annotationwidgets.cpp:406
-#, fuzzy, kde-format
-#| msgid "Align:"
+#, kde-format
 msgid "&Align:"
-msgstr "Justér:"
+msgstr "J&ustér:"
 
 #: ui/annotationwidgets.cpp:407
 #, kde-format
@@ -2736,10 +2722,9 @@ msgid "Right"
 msgstr "Højre"
 
 #: ui/annotationwidgets.cpp:417
-#, fuzzy, kde-format
-#| msgid "Border Width:"
+#, kde-format
 msgid "Border &width:"
-msgstr "Kantbredde:"
+msgstr "Kant&bredde:"
 
 #: ui/annotationwidgets.cpp:435
 #, kde-kuit-format
@@ -2750,10 +2735,9 @@ msgid ""
 msgstr ""
 
 #: ui/annotationwidgets.cpp:446
-#, fuzzy, kde-format
-#| msgid "Stamp Symbol"
+#, kde-format
 msgid "Stamp symbol:"
-msgstr "Frimærkesymbol"
+msgstr "Frimærkesymbol:"
 
 #: ui/annotationwidgets.cpp:450
 #, kde-format
@@ -2843,78 +2827,72 @@ msgstr "Tophemmelig"
 #: ui/annotationwidgets.cpp:510 ui/annotationwidgets.cpp:580
 #: ui/annotationwidgets.cpp:650 ui/annotationwidgets.cpp:722
 #: ui/annotationwidgets.cpp:808
-#, fuzzy, kde-format
-#| msgid "&Pen Width:"
+#, kde-format
 msgid "&Width:"
-msgstr "&Penbredde:"
+msgstr "&Bredde:"
 
 #: ui/annotationwidgets.cpp:515
-#, fuzzy, kde-format
-#| msgid "Line"
+#, kde-format
 msgid "Line start:"
-msgstr "Linje"
+msgstr "Linjestart:"
 
 #: ui/annotationwidgets.cpp:517
-#, fuzzy, kde-format
-#| msgid "Line"
+#, kde-format
 msgid "Line end:"
-msgstr "Linje"
+msgstr "Linjeslutning:"
 
 #: ui/annotationwidgets.cpp:522
 #, kde-format
 msgid "Square"
-msgstr ""
+msgstr "Kvadrat"
 
 #: ui/annotationwidgets.cpp:523
 #, kde-format
 msgid "Circle"
-msgstr ""
+msgstr "Cirkel"
 
 #: ui/annotationwidgets.cpp:524
 #, kde-format
 msgid "Diamond"
-msgstr ""
+msgstr "Ruder"
 
 #: ui/annotationwidgets.cpp:525
 #, kde-format
 msgid "Open Arrow"
-msgstr ""
+msgstr "Åben pil"
 
 #: ui/annotationwidgets.cpp:526
 #, kde-format
 msgid "Closed Arrow"
-msgstr ""
+msgstr "Lukket pil"
 
 #: ui/annotationwidgets.cpp:527
-#, fuzzy, kde-format
-#| msgctxt "Symbol for caret annotations"
-#| msgid "None"
+#, kde-format
 msgid "None"
 msgstr "Ingen"
 
 #: ui/annotationwidgets.cpp:528
 #, kde-format
 msgid "Butt"
-msgstr ""
+msgstr "Ende"
 
 #: ui/annotationwidgets.cpp:529
 #, kde-format
 msgid "Right Open Arrow"
-msgstr ""
+msgstr "Højre åben pil"
 
 #: ui/annotationwidgets.cpp:530
 #, kde-format
 msgid "Right Closed Arrow"
-msgstr ""
+msgstr "Højre lukket pil"
 
 #: ui/annotationwidgets.cpp:531
 #, kde-format
 msgid "Slash"
-msgstr ""
+msgstr "Skråstreg"
 
 #: ui/annotationwidgets.cpp:546
-#, fuzzy, kde-format
-#| msgid "Leader Line Length:"
+#, kde-format
 msgid "Leader line length:"
 msgstr "Registerpunktlængde:"
 
@@ -2927,13 +2905,12 @@ msgstr "Længde af registerpunkts forlængerstykke:"
 #: ui/annotationwidgets.cpp:563 ui/annotationwidgets.cpp:715
 #, kde-format
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiveret"
 
 #: ui/annotationwidgets.cpp:567 ui/annotationwidgets.cpp:719
-#, fuzzy, kde-format
-#| msgid "Save file"
+#, kde-format
 msgid "Shape fill:"
-msgstr "Gem fil"
+msgstr "Udfyldning af form:"
 
 #: ui/annotationwidgets.cpp:677 ui/annotationwidgets.cpp:710
 #, kde-format
@@ -2973,10 +2950,9 @@ msgid "Ellipse"
 msgstr "Ellipse"
 
 #: ui/annotationwidgets.cpp:776
-#, fuzzy, kde-format
-#| msgid "File Attachment Symbol"
+#, kde-format
 msgid "File attachment symbol:"
-msgstr "Symbol for filbilag"
+msgstr "Symbol for filbilag:"
 
 #: ui/annotationwidgets.cpp:779
 #, kde-format
@@ -3020,10 +2996,9 @@ msgid "No description available."
 msgstr "Ingen beskrivelse tilgængelig."
 
 #: ui/annotationwidgets.cpp:804
-#, fuzzy, kde-format
-#| msgid "&Name:"
+#, kde-format
 msgid "Name:"
-msgstr "&Navn:"
+msgstr "Navn:"
 
 #: ui/annotationwidgets.cpp:815
 #, kde-format
@@ -3115,10 +3090,9 @@ msgstr[1] ""
 
 #: ui/bookmarklist.cpp:127 ui/searchwidget.cpp:40 ui/side_reviews.cpp:120
 #: ui/toc.cpp:38
-#, fuzzy, kde-format
-#| msgid "S&earch:"
+#, kde-format
 msgid "Search..."
-msgstr "&Søg:"
+msgstr "Søg..."
 
 #: ui/bookmarklist.cpp:156
 #, kde-format
@@ -3144,33 +3118,30 @@ msgstr "Fjern bogmærker"
 #: ui/certificateviewer.cpp:132
 #, kde-format
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: ui/certificateviewer.cpp:134
-#, fuzzy, kde-format
-#| msgid "Page Number"
+#, kde-format
 msgid "Serial Number"
-msgstr "Sidenummer"
+msgstr "Serienummer"
 
 #: ui/certificateviewer.cpp:136
 #, kde-format
 msgid "Issuer"
-msgstr ""
+msgstr "Udsteder"
 
 #: ui/certificateviewer.cpp:138 ui/certificateviewer.cpp:257
 #, kde-format
 msgid "Issued On"
-msgstr ""
+msgstr "Udstedt den"
 
 #: ui/certificateviewer.cpp:140 ui/certificateviewer.cpp:258
-#, fuzzy, kde-format
-#| msgid "Expired"
+#, kde-format
 msgid "Expires On"
-msgstr "Udløbet"
+msgstr "Udløber den"
 
 #: ui/certificateviewer.cpp:142
-#, fuzzy, kde-format
-#| msgid "Subject"
+#, kde-format
 msgctxt "The person/company that made the signature"
 msgid "Subject"
 msgstr "Emne"
@@ -3178,89 +3149,82 @@ msgstr "Emne"
 #: ui/certificateviewer.cpp:144
 #, kde-format
 msgid "Public Key"
-msgstr ""
+msgstr "Offentlige nøgle"
 
 #: ui/certificateviewer.cpp:146
-#, fuzzy, kde-format
-#| msgid "Memory Usage"
+#, kde-format
 msgid "Key Usage"
-msgstr "Hukommelsesforbrug"
+msgstr "Brug af nøgle"
 
 #: ui/certificateviewer.cpp:156
-#, fuzzy, kde-format
-#| msgid "%1:"
+#, kde-format
 msgid "V%1"
-msgstr "%1:"
+msgstr "V%1"
 
 #: ui/certificateviewer.cpp:168
-#, fuzzy, kde-format
-#| msgctxt "File type name and pattern"
-#| msgid "%1 (%2)"
+#, kde-format
 msgid "%1 (%2 bits)"
-msgstr "%1 (%2)"
+msgstr "%1 (%2 bit)"
 
 #: ui/certificateviewer.cpp:215
-#, fuzzy, kde-format
-#| msgid "&Properties"
+#, kde-format
 msgid "Property"
-msgstr "&Egenskaber"
+msgstr "Egenskab"
 
 #: ui/certificateviewer.cpp:217
 #, kde-format
 msgid "Value"
-msgstr ""
+msgstr "Værdi"
 
 #: ui/certificateviewer.cpp:229
-#, fuzzy, kde-format
-#| msgid "Configure Viewer"
+#, kde-format
 msgid "Certificate Viewer"
-msgstr "Indstil fremviser"
+msgstr "Certifikatfremviser"
 
 #: ui/certificateviewer.cpp:232
-#, fuzzy, kde-format
-#| msgid "E&xport As"
+#, kde-format
 msgid "Export..."
-msgstr "&Eksportér som"
+msgstr "Eksportér..."
 
 #: ui/certificateviewer.cpp:240
 #, kde-format
 msgid "Issued By"
-msgstr ""
+msgstr "Udstedt af"
 
 #: ui/certificateviewer.cpp:243 ui/certificateviewer.cpp:250
 #, kde-format
 msgid "Common Name(CN)"
-msgstr ""
+msgstr "Fælles navn (CN)"
 
 #: ui/certificateviewer.cpp:244 ui/certificateviewer.cpp:251
 #, kde-format
 msgid "EMail"
-msgstr ""
+msgstr "E-mail"
 
 #: ui/certificateviewer.cpp:245 ui/certificateviewer.cpp:252
 #, kde-format
 msgid "Organization(O)"
-msgstr ""
+msgstr "Organisation (O)"
 
 #: ui/certificateviewer.cpp:247
 #, kde-format
 msgid "Issued To"
-msgstr ""
+msgstr "Udstedt til"
 
 #: ui/certificateviewer.cpp:254
 #, kde-format
 msgid "Validity"
-msgstr ""
+msgstr "Gyldighed"
 
 #: ui/certificateviewer.cpp:260
 #, kde-format
 msgid "Fingerprints"
-msgstr ""
+msgstr "Fingeraftryk"
 
 #: ui/certificateviewer.cpp:268
 #, kde-format
 msgid "SHA-1 Fingerprint"
-msgstr ""
+msgstr "SHA-1-fingeraftryk"
 
 #: ui/certificateviewer.cpp:269
 #, kde-format
@@ -3270,12 +3234,12 @@ msgstr ""
 #: ui/certificateviewer.cpp:287
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "Detaljer"
 
 #: ui/certificateviewer.cpp:288
 #, kde-format
 msgid "Certificate Data:"
-msgstr ""
+msgstr "Certifikatdata:"
 
 #: ui/certificateviewer.cpp:331
 #, fuzzy, kde-format
@@ -3639,7 +3603,7 @@ msgstr "Zoom"
 #: ui/pageview.cpp:520
 #, kde-format
 msgid "Zoom to 100%"
-msgstr ""
+msgstr "Zoom til 100%"
 
 #: ui/pageview.cpp:531
 #, kde-format
@@ -3739,17 +3703,14 @@ msgid "&Continuous"
 msgstr "&Kontinuert"
 
 #: ui/pageview.cpp:626
-#, fuzzy, kde-format
-#| msgctxt "Browse Tool"
-#| msgid "Browse"
+#, kde-format
 msgid "&Browse"
-msgstr "Browse"
+msgstr "&Gennemse"
 
 #: ui/pageview.cpp:634
-#, fuzzy, kde-format
-#| msgid "Zoom"
+#, kde-format
 msgid "&Zoom"
-msgstr "Zoom"
+msgstr "&Zoom"
 
 #: ui/pageview.cpp:642
 #, kde-format
@@ -3764,18 +3725,14 @@ msgid "Area &Selection"
 msgstr "Tekstmarkering"
 
 #: ui/pageview.cpp:665
-#, fuzzy, kde-format
-#| msgctxt "Text Selection Tool"
-#| msgid "Text Selection"
+#, kde-format
 msgid "&Text Selection"
-msgstr "Tekstmarkering"
+msgstr "&Tekstmarkering"
 
 #: ui/pageview.cpp:673
-#, fuzzy, kde-format
-#| msgctxt "Table Selection Tool"
-#| msgid "Table Selection"
+#, kde-format
 msgid "T&able Selection"
-msgstr "Tabelmarkering"
+msgstr "T&abelmarkering"
 
 #: ui/pageview.cpp:681
 #, kde-format
@@ -4362,10 +4319,9 @@ msgid "Where do you want to save this revision?"
 msgstr "Hvor vil du gemme %1?"
 
 #: ui/revisionviewer.cpp:59
-#, fuzzy, kde-format
-#| msgid "Could not open %1"
+#, kde-format
 msgid "Could not save file %1."
-msgstr "Kunne ikke åbne %1"
+msgstr "Kunne ikke gemme filen %1."
 
 #: ui/revisionviewer.cpp:77
 #, fuzzy, kde-format
@@ -4505,12 +4461,12 @@ msgstr ""
 #: ui/signatureguiutils.cpp:68
 #, kde-format
 msgid "Certificate has been Revoked."
-msgstr ""
+msgstr "Certifikatet er blevet sat ud af kraft."
 
 #: ui/signatureguiutils.cpp:70
 #, kde-format
 msgid "Certificate has Expired."
-msgstr ""
+msgstr "Certifikatet er udløbet."
 
 #: ui/signatureguiutils.cpp:72
 #, kde-format
@@ -4525,37 +4481,37 @@ msgstr ""
 #: ui/signatureguiutils.cpp:83
 #, kde-format
 msgid "MD2"
-msgstr ""
+msgstr "MD2"
 
 #: ui/signatureguiutils.cpp:85
 #, kde-format
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 #: ui/signatureguiutils.cpp:87
 #, kde-format
 msgid "SHA1"
-msgstr ""
+msgstr "SHA1"
 
 #: ui/signatureguiutils.cpp:89
 #, kde-format
 msgid "SHA256"
-msgstr ""
+msgstr "SHA256"
 
 #: ui/signatureguiutils.cpp:91
 #, kde-format
 msgid "SHA384"
-msgstr ""
+msgstr "SHA384"
 
 #: ui/signatureguiutils.cpp:93
 #, kde-format
 msgid "SHA512"
-msgstr ""
+msgstr "SHA512"
 
 #: ui/signatureguiutils.cpp:95
 #, kde-format
 msgid "SHA224"
-msgstr ""
+msgstr "SHA224"
 
 #: ui/signatureguiutils.cpp:97
 #, fuzzy, kde-format
@@ -4566,28 +4522,27 @@ msgstr "Ukendt skrifttype"
 #: ui/signatureguiutils.cpp:106
 #, kde-format
 msgid "RSA"
-msgstr ""
+msgstr "RSA"
 
 #: ui/signatureguiutils.cpp:108
 #, kde-format
 msgid "DSA"
-msgstr ""
+msgstr "DSA"
 
 #: ui/signatureguiutils.cpp:110
 #, kde-format
 msgid "EC"
-msgstr ""
+msgstr "EC"
 
 #: ui/signatureguiutils.cpp:112 ui/signatureguiutils.cpp:115
-#, fuzzy, kde-format
-#| msgid "Unknown File"
+#, kde-format
 msgid "Unknown Type"
-msgstr "Ukendt fil"
+msgstr "Ukendt type"
 
 #: ui/signatureguiutils.cpp:122
 #, kde-format
 msgid "Digital Signature"
-msgstr ""
+msgstr "Digital signatur"
 
 #: ui/signatureguiutils.cpp:124
 #, kde-format
@@ -4622,10 +4577,9 @@ msgid "Sign CRL"
 msgstr ""
 
 #: ui/signatureguiutils.cpp:136
-#, fuzzy, kde-format
-#| msgid "Encrypted"
+#, kde-format
 msgid "Encrypt Only"
-msgstr "Indkodet"
+msgstr "Kun kryptering"
 
 #: ui/signatureguiutils.cpp:138
 #, kde-format
@@ -4636,7 +4590,7 @@ msgstr ""
 #, kde-format
 msgctxt "Joins the various ways a signature key can be used in a longer string"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: ui/signaturemodel.cpp:143
 #, kde-format
@@ -4649,16 +4603,14 @@ msgid "Signing Time: %1"
 msgstr ""
 
 #: ui/signaturemodel.cpp:152 ui/signaturepropertiesdialog.cpp:32
-#, fuzzy, kde-format
-#| msgid "No description available."
+#, kde-format
 msgid "Not Available"
-msgstr "Ingen beskrivelse tilgængelig."
+msgstr "Ikke tilgængelig"
 
 #: ui/signaturemodel.cpp:152
-#, fuzzy, kde-format
-#| msgid "Pages: %1"
+#, kde-format
 msgid "Reason: %1"
-msgstr "Sider: %1"
+msgstr "Årsag: %1"
 
 #: ui/signaturemodel.cpp:155
 #, kde-format
@@ -4666,10 +4618,9 @@ msgid "Field: %1 on page %2"
 msgstr ""
 
 #: ui/signaturepanel.cpp:86
-#, fuzzy, kde-format
-#| msgid "&Properties"
+#, kde-format
 msgid "Properties"
-msgstr "&Egenskaber"
+msgstr "Egenskaber"
 
 #: ui/signaturepropertiesdialog.cpp:55
 #, kde-format
@@ -4711,15 +4662,14 @@ msgid "Document Modifications:"
 msgstr ""
 
 #: ui/signaturepropertiesdialog.cpp:79
-#, fuzzy, kde-format
-#| msgid "Information"
+#, kde-format
 msgid "Additional Information"
-msgstr "Information"
+msgstr "Yderligere information"
 
 #: ui/signaturepropertiesdialog.cpp:82
 #, kde-format
 msgid "Signed By:"
-msgstr ""
+msgstr "Signeret af:"
 
 #: ui/signaturepropertiesdialog.cpp:83
 #, kde-format
@@ -4729,21 +4679,19 @@ msgstr ""
 #: ui/signaturepropertiesdialog.cpp:84
 #, kde-format
 msgid "Reason:"
-msgstr ""
+msgstr "Årsag:"
 
 #: ui/signaturepropertiesdialog.cpp:85
-#, fuzzy, kde-format
-#| msgid "Annotation"
-#| msgid_plural "%1 Annotations"
+#, kde-format
 msgid "Location:"
-msgstr "Kommentar"
+msgstr "Placering:"
 
 #: ui/signaturepropertiesdialog.cpp:96
 #, fuzzy, kde-format
 #| msgctxt "A document format, Okular-specific"
 #| msgid "Document Archive"
 msgid "Document Version"
-msgstr "Dokumentarkiv"
+msgstr "Dokumentversion"
 
 #: ui/signaturepropertiesdialog.cpp:99
 #, kde-format
@@ -4759,7 +4707,7 @@ msgstr ""
 #: ui/signaturepropertiesdialog.cpp:109
 #, kde-format
 msgid "View Certificate..."
-msgstr ""
+msgstr "Vis certifikat..."
 
 #: ui/thumbnaillist.cpp:999
 #, kde-format

@@ -281,7 +281,7 @@
       <caption xml:lang="x-test">xxReading manual in Okularxx</caption>
       <caption xml:lang="zh-CN">在 Okular 中阅读手册</caption>
       <caption xml:lang="zh-TW">在 Okular 中閱讀文件</caption>
-      <image>https://www.kde.org/images/screenshots/okular.png</image>
+      <image>https://cdn.kde.org/screenshots/okular/okular.png</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://okular.kde.org/</url>
@@ -296,6 +296,7 @@
     <value key="KDE::windows_store">https://www.microsoft.com/store/apps/9n41msq1wnm8</value>
   </custom>
   <releases>
+    <release version="1.9.3" date="2020-03-05"/>
     <release version="1.9.2" date="2020-02-06"/>
     <release version="1.9.1" date="2020-01-09"/>
     <release version="1.9.0" date="2019-12-12"/>

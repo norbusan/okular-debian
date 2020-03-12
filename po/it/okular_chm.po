@@ -1,8 +1,8 @@
 # translation of okular_chm.po to Italian
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
+# Luigi Toscano <luigi.toscano@tiscali.it>, 2007, 2020.
 #
-# Luigi Toscano <luigi.toscano@tiscali.it>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: okular_chm\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"

@@ -1588,12 +1588,10 @@ msgid ""
 "<br/>Please save to a file in order to move them if you want to continue to "
 "edit the document."
 msgstr ""
-"Iste documento contine annotationes o dator de forma que esseva salveguardate "
-"internemente per un previe version de Okular. Imagazinage interne <b>non es"
-" plus "
-"supportate<br/> Pro favor tu salveguarda a un file pro mover los si tu vuole"
-" continuar "
-"a modificar le documento."
+"Iste documento contine annotationes o dator de forma que esseva "
+"salveguardate internemente per un previe version de Okular. Imagazinage "
+"interne <b>non es plus supportate</b>.<br/> Pro favor tu salveguarda a un "
+"file pro mover los si tu vuole continuar a modificar le documento."
 
 #: part.cpp:501
 #, kde-format
@@ -1943,10 +1941,9 @@ msgid ""
 "program. Your changes will be lost, because the file can no longer be saved."
 "<br>Do you want to continue reloading the file?"
 msgstr ""
-"Il ha modificationes non salveguardate, e le file '%1' ha essite modificate"
-" per "
-"un altere programma. Tu modificationes essera perdite, proque le file non "
-"pote plus essere salveguardate.<br> Tu vole continuar o recargar le file?"
+"Il ha modificationes non salveguardate, e le file '%1' ha essite modificate "
+"per un altere programma. Tu modificationes essera perdite, proque le file "
+"non pote plus essere salveguardate.<br> Tu vole continuar o recargar le file?"
 
 #: part.cpp:1810 part.cpp:1818 part.cpp:2599
 #, kde-format
@@ -1970,10 +1967,9 @@ msgid ""
 "program. Your changes will be lost, because the file can no longer be saved."
 "<br>Do you want to continue closing the file?"
 msgstr ""
-"Il ha modificationes non salveguardate, e le file '%1' ha essite modificate"
-" per "
-"un altere programma. Tu modificationes essera perdite, proque le file non "
-"pote plus essere salveguardate.<br> Tu vole continuar e clauderr le file?"
+"Il ha modificationes non salveguardate, e le file '%1' ha essite modificate "
+"per un altere programma. Tu modificationes essera perdite, proque le file "
+"non pote plus essere salveguardate.<br> Tu vole continuar e clauderr le file?"
 
 #: part.cpp:1819
 #, kde-format
@@ -2075,11 +2071,10 @@ msgid ""
 "the file needs to be reloaded. You will be asked for the password again and "
 "your undo/redo history will be lost.<br />Do you want to continue?"
 msgstr ""
-"Le actual documento es protegite con un contrasigno.<br /> Per salveguardar"
-" lo, "
-"le file necessita de esser recargate. Tu essera demandate del contrasigno de"
-" nove "
-"e tu chronologia de facer/annullar essera perdite. <br /> Tu vole continuar?"
+"Le actual documento es protegite con un contrasigno.<br /> Per salveguardar "
+"lo, le file necessita de esser recargate. Tu essera demandate del "
+"contrasigno de nove e tu chronologia de facer/annullar essera perdite. <br /"
+"> Tu vole continuar?"
 
 #: part.cpp:2609 part.cpp:2647
 #, kde-format
@@ -2097,9 +2092,9 @@ msgid ""
 "After saving, the current document format requires the file to be reloaded. "
 "Your undo/redo history will be lost.<br />Do you want to continue?"
 msgstr ""
-"Postea sakveguardar, le formato de documento currente require que le "
-"file sea recargate. Tu chronologia de facer/annullar essera perdite,<br />. "
-"Tu vole continuar?"
+"Postea sakveguardar, le formato de documento currente require que le file "
+"sea recargate. Tu chronologia de facer/annullar essera perdite,<br />. Tu "
+"vole continuar?"
 
 #: part.cpp:2661 part.cpp:2732 part.cpp:2755 part.cpp:3295
 #, kde-format
@@ -2126,9 +2121,8 @@ msgid ""
 "format to preserve them."
 msgstr ""
 "Tu es per salveguardar le modificationes, ma le formato de file currente non "
-"supporta que il salveguarda de elementos sequente. Pro favor tu usa le"
-" formato "
-"<i>Okular, archivo de documento</i> pro preservar los."
+"supporta que il salveguarda de elementos sequente. Pro favor tu usa le "
+"formato <i>Okular, archivo de documento</i> pro preservar los."
 
 #: part.cpp:2684 part.cpp:2707
 #, kde-format
@@ -2149,11 +2143,9 @@ msgid ""
 "discard these elements."
 msgstr ""
 "Tu es per salveguardar le modificationes, ma le formato de file currente non "
-"supporta que il salveguarda de elementos sequente. Pro favor tu usa le"
-" formato "
-"<i>Okular, archivo de documento</i> pro preservar los. Pulsa <i>Continua</i>"
-" per "
-"salveguardar le documento e abandonar iste elementos."
+"supporta que il salveguarda de elementos sequente. Pro favor tu usa le "
+"formato <i>Okular, archivo de documento</i> pro preservar los. Pulsa "
+"<i>Continua</i> per salveguardar le documento e abandonar iste elementos."
 
 #: part.cpp:2701
 #, kde-format
@@ -2164,12 +2156,10 @@ msgid ""
 "these elements as well as the undo/redo history."
 msgstr ""
 "Tu es per salveguardar le modificationes, ma le formato de file currente non "
-"supporta que il salveguarda de elementos sequente. Pro favor tu usa le"
-" formato "
-"<i>Okular, archivo de documento</i> pro preservar los. Pulsa <i>Continua</i>"
-" pro "
-"salveguardar, ma tu perdera iste elementos assi como la chronologia de"
-" facer/annullar."
+"supporta que il salveguarda de elementos sequente. Pro favor tu usa le "
+"formato <i>Okular, archivo de documento</i> pro preservar los. Pulsa "
+"<i>Continua</i> pro salveguardar, ma tu perdera iste elementos assi como la "
+"chronologia de facer/annullar."
 
 #: part.cpp:2703
 #, kde-format
@@ -2778,9 +2768,9 @@ msgid ""
 "<warning>experimental feature.<nl/>Stamps inserted in PDF documents are not "
 "visible in PDF readers other than Okular.</warning>"
 msgstr ""
-"<warning>characteristica experimental.<nl/>Timbros (stamps)  insertate in"
-" documentos "
-"PDF non es visibile in lettores de PDF que non sea Okular.</warning>"
+"<warning>characteristica experimental.<nl/>Timbros (stamps)  insertate in "
+"documentos PDF non es visibile in lettores de PDF que non sea Okular.</"
+"warning>"
 
 #: ui/annotationwidgets.cpp:446
 #, kde-format
@@ -4657,9 +4647,8 @@ msgid ""
 "modified;\n"
 "however there have been subsequent changes to the document."
 msgstr ""
-"Le revision del documento que esseva coperite per iste signatura non ha"
-" essite "
-"modificate;\n"
+"Le revision del documento que esseva coperite per iste signatura non ha "
+"essite modificate;\n"
 "totevia il ha essite modificationes subsequente al documento."
 
 #: ui/signaturepropertiesdialog.cpp:65

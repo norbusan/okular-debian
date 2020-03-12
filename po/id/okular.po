@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Wantoyo <wantoyo@yahoo.com>, 2016, 2018, 2019.
+# Wantoyo <wantoyo@yahoo.com>, 2016, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-31 08:25+0100\n"
-"PO-Revision-Date: 2019-11-09 21:13+0700\n"
+"PO-Revision-Date: 2020-02-25 22:45+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.08.1\n"
+"X-Generator: Lokalize 19.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -483,19 +483,19 @@ msgstr "100%"
 #: conf/dlggeneralbase.ui:436 part.cpp:3116 ui/pageview.cpp:4196
 #, kde-format
 msgid "Fit Width"
-msgstr "Pas Lebar"
+msgstr "Paskan Lebar"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
 #: conf/dlggeneralbase.ui:441 ui/pageview.cpp:4196
 #, kde-format
 msgid "Fit Page"
-msgstr "Pas Halaman"
+msgstr "Paskan Halaman"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
 #: conf/dlggeneralbase.ui:446 ui/pageview.cpp:4196
 #, kde-format
 msgid "Auto Fit"
-msgstr "Pas Otomatis"
+msgstr "Paskan Otomatis"
 
 #: conf/dlgperformance.cpp:55
 #, kde-format
@@ -2069,7 +2069,7 @@ msgid ""
 "the file needs to be reloaded. You will be asked for the password again and "
 "your undo/redo history will be lost.<br />Do you want to continue?"
 msgstr ""
-"Dokumen saat ini dilindungi dengan sandi.<br />Agar bisa menyimpan, file "
+"Dokumen saat ini diproteksi dengan sandi.<br />Agar bisa menyimpan, file "
 "tersebut perlu dimuat ulang. Kamu akan dimintai sandi lagi dan histori "
 "urungkan/lanjurkan kamu akan hilang.<br />Apakah kamu ingin meneruskan?"
 
@@ -3687,22 +3687,22 @@ msgstr "Trim Ke &Pilihan"
 #: ui/pageview.cpp:571
 #, kde-format
 msgid "Fit &Width"
-msgstr "Pas &Lebar"
+msgstr "Paskan &Lebar"
 
 #: ui/pageview.cpp:575
 #, kde-format
 msgid "Fit &Page"
-msgstr "Pas &Halaman"
+msgstr "Paskan &Halaman"
 
 #: ui/pageview.cpp:579
 #, kde-format
 msgid "&Auto Fit"
-msgstr "&Pas Otomatis"
+msgstr "&Paskan Otomatis"
 
 #: ui/pageview.cpp:583
 #, kde-format
 msgid "Fit Wi&ndow to Page"
-msgstr "Pas &Window ke Halaman"
+msgstr "Paskan &Window ke Halaman"
 
 #: ui/pageview.cpp:590
 #, kde-format
