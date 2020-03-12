@@ -34,7 +34,8 @@ msgstr "txemaq@gmail.com"
 #, kde-format
 msgid "Cannot open document, neither unrar nor unarchiver were found."
 msgstr ""
-"No s'ha pogut obrir el document, no s'ha trobat el «unrar» ni el «unarchiver»."
+"No s'ha pogut obrir el document, no s'ha trobat el «unrar» ni el "
+"«unarchiver»."
 
 #: document.cpp:102
 #, kde-format

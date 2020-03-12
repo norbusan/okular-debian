@@ -452,7 +452,8 @@ msgid ""
 "Defines the default zoom mode for files which were never opened before.\n"
 "For files which were opened before the previous zoom is applied."
 msgstr ""
-"Defineix el mode de zoom per defecte pels fitxers que mai s'han obert abans.\n"
+"Defineix el mode de zoom per defecte pels fitxers que mai s'han obert "
+"abans.\n"
 "Pels fitxers que s'han obert prèviament s'aplica el zoom anterior."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
@@ -464,7 +465,8 @@ msgid ""
 "Defines the default zoom mode for files which were never opened before.\n"
 "For files which were opened before the previous zoom is applied."
 msgstr ""
-"Defineix el mode de zoom per defecte pels fitxers que mai s'han obert abans.\n"
+"Defineix el mode de zoom per defecte pels fitxers que mai s'han obert "
+"abans.\n"
 "Pels fitxers que s'han obert prèviament s'aplica el zoom anterior."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -503,8 +505,8 @@ msgid ""
 "Keeps used memory as low as possible. Do not reuse anything. (For systems "
 "with low memory.)"
 msgstr ""
-"Mantén l'ús de la memòria tant baix com siga possible. No reutilitza res (per "
-"a sistemes amb poca memòria)."
+"Mantén l'ús de la memòria tant baix com siga possible. No reutilitza res "
+"(per a sistemes amb poca memòria)."
 
 #: conf/dlgperformance.cpp:58
 #, kde-format
@@ -528,8 +530,8 @@ msgstr ""
 #: conf/dlgperformance.cpp:65
 #, no-c-format, kde-format
 msgid ""
-"Loads and keeps everything in memory. Preload all pages. (Will use at maximum "
-"50% of your total memory or your free memory, whatever is bigger.)"
+"Loads and keeps everything in memory. Preload all pages. (Will use at "
+"maximum 50% of your total memory or your free memory, whatever is bigger.)"
 msgstr ""
 "Carrega i ho manté tot en la memòria. Precarrega totes les pàgines "
 "(utilitzarà un màxim del 50% de tota la memòria o de la memòria lliure, el "
@@ -1219,7 +1221,8 @@ msgstr "La cerca continua des de baix"
 
 #: core/document.cpp:2548
 #, kde-format
-msgid "Can not find a plugin which is able to handle the document being passed."
+msgid ""
+"Can not find a plugin which is able to handle the document being passed."
 msgstr ""
 "No s'ha pogut trobar cap connector que puga gestionar el document que s'està "
 "manipulant."
@@ -1582,10 +1585,10 @@ msgstr "Signatures"
 #: part.cpp:495
 #, kde-format
 msgid ""
-"This document contains annotations or form data that were saved internally by "
-"a previous Okular version. Internal storage is <b>no longer supported</b>.<br/"
-">Please save to a file in order to move them if you want to continue to edit "
-"the document."
+"This document contains annotations or form data that were saved internally "
+"by a previous Okular version. Internal storage is <b>no longer supported</b>."
+"<br/>Please save to a file in order to move them if you want to continue to "
+"edit the document."
 msgstr ""
 "Aquest document conté anotacions o dades de formulari que s'han guardat "
 "internament amb una versió anterior de l'Okular. L'emmagatzematge intern "
@@ -1837,8 +1840,8 @@ msgstr "Configura els dorsals"
 #: part.cpp:1318
 #, kde-format
 msgid ""
-"The program \"ps2pdf\" was not found, so Okular can not import PS files using "
-"it."
+"The program \"ps2pdf\" was not found, so Okular can not import PS files "
+"using it."
 msgstr ""
 "No s'ha trobat el programa «ps2pdf», per tant, l'Okular no pot emprar-lo per "
 "a importar fitxers PS."
@@ -1993,8 +1996,8 @@ msgstr "Tanca el document"
 #: part.cpp:1946
 #, kde-format
 msgid ""
-"This link points to a close document action that does not work when using the "
-"embedded viewer."
+"This link points to a close document action that does not work when using "
+"the embedded viewer."
 msgstr ""
 "Aquest enllaç apunta a una acció sobre un document tancat que no funciona "
 "quan s'està emprant el visualitzador incrustat."
@@ -2066,13 +2069,13 @@ msgstr ""
 #: part.cpp:2608
 #, kde-format
 msgid ""
-"The current document is protected with a password.<br />In order to save, the "
-"file needs to be reloaded. You will be asked for the password again and your "
-"undo/redo history will be lost.<br />Do you want to continue?"
+"The current document is protected with a password.<br />In order to save, "
+"the file needs to be reloaded. You will be asked for the password again and "
+"your undo/redo history will be lost.<br />Do you want to continue?"
 msgstr ""
-"El document actual està protegit amb una contrasenya.<br />Per tal de guardar-"
-"lo, cal recarregar el fitxer. Es tornarà a preguntar la contrasenya i es "
-"perdrà l'historial de desfer/refer.<br />Voleu continuar?"
+"El document actual està protegit amb una contrasenya.<br />Per tal de "
+"guardar-lo, cal recarregar el fitxer. Es tornarà a preguntar la contrasenya "
+"i es perdrà l'historial de desfer/refer.<br />Voleu continuar?"
 
 #: part.cpp:2609 part.cpp:2647
 #, kde-format
@@ -2248,8 +2251,8 @@ msgstr ""
 #: part.cpp:3426
 #, kde-format
 msgid ""
-"Could not print the document. Detailed error is \"%1\". Please report to bugs."
-"kde.org"
+"Could not print the document. Detailed error is \"%1\". Please report to "
+"bugs.kde.org"
 msgstr ""
 "No s'ha pogut imprimir el document. L'error detallat és: «%1». Per favor, "
 "informeu a bugs.kde.org"
@@ -2280,20 +2283,20 @@ msgid ""
 "strong></nobr> for uncompression. The file will not be loaded.</qt>"
 msgstr ""
 "<qt><strong>Error de fitxer!</strong> No s'ha pogut obrir el fitxer <nobr> "
-"<strong>%1</strong></nobr> per a descomprimir-lo. No es carregarà el fitxer.</"
-"qt>"
+"<strong>%1</strong></nobr> per a descomprimir-lo. No es carregarà el fitxer."
+"</qt>"
 
 #: part.cpp:3560
 #, kde-format
 msgid ""
-"<qt>This error typically occurs if you do not have enough permissions to read "
-"the file. You can check ownership and permissions if you right-click on the "
-"file in the Dolphin file manager, then choose the 'Properties' option, and "
-"select 'Permissions' tab in the opened window.</qt>"
+"<qt>This error typically occurs if you do not have enough permissions to "
+"read the file. You can check ownership and permissions if you right-click on "
+"the file in the Dolphin file manager, then choose the 'Properties' option, "
+"and select 'Permissions' tab in the opened window.</qt>"
 msgstr ""
 "<qt>Aquest error normalment passa quan no teniu permisos suficients per "
-"llegir el fitxer. Podeu comprovar el propietari i els permisos si feu un clic "
-"dret al fitxer en el gestor de fitxers Dolphin, després trieu l'opció "
+"llegir el fitxer. Podeu comprovar el propietari i els permisos si feu un "
+"clic dret al fitxer en el gestor de fitxers Dolphin, després trieu l'opció "
 "«Propietats». i seleccioneu la pestanya «Permisos» a la finestra oberta.</qt>"
 
 #: part.cpp:3584
@@ -2445,8 +2448,8 @@ msgstr "No s'ha pogut trobar el component de l'Okular: %1"
 #: shell/shell.cpp:135
 #, kde-format
 msgid ""
-"There is already a unique Okular instance running. This instance won't be the "
-"unique one."
+"There is already a unique Okular instance running. This instance won't be "
+"the unique one."
 msgstr ""
 "Ja hi ha una instància única de l'Okular executant-se. Aquesta instància no "
 "seria l'única."
@@ -2950,7 +2953,8 @@ msgstr "Tipus:"
 msgid "Highlight"
 msgstr "Ressaltat"
 
-#: ui/annotationwidgets.cpp:679 ui/guiutils.cpp:99 ui/pageviewannotator.cpp:1112
+#: ui/annotationwidgets.cpp:679 ui/guiutils.cpp:99
+#: ui/pageviewannotator.cpp:1112
 #, kde-format
 msgid "Squiggle"
 msgstr "Giragonses"
@@ -4117,14 +4121,14 @@ msgstr "Reprodueix"
 #: ui/presentationwidget.cpp:1661
 #, kde-format
 msgid ""
-"There are two ways of exiting presentation mode, you can press either ESC key "
-"or click with the quit button that appears when placing the mouse in the top-"
-"right corner. Of course you can cycle windows (Alt+TAB by default)"
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
 msgstr ""
 "Hi ha dues maneres d'eixir del mode de presentació: podeu prémer tant la "
 "tecla ESC com fent clic amb el botó d'eixida que apareix quan el ratolí se "
-"situa a la cantonada superior dreta. També podeu rodar les finestres (Alt-Tab "
-"per defecte)"
+"situa a la cantonada superior dreta. També podeu rodar les finestres (Alt-"
+"Tab per defecte)"
 
 #: ui/presentationwidget.cpp:1785
 #, kde-format
