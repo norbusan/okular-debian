@@ -6,6 +6,14 @@ okular (4:19.12.2-2.1) unstable; urgency=medium
 
  -- Norbert Preining <norbert@preining.info>  Wed, 04 Mar 2020 09:08:14 +0900
 
+okular (4:19.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Slightly improve the description of okular, and okular-extra-backends.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 08 Mar 2020 09:04:21 +0100
+
 okular (4:19.12.2-2) unstable; urgency=medium
 
   * Team upload.
