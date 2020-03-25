@@ -1,5 +1,10 @@
 okular (4:19.12.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Backport upstream commit 6a93a033b4f9248b3cd4d04689b8391df754e244 to not
+    execute local binaries via action links (CVE-2020-9359); patch
+    upstream_Document-processAction-If-the-url-points-to-a-binary.patch.
+    (Closes: #954891)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Mar 2020 06:52:26 +0100
 
