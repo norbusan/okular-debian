@@ -1,10 +1,20 @@
-okular (4:19.12.3-1.1) unstable; urgency=medium
+okular (4:19.12.3-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.
   * Use my own tab restoration code
     https://invent.kde.org/kde/okular/-/merge_requests/126
 
  -- Norbert Preining <norbert@preining.info>  Fri, 13 Mar 2020 03:02:28 +0900
+
+okular (4:19.12.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Backport upstream commit 6a93a033b4f9248b3cd4d04689b8391df754e244 to not
+    execute local binaries via action links (CVE-2020-9359); patch
+    upstream_Document-processAction-If-the-url-points-to-a-binary.patch.
+    (Closes: #954891)
+
+ -- Pino Toscano <pino@debian.org>  Wed, 25 Mar 2020 07:06:56 +0100
 
 okular (4:19.12.3-1) unstable; urgency=medium
 
